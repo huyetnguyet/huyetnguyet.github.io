@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./home.css";
 
+import TopSection from "./homeComponents/topSection";
+
 export default class Home extends Component {
   render() {
     return (
@@ -8,11 +10,11 @@ export default class Home extends Component {
         <div
           style={{
             width: "100%",
-            color: "black",
+            backgroundColor: "#a21514",
           }}
         >
           <div className="homeContainer">
-            <p>home</p>
+            <TopSection></TopSection>
           </div>
         </div>
       </div>
