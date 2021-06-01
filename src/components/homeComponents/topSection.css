@@ -1,11 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
-
 .topSection {
   display: flex;
   align-items: left;
-  font-family: "Orbitron", sans-serif;
-  width: 80%;
-  margin-left: 10%;
 }
 .topSection .logo {
   position: absolute;
@@ -43,8 +38,8 @@
   border-radius: 0px 5px 5px 0px;
   width: 100px;
   cursor: pointer;
-  font: bold 12px/21px "Orbitron", sans-serif;
-  padding: 4px 12px;
+  font: bold 12px/21px;
+  padding: 7px 0px;
   text-transform: uppercase;
   color: #fff;
   background: url(../../asserts/images/btn_bg.png) 0 0 repeat-x #930706;

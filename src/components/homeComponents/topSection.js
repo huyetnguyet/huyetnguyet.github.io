@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./topSection.css";
 
 import logo from "../../asserts/images/logo.png";
+
 export default class TopSection extends Component {
   render() {
     return (
