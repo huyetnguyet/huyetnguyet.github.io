@@ -1,0 +1,58 @@
+.bannerSection {
+  width: 100%;
+  background: transparent;
+  border-top: 2px solid black;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+}
+
+.bannerSection a {
+  border-bottom: 6px solid #282828;
+  position: relative;
+  width: 334px;
+  display: block;
+  text-transform: uppercase;
+  float: left;
+  border-right: 2px solid black;
+}
+
+.bannerSection a:after {
+  display: block;
+  background: url("../../asserts/images/banner_shadow.png") 0 0 repeat-x;
+  height: 118px;
+  display: block;
+  left: 0;
+  right: 0;
+  position: absolute;
+  bottom: 0px;
+  content: "";
+}
+
+.bannerSection img {
+  width: 334px;
+  height: 228px;
+}
+
+.bannerSection .contentText {
+  position: absolute;
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: top;
+  top: 170px;
+}
+
+.bannerSection a span {
+  position: relative;
+  z-index: 999;
+  padding: 0 30px;
+  display: block;
+  font-weight: 500;
+}

@@ -1,0 +1,100 @@
+.homeContent {
+  display: flex;
+  position: relative;
+  background: url(../../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+  padding-bottom: 30px;
+}
+
+.homeContent .container {
+  width: 100%;
+}
+
+.homeContent .ads {
+  background-color: yellow;
+  width: 25%;
+  float: right;
+  margin-top: 20px;
+  position: sticky;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.homeContent h1 {
+  color: black;
+}
+
+.homeContent .content {
+  float: left;
+  width: 75%;
+}
+
+.homeContent .item {
+  width: 700px;
+  height: 200px;
+  margin-left: 4%;
+  background-color: #e6e0de;
+  margin-top: 20px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+}
+
+.homeContent .img_inner {
+  width: 300px;
+  height: 200px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  display: inline-block;
+}
+
+.homeContent .itemContent {
+  display: inline-block;
+  width: 400px;
+  height: 200px;
+  background-color: green;
+  z-index: 5;
+}
+.homeContent h3 {
+  text-align: left;
+  display: block;
+  position: relative;
+  margin: 10px;
+}
+
+.homeContent p {
+  display: block;
+  position: relative;
+  bottom: 5px;
+  margin-left: 4%;
+  float: left;
+  margin-top: 10px;
+}
+.homeContent .timestamp {
+  display: block;
+  position: relative;
+  bottom: 5px;
+  margin-left: 4%;
+  float: left;
+}
+
+.homeContent .timestamp h5 {
+  display: inline-block;
+
+  text-align: left;
+  color: #a21514;
+}
+.homeContent .timestamp .time {
+  display: inline-block;
+  text-align: left;
+  font-size: 10px;
+  margin-left: 20px;
+}

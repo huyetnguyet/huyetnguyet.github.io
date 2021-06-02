@@ -7,9 +7,39 @@ body {
   background: #000000;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
 .homeContainer {
   position: relative;
   text-align: center;
-  width: 80%;
-  margin-left: 10%;
+  width: 1010px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#topSection {
+  width: 100%;
+  background-color: #a21514;
+}
+
+#navigation {
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+#bodylayout {
+  width: 100%;
+  background-image: linear-gradient(#000000, #a21515);
+}
+
+.linespace {
+  width: 100%;
+  height: 6px;
+  background-color: #333;
 }
