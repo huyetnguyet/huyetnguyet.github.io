@@ -1,0 +1,110 @@
+.featuredSection {
+  display: flex;
+  position: relative;
+  background: url(../../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+  padding-bottom: 30px;
+}
+
+.featuredSection .container {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.featuredSection .grip_24 {
+  display: block;
+  width: 96%;
+  margin-left: 2%;
+}
+
+.featuredSection .grip_24 h2 {
+  float: left;
+  font-size: 21px;
+  line-height: 22px;
+  color: #cf0606;
+  text-transform: uppercase;
+  padding-top: 35px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-top: 3px;
+}
+.featuredSection .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  margin-left: 2%;
+}
+.featuredSection .grip_6 {
+  width: 24%;
+  display: inline-block;
+  position: relative;
+}
+
+.featuredSection .img_inner {
+  width: 232px;
+  height: 165px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.featuredSection .text h4,
+p {
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+.featuredSection .text h4 {
+  margin-top: -7px;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.featuredSection .text p {
+  margin-top: 5px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.featuredSection .btn {
+  float: left;
+  margin-left: 10px;
+  font: bold 12px/21px "Orbitron", sans-serif;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background: url(../../asserts/images/btn_bg.png) 0 0 repeat-x #930706;
+  border-bottom: 1px solid #c40a0a;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 5px;
+  position: relative;
+  margin-top: 26px;
+}
+
+.featuredSection .btn:after {
+  display: block;
+  bottom: -6px;
+  background: #373636;
+  height: 5px;
+  left: 0;
+  border-radius: 0 0 5px 5px;
+  right: 0;
+  position: absolute;
+  content: "";
+}
+
+.featuredSection .link {
+  float: right;
+  margin-top: 20px;
+
+  text-decoration: underline;
+  color: #cf0606;
+  font: bold 12px/21px "Orbitron", sans-serif;
+  text-transform: uppercase;
+}
