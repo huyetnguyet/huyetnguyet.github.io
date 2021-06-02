@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.50700be3.chunk.css",
+    "main.js": "./static/js/main.5b01b450.chunk.js",
+    "main.js.map": "./static/js/main.5b01b450.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.47ee87a5.js",
+    "runtime-main.js.map": "./static/js/runtime-main.47ee87a5.js.map",
+    "static/js/2.c18ce99f.chunk.js": "./static/js/2.c18ce99f.chunk.js",
+    "static/js/2.c18ce99f.chunk.js.map": "./static/js/2.c18ce99f.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.50700be3.chunk.css.map": "./static/css/main.50700be3.chunk.css.map",
+    "static/js/2.c18ce99f.chunk.js.LICENSE.txt": "./static/js/2.c18ce99f.chunk.js.LICENSE.txt",
+    "static/media/angrybirdsstarwars.9ab40a04.jpg": "./static/media/angrybirdsstarwars.9ab40a04.jpg",
+    "static/media/assassin.7c9d0512.png": "./static/media/assassin.7c9d0512.png",
+    "static/media/battlefield.c5deb841.png": "./static/media/battlefield.c5deb841.png",
+    "static/media/battlefield3.0988c58c.jpg": "./static/media/battlefield3.0988c58c.jpg",
+    "static/media/crysis.fc31f8dc.png": "./static/media/crysis.fc31f8dc.png",
+    "static/media/diablo.ca8598da.jpg": "./static/media/diablo.ca8598da.jpg",
+    "static/media/fruitninja.2cdefb6c.jpg": "./static/media/fruitninja.2cdefb6c.jpg",
+    "static/media/halo.82869815.png": "./static/media/halo.82869815.png",
+    "static/media/halo3.5583cb40.jpg": "./static/media/halo3.5583cb40.jpg",
+    "static/media/logo.eff852f2.png": "./static/media/logo.eff852f2.png",
+    "static/media/maxpayne3.ddacc599.jpg": "./static/media/maxpayne3.ddacc599.jpg",
+    "static/media/need.ac4bc137.png": "./static/media/need.ac4bc137.png",
+    "static/media/needforspeedmostwanted.74cff7b9.jpg": "./static/media/needforspeedmostwanted.74cff7b9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47ee87a5.js",
+    "static/js/2.c18ce99f.chunk.js",
+    "static/css/main.50700be3.chunk.css",
+    "static/js/main.5b01b450.chunk.js"
+  ]
+}
