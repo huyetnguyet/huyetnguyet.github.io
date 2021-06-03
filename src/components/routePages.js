@@ -30,6 +30,7 @@ export default function routePages() {
         component={page_202106030950}
       />
       <Route
+        basename={process.env.PUBLIC_URL}
         exact
         path="/ngoc-trinh-vo-tu-dang-clip-chinh-sua-noi-y-de-lo-ca-do-bao-ho-ben-trong-nhin-ma-thot-tim"
         component={page_202106021319}
