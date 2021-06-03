@@ -80,17 +80,17 @@ export default function Navigation(props) {
         </li>
         <li>
           <a href="/reviews" id="navReviews">
-            REVIEWS
+            NEWS
           </a>
         </li>
         <li>
           <a href="/images" id="navImages">
-            Images
+            TRAVEL
           </a>
         </li>
         <li>
           <a href="/videos" id="navVideos">
-            VIDEOS
+            Images
           </a>
         </li>
       </ul>

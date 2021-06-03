@@ -1,0 +1,143 @@
+.page {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  display: block;
+  position: relative;
+  background: url(../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.page p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.page .title,
+.info,
+.contentContainer,
+.share {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.page .path {
+  margin-left: 5%;
+  margin-top: 20px;
+}
+
+.page .pathName {
+  display: inline-block;
+  color: rgb(70, 67, 67);
+  padding: 5px;
+  background-color: #ddd6d6;
+  font-family: "Orbitron";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.page .title {
+  display: block;
+  position: relative;
+  padding-top: 20px;
+}
+
+.page .title h1 {
+  text-align: left;
+  color: black;
+}
+
+.page .info {
+}
+
+.page .author,
+.info p {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.page .author {
+  color: red;
+  font-weight: bold;
+}
+
+.page .share {
+  background-color: #bcbcbc;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.page .share iframe {
+  margin-top: 15px;
+  margin-left: 5%;
+}
+
+.page .containerContent {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.page .content {
+  margin-left: 0;
+}
+
+.page .description {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.page .highlight {
+  display: inline-block;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.page .contentBody p {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.page img {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.page .imageNote {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.page .source {
+  display: inline-block;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #bcbcbc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+.page .tags {
+  margin-top: 20px;
+  margin-left: 5%;
+  color: black;
+}
+.page .tag {
+  font-size: 12px;
+  background-color: #bcbcbc;
+  margin-right: 5px;
+  padding: 5px;
+  text-transform: uppercase;
+  line-height: 2.5;
+}

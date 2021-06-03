@@ -3,6 +3,103 @@
   text-align: center;
   font-family: "Orbitron", sans-serif;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+body {
+  background: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+}
+
+#topSection {
+  width: 100%;
+  background-color: #a21514;
+}
+
+#navigation {
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+#bodylayout {
+  width: 100%;
+  background-image: linear-gradient(#000000, #a21515);
+}
+
+.linespace {
+  width: 100%;
+  height: 6px;
+  background-color: #333;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  width: 1010px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.containerContent {
+  width: 100%;
+}
+
+.content {
+  float: left;
+  width: 75%;
+}
+
+.ads-horizontal,
+.ads-vertical,
+.ads-vertical-home {
+  background-color: aliceblue;
+}
+.ads-horizontal {
+  float: right;
+  margin-top: 20px;
+  width: 25%;
+  z-index: 999;
+}
+
+.ads-vertical {
+  float: center;
+  padding-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  z-index: 999;
+}
+
+.ads-vertical-home {
+  width: 700px;
+  height: 200px;
+  margin-left: 4%;
+  margin-top: 20px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: black;
+}
+
 @media only screen and (min-width: 1420px) {
 }
 

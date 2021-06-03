@@ -7,33 +7,6 @@
   padding-bottom: 30px;
 }
 
-.homeContent .container {
-  width: 100%;
-}
-
-.homeContent .ads {
-  background-color: yellow;
-  width: 25%;
-  float: right;
-  margin-top: 20px;
-  position: sticky;
-}
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-
-.homeContent h1 {
-  color: black;
-}
-
-.homeContent .content {
-  float: left;
-  width: 75%;
-}
-
 .homeContent .item {
   width: 700px;
   height: 200px;
@@ -54,6 +27,7 @@
   box-sizing: border-box;
   float: left;
   display: inline-block;
+  object-fit: cover;
 }
 
 .homeContent .itemContent {
@@ -62,6 +36,13 @@
   height: 200px;
   z-index: 5;
 }
+
+.homeContent h3,
+p {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: black;
+}
+
 .homeContent h3 {
   text-align: left;
   display: block;
@@ -87,6 +68,7 @@
 
 .homeContent .timestamp h5 {
   display: inline-block;
+  text-transform: uppercase;
 
   text-align: left;
   color: #a21514;
@@ -96,4 +78,5 @@
   text-align: left;
   font-size: 10px;
   margin-left: 20px;
+  color: black;
 }

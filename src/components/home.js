@@ -15,30 +15,30 @@ export default class Home extends Component {
     return (
       <div>
         <div id="topSection">
-          <div className="homeContainer">
+          <div className="container">
             <TopSection></TopSection>
           </div>
         </div>
         <div id="navigation">
-          <div className="homeContainer">
+          <div className="container">
             <Navigation tab="home"></Navigation>
           </div>
         </div>
         <div id="bodylayout">
-          <div className="homeContainer">
+          <div className="container">
             <div className="linespace"></div>
             <Slider></Slider>
           </div>
-          <div className="homeContainer">
+          <div className="container">
             <BannerSection></BannerSection>
           </div>
-          <div className="homeContainer">
+          <div className="container">
             <FeaturedSection></FeaturedSection>
           </div>
-          <div className="homeContainer">
+          <div className="container">
             <HomeContentSection></HomeContentSection>
           </div>
-          <div className="homeContainer">
+          <div className="container">
             <Footer></Footer>
           </div>
         </div>
