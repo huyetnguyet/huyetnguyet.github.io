@@ -11,12 +11,16 @@ ReactDOM.render(
     <HashRouter basename={process.env.PUBLIC_URL}>
       <App />
     </HashRouter>
-  </React.StrictMode>*/
+  </React.StrictMode>,*/
 
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>,
 
+  /* <HashRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </HashRouter>,
+*/
   document.getElementById("root")
 );
 

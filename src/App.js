@@ -13,7 +13,7 @@ ReactGA.initialize(TRACKING_ID);
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <RoutePages />
         </div>

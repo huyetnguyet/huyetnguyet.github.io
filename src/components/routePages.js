@@ -30,41 +30,41 @@ export default function routePages() {
         component={page_202106030950}
       />
       <Route
-        basename={process.env.PUBLIC_URL}
         exact
-        path="/ngoc-trinh-vo-tu-dang-clip-chinh-sua-noi-y-de-lo-ca-do-bao-ho-ben-trong-nhin-ma-thot-tim"
+        path="/?redirect=ngoc-trinh-vo-tu-dang-clip-chinh-sua-noi-y-de-lo-ca-do-bao-ho-ben-trong-nhin-ma-thot-tim"
         component={page_202106021319}
-      />{" "}
+      />
       <Route
         exact
         path="/vu-thi-anh-thu-lo-anh-thoi-chua-phau-thuat-tham-my"
         component={page_202106011900}
-      />{" "}
+      />
       <Route
         exact
         path="/sam-bi-tuot-bikini-tren-song-nu-youtuber-voi-vang-che-day-nhung-van-ho-henh-len-tieng-tran-tinh-tai-vong-mot-qua-to"
         component={page_202106021031}
-      />{" "}
+      />
       <Route
         exact
         path="/one-piece-du-da-chet-nhung-suc-manh-cua-6-nhan-vat-huyen-thoai-nay-cho-den-nay-van-chua-ai-vuot-qua-noi"
         component={page_202106021223}
-      />{" "}
+      />
       <Route
         exact
         path="/hop-tac-hang-xe-mclaren-pubg-mobile-tung-event-hap-dan-sieu-toc-bac-nhat-lang-game-thang-6"
         component={page_202106020330}
-      />{" "}
+      />
       <Route
         exact
         path="/ngoc-trinh-trinh-lang-bst-noi-y-bi-to-dao-nhai-victorias-secret-thiet-ke-va-gia-ro-the-nao"
         component={page_202106031010}
-      />{" "}
+      />
       <Route
         exact
         path="/gau-kami-nu-streamer-gan-7-trieu-luot-follow-tiktok-bi-gia-mao-tai-khoan-hang-loat-tham-chi-bi-loi-dung-hinh-anh-de-lua-dao"
         component={page_202106030305}
       />
+      <h1 style={{ color: "black", backgroundColor: "yellow" }}>ver 1.0</h1>
     </Switch>
   );
 }
