@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -28,12 +29,13 @@ const categoryLink = "/images";
 const title =
   "Ngọc Trinh vô tư đăng clip chỉnh sửa nội y, để lộ cả đồ bảo hộ bên trong nhìn mà “thót tim”";
 const author = "DUN";
-const timestamp = " THEO PHÁP LUẬT & BẠN ĐỌC 02/06/2021 13:19 ";
+const source = "PHÁP LUẬT & BẠN ĐỌC";
+const date = "02/06/2021";
+const time = " 01:19 PM";
 const description =
   "Ngọc Trinh tiếp tục gây tranh cãi vì hành động vô tư của mình.";
 const link =
   "ngoc-trinh-vo-tu-dang-clip-chinh-sua-noi-y-de-lo-ca-do-bao-ho-ben-trong-nhin-ma-thot-tim";
-const source = "PHÁP LUẬT & BẠN ĐỌC";
 
 const tags = [
   "Ngọc Trinh",
@@ -83,8 +85,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -170,7 +172,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

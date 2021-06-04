@@ -7,7 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #000000;
 }
 body {
   background: #000000;
@@ -62,14 +62,19 @@ a {
 
 .ads-horizontal,
 .ads-vertical,
-.ads-vertical-home {
-  background-color: aliceblue;
+.ads-vertical-home,
+.ads-featured-section {
+  background-color: yellow;
+  z-index: 3;
 }
 .ads-horizontal {
   float: right;
   margin-top: 20px;
-  width: 25%;
+  margin-right: 2%;
+  width: 23%;
+
   z-index: 999;
+  height: 500px;
 }
 
 .ads-vertical {
@@ -90,10 +95,14 @@ a {
   border-right: 1px solid #dadada;
 }
 
+.ads-featured-section {
+  content: "";
+  height: 320px;
+}
 .sticky {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  top: 20px;
 }
 
 h1 {

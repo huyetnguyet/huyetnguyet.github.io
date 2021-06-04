@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -38,7 +39,8 @@ const categoryLink = "/images";
 const title =
   "Linh Chichan diện trang phục thả rông tới 90% vòng một, nữ streamer Việt nhận về nhiều ý kiến trái chiều";
 const author = "Mặt Trứng";
-const timestamp = "  - Theo Pháp luật và bạn đọc | 03/06/2021 09:50 AM";
+const date = "03/06/2021";
+const time = "09:50 AM";
 const description =
   "Thời trang khi ra đường của cô nàng streamer cũng khiến khá nhiều người phải chảy máu mũi.";
 const link =
@@ -92,8 +94,8 @@ export default function page() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -195,7 +197,7 @@ export default function page() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -26,12 +27,13 @@ const categoryLink = "/games";
 const title =
   "Đấu Trường Chân Lý: Học hỏi những mẹo độc khi chơi Sett 'One Punch Man' từ kỳ thủ top 8 Thách Đấu";
 const author = "A Đồi";
-const timestamp = " - Theo Trí Thức Trẻ | 02/06/2021 11:59 PM";
+const source = "Trí Thức Trẻ";
+const date = "02/06/2021";
+const time = "11:59 PM";
 const description =
   "Những mẹo dưới đây sẽ giúp game thủ Đấu Trường Chân Lý leo rank hiệu quả hơn với việc chơi xoay quanh Sett.";
 const link =
   "dau-truong-chan-ly-hoc-hoi-nhung-meo-doc-khi-choi-sett-one-punch-man-tu-ky-thu-top-8-thach-dau";
-const source = "Trí Thức Trẻ";
 
 const tags = [
   "đấu trường chân lý",
@@ -83,8 +85,8 @@ export default function page() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -216,7 +218,7 @@ này gây ra"
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

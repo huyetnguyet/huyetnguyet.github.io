@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -8,9 +9,9 @@ import {
   FacebookShareButton,
 } from "../../components/content";
 
-/* Data Input */
-/*
+/* ---------------------------------------------------------------- */
 
+/*
  <ContentItem
 title=""
 content=""
@@ -21,7 +22,13 @@ time=""
 link="/"
 />
 
+<ContentImage
+src=""
+alt=""
+note=""
+/>
 */
+
 /* ---------------------------------------------------------------- */
 
 const category = "";
@@ -29,29 +36,20 @@ const categoryLink = "/";
 
 const title = "";
 const author = "";
-const timestamp = "";
+const source = "";
+const date = "";
+const time = "";
 const description = "";
 const link = "";
-const source = "";
 
-const tags = [""];
-
-/* ---------------------------------------------------------------- */
-
-/* 
-<ContentImage
-src=""
-alt=""
-note=""
-/>
-                  */
+const tagparam = [""];
 
 const facebookLinkShare =
   "https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhuyetnguyet.com%2F" +
   link +
   "&layout=button_count&size=small&width=77&height=20&appId";
 
-const updatedTags = tags.map((tag) => {
+const updatedTags = tagparam.map((tag) => {
   const link =
     "https://www.google.com/search?q=huyetnguyet+" + tag.replace(" ", "+");
   return (
@@ -83,8 +81,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date}{" "}
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -99,7 +97,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

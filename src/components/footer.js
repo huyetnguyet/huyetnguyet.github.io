@@ -1,63 +1,75 @@
 import React, { Component } from "react";
 import "./footer.css";
 
+function Hot(props) {
+  return (
+    <>
+      <li>
+        <a href={props.link}>
+          {props.id}. {props.title}
+        </a>
+      </li>
+    </>
+  );
+}
+
 export default class Footer extends Component {
   render() {
     return (
       <div className="footer">
         <div class="foot_top">
           <div class="container_24">
-            <div class="grid_6">
+            <div class="grid_4">
               <h3>NAVIGATION</h3>
               <ul>
                 <div className="current">
                   <li>
-                    <a href="index.html">HOME</a>
+                    <a href="/">HOME</a>
                   </li>
                 </div>
                 <li>
-                  <a href="index-1.html">Games</a>
+                  <a href="/games">GAMES</a>
                 </li>
                 <li>
-                  <a href="index-2.html">REVIEWS</a>
+                  <a href="/guide">GUIDE</a>
                 </li>
                 <li>
-                  <a href="index-3.html">Videos</a>
+                  <a href="/news">NEWS</a>
                 </li>
                 <li>
-                  <a href="index-4.html">Contacts</a>
+                  <a href="/travel">TRAVEL</a>
                 </li>
               </ul>
             </div>
 
-            <div class="grid_12">
-              <h3>Top Games:</h3>
+            <div class="grid_14">
+              <h3>Hot News:</h3>
               <ul class="list l1">
-                <li>
-                  <a href="#">
-                    <span>1.</span>Lorem ipsum dolor sit amet{" "}
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>2.</span>Conse ctetur adipisicing{" "}
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>3.</span>Elit sed do eiusmod tempor
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>4.</span>Incididunt ut labore{" "}
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span>5.</span>Et dolore magna aliqua
-                  </a>
-                </li>
+                <Hot
+                  id="1"
+                  title="Ngọc Trinh vô tư đăng clip chỉnh sửa nội y"
+                  link="/ngoc-trinh-vo-tu-dang-clip-chinh-sua-noi-y-de-lo-ca-do-bao-ho-ben-trong-nhin-ma-thot-tim"
+                />
+                <Hot
+                  id="2"
+                  title="Linh Chichan diện trang phục thả rông tới 90%"
+                  link="/linh-chichan-dien-trang-phuc-tha-rong-toi-90-vong-mot-nu-streamer-viet-nhan-ve-nhieu-y-kien-trai-chieu"
+                />
+                <Hot
+                  id="3"
+                  title="Hot girl có khuôn ngực hơn 1m bất ngờ tiết lộ"
+                  link="/hot-girl-co-khuon-nguc-hon-1m-bat-ngo-tiet-lo-tin-soc-dang-xa-tri-ung-thu-xin-cu-dan-mang-ngung-body-shaming"
+                />
+                <Hot
+                  id="4"
+                  title="Bị chế giễu vì nặng tới 1 tạ, nữ YouTuber giảm "
+                  link="/bi-che-gieu-vi-nang-toi-1-ta-nu-youtuber-giam-30kg-than-toc-lot-xac-goi-cam-toi-kho-tin"
+                />
+                <Hot
+                  id="5"
+                  title="Nợ nần chồng chất, lừa cả tiền fan, nữ streamer"
+                  link="/no-nan-chong-chat-lua-ca-tien-fan-nu-streamer-xinh-dep-tuyen-bo-cung-duong-dong-phim-18-de-tra-no"
+                />
               </ul>
             </div>
 

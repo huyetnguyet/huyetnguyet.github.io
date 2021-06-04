@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -29,11 +30,12 @@ const categoryLink = "/images";
 
 const title = "Vũ Thị Anh Thư lộ ảnh thời chưa phẫu thuật thẩm mỹ?";
 const author = "Na Na";
-const timestamp = " Theo Pháp luật và Bạn đọc | 01/06/2021 19:00";
+const source = "Pháp luật và Bạn đọc";
+const date = "01/06/2021";
+const time = "19:00 PM";
 const description =
   "So sánh ảnh trước đây, nhiều người cho rằng Vũ Thị Anh Thư đã đụng chạm 'dao kéo' nhiều bộ phận trên cơ thể để có nhan sắc như hiện tại.";
 const link = "vu-thi-anh-thu-lo-anh-thoi-chua-phau-thuat-tham-my";
-const source = "Pháp luật và Bạn đọc";
 
 const tags = ["Vũ Thị Anh Thư", "lộ clip nóng"];
 
@@ -84,8 +86,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -{" "}
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -147,7 +149,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

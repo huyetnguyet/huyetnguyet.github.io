@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -26,12 +27,13 @@ const categoryLink = "/news";
 const title =
   "Gấu Kami, nữ streamer gần 7 triệu lượt follow TikTok bị giả mạo tài khoản hàng loạt, thậm chí bị lợi dụng hình ảnh để lừa đảo";
 const author = "KENTTT";
-const timestamp = " THEO TRÍ THỨC TRẺ 03/06/2021 03:05";
+const source = "TRÍ THỨC TRẺ";
+const date = "03/06/2021";
+const time = "03:05 AM";
 const description =
   "Gấm Kami - nữ streamer/TikToker cực hot hiện nay đang bị nhiều kẻ gian giả mạo tài khoản TikTok và mục đích không chỉ là câu view, câu like mà thậm chí còn dùng để lừa đảo.";
 const link =
   "gau-kami-nu-streamer-gan-7-trieu-luot-follow-tiktok-bi-gia-mao-tai-khoan-hang-loat-tham-chi-bi-loi-dung-hinh-anh-de-lua-dao";
-const source = "TRÍ THỨC TRẺ";
 
 const tags = [
   "streamer",
@@ -90,8 +92,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -153,7 +155,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

@@ -44,3 +44,17 @@ export function AdsVerticalHomeContent() {
     </div>
   );
 }
+
+export function AdsFeaturdSection() {
+  return (
+    <div className="ads-featured-section grip_6">
+      <h1 style={{ color: "black" }}>ads will be here</h1>
+      <AdSense.Google
+        client={client}
+        slot={slot}
+        style={{ display: "block" }}
+        format=""
+      />
+    </div>
+  );
+}

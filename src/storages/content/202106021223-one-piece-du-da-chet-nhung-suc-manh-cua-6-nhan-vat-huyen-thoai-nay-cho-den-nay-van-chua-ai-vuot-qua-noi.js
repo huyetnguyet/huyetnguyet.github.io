@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -30,12 +31,14 @@ const categoryLink = "/news";
 const title =
   "One Piece: Dù đã chết nhưng sức mạnh của 6 nhân vật huyền thoại này cho đến nay vẫn chưa ai vượt qua nổi";
 const author = "Mẹ Sề";
-const timestamp = "  - Theo Pháp luật và bạn đọc | 02/06/2021 12:23 PM";
+const source = "Pháp luật và bạn đọc";
+const date = "02/06/2021";
+const time = "12:23 PM";
+
 const description =
   "Thế hệ hải tặc mới vẫn chưa ai có thể vượt qua được những tượng đài sức mạnh trong One Piece này.";
 const link =
   "one-piece-du-da-chet-nhung-suc-manh-cua-6-nhan-vat-huyen-thoai-nay-cho-den-nay-van-chua-ai-vuot-qua-noi";
-const source = "Pháp luật và bạn đọc";
 
 const tags = [
   "HẢI TẶC",
@@ -94,8 +97,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -215,7 +218,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

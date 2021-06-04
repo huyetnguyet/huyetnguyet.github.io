@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -30,12 +31,13 @@ const categoryLink = "/images";
 const title =
   "Ngọc Trinh trình làng BST nội y bị tố đạo nhái Victoria's Secret: Thiết kế và 'giá rổ' thế nào?";
 const author = "BER";
-const timestamp = "PHÁP LUẬT VÀ BẠN ĐỌC 03/06/2021 10:10 AM";
+const source = "PHÁP LUẬT VÀ BẠN ĐỌC";
+const date = "03/06/2021";
+const time = "10:10 AM";
 const description =
   "Với khoảng 500k là bạn đã sắm được trọn bộ đồ lót của Venus' Secret.";
 const link =
   "ngoc-trinh-trinh-lang-bst-noi-y-bi-to-dao-nhai-victorias-secret-thiet-ke-va-gia-ro-the-nao";
-const source = "PHÁP LUẬT VÀ BẠN ĐỌC";
 
 const tags = ["Ngọc Trinh", "Đẹp", "Nội y", "Sao việt", "Thời trang"];
 
@@ -86,8 +88,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -190,7 +192,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

@@ -15,16 +15,21 @@
   margin-left: 2%;
 }
 
-.footer .grid_12 {
+.footer .grid_14 {
   display: inline-block;
   position: relative;
-  width: 40%;
+  width: 50%;
 }
 
 .footer .grid_6 {
   display: inline-block;
   position: relative;
   width: 30%;
+}
+.footer .grid_4 {
+  display: inline-block;
+  position: relative;
+  width: 20%;
 }
 
 .footer h3 {
@@ -51,9 +56,9 @@
 
 .footer li {
   color: #fff;
-  text-transform: uppercase;
   font: bold 12px/22px "Orbitron", sans-serif;
   letter-spacing: 3px;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 .footer li:before {

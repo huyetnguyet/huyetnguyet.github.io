@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -30,12 +31,13 @@ const categoryLink = "/games";
 const title =
   "Hợp tác hãng xe McLaren, PUBG Mobile tung event hấp dẫn, siêu tốc bậc nhất làng game tháng 6";
 const author = "A.D";
-const timestamp = "  - Theo Trí Thức Trẻ | 02/06/2021 03:30 PM";
+const source = "Trí Thức Trẻ";
+const date = "02/06/2021";
+const time = "03:30 PM";
 const description =
   "Có thể nói cơ hội trải nghiệm siêu xe McLaren ngoài đời chưa bao giờ dễ đến thế đối với cộng đồng game thủ PUBG Mobile trong mùa hè này.";
 const link =
   "hop-tac-hang-xe-mclaren-pubg-mobile-tung-event-hap-dan-sieu-toc-bac-nhat-lang-game-thang-6";
-const source = "Trí Thức Trẻ";
 
 const tags = ["PUBG MOBILE", "GAME"];
 
@@ -86,8 +88,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -161,7 +163,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../../components/page.css";
 import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
+import { RandomFeature } from "../../components/methods";
 
 import {
   Content,
@@ -30,12 +31,13 @@ const categoryLink = "/images";
 const title =
   "Sam bị tuột bikini trên sóng, nữ YouTuber vội vàng che đậy nhưng vẫn hớ hênh, lên tiếng trần tình tại 'vòng một quá to'";
 const author = "MẶT TRỨNG";
-const timestamp = ", THEO PHÁP LUẬT & BẠN ĐỌC 10:31 02/06/2021";
+const source = "PHÁP LUẬT & BẠN ĐỌC";
+const date = "02/06/2021";
+const time = "10:31 AM";
 const description =
   "Tai nạn của cô nàng YouTuber đang khiến khá nhiều người cảm thấy bất ngờ.";
 const link =
   "sam-bi-tuot-bikini-tren-song-nu-youtuber-voi-vang-che-day-nhung-van-ho-henh-len-tieng-tran-tinh-tai-vong-mot-qua-to";
-const source = "PHÁP LUẬT & BẠN ĐỌC";
 
 const tags = ["khoe nội y", "người đăng ký", "YouTube", "Youtuber", "bikini"];
 
@@ -86,8 +88,8 @@ export default function Templates() {
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div>
-              {timestamp}
+              <div className="author">{author}</div> - Theo {source} | {date} -
+              {time}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
@@ -169,7 +171,7 @@ export default function Templates() {
                 </div>
               </div>
 
-              <div className="randomNewFeature"></div>
+              <RandomFeature />
 
               <div className="source">Source: {source}</div>
 

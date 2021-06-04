@@ -19,9 +19,9 @@ function Banner(props) {
 export default function BannereSection() {
   return (
     <div className="bannerSection">
-      <Banner link="/" title="Testing" image={image01}></Banner>
-      <Banner link="/" title="Testing" image={image02}></Banner>
-      <Banner link="/" title="Testing" image={image03}></Banner>
+      <Banner link="/" title="" image={image01}></Banner>
+      <Banner link="/" title="" image={image02}></Banner>
+      <Banner link="/" title="" image={image03}></Banner>
     </div>
   );
 }
