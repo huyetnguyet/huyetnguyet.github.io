@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.3641c86f.chunk.css",
-    "main.js": "./static/js/main.45f2724c.chunk.js",
-    "main.js.map": "./static/js/main.45f2724c.chunk.js.map",
+    "main.css": "./static/css/main.5a509604.chunk.css",
+    "main.js": "./static/js/main.bf6ef253.chunk.js",
+    "main.js.map": "./static/js/main.bf6ef253.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.47ee87a5.js",
     "runtime-main.js.map": "./static/js/runtime-main.47ee87a5.js.map",
-    "static/js/2.f5516224.chunk.js": "./static/js/2.f5516224.chunk.js",
-    "static/js/2.f5516224.chunk.js.map": "./static/js/2.f5516224.chunk.js.map",
+    "static/js/2.ba815d30.chunk.js": "./static/js/2.ba815d30.chunk.js",
+    "static/js/2.ba815d30.chunk.js.map": "./static/js/2.ba815d30.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.3641c86f.chunk.css.map": "./static/css/main.3641c86f.chunk.css.map",
-    "static/js/2.f5516224.chunk.js.LICENSE.txt": "./static/js/2.f5516224.chunk.js.LICENSE.txt",
+    "static/css/main.5a509604.chunk.css.map": "./static/css/main.5a509604.chunk.css.map",
+    "static/js/2.ba815d30.chunk.js.LICENSE.txt": "./static/js/2.ba815d30.chunk.js.LICENSE.txt",
     "static/media/angrybirdsstarwars.9ab40a04.jpg": "./static/media/angrybirdsstarwars.9ab40a04.jpg",
     "static/media/assassin.7c9d0512.png": "./static/media/assassin.7c9d0512.png",
     "static/media/battlefield.c5deb841.png": "./static/media/battlefield.c5deb841.png",
@@ -30,8 +30,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.47ee87a5.js",
-    "static/js/2.f5516224.chunk.js",
-    "static/css/main.3641c86f.chunk.css",
-    "static/js/main.45f2724c.chunk.js"
+    "static/js/2.ba815d30.chunk.js",
+    "static/css/main.5a509604.chunk.css",
+    "static/js/main.bf6ef253.chunk.js"
   ]
 }
