@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.ec346c04.chunk.css",
-    "main.js": "./static/js/main.55f387cd.chunk.js",
-    "main.js.map": "./static/js/main.55f387cd.chunk.js.map",
+    "main.css": "./static/css/main.3641c86f.chunk.css",
+    "main.js": "./static/js/main.45f2724c.chunk.js",
+    "main.js.map": "./static/js/main.45f2724c.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.47ee87a5.js",
     "runtime-main.js.map": "./static/js/runtime-main.47ee87a5.js.map",
-    "static/js/2.f7df8773.chunk.js": "./static/js/2.f7df8773.chunk.js",
-    "static/js/2.f7df8773.chunk.js.map": "./static/js/2.f7df8773.chunk.js.map",
+    "static/js/2.f5516224.chunk.js": "./static/js/2.f5516224.chunk.js",
+    "static/js/2.f5516224.chunk.js.map": "./static/js/2.f5516224.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ec346c04.chunk.css.map": "./static/css/main.ec346c04.chunk.css.map",
-    "static/js/2.f7df8773.chunk.js.LICENSE.txt": "./static/js/2.f7df8773.chunk.js.LICENSE.txt",
+    "static/css/main.3641c86f.chunk.css.map": "./static/css/main.3641c86f.chunk.css.map",
+    "static/js/2.f5516224.chunk.js.LICENSE.txt": "./static/js/2.f5516224.chunk.js.LICENSE.txt",
     "static/media/angrybirdsstarwars.9ab40a04.jpg": "./static/media/angrybirdsstarwars.9ab40a04.jpg",
     "static/media/assassin.7c9d0512.png": "./static/media/assassin.7c9d0512.png",
     "static/media/battlefield.c5deb841.png": "./static/media/battlefield.c5deb841.png",
     "static/media/battlefield3.0988c58c.jpg": "./static/media/battlefield3.0988c58c.jpg",
     "static/media/crysis.fc31f8dc.png": "./static/media/crysis.fc31f8dc.png",
     "static/media/diablo.ca8598da.jpg": "./static/media/diablo.ca8598da.jpg",
-    "static/media/fruitninja.2cdefb6c.jpg": "./static/media/fruitninja.2cdefb6c.jpg",
     "static/media/halo.82869815.png": "./static/media/halo.82869815.png",
-    "static/media/halo3.5583cb40.jpg": "./static/media/halo3.5583cb40.jpg",
     "static/media/linh-chichan-20210602(1).d4adf259.jpg": "./static/media/linh-chichan-20210602(1).d4adf259.jpg",
     "static/media/linh-chichan-20210602(2).63be75ad.jpg": "./static/media/linh-chichan-20210602(2).63be75ad.jpg",
     "static/media/linh-chichan-20210602(3).26ed8ca9.jpg": "./static/media/linh-chichan-20210602(3).26ed8ca9.jpg",
@@ -28,14 +26,12 @@
     "static/media/linh-chichan-20210602(7).c80e6b9a.jpg": "./static/media/linh-chichan-20210602(7).c80e6b9a.jpg",
     "static/media/linh-chichan-20210602(8).1a197321.png": "./static/media/linh-chichan-20210602(8).1a197321.png",
     "static/media/logo.eff852f2.png": "./static/media/logo.eff852f2.png",
-    "static/media/maxpayne3.ddacc599.jpg": "./static/media/maxpayne3.ddacc599.jpg",
-    "static/media/need.ac4bc137.png": "./static/media/need.ac4bc137.png",
-    "static/media/needforspeedmostwanted.74cff7b9.jpg": "./static/media/needforspeedmostwanted.74cff7b9.jpg"
+    "static/media/need.ac4bc137.png": "./static/media/need.ac4bc137.png"
   },
   "entrypoints": [
     "static/js/runtime-main.47ee87a5.js",
-    "static/js/2.f7df8773.chunk.js",
-    "static/css/main.ec346c04.chunk.css",
-    "static/js/main.55f387cd.chunk.js"
+    "static/js/2.f5516224.chunk.js",
+    "static/css/main.3641c86f.chunk.css",
+    "static/js/main.45f2724c.chunk.js"
   ]
 }
