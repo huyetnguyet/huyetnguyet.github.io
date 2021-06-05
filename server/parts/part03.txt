@@ -1,0 +1,17 @@
+
+const facebookLinkShare =
+  "https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhuyetnguyet.com%2F" +
+  link +
+  "&layout=button_count&size=small&width=77&height=20&appId";
+
+const updatedTags = tagparam.map((tag) => {
+  const link =
+    "https://www.google.com/search?q=huyetnguyet+" + tag.replace(" ", "+");
+  return (
+    <a href={link} className="tag">
+      {tag}
+    </a>
+  );
+});
+
+export default function 

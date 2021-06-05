@@ -70,7 +70,7 @@ const updatedTags = tags.map((tag) => {
   );
 });
 
-export default function page() {
+export default function page_202106030700() {
   return (
     <>
       <Content>

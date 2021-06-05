@@ -66,7 +66,7 @@ const updatedTags = tags.map((tag) => {
   );
 });
 
-export default function Templates() {
+export default function page_202106020330() {
   return (
     <>
       <Content>

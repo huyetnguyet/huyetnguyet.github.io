@@ -58,7 +58,7 @@ const updatedTags = tagparam.map((tag) => {
   );
 });
 
-export default function Templates() {
+export default function page_20210603054621() {
   return (
     <>
       <Content>

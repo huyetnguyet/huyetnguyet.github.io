@@ -1,0 +1,34 @@
+() {
+  return (
+    <>
+      <Content>
+        <div className="page">
+          <AdsVertical />
+          <div className="path">
+            <a href="/" className="pathName">
+              home
+            </a>
+            <div className="pathName" style={{ color: "red" }}>
+              >
+            </div>
+            <a href={categoryLink} className="pathName">
+              {category}
+            </a>
+          </div>
+          <div className="title">
+            <h1>{title}</h1>
+          </div>
+          <div className="info">
+            <p>
+              <div className="author">{author}</div> - Theo {source} | {date}{" "}
+              {time}
+            </p>
+          </div>
+          <FacebookShareButton link={facebookLinkShare} />
+
+          <div class="containerContent">
+            <AdsHorizontal />
+            <div className="content">
+              <div className="contentContainer">
+                <p className="description">{description}</p>
+                <div className="contentBody">

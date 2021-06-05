@@ -52,6 +52,7 @@
   box-sizing: border-box;
   margin-top: 4px;
   margin-bottom: 16px;
+  object-fit: cover;
 }
 
 .featuredSection .featuredText h4,
