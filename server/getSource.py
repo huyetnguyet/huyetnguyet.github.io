@@ -356,10 +356,12 @@ class GetSource:
             if(url[:4] == "blob"):
                 continue
             templist = url.split('/')
+            templist2 = templist.split('.')
+            formatType = templist2[len(templist2)-1]
 
             while True:
                 filename = "images/"+self.imagename+"-" + \
-                    str(count)+"-"+templist[len(templist)-1]
+                    str(count)+"."+formatType
                 if not os.path.exists(filename):
                     break
                 else:
