@@ -169,8 +169,8 @@ class GetSource:
         element_description = element_rightdetail.find_element_by_tag_name(
             'h2')
         element_ps = element_rightdetail_content.find_elements_by_tag_name('p')
-        element_imgs = element_rightdetail_content.find_elements_by_xpath(
-            "//img[@type='photo']")
+        element_imgs = element_rightdetail_content.find_elements_by_tag_name(
+            "img")
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")
 
@@ -198,8 +198,7 @@ class GetSource:
         element_description = element_body.find_element_by_class_name(
             "knc-sapo")
         element_ps = element_body.find_elements_by_tag_name('p')
-        element_imgs = element_body.find_elements_by_xpath(
-            "//img[@type='photo']")
+        element_imgs = element_body.find_elements_by_tag_name("img")
 
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")

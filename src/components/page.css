@@ -150,3 +150,9 @@
   line-height: 2.5;
   border-radius: 5px;
 }
+
+.page .contentImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

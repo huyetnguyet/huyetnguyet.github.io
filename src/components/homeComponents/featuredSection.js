@@ -6,9 +6,14 @@ import { dataFeatured } from "../../storages/database";
 function ContentItem(props) {
   return (
     <div className="grip_6">
-      <img src={props.src} alt="images" class="img_inner"></img>
+      <a href={props.link}>
+        {" "}
+        <img src={props.src} alt="images" class="img_inner"></img>
+      </a>
       <div className="featuredText">
-        <h4>{props.title.substring(0, 50)}...</h4>
+        <a href={props.link}>
+          <h4>{props.title.substring(0, 50)}...</h4>
+        </a>
         <p>{props.description.substring(0, 70)}...</p>
       </div>
       <a href={props.link} class="featuredBtn">
