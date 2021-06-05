@@ -17,6 +17,12 @@ os.system("cls")
 
 database_json = []
 
+if not os.path.exists("database"):
+    os.system("mkdir database")
+if not os.path.exists("content"):
+    os.system("mkdir content")
+
+
 filepath_data_json = "database/data_json.json"
 if(os.path.exists(filepath_data_json)):
 
@@ -28,17 +34,7 @@ if(os.path.exists(filepath_data_json)):
 
 class GetSource:
     def __init__(self):
-        self.title = ""
-        self.author = ""
-        self.source = ""
-        self.time = ""
-        self.date = ""
-        self.ps = []
-        self.images = []
-        self.category = ""
-        self.tags = ""
-        self.link = ""
-        self.timestamp = ""
+        self.initValues()
 
     def initValues(self):
         self.title = ""
@@ -72,11 +68,11 @@ class GetSource:
             tempList2 = tempList[2].split('/')
             # print(tempList2)
             for part in tempList2:
-                if(part == "gamek.vn"):
+                if(part == "gamek.vn" or part == "m.gamek.vn"):
                     print("Source From: " + part)
                     self.getSourceFrom_Gamek()
                     break
-                elif(part == "kenh14.vn"):
+                elif(part == "kenh14.vn" or part == "m.kenh14.vn"):
                     print("Source From: " + part)
                     self.getSourceFrom_Kenh14()
                     break
@@ -355,12 +351,13 @@ class GetSource:
             if(url[:4] == "blob"):
                 continue
             templist = url.split('/')
-            templist2 = templist.split('.')
-            formatType = templist2[len(templist2)-1]
+            formatType = templist[len(templist)-1]
+            if(len(formatType) > 10):
+                formatType = formatType[len(formatType)-10:]
 
             while True:
                 filename = "images/"+self.imagename+"-" + \
-                    str(count)+"."+formatType
+                    str(count)+"-"+formatType
                 if not os.path.exists(filename):
                     break
                 else:
@@ -374,6 +371,7 @@ class GetSource:
                         file.write(data)
                 print("Download Completed !!!")
             except Exception as e:
+                print("[!] dowload images error")
                 print(e)
                 print("[!] Try to download again")
                 with open(filename, 'wb') as f:
