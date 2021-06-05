@@ -12,6 +12,53 @@ export default function routePages() {
       <Route exact path="/" component={Home} />
       <Route exact path="/games" component={Games} />
       <></>
+
+      <Route
+        exact
+        path="/csgo-mobile-tien-hanh-thu-nghiem-da-co-tren-google-play-game-thu-nghi-van-ong-lon-nay-phat-hanh-tai-vn"
+        component={pages.page_20210605090549}
+      />
+      <Route
+        exact
+        path="/dau-truong-chan-ly-meo-hay-tu-thach-dau-giup-chu-luc-cua-ban-ne-het-cac-ky-nang-dien-rong-nguy-hiem"
+        component={pages.page_20210605090617}
+      />
+      <Route
+        exact
+        path="/dau-truong-chan-ly-riot-mortdog-goi-y-viec-ket-hop-tu-nhieu-mua-khien-game-thu-phat-cuong"
+        component={pages.page_20210605090601}
+      />
+      <Route
+        exact
+        path="/loat-my-nhan-18-so-huu-than-hinh-mi-nhon-van-duoc-van-nguoi-me-p1"
+        component={pages.page_20210605090338}
+      />
+      <Route
+        exact
+        path="/ninja-gaiden-chinh-thuc-tro-lai-vao-tuan-sau-danh-cho-cac-game-thu-dam-me-chat-chem"
+        component={pages.page_20210605090405}
+      />
+      <Route
+        exact
+        path="/sau-lum-xum-ho-bao-nu-coser-viet-len-tieng-do-la-nghe-thuat-chu-khong-phai-khoe-than-phan-cam"
+        component={pages.page_20210605090443}
+      />
+      <Route
+        exact
+        path="/tu-tut-vai-ao-lau-mo-hoi-vong-mot-nu-streamer-xinh-dep-bat-ngo-nhan-con-mua-donate-tu-nguoi-xem"
+        component={pages.page_20210605090509}
+      />
+      <Route
+        exact
+        path="/valorant-lien-tuc-dat-dinh-riot-he-lo-ra-mat-phien-ban-mobile-khien-game-thu-phan-khich"
+        component={pages.page_20210605090159}
+      />
+      <Route
+        exact
+        path="/xuat-hien-tan-binh-thap-nhat-trong-lich-su-nganh-cong-nghiep-phim-18-de-doa-soan-ngoi-yua-mikami-chi-sau-2-3-nam"
+        component={pages.page_20210605090417}
+      />
+
       <Route
         exact
         path="/mi-van-du-trend-tiktok-voi-bao-ngu-con-gai-sap-thanh-thieu-nu-ma-sao-chi-khong-chiu-gia-di-mot-xiu"

@@ -5,7 +5,7 @@ from datetime import datetime
 
 import requests
 
-api_key = "https://sheet.best/api/sheets/10884386-b1b0-456a-a1af-91138e3ee99b"
+api_key = input("sheet.best api-key: ")
 
 '''
  json=[{
@@ -93,14 +93,15 @@ def getDataFromGoogleSheet():
 
 def writeDataToGoogleSheet():
     data = load_json("database/data_json.json")
-    # sb_post(data)
+    sb_post(data)
+    print("[*] Updated to Google Sheet")
 
 
 if __name__ == '__main__':
-    print("[1] Update local database")
-    print("[2] POST to Google Sheet")
+    print("[1] POST to Google Sheet")
+    print("[2] Update local database")
     choice = int(input("Choice: "))
     if(choice == 1):
-        getDataFromGoogleSheet()
-    elif(choice == 2):
         writeDataToGoogleSheet()
+    elif(choice == 2):
+        getDataFromGoogleSheet()

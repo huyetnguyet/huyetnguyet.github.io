@@ -306,13 +306,13 @@ class GetSource:
 
         self.component = "page_" + self.timeCombine
 
-        filepath = "../storages/content/"+self.filename
+        filepath = "./"+self.filename
 
         self.routeImport = "export { default as  " + \
-            self.component+" } from \""+filepath+"\""
+            self.component+" } from \""+filepath+"\";"
 
         self.routeItem = "<Route exact path=\"/" + \
-            self.link+"\" component={"+self.component+"}/>"
+            self.link+"\" component={page."+self.component+"}/>"
 
         self.data = "<ContentItem title=\""+self.title+"\"\description=\""+self.description + \
             "\" \nsrc=\"" + \
@@ -430,11 +430,12 @@ class GetSource:
         fw.close()
 
         fa = open('./database/SetupRoute.js', 'a')
-        fa.write(self.routeImport+"\n")
-        fa.write("\n\n\n\n\n")
         fa.write(self.routeItem+"\n")
         fa.close()
 
+        fa = open('../src/storages/content/index.js', 'a')
+        fa.write(self.routeImport+"\n")
+        fa.close()
         # print(self.routeImport)
         # print("\n")
 
