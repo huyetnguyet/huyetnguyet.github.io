@@ -81,8 +81,9 @@ export default function HomeContentSection() {
     <div className="homeContent">
       <div className="containerContent">
         <AdsHorizontal />
-        <MainContent></MainContent>
-        <div className="content"></div>
+        <div className="content">
+          <MainContent></MainContent>
+        </div>
       </div>
     </div>
   );

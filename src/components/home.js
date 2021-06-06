@@ -3,12 +3,12 @@ import "./home.css";
 
 import TopSection from "./homeComponents/topSection";
 import Navigation from "./navigation";
+import Footer from "./footer";
+
 import Slider from "./homeComponents/slider";
 import BannerSection from "./homeComponents/bannerSection";
 import FeaturedSection from "./homeComponents/featuredSection";
 import HomeContentSection from "./homeComponents/homeContentSection";
-
-import Footer from "./footer";
 
 export default class Home extends Component {
   render() {

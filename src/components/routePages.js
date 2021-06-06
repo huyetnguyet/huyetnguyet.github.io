@@ -3,6 +3,8 @@ import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import Home from "./home";
 import Games from "./games";
+import News from "./news";
+import Tech from "./tech";
 
 import * as pages from "../storages/content";
 
@@ -11,6 +13,8 @@ export default function routePages() {
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/games" component={Games} />
+      <Route exact path="/news" component={News} />
+      <Route exact path="/tech" component={Tech} />
       <></>
 
       <Route

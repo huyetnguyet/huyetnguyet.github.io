@@ -1,6 +1,8 @@
 export const googleSheetKey = "1s1InAFRYeWYCAMwUxCK3f4V6Pl7bcDdT_EsTm3zCeWI";
 
 /*
+import Tabletop from "react-tabletop";
+
 export default class HomeContentSection extends Component {
   constructor() {
     super();

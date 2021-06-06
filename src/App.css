@@ -55,6 +55,15 @@ a {
   width: 100%;
 }
 
+.containerLayout {
+  display: flex;
+  position: relative;
+  background: url(./asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+  padding-bottom: 30px;
+}
+
 .content {
   float: left;
   width: 75%;
@@ -106,6 +115,74 @@ a {
 
 h1 {
   color: black;
+}
+
+/* Tab Css*/
+.tabContainer {
+  display: block;
+  padding-top: 20px;
+}
+
+.card {
+  width: 33%;
+  display: inline-block;
+  position: relative;
+}
+
+.cardImg {
+  width: 232px;
+  height: 165px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+  object-fit: cover;
+}
+
+.cardText h4,
+p {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+.cardText h4 {
+  margin-top: -7px;
+  font-size: 15px;
+}
+
+.cardText p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.cardBtn {
+  float: left;
+  margin-left: 10px;
+  font: bold 12px/21px "Orbitron", sans-serif;
+  padding: 4px 12px;
+  text-transform: uppercase;
+  color: #fff;
+  background: url(./asserts/images/btn_bg.png) 0 0 repeat-x #930706;
+  border-bottom: 1px solid #c40a0a;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 5px;
+  position: relative;
+  margin-top: 10px;
+}
+
+.cardBtn:after {
+  display: block;
+  bottom: -6px;
+  background: #373636;
+  height: 5px;
+  left: 0;
+  border-radius: 0 0 5px 5px;
+  right: 0;
+  position: absolute;
+  content: "";
 }
 
 @media only screen and (min-width: 1420px) {
