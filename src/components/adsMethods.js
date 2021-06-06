@@ -52,7 +52,9 @@ export function AdsFeaturdSection() {
         client={client}
         slot={slot}
         style={{ display: "block" }}
-        format=""
+        format="auto"
+        responsive="true"
+        layoutKey="-gw-1+2a-9x+5c"
       />
     </div>
   );
