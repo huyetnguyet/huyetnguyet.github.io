@@ -9,7 +9,7 @@ import Footer from "./footer";
 
 import { TabContainers } from "./methods";
 
-import { AdsHorizontal, AdsVerticalHomeContent } from "./adsMethods";
+import { AdsHorizontal, AdsVertical } from "./adsMethods";
 
 import { AdsFeaturdSection } from "./adsMethods";
 import { dataContent } from "../storages/database";
@@ -114,7 +114,7 @@ export default class Games extends React.Component {
         </div>
         <div id="bodylayout">
           <div className="container">
-            <div className="linespace"></div>
+            <div className="linespace"></div> <AdsVertical />
             <div className="containerLayout">
               <div className="content">
                 <TabContainers

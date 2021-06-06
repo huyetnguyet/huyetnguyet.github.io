@@ -28,17 +28,17 @@ export default class Home extends Component {
         </div>
         <div id="bodylayout">
           <div className="container">
-            <div className="linespace">
-              <AdsVertical />
-            </div>
+            <div className="linespace"></div>
             <Slider></Slider>
           </div>
           <div className="container">
             <BannerSection></BannerSection>
           </div>
+          <AdsVertical />
           <div className="container">
             <FeaturedSection></FeaturedSection>
           </div>
+
           <div className="container">
             <HomeContentSection></HomeContentSection>
           </div>
