@@ -1,4 +1,6 @@
 .bannerSection {
+  display: flex;
+  position: relative;
   width: 100%;
   background: transparent;
   border-top: 2px solid black;

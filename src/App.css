@@ -44,6 +44,7 @@ a {
 }
 
 .container {
+  display: block;
   position: relative;
   text-align: center;
   width: 1010px;
@@ -86,6 +87,7 @@ a {
 }
 
 .ads-vertical {
+  position: relative;
   width: 100%;
 }
 

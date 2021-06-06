@@ -34,7 +34,10 @@ export default class Home extends Component {
           <div className="container">
             <BannerSection></BannerSection>
           </div>
-          <AdsVertical />
+          <div className="container">
+            <AdsVertical />
+          </div>
+
           <div className="container">
             <FeaturedSection></FeaturedSection>
           </div>
