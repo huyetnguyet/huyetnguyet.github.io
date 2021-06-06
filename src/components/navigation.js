@@ -4,55 +4,70 @@ import "./navigation.css";
 function checkTab(tab) {
   var navHome = document.getElementById("navHome");
   var navGames = document.getElementById("navGames");
+  var navNews = document.getElementById("navNews");
+  var navTech = document.getElementById("navTech");
   var navGuide = document.getElementById("navGuide");
-  var navReviews = document.getElementById("navReviews");
-  var navImages = document.getElementById("navImages");
-  var navVideos = document.getElementById("navVideos");
+  var navTravel = document.getElementById("navTravel");
+  var navGallery = document.getElementById("navGallery");
   if (navHome === null) {
     console.log(navHome);
   } else {
     if (tab === "home") {
       navHome.classList.add("active");
       navGames.classList.remove("active");
+      navNews.classList.remove("active");
+      navTech.classList.remove("active");
       navGuide.classList.remove("active");
-      navReviews.classList.remove("active");
-      navImages.classList.remove("active");
-      navVideos.classList.remove("active");
+      navTravel.classList.remove("active");
+      navGallery.classList.remove("active");
     } else if (tab === "games") {
       navHome.classList.remove("active");
       navGames.classList.add("active");
+      navNews.classList.remove("active");
+      navTech.classList.remove("active");
       navGuide.classList.remove("active");
-      navReviews.classList.remove("active");
-      navImages.classList.remove("active");
-      navVideos.classList.remove("active");
-    } else if (tab === "guides") {
+      navTravel.classList.remove("active");
+      navGallery.classList.remove("active");
+    } else if (tab === "news") {
       navHome.classList.remove("active");
       navGames.classList.remove("active");
+      navNews.classList.add("active");
+      navTech.classList.remove("active");
+      navGuide.classList.remove("active");
+      navTravel.classList.remove("active");
+      navGallery.classList.remove("active");
+    } else if (tab === "tech") {
+      navHome.classList.remove("active");
+      navGames.classList.remove("active");
+      navNews.classList.remove("active");
+      navTech.classList.add("active");
+      navGuide.classList.remove("active");
+      navTravel.classList.remove("active");
+      navGallery.classList.remove("active");
+    } else if (tab === "guide") {
+      navHome.classList.remove("active");
+      navGames.classList.remove("active");
+      navNews.classList.remove("active");
+      navTech.classList.remove("active");
       navGuide.classList.add("active");
-      navReviews.classList.remove("active");
-      navImages.classList.remove("active");
-      navVideos.classList.remove("active");
-    } else if (tab === "reviews") {
-      navHome.classList.renove("active");
-      navGames.classList.remove("active");
-      navGuide.classList.remove("active");
-      navReviews.classList.add("active");
-      navImages.classList.remove("active");
-      navVideos.classList.remove("active");
-    } else if (tab === "images") {
+      navTravel.classList.remove("active");
+      navGallery.classList.remove("active");
+    } else if (tab === "travel") {
       navHome.classList.remove("active");
       navGames.classList.remove("active");
+      navNews.classList.remove("active");
+      navTech.classList.remove("active");
       navGuide.classList.remove("active");
-      navReviews.classList.remove("active");
-      navImages.classList.add("active");
-      navVideos.classList.remove("active");
-    } else if (tab === "videos") {
+      navTravel.classList.add("active");
+      navGallery.classList.remove("active");
+    } else if (tab === "gallery") {
       navHome.classList.remove("active");
       navGames.classList.remove("active");
+      navNews.classList.remove("active");
+      navTech.classList.remove("active");
       navGuide.classList.remove("active");
-      navReviews.classList.remove("active");
-      navImages.classList.remove("active");
-      navVideos.classList.add("active");
+      navTravel.classList.remove("active");
+      navGallery.classList.add("active");
     }
   }
 }
@@ -68,29 +83,38 @@ export default function Navigation(props) {
             HOME
           </a>
         </li>
+
         <li>
           <a href="/games" id="navGames">
             GAMES
           </a>
         </li>
+
+        <li>
+          <a href="/news" id="navNews">
+            NEWS
+          </a>
+        </li>
+
+        <li>
+          <a href="/tech" id="navTech">
+            TECH
+          </a>
+        </li>
+
         <li>
           <a href="/guide" id="navGuide">
             GUIDE
           </a>
         </li>
         <li>
-          <a href="/reviews" id="navReviews">
-            NEWS
-          </a>
-        </li>
-        <li>
-          <a href="/images" id="navImages">
+          <a href="/travel" id="navTravel">
             TRAVEL
           </a>
         </li>
         <li>
-          <a href="/videos" id="navVideos">
-            Images
+          <a href="/gallery" id="navGallery">
+            GALLEY
           </a>
         </li>
       </ul>

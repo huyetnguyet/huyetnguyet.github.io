@@ -16,6 +16,9 @@ from methods_json import load_json, write_json
 os.system("cls")
 
 database_json = []
+path_storage_images = "../src/storages/content/" + \
+    str(datetime.datetime.now().strftime("%Y")) + "/"
+
 
 if not os.path.exists("database"):
     os.system("mkdir database")
@@ -312,7 +315,7 @@ class GetSource:
             self.component+" } from \""+filepath+"\";"
 
         self.routeItem = "<Route exact path=\"/" + \
-            self.link+"\" component={page."+self.component+"}/>"
+            self.link+"\" component={pages."+self.component+"}/>"
 
         self.data = "<ContentItem title=\""+self.title+"\"\description=\""+self.description + \
             "\" \nsrc=\"" + \
@@ -356,7 +359,7 @@ class GetSource:
                 formatType = formatType[len(formatType)-10:]
 
             while True:
-                filename = "images/"+self.imagename+"-" + \
+                filename = path_storage_images+self.imagename+"-" + \
                     str(count)+"-"+formatType
                 if not os.path.exists(filename):
                     break

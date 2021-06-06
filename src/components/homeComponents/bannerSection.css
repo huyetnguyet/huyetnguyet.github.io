@@ -22,7 +22,7 @@
 
 .bannerSection a:after {
   display: block;
-  background: url("../../asserts/images/banner_shadow.png") 0 0 repeat-x;
+  background: url("asserts/images/banner_shadow.png") 0 0 repeat-x;
   height: 118px;
   display: block;
   left: 0;

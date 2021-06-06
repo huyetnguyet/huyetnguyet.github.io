@@ -3,12 +3,14 @@ import "./home.css";
 
 import TopSection from "./homeComponents/topSection";
 import Navigation from "./navigation";
+import Footer from "./footer";
+
 import Slider from "./homeComponents/slider";
 import BannerSection from "./homeComponents/bannerSection";
 import FeaturedSection from "./homeComponents/featuredSection";
 import HomeContentSection from "./homeComponents/homeContentSection";
 
-import Footer from "./footer";
+import { AdsVertical } from "components/adsMethods";
 
 export default class Home extends Component {
   render() {
@@ -26,7 +28,9 @@ export default class Home extends Component {
         </div>
         <div id="bodylayout">
           <div className="container">
-            <div className="linespace"></div>
+            <div className="linespace">
+              <AdsVertical />
+            </div>
             <Slider></Slider>
           </div>
           <div className="container">

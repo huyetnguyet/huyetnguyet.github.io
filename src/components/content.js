@@ -56,3 +56,26 @@ export function Content({ children }) {
     </>
   );
 }
+
+export function Tabs({ children }) {
+  return (
+    <>
+      <div id="topSection">
+        <div className="container">
+          <TopSection></TopSection>
+        </div>
+      </div>
+      <div id="navigation">
+        <div className="container">
+          <Navigation tab=""></Navigation>
+        </div>
+      </div>
+      <div id="bodylayout">
+        <div className="container">{children}</div>
+        <div className="container">
+          <Footer></Footer>
+        </div>
+      </div>
+    </>
+  );
+}

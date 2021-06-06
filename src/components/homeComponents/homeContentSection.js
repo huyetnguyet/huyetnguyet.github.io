@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Tabletop from "tabletop";
 
 import "./homeContentSection.css";
-import { AdsHorizontal, AdsVerticalHomeContent } from "../adsMethods";
+import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
 import { googleSheetKey } from "../../config/googleSheetMethod";
 
 import { dataContent } from "../../storages/database";
@@ -81,8 +81,9 @@ export default function HomeContentSection() {
     <div className="homeContent">
       <div className="containerContent">
         <AdsHorizontal />
-        <MainContent></MainContent>
-        <div className="content"></div>
+        <div className="content">
+          <MainContent></MainContent>
+        </div>
       </div>
     </div>
   );
