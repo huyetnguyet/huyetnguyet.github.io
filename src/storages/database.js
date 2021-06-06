@@ -1,6 +1,166 @@
 export const dataFeatured = [
   {
     title:
+      "Địch Lệ Nhiệt Ba lại lên top 1 tìm kiếm vì quá đẹp: Mặt, hình thể đều 'vàng mười'",
+    description:
+      "Nhan sắc kiều diễm lấn át các khía cạnh khác của 'mỹ nhân Tân Cương' khiến cô bị nhận xét chỉ được vẻ ngoài.",
+    src: "https://image-us.24h.com.vn/upload/2-2021/images/2021-06-05/dich-Le-Nhiet-Ba-bi-chi-trich-do-len-hot-search-vi-nhan-sac-dep-cung-la-d145ba25ly1gpjlpb4bnhj21hc2i07wh-1622866027-966-width1000height1688.jpg",
+    alt: "Địch Lệ Nhiệt Ba",
+    category: "images",
+    time: "11:30 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 11:30 AM",
+    link: "/dich-le-nhiet-ba-lai-len-top1-tim-kiem-vi-qua-dep-mat-hinh-the-deu-vang-muoi",
+    component: "page_20210606113000",
+    filepath:
+      "./20210606113000-dich-le-nhiet-ba-lai-len-top1-tim-kiem-vi-qua-dep-mat-hinh-the-deu-vang-muoi.js",
+  },
+  {
+    title: "Apple cập nhật AirTags sau những lo ngại rình rập",
+    description:
+      "Apple đã phát hành một bản cập nhật phần mềm cho AirTags sau những lo ngại rằng chúng có thể được sử dụng để theo dõi mọi người một cách bí mật.",
+    src: "https://ichef.bbci.co.uk/news/800/cpsprodpb/6A4A/production/_118801272_gettyimages-1315307818.jpg",
+    alt: "Apple, Airtags",
+    category: "news",
+    time: "11:29 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 11:29 AM",
+    link: "/apple-cap-nhat-airstags-sau-nhung-lo-ngai-rinh-rap",
+    component: "page_20210606112900",
+    filepath:
+      "./20210606112900-apple-cap-nhat-airstags-sau-nhung-lo-ngai-rinh-rap.js",
+  },
+  {
+    title:
+      "Mặc áo khoét sâu khoe vòng 1, nữ streamer Tốc Chiến nóng bỏng bị bạn trai kém tuổi dọa “ban' ngay trên sóng",
+    description:
+      "Không thích người yêu ăn mặc hớ hênh khi livestream, bạn trai của nữ streamer nổi giận đùng đùng.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/6/anh-chup-man-hinh-2021-06-06-luc-091820-1622947842625468028111.png",
+    alt: "Streamer, Lai Lai, Zeros, Toc Chien, ",
+    category: "images",
+    time: "08:48 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:48 AM",
+    link: "/mac-ao-khoet-sau-khoe-vong-1-nu-streamer-toc-chien-nong-bong-bi-ban-trai-kem-tuoi-doa-ban-ngay-tren-song",
+    component: "page_20210606084830",
+    filepath:
+      "./20210606084830-mac-ao-khoet-sau-khoe-vong-1-nu-streamer-toc-chien-nong-bong-bi-ban-trai-kem-tuoi-doa-ban-ngay-tren-song.js",
+  },
+];
+export const dataContent = [
+  {
+    title:
+      "9 con số cho thấy thế giới này còn rất nhiều sự thật siêu thú vị mà bạn chưa bao giờ biết tới",
+    description:
+      "Chẳng hạn, bạn có biết mỗi ngày nước Mỹ có bao nhiêu triệu phú xuất hiện không? Nó lớn hơn bạn tưởng nhiều đấy.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/6/photo-1-16229557224491540876688.jpg",
+    alt: "Su That, Thu Vi, ",
+    category: "news",
+    time: "08:47 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:47 AM",
+    link: "/9-con-so-cho-thay-the-gioi-nay-con-rat-nhieu-su-that-sieu-thu-vi-ma-ban-chua-bao-gio-biet-toi",
+    component: "page_20210606084757",
+    filepath:
+      "./20210606084757-9-con-so-cho-thay-the-gioi-nay-con-rat-nhieu-su-that-sieu-thu-vi-ma-ban-chua-bao-gio-biet-toi.js",
+  },
+  {
+    title:
+      "Loạt mỹ nhân 18+ sở hữu thân hình mi nhon vẫn được vạn người mê (P.2)",
+    description:
+      "Không thuộc dạng sở hữu thân hình bốc lửa, thế nhưng những cô gái này vẫn có lượng fan hâm mộ đông đảo.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/6/photo-1-16229236895341716459232.jpg",
+    alt: "Idol, Himari Asada, Natsu Tojo, Rikka Ono, ",
+    category: "images",
+    time: "08:47 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:47 AM",
+    link: "/loat-my-nhan-18-so-huu-than-hinh-mi-nhon-van-duoc-van-nguoi-me-p2",
+    component: "page_20210606084735",
+    filepath:
+      "./20210606084735-loat-my-nhan-18-so-huu-than-hinh-mi-nhon-van-duoc-van-nguoi-me-p2.js",
+  },
+  {
+    title:
+      "Hiker Games chính thức hé lộ giá bán gói donate từng phiên bản của tựa game 300475, bản rẻ nhất là 1.000.000 VND",
+    description: "Game thủ hãy chuẩn bị tiền để mua 300475.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/6/photo-1-1622912847306429666092.jpg",
+    alt: "Nha Phat Trien, Game Thuan Viet, Chien Dich Ho Chi Minh, 300475, Cong Dong Game Thu, ",
+    category: "games",
+    time: "08:47 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:47 AM",
+    link: "/hiker-games-chinh-thuc-he-lo-gia-tung-phien-ban-cua-tua-game-300475-ban-re-nhat-chi-tu-500000-vnd",
+    component: "page_20210606084722",
+    filepath:
+      "./20210606084722-hiker-games-chinh-thuc-he-lo-gia-tung-phien-ban-cua-tua-game-300475-ban-re-nhat-chi-tu-500000-vnd.js",
+  },
+  {
+    title:
+      "LMHT xuất hiện hình thức gian lận xếp hạng mới, cộng đồng cho rằng nguyên nhân tới từ lỗ hổng client",
+    description:
+      "Nhiều game thủ LMHT cũng xác nhận rằng hình thức gian lận này đang rất phổ biến ở mức rank Kim Cương - Cao Thủ.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/6/photo-1-16229481139211967180953.jpg",
+    alt: "Lien Minh Huyen Thoai, Lmht, Riot Games, Riot, Game, Tin Game, Gian Lan Xep Hang, Client Lmht, Cong Dong Mang, ",
+    category: "games",
+    time: "08:47 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:47 AM",
+    link: "/lmht-xuat-hien-hinh-thuc-gian-lan-xep-hang-moi-cong-dong-cho-rang-nguyen-nhan-toi-tu-lo-hong-client",
+    component: "page_20210606084710",
+    filepath:
+      "./20210606084710-lmht-xuat-hien-hinh-thuc-gian-lan-xep-hang-moi-cong-dong-cho-rang-nguyen-nhan-toi-tu-lo-hong-client.js",
+  },
+  {
+    title:
+      "Nhảy sexy rồi tự cởi áo lưới ngay trên sóng, nữ streamer bức xúc khi bị chỉ trích: 'Xem cho sướng rồi ném đá'",
+    description:
+      "Nhưng cũng phải công nhận rằng lần lên sóng của cô nàng streamer này quả thật có phần hơi táo bạo quá thì phải.",
+    src: "https://kenh14cdn.com/203336854389633024/2021/6/6/photo-5-16229479957611852385827.gif",
+    alt: "Streamer, Sexy, Phong Cach Sexy, Vo Thoi Han, ",
+    category: "images",
+    time: "08:46 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:46 AM",
+    link: "/nhay-sexy-roi-tu-coi-ao-luoi-ngay-tren-song-nu-streamer-buc-xuc-khi-bi-chi-trich-xem-cho-suong-roi-nem-da",
+    component: "page_20210606084605",
+    filepath:
+      "./20210606084605-nhay-sexy-roi-tu-coi-ao-luoi-ngay-tren-song-nu-streamer-buc-xuc-khi-bi-chi-trich-xem-cho-suong-roi-nem-da.js",
+  },
+  {
+    title:
+      "Sana (TWICE) gây xôn xao khi diện trang phục hút mắt khoe khéo vòng 1 gợi cảm",
+    description:
+      "Không hổ danh mỹ nhân đa phong cách của TWICE, Sana dù đáng yêu hay quyến rũ cũng đều cân được tất.",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/2222286019067323305222471906153005431656325578752n-1622951862803149823242.jpg",
+    alt: "Sana, Twice, Sao Han, Idol, Kpop, ",
+    category: "images",
+    time: "08:45 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:45 AM",
+    link: "/sana-twice-gay-xon-xao-khi-dien-trang-phuc-hut-mat-khoe-kheo-vong-1-goi-cam",
+    component: "page_20210606084512",
+    filepath:
+      "./20210606084512-sana-twice-gay-xon-xao-khi-dien-trang-phuc-hut-mat-khoe-kheo-vong-1-goi-cam.js",
+  },
+  {
+    title:
+      "Thiếu nữ Sài Gòn sinh năm 2001: Vòng 1 lớn giúp tôn dáng và khiến mình trông nữ tính hơn",
+    description:
+      "Cô bạn sinh năm 2001 cảm thấy tự tin với số đo cơ thể hiện tại.",
+    src: "https://kenh14cdn.com/thumb_w/620/2018/10/17/screen-shot-2018-10-17-at-10255-pm-1539756232354344860934.png",
+    alt: "Nu Sinh, Vong 1, Cong Dong Mang, Gioi Tre, Lam Dep, Thoi Trang, ",
+    category: "images",
+    time: "08:44 AM",
+    date: "06/06/2021",
+    timestamp: "06/06/2021 8:44 AM",
+    link: "/nu-sinh-sai-gon-sinh-nam-2001-tiet-lo-ly-do-co-vong-1-khung-minh-uong-sua-dau-nanh-tu-nam-lop-3",
+    component: "page_20210606084411",
+    filepath:
+      "./20210606084411-nu-sinh-sai-gon-sinh-nam-2001-tiet-lo-ly-do-co-vong-1-khung-minh-uong-sua-dau-nanh-tu-nam-lop-3.js",
+  },
+  {
+    title:
       "Đấu Trường Chân Lý: Mẹo hay từ Thách Đấu giúp chủ lực của bạn né hết các kỹ năng diện rộng nguy hiểm",
     description:
       "Game thủ Đấu Trường Chân Lý có thể áp dụng ngay lập tức những cách sắp xếp đội hình dưới đây.",
@@ -47,8 +207,6 @@ export const dataFeatured = [
     filepath:
       "./20210605090549-csgo-mobile-tien-hanh-thu-nghiem-da-co-tren-google-play-game-thu-nghi-van-ong-lon-nay-phat-hanh-tai-vn.js",
   },
-];
-export const dataContent = [
   {
     title:
       "Tự tụt vai áo, lau mồ hôi vòng một, nữ streamer xinh đẹp bất ngờ nhận cơn mưa donate từ người xem",
@@ -388,7 +546,7 @@ export const dataContent = [
       "Thời trang khi ra đường của cô nàng streamer cũng khiến khá nhiều người phải chảy máu mũi.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/1/photo-1-16225193754541692620860.jpg",
     alt: "Linh Chichan",
-    category: "news",
+    category: "images",
     time: "03:05 AM",
     date: "03/06/2021",
     timestamp: "03/06/2021 03:05:00",
@@ -641,7 +799,7 @@ export const dataContent = [
       "Tai nạn của cô nàng YouTuber đang khiến khá nhiều người cảm thấy bất ngờ.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604324537468863202.jpg",
     alt: "Streamer",
-    category: "news",
+    category: "images",
     time: "10:31 AM",
     date: "02/06/2021",
     timestamp: "02/06/2021 10:31:00",

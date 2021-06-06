@@ -10,6 +10,8 @@ import BannerSection from "./homeComponents/bannerSection";
 import FeaturedSection from "./homeComponents/featuredSection";
 import HomeContentSection from "./homeComponents/homeContentSection";
 
+import { AdsVertical } from "components/adsMethods";
+
 export default class Home extends Component {
   render() {
     return (
@@ -26,7 +28,9 @@ export default class Home extends Component {
         </div>
         <div id="bodylayout">
           <div className="container">
-            <div className="linespace"></div>
+            <div className="linespace">
+              <AdsVertical />
+            </div>
             <Slider></Slider>
           </div>
           <div className="container">

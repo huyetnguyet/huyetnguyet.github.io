@@ -1,26 +1,36 @@
 import React from "react";
-import "../../components/page.css";
-import { AdsHorizontal, AdsVertical } from "../../components/adsMethods";
-import { RandomFeature } from "../../components/methods";
+import "components/page.css";
+import { AdsHorizontal, AdsVertical } from "components/adsMethods";
+import { RandomFeature } from "components/methods";
 
-import {
-  Content,
-  ContentImage,
-  FacebookShareButton,
-} from "../../components/content";
+import { Content, ContentImage, FacebookShareButton } from "components/content";
 
 /* ---------------------------------------------------------------- */
-
 /*
- <ContentItem
-title=""
-content=""
-src=""
-alt=""
-types=""
-time=""
-link="/"
-/>
+<ContentItem title="" 
+src="" 
+alt="" 
+category="" 
+time="" 
+link=""/>
+
+ {
+    title: "",
+    description: "",
+    src: "",
+    alt: "",
+    category: "",
+    time: "",
+    date: "",
+    timestamp: "",
+    link: "",
+    component: "",
+    filepath: "",
+  },
+
+
+
+
 
 <ContentImage
 src=""
@@ -28,12 +38,9 @@ alt=""
 note=""
 />
 */
-
 /* ---------------------------------------------------------------- */
-
 const category = "";
 const categoryLink = "/";
-
 const title = "";
 const author = "";
 const source = "";
@@ -41,9 +48,7 @@ const date = "";
 const time = "";
 const description = "";
 const link = "";
-
-const tagparam = [""];
-
+const tagparam = [];
 const facebookLinkShare =
   "https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fhuyetnguyet.com%2F" +
   link +
@@ -59,7 +64,7 @@ const updatedTags = tagparam.map((tag) => {
   );
 });
 
-export default function Templates() {
+export default function page_() {
   return (
     <>
       <Content>
@@ -93,7 +98,7 @@ export default function Templates() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <div className="contentBody">
-                  <>content is here</>
+                  <></>
                 </div>
               </div>
 

@@ -1,9 +1,9 @@
 import React from "react";
 import "./bannerSection.css";
 
-import image01 from "../../storages/images/content/angrybirdsstarwars.jpg";
-import image02 from "../../storages/images/content/diablo.jpg";
-import image03 from "../../storages/images/content/battlefield3.jpg";
+import image01 from "storages/images/templates/angrybirdsstarwars.jpg";
+import image02 from "storages/images/templates/diablo.jpg";
+import image03 from "storages/images/templates/battlefield3.jpg";
 
 function Banner(props) {
   return (

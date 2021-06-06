@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Tabletop from "tabletop";
 
 import "./homeContentSection.css";
-import { AdsHorizontal, AdsVerticalHomeContent } from "../adsMethods";
+import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
 import { googleSheetKey } from "../../config/googleSheetMethod";
 
 import { dataContent } from "../../storages/database";
