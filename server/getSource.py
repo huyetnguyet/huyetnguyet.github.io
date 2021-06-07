@@ -16,8 +16,9 @@ from methods_json import load_json, write_json
 os.system("cls")
 
 database_json = []
-path_storage_images = "../src/storages/content/" + \
-    str(datetime.datetime.now().strftime("%Y")) + "/"
+path_storage_images = "../src/storages/images/content/" + \
+    str(datetime.datetime.now().strftime("%Y")) + "/" + \
+    str(datetime.datetime.now().strftime("%m")) + "/"
 
 
 if not os.path.exists("database"):
@@ -131,6 +132,7 @@ class GetSource:
         self.driver.quit()
 
     def initAltImages(self):
+        print("[*] initAltImages")
         '''
         print("\nTags: ")
         self.getTagsFromLink()
@@ -170,6 +172,18 @@ class GetSource:
         element_ps = element_rightdetail_content.find_elements_by_tag_name('p')
         element_imgs = element_rightdetail_content.find_elements_by_tag_name(
             "img")
+        element_imgs_alt = element_rightdetail_content.find_elements_by_class_name(
+            "PhotoCMS_Caption")
+        self.images_alt = []
+        if(len(element_imgs_alt) > 0):
+            for element in element_imgs_alt:
+                try:
+                    temp_element = element.find_element_by_tag_name('p')
+                    self.images_alt.append(
+                        str(temp_element.text).replace("\"", "'"))
+                except:
+                    continue
+
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")
 
@@ -183,7 +197,11 @@ class GetSource:
 
         self.images = []
         for img in element_imgs:
-            self.images.append(str(img.get_attribute("src")))
+            # check_images_links
+            img_link = str(img.get_attribute("src"))
+            temp_list = img_link.split(".")
+            if(temp_list[len(temp_list)-1] != 'svg'):
+                self.images.append(img_link)
 
     def getSourceFrom_Kenh14(self):
         print("[!] Opening URL")
@@ -199,6 +217,18 @@ class GetSource:
         element_ps = element_body.find_elements_by_tag_name('p')
         element_imgs = element_body.find_elements_by_tag_name("img")
 
+        element_imgs_alt = element_body.find_elements_by_class_name(
+            "PhotoCMS_Caption")
+        self.images_alt = []
+        if(len(element_imgs_alt) > 0):
+            for element in element_imgs_alt:
+                try:
+                    temp_element = element.find_element_by_tag_name('p')
+                    self.images_alt.append(
+                        str(temp_element.text).replace("\"", "'"))
+                except:
+                    continue
+
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")
 
@@ -211,25 +241,14 @@ class GetSource:
             self.ps.append(p.text)
 
         self.images = []
+        self.videos = []
         for img in element_imgs:
             temp = str(img.get_attribute("src"))
             if(len(temp) > 10):
-                self.images.append(temp)
-
-        try:
-            element_videos = element_body.find_elements_by_tag_name(
-                'video')
-            if len(element_videos) > 0:
-                try:
-                    for video in element_videos:
-                        temp = str(video.get_attribute("src"))
-                        if(len(temp) > 10 and temp not in self.images):
-                            self.images.append(temp)
-                except Exception as e:
-                    print(e)
-                    time.sleep(10)
-        except:
-            None
+                img_link = str(img.get_attribute("src"))
+            temp_list = img_link.split(".")
+            if(temp_list[len(temp_list)-1] != 'svg'):
+                self.images.append(img_link)
 
     def getTagsFromString(self, tags):
         newString = tags[12:len(tags)-2]
@@ -242,6 +261,7 @@ class GetSource:
         return newTags
 
     def getTagsFromLink(self):
+        print("[*] Getting tags from link")
         '''
         r = requests.get(self.URL_link, headers={'User-Agent': 'Custom'})
         lines = html.unescape(r.text)
@@ -277,13 +297,16 @@ class GetSource:
 
     def getDateTime(self):
         x = datetime.datetime.now()
+        self.current_year = x.strftime("%Y")
+        self.current_month = x.strftime("%m")
+
         self.format_date = x.strftime(
             "%d")+"/"+x.strftime("%m")+"/"+x.strftime("%Y")
         self.format_time = x.strftime(
             "%I")+":"+x.strftime("%M")+" "+x.strftime("%p")
         self.timestamp = self.format_date+" "+self.format_time
         self.timeCombine = x.strftime("%Y")+x.strftime("%m")+x.strftime("%d") + \
-            x.strftime("%I")+x.strftime("%M")+x.strftime("%S")
+            x.strftime("%H")+x.strftime("%M")+x.strftime("%S")
 
     def setupContent(self):
         self.makeNewURL_link(self.URL_link)
@@ -292,17 +315,52 @@ class GetSource:
         self.description = self.description.replace("\"", "'")
 
         self.pageConstValue = "const category = \""+self.category+"\";\nconst categoryLink = \"/"+self.category+"\";\nconst title = \""+self.title+"\";\nconst author = \""+self.author+"\";\nconst source = \""+self.source + \
-            "\";\nconst date = \""+self.format_date+"\";\nconst time = \""+self.format_time+"\";\nconst description = \"" + \
+            "\";\nconst timestamp = \""+self.timestamp+"\";\nconst description = \"" + \
             self.description+"\";\nconst link = \""+self.link+"\";\nconst "+self.tags
 
-        self.content_p = ""
-        for p in self.ps:
-            self.content_p += "<p>"+p+"</p>\n"
+        print("Paragraph: "+str(len(self.ps)))
+        print("Images: "+str(len(self.images)))
+        print("Alt: "+str(len(self.images_alt)))
 
+        self.content_p = ""
+        tempTags = self.getTagsFromString(self.tags)
+        for p in self.ps:
+            check_image = False
+            # Add image between paragrapth
+            for i in range(0, len(self.images_alt)):
+                if(p == self.images_alt[i]):
+                    try:
+                        self.content_p += "<ContentImage src=\"" + \
+                            self.images[i] + "\" alt=\""+self.alt + \
+                            "\" note=\""+self.images_alt[i]+"\"/>\n"
+                        self.images[i] = ""
+                        check_image = True
+                    except:
+                        continue
+                    break
+            if(check_image == False):
+                # Add paragrapth and highlight tag
+
+                # FIX
+                self.content_p += "<p>"
+                for temp_tag in tempTags:
+                    if(len(p) > len(temp_tag)*2):
+                        for i in range(0, len(p)-len(temp_tag)):
+                            if(p[i:i+len(temp_tag)].upper() == temp_tag.upper()):
+                                self.content_p += p[:i-1]+"<strong> " + \
+                                    p[i:i+len(temp_tag)]+"</strong>"
+                                i = i+len(temp_tag)
+
+                self.content_p += "</p>\n"
+
+            # FIX
+
+            
         self.content_images = ""
         for img in self.images:
-            self.content_images += "<ContentImage src=\"" + \
-                img + "\" alt=\""+self.alt+"\" note=\"\"/>\n"
+            if(len(img) > 5):
+                self.content_images += "<ContentImage src=\"" + \
+                    img + "\" alt=\""+self.alt+"\" note=\"\"/>\n"
 
         self.filename = self.timeCombine+"-"+self.link+".js"
         self.imagename = self.timeCombine+"-"+self.link
@@ -314,24 +372,14 @@ class GetSource:
         self.routeImport = "export { default as  " + \
             self.component+" } from \""+filepath+"\";"
 
-        self.routeItem = "<Route exact path=\"/" + \
-            self.link+"\" component={pages."+self.component+"}/>"
+        self.routeItem = "<Route exact path=\"/" + self.link + \
+            "\" component={pages."+self.component+"}/>"
 
-        self.data = "<ContentItem title=\""+self.title+"\"\description=\""+self.description + \
-            "\" \nsrc=\"" + \
-            self.images[0]+"\" \nalt=\""+self.alt+"\" \ncategory=\""+self.category + \
-            "\" \ntime=\""+self.timestamp+"\" \nlink=\"/"+self.link+"\"/>"
-
-        self.data_const = "{title:\""+self.title+"\",\description:\""+self.description + \
-            "\" ,\nsrc:\"" + \
-            self.images[0]+"\" ,\nalt:\""+self.alt+"\" ,\ncategory:\""+self.category + \
-            "\" ,\ntime:\""+self.timestamp+"\" ,\nlink:\"/"+self.link + \
-            "\",component:\""+self.component+"\",\nfilepath:\""+filepath+"\"},"
-
-        self.data_google_sheet = self.title+"\n"+self.description+"\n" + \
-            self.images[0]+"\n"+self.alt+"\n"+self.category+"\n" + \
-            self.format_date+"\n"+self.format_time+"\n/" + \
-            self.link+"\n"+self.component+"\n"+filepath+"\n"
+        print(self.images[0])
+        self.data = "{\n\"timestamp\": "+self.timestamp+"\",\n\"title\": "+self.title+"\",\n\"description\": "+self.description+"\",\n\"src\": " +\
+            self.images[0] + "\",\n\"alt\": "+self.alt+"\",\n\"category\": "+self.category+"\",\n\"date\": "+self.format_date+"\",\n\"time\": " +\
+            self.format_time+"\",\n\"link\": \"/"+self.link+"\",\n\"zcomponent\": " +\
+            self.component+"\",\n\"filepath\": "+filepath+"\"\n}"
 
         data_json = {"timestamp": self.timestamp,
                      "title": self.title,
@@ -348,43 +396,47 @@ class GetSource:
         database_json.append(data_json)
 
     def downloadImages(self):
-        chunk_size = 1024
-        count = 10
-        for url in self.images:
-            if(url[:4] == "blob"):
-                continue
-            templist = url.split('/')
-            formatType = templist[len(templist)-1]
-            if(len(formatType) > 10):
-                formatType = formatType[len(formatType)-10:]
+        try:
+            chunk_size = 1024
+            count = 10
+            for url in self.images:
+                if(url[:4] == "blob"):
+                    continue
+                templist = url.split('/')
+                formatType = templist[len(templist)-1]
+                if(len(formatType) > 10):
+                    formatType = formatType[len(formatType)-10:]
 
-            while True:
-                filename = path_storage_images+self.imagename+"-" + \
-                    str(count)+"-"+formatType
-                if not os.path.exists(filename):
-                    break
-                else:
-                    count += 1
-            try:
-                req = requests.get(url, stream=True)
-                total_size = int(req.headers['content-length'])
+                while True:
+                    filename = path_storage_images+self.imagename+"-" + \
+                        str(count)+"-"+formatType
+                    if not os.path.exists(filename):
+                        break
+                    else:
+                        count += 1
+                try:
+                    req = requests.get(url, stream=True)
+                    total_size = int(req.headers['content-length'])
 
-                with open(filename, "wb") as file:
-                    for data in tqdm(iterable=req.iter_content(chunk_size=chunk_size), total=total_size/chunk_size, unit='KB'):
-                        file.write(data)
-                print("Download Completed !!!")
-            except Exception as e:
-                print("[!] dowload images error")
-                print(e)
-                print("[!] Try to download again")
-                with open(filename, 'wb') as f:
-                    f.write(req.content)
-                print("Download Completed !!!")
-            count += 1
+                    with open(filename, "wb") as file:
+                        for data in tqdm(iterable=req.iter_content(chunk_size=chunk_size), total=total_size/chunk_size, unit='KB'):
+                            file.write(data)
+                    print("Download Completed !!!")
+                except Exception as e:
+                    print("[!] dowload images error")
+                    print(e)
+                    print("[!] Try to download again")
+                    with open(filename, 'wb') as f:
+                        f.write(req.content)
+                    print("Download Completed !!!")
+                count += 1
+        except:
+            None
 
-    def writing2files(self):
+    def writing2filesOrigin(self):
         print("[!] Writing ...")
-        fw = open('./content/'+self.filename, 'w', encoding="utf-8")
+        fw = open('./content/' +
+                  self.filename, 'w', encoding="utf-8")
         print(self.filename)
         # print("\n")
 
@@ -394,8 +446,6 @@ class GetSource:
         fr.close()
 
         fw.write(self.data+"\n\n")
-        fw.write(self.data_const+"\n\n")
-        fw.write(self.data_google_sheet+"\n\n")
         # print(self.data)
         # print("\n")
 
@@ -432,32 +482,89 @@ class GetSource:
 
         fw.close()
 
-        fa = open('./database/SetupRoute.js', 'a')
+        fa = open('./content/SetupRoute.js', 'a')
         fa.write(self.routeItem+"\n")
         fa.close()
 
-        fa = open('../src/storages/content/index.js', 'a')
+        fa = open('./content/index.js', 'a')
         fa.write(self.routeImport+"\n")
         fa.close()
-        # print(self.routeImport)
+
+        print("[*] Write to data_json.json")
+        write_json(filepath_data_json, database_json)
+
+    def writing2files(self):
+        print("[!] Writing ...")
+        fw = open('../src/storages/content/' + self.current_year +
+                  '/'+self.current_month+"/" +
+                  self.filename, 'w', encoding="utf-8")
+        print(self.filename)
         # print("\n")
 
-        # print(self.routeItem)
+        fr = open('./parts/part01.txt', 'r')
+        for line in fr:
+            fw.write(line)
+        fr.close()
+
+        fw.write(self.data+"\n\n")
+        # print(self.data)
         # print("\n")
 
-        print("[*] Write to data.txt")
-        fa = open('./database/data.txt', 'a', encoding="utf-8")
-        fa.write(self.data+"\n")
-        fa.close()
+        fr = open('./parts/part02.txt', 'r')
+        for line in fr:
+            fw.write(line)
+        fr.close()
 
-        print("[*] Write to data_const.txt")
-        fa = open('./database/data_const.txt', 'a', encoding="utf-8")
-        fa.write(self.data_const+"\n")
-        fa.close()
+        fw.write(self.pageConstValue)
+        print(self.pageConstValue)
+        # print("\n")
 
-        print("[*] Write to data_google_sheet.txt")
-        fa = open('./database/data_google_sheet.txt', 'a', encoding="utf-8")
-        fa.write(self.data_google_sheet+"\n")
+        fr = open('./parts/part03.txt', 'r')
+        for line in fr:
+            fw.write(line)
+        fr.close()
+
+        fw.write(self.component)
+
+        fr = open('./parts/part04.txt', 'r')
+        for line in fr:
+            fw.write(line)
+        fr.close()
+
+        fw.write(self.content_p)
+        fw.write(self.content_images)
+        print("Paragraphs: "+str(len(self.ps)))
+        print("Images: "+str(len(self.images)))
+
+        fr = open('./parts/part05.txt', 'r')
+        for line in fr:
+            fw.write(line)
+        fr.close()
+
+        fw.close()
+
+        '''
+        fa = open('./database/SetupRoute.js', 'a')
+        fa.write(self.routeItem+"\n")
+        fa.close()
+        '''
+
+        fr = open("../src/components/routePages.js", 'r')
+
+        string_routePage = ''
+        for line in fr:
+            string_routePage += line
+            for i in range(0, len(line)):
+                if(line[i:i+len('<></>')] == '<></>'):
+                    string_routePage += "\n"+self.routeItem+"\n"
+                    break
+        fw = open("../src/components/routePages.js", 'w')
+        fw.write(string_routePage)
+        fw.close()
+
+        fa = open('../src/storages/content/'+self.current_year +
+                  '/'+self.current_month+'/index.js', 'a')
+        fa.write(self.routeImport+"\n")
         fa.close()
 
         print("[*] Write to data_json.json")

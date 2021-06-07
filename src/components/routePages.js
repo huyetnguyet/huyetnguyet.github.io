@@ -16,6 +16,84 @@ export default function routePages() {
       <Route exact path="/news" component={News} />
       <Route exact path="/tech" component={Tech} />
       <></>
+
+      <Route
+        exact
+        path="/anh-team-qua-duong-huyen-thoai-cua-jennie-cam-thuong-ma-dep-khong-che-noi-chac-moi-sang-thich-lam-khi-tu-soi-guong"
+        component={pages.page_20210607003803}
+      />
+
+      <Route
+        exact
+        path="/cuc-tinh-y-e-ap-ben-phi-cong-moi-luu-diec-phi-ve-nha-cung-tran-hieu-sau-tham-hoa-mulan-o-le-ky-niem-10-nam-tencent"
+        component={pages.page_20210607003747}
+      />
+
+      <Route
+        exact
+        path="/song-ji-hyo-bat-ngo-nhay-bo-om-chat-jong-kook-thuyen-spartace-lan-nua-ra-khoi"
+        component={pages.page_20210607003730}
+      />
+
+      <Route
+        exact
+        path="/nu-streamer-dang-hinh-khoe-giam-can-thanh-cong-nhung-vong-1-lon-bat-thuong-lai-phan-chu"
+        component={pages.page_20210607003706}
+      />
+
+      <Route
+        exact
+        path="/cap-nhat-su-kien-khung-thap-quang-thinh-dien-duong-mich-sexy-het-nac-luu-diec-phi-gay-that-vong-vi-du-chat-so-voi-cuc-tinh-y"
+        component={pages.page_20210607003652}
+      />
+
+      <Route
+        exact
+        path="/dau-truong-chan-ly-3-combo-hoan-hao-giua-cac-quan-co-item-giup-game-thu-ha-guc-doi-phuong-de-dang"
+        component={pages.page_20210607003603}
+      />
+
+      <Route
+        exact
+        path="/dau-truong-chan-ly-khong-phai-dieu-tot-kho-vu-khi-kha-nang-se-con-dao-hai-luoi-doi-voi-game-thu"
+        component={pages.page_20210607003553}
+      />
+
+      <Route
+        exact
+        path="/nhung-mau-chuyen-cam-dong-khien-fan-cung-doraemon-phai-bat-khoc"
+        component={pages.page_20210607003540}
+      />
+
+      <Route
+        exact
+        path="/lmht-co-gang-sua-loi-cua-phep-trung-phat-nhung-riot-games-lai-vo-tinh-tao-ra-them-3-bug-moi"
+        component={pages.page_20210607003527}
+      />
+
+      <Route
+        exact
+        path="/cong-dong-steam-phat-sot-voi-game-sinh-ton-moi-toan-diem-9-voi-10-lai-con-mien-phi-100"
+        component={pages.page_20210607003313}
+      />
+
+      <Route
+        exact
+        path="/vao-vai-co-hau-gai-sexy-nu-streamer-thu-hut-su-chu-y-cua-nam-huan-luyen-vien-tuyen-lien-quan-noi-tieng"
+        component={pages.page_20210607002607}
+      />
+
+      <Route
+        exact
+        path="/lee-kwang-soo-va-hanh-trinh-o-running-man-khoi-dau-bang-nuoc-mua-ket-thuc-dam-nuoc-mat"
+        component={pages.page_20210606074256}
+      />
+      <Route
+        exact
+        path="/canh-nong-bi-nghi-that-100-lam-thang-duy-bi-phong-sat-vo-chong-luong-trieu-vy-luc-duc-nu-chinh-co-chia-se-gay-soc"
+        component={pages.page_20210606074311}
+      />
+
       <Route
         exact
         path="/dich-le-nhiet-ba-lai-len-top1-tim-kiem-vi-qua-dep-mat-hinh-the-deu-vang-muoi"

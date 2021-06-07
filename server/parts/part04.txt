@@ -20,8 +20,7 @@
           </div>
           <div className="info">
             <p>
-              <div className="author">{author}</div> - Theo {source} | {date}{" "}
-              {time}
+              <div className="author">{author}</div> - Theo {source} | {timestamp}
             </p>
           </div>
           <FacebookShareButton link={facebookLinkShare} />
