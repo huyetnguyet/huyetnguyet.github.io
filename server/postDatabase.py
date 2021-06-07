@@ -6,7 +6,7 @@ from os import write
 from requests.api import get
 from methods_json import load_json, write_json
 from datetime import datetime
-
+import sys
 import requests
 
 api_key = input("sheet.best api-key: ")
@@ -31,7 +31,9 @@ def getDataFromGoogleSheet():
     print("[*] Getting database from google sheet")
     response = sg_get()
     data = response.json()
+    data = sorted(data, key=lambda d: d["zcomponent"], reverse=True)
     print("Database: " + str(len(data)))
+
     fw = open('../src/storages/database.js', 'w', encoding="utf-8")
 
     count = 1

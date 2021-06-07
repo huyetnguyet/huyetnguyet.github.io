@@ -347,15 +347,19 @@ class GetSource:
                     if(len(p) > len(temp_tag)*2):
                         for i in range(0, len(p)-len(temp_tag)):
                             if(p[i:i+len(temp_tag)].upper() == temp_tag.upper()):
-                                self.content_p += p[:i-1]+"<strong> " + \
-                                    p[i:i+len(temp_tag)]+"</strong>"
+                                p = p[:i]+"<strong>" + \
+                                    p[i:i+len(temp_tag)]+"</strong>" + \
+                                    p[i+len(temp_tag):]
                                 i = i+len(temp_tag)
 
+                                print("["+temp_tag+"]")
+                                print(p)
+                                break
+                self.content_p += p
                 self.content_p += "</p>\n"
 
             # FIX
 
-            
         self.content_images = ""
         for img in self.images:
             if(len(img) > 5):

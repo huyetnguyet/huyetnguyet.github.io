@@ -55,6 +55,8 @@
   object-fit: cover;
 }
 
+.featuredSection .featuredText {
+}
 .featuredSection .featuredText h4,
 p {
   font-family: Tahoma, Verdana, Segoe, sans-serif;

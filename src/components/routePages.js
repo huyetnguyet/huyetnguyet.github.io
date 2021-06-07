@@ -17,6 +17,16 @@ export default function routePages() {
       <Route exact path="/tech" component={Tech} />
       <></>
 
+<Route exact path="/dau-truong-chan-ly-toc-thay-ma-va-kayle-nhan-nhung-nerf-vo-cung-nang-ne-tu-riot-tai-ban-1112" component={pages.page_20210607104018}/>
+
+<Route exact path="/thien-than-eimi-fukada-hot-hoang-khi-bi-fan-phat-hien-dia-chi-nha-trong-dem-phai-chuyen-di-ngay-tap-lu" component={pages.page_20210607104004}/>
+
+<Route exact path="/fan-xuc-dong-khi-biet-y-nghia-day-so-tren-ao-lee-kwang-soo-trong-tap-cuoi-ghi-hinh-running-man" component={pages.page_20210607103948}/>
+
+<Route exact path="/dien-vay-xe-nguc-sau-tao-bao-duong-mich-khien-nguoi-tinh-hua-khai-boi-roi-khong-dam-nhin-ngay-tren-san-khau" component={pages.page_20210607103935}/>
+
+<Route exact path="/game-mobile-fanmade-cua-viet-nam-dung-top-1-bxh-cong-game-noi-tieng-trung-quoc-vuot-qua-ca-dtcl-mobile" component={pages.page_20210607103429}/>
+
       <Route
         exact
         path="/anh-team-qua-duong-huyen-thoai-cua-jennie-cam-thuong-ma-dep-khong-che-noi-chac-moi-sang-thich-lam-khi-tu-soi-guong"
