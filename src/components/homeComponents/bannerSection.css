@@ -37,6 +37,7 @@
 .bannerSection img {
   width: 334px;
   height: 228px;
+  object-fit: cover;
 }
 
 .bannerSection .contentText {
@@ -57,4 +58,6 @@
   padding: 0 30px;
   display: block;
   font-weight: 500;
+  color: rgb(243, 225, 225);
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }

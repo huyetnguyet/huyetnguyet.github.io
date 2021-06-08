@@ -17,15 +17,143 @@ export default function routePages() {
       <Route exact path="/tech" component={Tech} />
       <></>
 
-<Route exact path="/dau-truong-chan-ly-toc-thay-ma-va-kayle-nhan-nhung-nerf-vo-cung-nang-ne-tu-riot-tai-ban-1112" component={pages.page_20210607104018}/>
+      <Route
+        exact
+        path="/bo-tien-ve-tuan-anh-con-toi-nhieu-lan-chan-thuong-roi-nhin-indonesia-da-the-thay-so-qua"
+        component={pages.page_20210607183934}
+      />
 
-<Route exact path="/thien-than-eimi-fukada-hot-hoang-khi-bi-fan-phat-hien-dia-chi-nha-trong-dem-phai-chuyen-di-ngay-tap-lu" component={pages.page_20210607104004}/>
+      <Route
+        exact
+        path="/ca-mxh-khong-ngu-de-co-vu-dt-viet-nam-da-bong-gay-can-qua-roi"
+        component={pages.page_20210607183917}
+      />
 
-<Route exact path="/fan-xuc-dong-khi-biet-y-nghia-day-so-tren-ao-lee-kwang-soo-trong-tap-cuoi-ghi-hinh-running-man" component={pages.page_20210607103948}/>
+      <Route
+        exact
+        path="/cau-thu-indonesia-chap-tay-xin-loi-tuan-anh-trong-duong-ham-vi-pham-loi-nguy-hiem"
+        component={pages.page_20210607183906}
+      />
 
-<Route exact path="/dien-vay-xe-nguc-sau-tao-bao-duong-mich-khien-nguoi-tinh-hua-khai-boi-roi-khong-dam-nhin-ngay-tren-san-khau" component={pages.page_20210607103935}/>
+      <Route
+        exact
+        path="/chum-anh-oi-gioi-oi-van-hau-dep-trai-qua"
+        component={pages.page_20210607183855}
+      />
 
-<Route exact path="/game-mobile-fanmade-cua-viet-nam-dung-top-1-bxh-cong-game-noi-tieng-trung-quoc-vuot-qua-ca-dtcl-mobile" component={pages.page_20210607103429}/>
+      <Route
+        exact
+        path="/chung-kien-cau-thu-indonesia-lien-tuc-vao-bong-triet-ha-nam-vuong-boxing-truong-dinh-hoang-hien-ke-cho-thay-tro-hlv-park-hang-seo"
+        component={pages.page_20210607183844}
+      />
+
+      <Route
+        exact
+        path="/day-dich-thi-la-bo-vay-kem-duyen-nhat-cbiz-hom-qua-lai-con-tong-teng-1-vat-o-ngay-cho-nhay-cam"
+        component={pages.page_20210607183825}
+      />
+
+      <Route
+        exact
+        path="/duy-manh-bop-co-cau-thu-indonesia-sau-pha-pham-loi-nguy-hiem-voi-tuan-anh"
+        component={pages.page_20210607183631}
+      />
+
+      <Route
+        exact
+        path="/fan-viet-nam-che-loat-anh-hai-huoc-sau-tran-thang-indonesia"
+        component={pages.page_20210607183618}
+      />
+
+      <Route
+        exact
+        path="/nga-ngua-nhan-sac-that-cua-dan-sao-o-su-kien-thap-quang-nhiet-ba-gay-soc-vi-da-chay-xe-luu-diec-phi-gay-that-vong-tran-tre"
+        component={pages.page_20210607183602}
+      />
+
+      <Route
+        exact
+        path="/nhiet-ba-ngay-cang-tao-bao-toi-ngop-tho-het-khoe-lung-tran-sexy-lai-bat-lu-voi-vay-xuyen-thau-khoe-vong-1-cang-tran"
+        component={pages.page_20210607183550}
+      />
+
+      <Route
+        exact
+        path="/nhin-nhiet-ba-ganh-tam-vay-nhin-ma-phat-ngot-nay-ta-nhu-hieu-duoc-tam-quan-trong-cua-nhan-sac-trong-chuyen-an-mac"
+        component={pages.page_20210607183535}
+      />
+
+      <Route
+        exact
+        path="/nhung-khoanh-khac-tuyet-dep-cua-tuyen-viet-nam-khien-nguoi-ham-mo-do-ran-ran"
+        component={pages.page_20210607183435}
+      />
+
+      <Route
+        exact
+        path="/noi-cau-truoc-trong-tai-nhung-hlv-park-hang-seo-vo-cung-tinh-cam-om-hoc-tro-sau-tran-thang-indonesia"
+        component={pages.page_20210607183422}
+      />
+
+      <Route
+        exact
+        path="/tien-linh-cau-thu-mlem-mlem-chua-co-bo-hot-nhat-hom-nay-la-ai"
+        component={pages.page_20210607183406}
+      />
+
+      <Route
+        exact
+        path="/top-10-hoa-hau-thuc-ca-dem-co-vu-doan-van-hau-nhu-nay-khong-yeu-phi-qua"
+        component={pages.page_20210607183356}
+      />
+
+      <Route
+        exact
+        path="/tran-bong-qua-di-btv-bien-cuong-de-lai-ro-quote-day-khong-phai-bong-da-day-la-vo-thuat"
+        component={pages.page_20210607183344}
+      />
+
+      <Route
+        exact
+        path="/van-toan-duoc-dong-doi-cong-len-xe-tro-ve-khach-san-sau-tran-thang-indonesia"
+        component={pages.page_20210607183313}
+      />
+
+      <Route
+        exact
+        path="/xuc-dong-hinh-anh-tuyen-viet-nam-dat-tay-len-nguc-trai-thuc-hien-le-chao-co-sau-gan-2-nam-khong-thi-dau-quoc-te"
+        component={pages.page_20210607183256}
+      />
+
+      <Route
+        exact
+        path="/dau-truong-chan-ly-toc-thay-ma-va-kayle-nhan-nhung-nerf-vo-cung-nang-ne-tu-riot-tai-ban-1112"
+        component={pages.page_20210607104018}
+      />
+
+      <Route
+        exact
+        path="/thien-than-eimi-fukada-hot-hoang-khi-bi-fan-phat-hien-dia-chi-nha-trong-dem-phai-chuyen-di-ngay-tap-lu"
+        component={pages.page_20210607104004}
+      />
+
+      <Route
+        exact
+        path="/fan-xuc-dong-khi-biet-y-nghia-day-so-tren-ao-lee-kwang-soo-trong-tap-cuoi-ghi-hinh-running-man"
+        component={pages.page_20210607103948}
+      />
+
+      <Route
+        exact
+        path="/dien-vay-xe-nguc-sau-tao-bao-duong-mich-khien-nguoi-tinh-hua-khai-boi-roi-khong-dam-nhin-ngay-tren-san-khau"
+        component={pages.page_20210607103935}
+      />
+
+      <Route
+        exact
+        path="/game-mobile-fanmade-cua-viet-nam-dung-top-1-bxh-cong-game-noi-tieng-trung-quoc-vuot-qua-ca-dtcl-mobile"
+        component={pages.page_20210607103429}
+      />
 
       <Route
         exact

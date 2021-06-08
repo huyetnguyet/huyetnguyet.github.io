@@ -1,10 +1,10 @@
 import React from "react";
 import "./slider.css";
-import Photo01 from "../../asserts/homeSlider/assassin.png";
-import Photo02 from "../../asserts/homeSlider/battlefield.png";
-import Photo03 from "../../asserts/homeSlider/halo.png";
-import Photo04 from "../../asserts/homeSlider/crysis.png";
-import Photo05 from "../../asserts/homeSlider/need.png";
+import Photo01 from "../../asserts/homeSlider/slider01.jpg";
+import Photo02 from "../../asserts/homeSlider/slider02.jpg";
+import Photo03 from "../../asserts/homeSlider/slider03.jpg";
+import Photo04 from "../../asserts/homeSlider/slider04.jpg";
+import Photo05 from "../../asserts/homeSlider/slider05.jpg";
 
 const photos = [Photo01, Photo02, Photo03, Photo04, Photo05];
 const delay = 2500;
