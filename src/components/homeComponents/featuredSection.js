@@ -1,7 +1,7 @@
 import React from "react";
-import "./featuredSection.css";
-import { AdsFeaturdSection } from "../adsMethods";
-import { dataFeatured } from "../../storages/database";
+import "components/homeComponents/featuredSection.css";
+import { AdsFeaturdSection } from "components/adsMethods";
+import { dataFeatured } from "storages/database";
 
 function ContentItem(props) {
   return (

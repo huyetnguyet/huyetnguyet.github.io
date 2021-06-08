@@ -33,45 +33,45 @@
 }
 
 .footer h3 {
-  font-size: 16px;
-  line-height: 22px;
   color: #cf0606;
-  padding-top: 29px !important;
-  margin-bottom: 8px;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 3px;
   text-align: left;
   font-weight: bold;
+  padding-top: 29px !important;
+  letter-spacing: 3px;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 8px;
   margin-left: 8px;
 }
 
 .footer ul {
-  padding: 0;
-  margin: 0;
   list-style: none;
   text-align: left;
+  padding: 0;
+  margin: 0;
   margin-left: 20px;
 }
 
 .footer li {
   color: #fff;
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
   font: bold 12px/22px "Orbitron", sans-serif;
   letter-spacing: 3px;
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
 }
 
 .footer li:before {
   content: "";
+  display: block;
+  position: relative;
   border-color: transparent #6d6d6d;
   border-style: solid;
   border-width: 0.35em 0 0.35em 0.45em;
-  display: block;
   height: 0;
   width: 0;
   left: -1em;
   top: 15px;
-  position: relative;
 }
 
 .footer .current a {
@@ -90,4 +90,14 @@
   color: white;
   margin-top: 10px;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer .mobile {
+    display: none;
+  }
+
+  .footer .grip_6 {
+    width: 100%;
+  }
 }

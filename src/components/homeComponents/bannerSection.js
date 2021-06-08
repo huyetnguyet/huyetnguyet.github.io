@@ -1,5 +1,5 @@
 import React from "react";
-import "./bannerSection.css";
+import "components/homeComponents/bannerSection.css";
 
 import image01 from "asserts/homeSlider/banner01.jpg";
 import image02 from "asserts/homeSlider/banner02.jpg";

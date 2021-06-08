@@ -1,9 +1,9 @@
 import React from "react";
 
-import TopSection from "./homeComponents/topSection";
-import HomeContentSection from "./homeComponents/homeContentSection";
-import Navigation from "./navigation";
-import Footer from "./footer";
+import TopSection from "components/homeComponents/topSection";
+import HomeContentSection from "components/homeComponents/homeContentSection";
+import Navigation from "components/navigation";
+import Footer from "components/footer";
 
 export function ContentImage(props) {
   return (

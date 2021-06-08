@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./footer.css";
+import "components/footer.css";
 
 function Hot(props) {
   return (
@@ -19,7 +19,7 @@ export default class Footer extends Component {
       <div className="footer">
         <div class="foot_top">
           <div class="container_24">
-            <div class="grid_4">
+            <div class="grid_4 mobile">
               <h3>NAVIGATION</h3>
               <ul>
                 <div className="current">
@@ -42,7 +42,7 @@ export default class Footer extends Component {
               </ul>
             </div>
 
-            <div class="grid_14">
+            <div class="grid_14 mobile">
               <h3>Hot News:</h3>
               <ul class="list l1">
                 <Hot
@@ -85,20 +85,7 @@ export default class Footer extends Component {
         </div>
         <div class="container_24">
           <div class="grid_24">
-            <div class="copy">
-              <div class="socials">
-                <a href="#">
-                  <i class="icon-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="icon-facebook"></i>
-                </a>
-                <a href="#">
-                  <i class="icon-rss"></i>
-                </a>
-              </div>
-              huyetnguyet.com © 2020. <a href="#">Privacy Policy</a>
-            </div>
+            <div class="copy">huyetnguyet.com © 2020. Privacy Policy</div>
           </div>
         </div>
       </div>

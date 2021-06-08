@@ -1,14 +1,13 @@
 import React, { Component } from "react";
-import "./home.css";
 
-import TopSection from "./homeComponents/topSection";
-import Navigation from "./navigation";
-import Footer from "./footer";
+import TopSection from "components/homeComponents/topSection";
+import Navigation from "components/navigation";
+import Footer from "components/footer";
 
-import Slider from "./homeComponents/slider";
-import BannerSection from "./homeComponents/bannerSection";
-import FeaturedSection from "./homeComponents/featuredSection";
-import HomeContentSection from "./homeComponents/homeContentSection";
+import Slider from "components/homeComponents/slider";
+import BannerSection from "components/homeComponents/bannerSection";
+import FeaturedSection from "components/homeComponents/featuredSection";
+import HomeContentSection from "components/homeComponents/homeContentSection";
 
 import { AdsVertical } from "components/adsMethods";
 
@@ -21,10 +20,8 @@ export default class Home extends Component {
             <TopSection></TopSection>
           </div>
         </div>
-        <div id="navigation">
-          <div className="container">
-            <Navigation tab="home"></Navigation>
-          </div>
+        <div className="container">
+          <Navigation tab="home"></Navigation>
         </div>
         <div id="bodylayout">
           <div className="container">

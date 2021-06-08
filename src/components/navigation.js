@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./navigation.css";
+import "components/navigation.css";
 
 function checkTab(tab) {
   var navHome = document.getElementById("navHome");
