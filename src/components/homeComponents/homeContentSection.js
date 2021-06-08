@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Tabletop from "tabletop";
 
-import "./homeContentSection.css";
+import "components/homeComponents/homeContentSection.css";
 import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
-import { googleSheetKey } from "../../config/googleSheetMethod";
 
-import { dataContent } from "../../storages/database";
+import { dataContent } from "storages/database";
 
 function ContentItem(props) {
   return (
@@ -15,7 +14,7 @@ function ContentItem(props) {
       </a>
       <div className="itemContent">
         <a href={props.link}>
-          <h3>{props.title}</h3>
+          <h3>{props.title.substring(0, 60)}</h3>
         </a>
         <div className="timestamp">
           <h5>{props.category}</h5>
@@ -23,7 +22,7 @@ function ContentItem(props) {
             {props.date} {props.time}
           </div>
         </div>
-        <p>{props.description}</p>
+        <p>{props.description.substring(0, 100)}</p>
       </div>
     </div>
   );

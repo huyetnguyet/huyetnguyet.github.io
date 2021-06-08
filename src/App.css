@@ -5,9 +5,9 @@
 }
 
 * {
+  color: #000000;
   margin: 0;
   padding: 0;
-  color: #000000;
 }
 body {
   background: #000000;
@@ -23,33 +23,28 @@ a {
 }
 
 #topSection {
-  width: 100%;
   background-color: #a21514;
-}
-
-#navigation {
   width: 100%;
-  background-color: #1e1e1e;
 }
 
 #bodylayout {
-  width: 100%;
   background-image: linear-gradient(#000000, #a21515);
+  width: 100%;
 }
 
 .linespace {
+  background-color: #333;
   width: 100%;
   height: 6px;
-  background-color: #333;
 }
 
 .container {
   display: block;
   position: relative;
   text-align: center;
-  width: 1010px;
   margin-left: auto;
   margin-right: auto;
+  width: 1010px;
 }
 
 .containerContent {
@@ -78,11 +73,10 @@ a {
 }
 .ads-horizontal {
   float: right;
+  z-index: 999;
   margin-top: 20px;
   margin-right: 2%;
   width: 23%;
-
-  z-index: 999;
   height: 500px;
 }
 
@@ -92,13 +86,13 @@ a {
 }
 
 .ads-vertical-home {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-right: 1px solid #dadada;
   width: 700px;
   height: 200px;
   margin-left: 4%;
   margin-top: 20px;
-  border-top: 1px solid #dadada;
-  border-bottom: 1px solid #dadada;
-  border-right: 1px solid #dadada;
 }
 
 .ads-featured-section {
@@ -122,21 +116,21 @@ h1 {
 }
 
 .card {
-  width: 33%;
   display: inline-block;
   position: relative;
+  width: 33%;
 }
 
 .cardImg {
-  width: 232px;
-  height: 165px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
+  object-fit: cover;
+  width: 232px;
+  height: 165px;
   margin-top: 4px;
   margin-bottom: 16px;
-  object-fit: cover;
 }
 
 .cardText h4,
@@ -158,36 +152,49 @@ p {
 
 .cardBtn {
   float: left;
-  margin-left: 10px;
-  font: bold 12px/21px "Orbitron", sans-serif;
-  padding: 4px 12px;
+  position: relative;
   text-transform: uppercase;
   color: #fff;
-  background: url(./asserts/images/btn_bg.png) 0 0 repeat-x #930706;
+  background: url(asserts/images/btn_bg.png) 0 0 repeat-x #930706;
   border-bottom: 1px solid #c40a0a;
   border-radius: 5px 5px 0 0;
   margin-bottom: 5px;
-  position: relative;
   margin-top: 10px;
+  margin-left: 10px;
+  font: bold 12px/21px "Orbitron", sans-serif;
+  padding: 4px 12px;
 }
 
 .cardBtn:after {
   display: block;
-  bottom: -6px;
-  background: #373636;
-  height: 5px;
-  left: 0;
-  border-radius: 0 0 5px 5px;
-  right: 0;
-  position: absolute;
   content: "";
-}
-
-@media only screen and (min-width: 1420px) {
-}
-
-@media only screen and (max-width: 1420px) {
+  position: absolute;
+  background: #373636;
+  left: 0;
+  right: 0;
+  height: 5px;
+  bottom: -6px;
+  border-radius: 0 0 5px 5px;
 }
 
 @media only screen and (max-width: 1000px) {
+  .container {
+    max-width: 96%;
+    min-width: 450px;
+  }
+
+  .linespace {
+    display: none;
+  }
+
+  .ads-horizontal {
+    display: none;
+  }
+
+  .ads-vertical-home {
+    width: 96%;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
 }

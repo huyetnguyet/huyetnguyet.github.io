@@ -12,23 +12,23 @@
   float: left;
 }
 .topSection .search {
-  margin-top: 70px;
-  width: 100%;
-  height: 72px;
   position: relative;
   background-color: #393433;
+  width: 100%;
+  height: 72px;
+  margin-top: 70px;
 }
 
 .topSection input {
   float: right;
+  box-sizing: border-box;
+  background-color: #6c6d6b;
+  color: rgb(255, 255, 255);
   margin-top: 22px;
   padding: 7px 5px;
   border: 1px solid #6c6d6b;
   border-radius: 4px 0px 0px 4px;
-  box-sizing: border-box;
-  background-color: #6c6d6b;
   width: 20%;
-  color: rgb(255, 255, 255);
 }
 
 .topSection button {
@@ -42,7 +42,28 @@
   padding: 7px 0px;
   text-transform: uppercase;
   color: #fff;
-  background: url(../../asserts/images/btn_bg.png) 0 0 repeat-x #930706;
+  background: url(asserts/images/btn_bg.png) 0 0 repeat-x #930706;
   border-bottom: 1px solid #c40a0a;
   letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .topSection .logo {
+    margin-top: 10px;
+  }
+
+  .topSection .search {
+    height: 50px;
+    margin-top: 60px;
+    padding-top: 60px;
+  }
+
+  .topSection input {
+    margin-top: 0px;
+    width: 60%;
+  }
+
+  .topSection button {
+    margin-top: 0px;
+  }
 }

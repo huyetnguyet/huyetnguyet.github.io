@@ -1,40 +1,44 @@
 .homeContent {
   display: flex;
   position: relative;
-  background: url(../../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
-  width: 100%;
+  background: url(asserts/images/cont_bg.png) 0 0 repeat-x #fff;
   box-shadow: 0 5px 5px #000;
+
+  width: 100%;
   padding-bottom: 30px;
 }
 
 .homeContent .item {
-  width: 700px;
-  height: 200px;
-  margin-left: 4%;
   background-color: #e6e0de;
-  margin-top: 20px;
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   border-right: 1px solid #dadada;
+
+  width: 700px;
+  height: 200px;
+  margin-left: 4%;
+  margin-top: 20px;
 }
 
 .homeContent .img_inner {
-  width: 300px;
-  height: 200px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
+  object-fit: cover;
   float: left;
   display: inline-block;
-  object-fit: cover;
+
+  width: 300px;
+  height: 200px;
 }
 
 .homeContent .itemContent {
   display: inline-block;
+  z-index: 5;
+
   width: 400px;
   height: 200px;
-  z-index: 5;
 }
 
 .homeContent h3,
@@ -44,40 +48,86 @@ p {
 }
 
 .homeContent h3 {
-  text-align: left;
   display: block;
   position: relative;
+  text-align: left;
+
   margin: 10px;
 }
 
 .homeContent p {
+  float: left;
   display: block;
   position: relative;
+  font-family: "Times New Roman", Verdana, Segoe, sans-serif;
+
   bottom: 5px;
   margin-left: 4%;
-  float: left;
   margin-top: 10px;
-  font-family: "Times New Roman", Verdana, Segoe, sans-serif;
 }
 .homeContent .timestamp {
+  float: left;
   display: block;
   position: relative;
+
   bottom: 5px;
   margin-left: 4%;
-  float: left;
 }
 
 .homeContent .timestamp h5 {
   display: inline-block;
   text-transform: uppercase;
-
   text-align: left;
   color: #a21514;
 }
 .homeContent .timestamp .time {
   display: inline-block;
   text-align: left;
+  color: black;
+
   font-size: 10px;
   margin-left: 20px;
-  color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .homeContent .containerContent {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .homeContent .content {
+    width: 100%;
+  }
+
+  .homeContent .item {
+    width: 96%;
+    height: 200px;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+
+  .homeContent .img_inner {
+    width: 40vw;
+  }
+
+  .homeContent .itemContent {
+    width: 46vw;
+  }
+
+  .homeContent h3 {
+    margin: 5px;
+  }
+
+  .homeContent p {
+    margin-left: 2%;
+  }
+  .homeContent .timestamp {
+    margin-left: 2%;
+  }
+
+  .homeContent .timestamp .time {
+    font-size: 10px;
+    margin-left: 20px;
+  }
 }
