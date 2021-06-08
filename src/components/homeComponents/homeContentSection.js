@@ -14,7 +14,8 @@ function ContentItem(props) {
       </a>
       <div className="itemContent">
         <a href={props.link}>
-          <h3>{props.title.substring(0, 60)}</h3>
+          <h3 className="desktop">{props.title.substring(0, 70)}...</h3>
+          <h3 className="mobile">{props.title.substring(0, 40)}...</h3>
         </a>
         <div className="timestamp">
           <h5>{props.category}</h5>
@@ -22,7 +23,8 @@ function ContentItem(props) {
             {props.date} {props.time}
           </div>
         </div>
-        <p>{props.description.substring(0, 100)}</p>
+        <p className="desktop">{props.description.substring(0, 100)}</p>
+        <p className="mobile">{props.description.substring(0, 50)}</p>
       </div>
     </div>
   );

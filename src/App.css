@@ -89,6 +89,8 @@ a {
   border-top: 1px solid #dadada;
   border-bottom: 1px solid #dadada;
   border-right: 1px solid #dadada;
+
+  float: left;
   width: 700px;
   height: 200px;
   margin-left: 4%;
@@ -96,6 +98,7 @@ a {
 }
 
 .ads-featured-section {
+  display: block;
   content: "";
   height: 320px;
 }
@@ -179,16 +182,26 @@ p {
 
 @media only screen and (max-width: 1000px) {
   .container {
-    max-width: 96%;
-    min-width: 450px;
+    width: 100%;
+  }
+  #topSection {
+    width: 100%;
   }
 
   .linespace {
     display: none;
   }
 
+  .ads-vertical {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+
   .ads-horizontal {
-    display: none;
+    display: block;
+    position: relative;
+    width: 96%;
   }
 
   .ads-vertical-home {
@@ -196,5 +209,10 @@ p {
     height: 200px;
     margin-left: 2%;
     margin-top: 20px;
+  }
+  .ads-featured-section {
+    content: "";
+    max-height: 320px;
+    min-height: 200px;
   }
 }

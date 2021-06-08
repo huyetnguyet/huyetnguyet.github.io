@@ -2,6 +2,7 @@ import AdSense from "react-adsense";
 
 const client = "ca-pub-9670179252828195";
 const slot = "1992653961";
+
 export function AdsVertical() {
   return (
     <div className="ads-vertical">
@@ -38,8 +39,10 @@ export function AdsVerticalHomeContent() {
       <AdSense.Google
         client={client}
         slot={slot}
-        style={{ width: 700, height: 200, float: "left" }}
-        format=""
+        style={{ display: "block" }}
+        format="auto"
+        responsive="true"
+        layoutKey="-gw-1+2a-9x+5c"
       />
     </div>
   );

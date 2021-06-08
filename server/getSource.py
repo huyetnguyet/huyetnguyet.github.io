@@ -352,8 +352,8 @@ class GetSource:
                                     p[i+len(temp_tag):]
                                 i = i+len(temp_tag)
 
-                                print("["+temp_tag+"]")
-                                print(p)
+                                # print("["+temp_tag+"]")
+                                # print(p)
                                 break
                 self.content_p += p
                 self.content_p += "</p>\n"
@@ -379,16 +379,23 @@ class GetSource:
         self.routeItem = "<Route exact path=\"/" + self.link + \
             "\" component={pages."+self.component+"}/>"
 
-        print(self.images[0])
+        # print(self.images[0])
+
+        temp_src = ""
+        for img in self.images:
+            if(len(img) > 5):
+                temp_src = img
+                break
+
         self.data = "{\n\"timestamp\": "+self.timestamp+"\",\n\"title\": "+self.title+"\",\n\"description\": "+self.description+"\",\n\"src\": " +\
-            self.images[0] + "\",\n\"alt\": "+self.alt+"\",\n\"category\": "+self.category+"\",\n\"date\": "+self.format_date+"\",\n\"time\": " +\
+            temp_src + "\",\n\"alt\": "+self.alt+"\",\n\"category\": "+self.category+"\",\n\"date\": "+self.format_date+"\",\n\"time\": " +\
             self.format_time+"\",\n\"link\": \"/"+self.link+"\",\n\"zcomponent\": " +\
             self.component+"\",\n\"filepath\": "+filepath+"\"\n}"
 
         data_json = {"timestamp": self.timestamp,
                      "title": self.title,
                      "description": self.description,
-                     "src": self.images[0],
+                     "src": temp_src,
                      "alt": self.alt,
                      "category": self.category,
                      "date": self.format_date,
@@ -498,6 +505,7 @@ class GetSource:
         write_json(filepath_data_json, database_json)
 
     def writing2files(self):
+
         print("[!] Writing ...")
         fw = open('../src/storages/content/' + self.current_year +
                   '/'+self.current_month+"/" +
@@ -546,12 +554,6 @@ class GetSource:
         fr.close()
 
         fw.close()
-
-        '''
-        fa = open('./database/SetupRoute.js', 'a')
-        fa.write(self.routeItem+"\n")
-        fa.close()
-        '''
 
         fr = open("../src/components/routePages.js", 'r')
 

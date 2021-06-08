@@ -14,6 +14,7 @@
   border-bottom: 1px solid #dadada;
   border-right: 1px solid #dadada;
 
+  display: flex;
   width: 700px;
   height: 200px;
   margin-left: 4%;
@@ -89,7 +90,16 @@ p {
   margin-left: 20px;
 }
 
+.homeContent .mobile {
+  display: none;
+}
 @media only screen and (max-width: 1000px) {
+  .homeContent .desktop {
+    display: none;
+  }
+  .homeContent .mobile {
+    display: block;
+  }
   .homeContent .containerContent {
     display: block;
     position: relative;
@@ -97,6 +107,8 @@ p {
   }
 
   .homeContent .content {
+    display: block;
+    position: relative;
     width: 100%;
   }
 
@@ -108,11 +120,14 @@ p {
   }
 
   .homeContent .img_inner {
+    display: block;
+    position: relative;
     width: 40vw;
+    height: 200px;
   }
 
   .homeContent .itemContent {
-    width: 46vw;
+    width: 60%;
   }
 
   .homeContent h3 {
@@ -128,6 +143,6 @@ p {
 
   .homeContent .timestamp .time {
     font-size: 10px;
-    margin-left: 20px;
+    margin-left: 5px;
   }
 }
