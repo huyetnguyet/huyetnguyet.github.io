@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "./static/css/main.1a5dac28.chunk.css",
-    "main.js": "./static/js/main.631cee05.chunk.js",
-    "main.js.map": "./static/js/main.631cee05.chunk.js.map",
+    "main.css": "./static/css/main.826ae8e0.chunk.css",
+    "main.js": "./static/js/main.45bc15ec.chunk.js",
+    "main.js.map": "./static/js/main.45bc15ec.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.47ee87a5.js",
     "runtime-main.js.map": "./static/js/runtime-main.47ee87a5.js.map",
     "static/js/2.d669d479.chunk.js": "./static/js/2.d669d479.chunk.js",
     "static/js/2.d669d479.chunk.js.map": "./static/js/2.d669d479.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.1a5dac28.chunk.css.map": "./static/css/main.1a5dac28.chunk.css.map",
+    "static/css/main.826ae8e0.chunk.css.map": "./static/css/main.826ae8e0.chunk.css.map",
     "static/js/2.d669d479.chunk.js.LICENSE.txt": "./static/js/2.d669d479.chunk.js.LICENSE.txt",
-    "static/media/angrybirdsstarwars.9ab40a04.jpg": "./static/media/angrybirdsstarwars.9ab40a04.jpg",
-    "static/media/assassin.7c9d0512.png": "./static/media/assassin.7c9d0512.png",
-    "static/media/battlefield.c5deb841.png": "./static/media/battlefield.c5deb841.png",
-    "static/media/battlefield3.0988c58c.jpg": "./static/media/battlefield3.0988c58c.jpg",
-    "static/media/crysis.fc31f8dc.png": "./static/media/crysis.fc31f8dc.png",
-    "static/media/diablo.ca8598da.jpg": "./static/media/diablo.ca8598da.jpg",
-    "static/media/halo.82869815.png": "./static/media/halo.82869815.png",
+    "static/media/banner01.1a432730.jpg": "./static/media/banner01.1a432730.jpg",
+    "static/media/banner02.6dffaf13.jpg": "./static/media/banner02.6dffaf13.jpg",
+    "static/media/banner03.41854bc2.jpg": "./static/media/banner03.41854bc2.jpg",
     "static/media/linh-chichan-20210602(1).d4adf259.jpg": "./static/media/linh-chichan-20210602(1).d4adf259.jpg",
     "static/media/linh-chichan-20210602(2).63be75ad.jpg": "./static/media/linh-chichan-20210602(2).63be75ad.jpg",
     "static/media/linh-chichan-20210602(3).26ed8ca9.jpg": "./static/media/linh-chichan-20210602(3).26ed8ca9.jpg",
@@ -26,12 +22,16 @@
     "static/media/linh-chichan-20210602(7).c80e6b9a.jpg": "./static/media/linh-chichan-20210602(7).c80e6b9a.jpg",
     "static/media/linh-chichan-20210602(8).1a197321.png": "./static/media/linh-chichan-20210602(8).1a197321.png",
     "static/media/logo.eff852f2.png": "./static/media/logo.eff852f2.png",
-    "static/media/need.ac4bc137.png": "./static/media/need.ac4bc137.png"
+    "static/media/slider01.1a432730.jpg": "./static/media/slider01.1a432730.jpg",
+    "static/media/slider02.4e41027a.jpg": "./static/media/slider02.4e41027a.jpg",
+    "static/media/slider03.03fcb90c.jpg": "./static/media/slider03.03fcb90c.jpg",
+    "static/media/slider04.d19397aa.jpg": "./static/media/slider04.d19397aa.jpg",
+    "static/media/slider05.8d00d1c3.jpg": "./static/media/slider05.8d00d1c3.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.47ee87a5.js",
     "static/js/2.d669d479.chunk.js",
-    "static/css/main.1a5dac28.chunk.css",
-    "static/js/main.631cee05.chunk.js"
+    "static/css/main.826ae8e0.chunk.css",
+    "static/js/main.45bc15ec.chunk.js"
   ]
 }
