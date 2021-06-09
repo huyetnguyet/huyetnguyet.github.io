@@ -20,6 +20,8 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/loat-cac-vu-khi-tran-phai-cua-cac-vo-tuong-trong-dynasty-warriors" component={pages.page_20210609094259}/>
+
       <Route
         exact
         path="/truc-tiep-tu-uae-hinh-anh-buoi-tap-dau-tien-cua-tuyen-viet-nam-sau-tran-gap-indonesia-nin-tho-huong-ve-tuan-anh-van-toan"
