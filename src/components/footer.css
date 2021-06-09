@@ -57,7 +57,7 @@
 .footer li {
   color: #fff;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
-  font: bold 12px/22px "Orbitron", sans-serif;
+  font: bold 12px/22px Tahoma, sans-serif;
   letter-spacing: 3px;
 }
 

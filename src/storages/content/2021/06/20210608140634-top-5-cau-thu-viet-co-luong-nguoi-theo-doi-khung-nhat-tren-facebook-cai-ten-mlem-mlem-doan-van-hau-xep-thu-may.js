@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.css";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -102,6 +106,8 @@ export default function page_20210608140634() {
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
+                <div id="grad1"></div>
                 <div className="contentBody">
                   <p>
                     Đêm ngày 7/6, đội tuyển Việt Nam chính thức giành chiến
@@ -113,6 +119,7 @@ export default function page_20210608140634() {
                     người dân trên cả nước. Người theo dõi Facebook của các cầu
                     thủ trong đội tuyển Việt Nam cũng tăng lên đáng kể.
                   </p>
+                  <RelationNewsInPage />
                   <p>
                     Dưới đây là 5 cầu thủ Việt Nam hiện đang có mặt trong đội
                     tuyển tham gia thi đấu vòng loại World Cup có lượng người

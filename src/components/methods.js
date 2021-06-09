@@ -1,7 +1,37 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
+
+import { dataContent, dataContent02 } from "storages/database";
 
 export function RandomFeature() {
-  return <div></div>;
+  var randomNumber = Math.floor(Math.random() * dataContent02.length);
+  var obj = dataContent02[randomNumber];
+  return (
+    <div className="randomFeature">
+      <a href={obj.link}>
+        <h3>{obj.title}</h3>
+      </a>
+    </div>
+  );
+}
+
+export function RelationNews(props) {
+  var count = 0;
+  return (
+    <div className="relationNews">
+      <ul>
+        {dataContent.map((obj) => {
+          if (obj.category === props.category && count < 3) {
+            count += 1;
+            return <li>{obj.title}</li>;
+          }
+        })}
+      </ul>
+    </div>
+  );
+}
+
+export function RelationNewsInPage(props) {
+  return <div class="RelationNewsInPage"></div>;
 }
 
 function ContentItem(props) {

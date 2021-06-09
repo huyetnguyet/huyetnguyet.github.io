@@ -5,6 +5,8 @@ import HomeContentSection from "components/homeComponents/homeContentSection";
 import Navigation from "components/navigation";
 import Footer from "components/footer";
 
+import { AdsHorizontal } from "components/adsMethods";
+
 export function ContentImage(props) {
   return (
     <div>
@@ -72,6 +74,36 @@ export function Tabs({ children }) {
       </div>
       <div id="bodylayout">
         <div className="container">{children}</div>
+        <div className="container">
+          <Footer></Footer>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export function Pages({ children }) {
+  return (
+    <>
+      <div id="topSection">
+        <div className="container">
+          <TopSection></TopSection>
+        </div>
+      </div>
+      <div id="navigation">
+        <div className="container">
+          <Navigation tab=""></Navigation>
+        </div>
+      </div>
+      <div id="bodylayout">
+        <div className="container">
+          <div className="homeContent">
+            <div className="containerContent">
+              <AdsHorizontal />
+              <div className="content">{children} </div>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <Footer></Footer>
         </div>

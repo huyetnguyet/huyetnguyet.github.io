@@ -180,6 +180,32 @@ p {
   border-radius: 0 0 5px 5px;
 }
 
+.pagenavi {
+  margin-top: 20px;
+}
+.pagenaviBox {
+  display: inline;
+  border-style: solid;
+  color: white;
+  background-color: #292929;
+  border-width: 1px;
+  margin-right: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.pagenaviBox:hover {
+  background-color: #637e91;
+}
+
+.pageCurrent {
+  background-color: #a21514;
+  pointer-events: none;
+}
+
+.pageTotal {
+  pointer-events: none;
+}
+
 @media only screen and (max-width: 1000px) {
   .container {
     width: 100%;

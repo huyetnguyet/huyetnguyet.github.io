@@ -58,9 +58,25 @@ def getDataFromGoogleSheet():
                 "\",component: \""+obj['zcomponent'] + \
                 "\",filepath: \""+obj['filepath']+"\"},"
             fw.write(temp)
+        if(count == 50):
+            break
         count += 1
-    fw.write("]")
+    fw.write("]\n")
+
+    count = 1
+    fw.write("export const dataContent02=[")
+    for obj in data:
+        if(count > 50):
+            temp = "{title: \""+obj['title']+"\",description: \""+obj['description']+"\",src: \""+obj['src']+"\",alt: \""+obj['alt']+"\",category: \"" + \
+                obj['category']+"\",time: \""+obj['time']+"\",date: \""+obj['date']+"\",timestamp: \""+obj['timestamp']+"\",link: \""+obj['link'] + \
+                "\",component: \""+obj['zcomponent'] + \
+                "\",filepath: \""+obj['filepath']+"\"},"
+            fw.write(temp)
+        count += 1
+    fw.write("]\n")
+
     print("[*] Wrote database to database.js")
+    fw.close()
 
 
 def writeDataToGoogleSheet():

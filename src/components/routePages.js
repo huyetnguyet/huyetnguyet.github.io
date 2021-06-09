@@ -1,10 +1,12 @@
 import React from "react";
 import { BrowserRouter as Switch, Route } from "react-router-dom";
 
-import Home from "./home";
-import Games from "./games";
-import News from "./news";
-import Tech from "./tech";
+import Home from "components/home";
+import Games from "components/games";
+import News from "components/news";
+import Tech from "components/tech";
+
+import { Page02 } from "components/pages";
 
 import * as pages from "storages/content/2021/06";
 
@@ -15,39 +17,104 @@ export default function routePages() {
       <Route exact path="/games" component={Games} />
       <Route exact path="/news" component={News} />
       <Route exact path="/tech" component={Tech} />
+      <Route exact path="/page02" component={Page02} />
       <></>
 
-<Route exact path="/truc-tiep-tu-uae-hinh-anh-buoi-tap-dau-tien-cua-tuyen-viet-nam-sau-tran-gap-indonesia-nin-tho-huong-ve-tuan-anh-van-toan" component={pages.page_20210608140647}/>
+      <Route
+        exact
+        path="/truc-tiep-tu-uae-hinh-anh-buoi-tap-dau-tien-cua-tuyen-viet-nam-sau-tran-gap-indonesia-nin-tho-huong-ve-tuan-anh-van-toan"
+        component={pages.page_20210608140647}
+      />
 
-<Route exact path="/top-5-cau-thu-viet-co-luong-nguoi-theo-doi-khung-nhat-tren-facebook-cai-ten-mlem-mlem-doan-van-hau-xep-thu-may" component={pages.page_20210608140634}/>
+      <Route
+        exact
+        path="/top-5-cau-thu-viet-co-luong-nguoi-theo-doi-khung-nhat-tren-facebook-cai-ten-mlem-mlem-doan-van-hau-xep-thu-may"
+        component={pages.page_20210608140634}
+      />
 
-<Route exact path="/dan-trai-dep-u23-sau-3-nam-dong-loat-lay-vo-co-con-nhung-do-mlem-mlem-khong-he-suy-giam" component={pages.page_20210608140622}/>
+      <Route
+        exact
+        path="/dan-trai-dep-u23-sau-3-nam-dong-loat-lay-vo-co-con-nhung-do-mlem-mlem-khong-he-suy-giam"
+        component={pages.page_20210608140622}
+      />
 
-<Route exact path="/bao-thai-lan-bat-ngo-oan-trach-cho-rang-tuyen-viet-nam-qua-manh-khien-doi-nha-bi-loai" component={pages.page_20210608140609}/>
+      <Route
+        exact
+        path="/bao-thai-lan-bat-ngo-oan-trach-cho-rang-tuyen-viet-nam-qua-manh-khien-doi-nha-bi-loai"
+        component={pages.page_20210608140609}
+      />
 
-<Route exact path="/bao-indonesia-quay-sang-oan-trach-doi-nha-diem-mat-6-cai-ten-da-toi-nhat" component={pages.page_20210608140554}/>
+      <Route
+        exact
+        path="/bao-indonesia-quay-sang-oan-trach-doi-nha-diem-mat-6-cai-ten-da-toi-nhat"
+        component={pages.page_20210608140554}
+      />
 
-<Route exact path="/6-bi-kip-sieu-huu-ich-ma-ai-cung-can-hoc-vi-chung-co-the-cuu-lay-ban-vao-mot-ngay-nao-do" component={pages.page_20210608140543}/>
+      <Route
+        exact
+        path="/6-bi-kip-sieu-huu-ich-ma-ai-cung-can-hoc-vi-chung-co-the-cuu-lay-ban-vao-mot-ngay-nao-do"
+        component={pages.page_20210608140543}
+      />
 
-<Route exact path="/mua-chung-cu-72m2-vo-chong-moi-cuoi-tu-tay-thiet-ke-tung-goc-theo-phong-cach-han-quoc-choi-them-ca-be-ca-ban-cong" component={pages.page_20210608140529}/>
+      <Route
+        exact
+        path="/mua-chung-cu-72m2-vo-chong-moi-cuoi-tu-tay-thiet-ke-tung-goc-theo-phong-cach-han-quoc-choi-them-ca-be-ca-ban-cong"
+        component={pages.page_20210608140529}
+      />
 
-<Route exact path="/khi-cac-nu-streamer-viet-khoe-vong-mot-lap-lung-tu-than-thai-cho-den-do-quyen-ru-deu-khien-nguoi-xem-nghet-tho" component={pages.page_20210608140515}/>
+      <Route
+        exact
+        path="/khi-cac-nu-streamer-viet-khoe-vong-mot-lap-lung-tu-than-thai-cho-den-do-quyen-ru-deu-khien-nguoi-xem-nghet-tho"
+        component={pages.page_20210608140515}
+      />
 
-<Route exact path="/ngam-nhin-nhan-sac-tuyet-pham-cua-em-gai-quoc-dan-kudo-mio-nguoi-tung-hoa-than-thanh-sieu-nhan-hong" component={pages.page_20210608140447}/>
+      <Route
+        exact
+        path="/ngam-nhin-nhan-sac-tuyet-pham-cua-em-gai-quoc-dan-kudo-mio-nguoi-tung-hoa-than-thanh-sieu-nhan-hong"
+        component={pages.page_20210608140447}
+      />
 
-<Route exact path="/top-10-game-bong-da-hay-nhat-cho-anh-em-quay-quen-sau" component={pages.page_20210608140437}/>
+      <Route
+        exact
+        path="/top-10-game-bong-da-hay-nhat-cho-anh-em-quay-quen-sau"
+        component={pages.page_20210608140437}
+      />
 
-<Route exact path="/sbtc-esports-cong-bo-doi-hinh-tham-du-vcs-mua-he-2021-thay-giao-ba-phan-cau-xanh-roi-tru-hang-duoc-la-hay-roi" component={pages.page_20210608140425}/>
+      <Route
+        exact
+        path="/sbtc-esports-cong-bo-doi-hinh-tham-du-vcs-mua-he-2021-thay-giao-ba-phan-cau-xanh-roi-tru-hang-duoc-la-hay-roi"
+        component={pages.page_20210608140425}
+      />
 
-<Route exact path="/dau-truong-chan-ly-nhung-doi-hinh-ba-dao-dau-mua-nhung-su-dung-bay-gio-la-tu-huy-cuc-manh" component={pages.page_20210608140412}/>
+      <Route
+        exact
+        path="/dau-truong-chan-ly-nhung-doi-hinh-ba-dao-dau-mua-nhung-su-dung-bay-gio-la-tu-huy-cuc-manh"
+        component={pages.page_20210608140412}
+      />
 
-<Route exact path="/khong-o-ep-minh-trong-hinh-mau-idol-sexy-dai-tra-nu-streamer-chap-nhan-lam-nguoi-toi-co-tu-tin-voi-phong-cach-rieng" component={pages.page_20210608140402}/>
+      <Route
+        exact
+        path="/khong-o-ep-minh-trong-hinh-mau-idol-sexy-dai-tra-nu-streamer-chap-nhan-lam-nguoi-toi-co-tu-tin-voi-phong-cach-rieng"
+        component={pages.page_20210608140402}
+      />
 
-<Route exact path="/huong-dan-bao-ve-suc-khoe-di-kem-anh-bikini-goi-cam-nu-bac-si-xinh-dep-khien-cdm-phat-sot" component={pages.page_20210608140350}/>
+      <Route
+        exact
+        path="/huong-dan-bao-ve-suc-khoe-di-kem-anh-bikini-goi-cam-nu-bac-si-xinh-dep-khien-cdm-phat-sot"
+        component={pages.page_20210608140350}
+      />
 
-<Route exact path="/dau-truong-chan-ly-leo-rank-de-dang-hon-voi-meo-xoay-trang-bi-cho-chu-luc-tu-ky-thu-thach-dau" component={pages.page_20210608140340}/>
+      <Route
+        exact
+        path="/dau-truong-chan-ly-leo-rank-de-dang-hon-voi-meo-xoay-trang-bi-cho-chu-luc-tu-ky-thu-thach-dau"
+        component={pages.page_20210608140340}
+      />
 
-<Route exact path="/dau-truong-chan-ly-3-doi-hinh-bong-nhien-duoc-tin-dung-tro-lai-nho-kha-nang-khac-che-meta-thay-ma" component={pages.page_20210608140326}/>
+      <Route
+        exact
+        path="/dau-truong-chan-ly-3-doi-hinh-bong-nhien-duoc-tin-dung-tro-lai-nho-kha-nang-khac-che-meta-thay-ma"
+        component={pages.page_20210608140326}
+      />
 
       <Route
         exact

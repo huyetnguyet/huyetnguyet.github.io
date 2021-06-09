@@ -3,6 +3,7 @@ import Tabletop from "tabletop";
 
 import "components/homeComponents/homeContentSection.css";
 import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
+import { Pagenavi01 } from "components/pages";
 
 import { dataContent } from "storages/database";
 
@@ -30,36 +31,14 @@ function ContentItem(props) {
   );
 }
 
-class MainContent extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { count: 0 };
-  }
-  componentDidMount() {}
-
-  render() {
-    return (
-      <>
-        <AdsVerticalHomeContent />;
-        {dataContent.map((obj, i) => {
-          if ((i + 1) % 5 === 0) {
-            return (
-              <>
-                <ContentItem
-                  title={obj.title}
-                  description={obj.description}
-                  src={obj.src}
-                  alt={obj.alt}
-                  category={obj.category}
-                  date={obj.date}
-                  time={obj.time}
-                  link={obj.link}
-                />
-                <AdsVerticalHomeContent />;
-              </>
-            );
-          } else {
-            return (
+export function MainContent(props) {
+  return (
+    <>
+      <AdsVerticalHomeContent />;
+      {props.data.map((obj, i) => {
+        if ((i + 1) % 5 === 0) {
+          return (
+            <>
               <ContentItem
                 title={obj.title}
                 description={obj.description}
@@ -70,20 +49,36 @@ class MainContent extends React.Component {
                 time={obj.time}
                 link={obj.link}
               />
-            );
-          }
-        })}
-      </>
-    );
-  }
+              <AdsVerticalHomeContent />;
+            </>
+          );
+        } else {
+          return (
+            <ContentItem
+              title={obj.title}
+              description={obj.description}
+              src={obj.src}
+              alt={obj.alt}
+              category={obj.category}
+              date={obj.date}
+              time={obj.time}
+              link={obj.link}
+            />
+          );
+        }
+      })}
+    </>
+  );
 }
-export default function HomeContentSection() {
+
+export default function HomeContentSection(props) {
   return (
     <div className="homeContent">
       <div className="containerContent">
         <AdsHorizontal />
         <div className="content">
-          <MainContent></MainContent>
+          <MainContent data={dataContent}></MainContent>
+          <Pagenavi01 />
         </div>
       </div>
     </div>

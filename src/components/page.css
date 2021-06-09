@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap");
+
 .page {
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   display: block;
@@ -132,6 +134,7 @@
   background-color: #bcbcbc;
   border-radius: 5px;
   padding: 10px;
+
   margin-left: 5%;
   margin-bottom: 20px;
 }
@@ -155,6 +158,62 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.relationNews {
+  margin-left: 5%;
+}
+
+.relationNews li {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.relationNews ul li::marker {
+  content: "🧔🏾  ";
+  margin-right: 10px;
+}
+
+.relationNews ul li:hover::marker {
+  content: "🤯  ";
+}
+
+#grad1 {
+  height: 1px;
+  background-color: #a31413; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #a31413, #020101);
+  margin-top: 10px;
+}
+
+.relationNews .RelationNewsInPage {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73ad21;
+}
+
+.randomFeature {
+  margin-left: 5%;
+}
+
+.randomFeature h3 {
+  display: inline;
+  color: #4a1e19;
+}
+
+.randomFeature h3::before,
+.randomFeature h3::after {
+  color: #a31413;
+  font-size: 40px;
+  font-family: "Euphoria Script", cursive;
+}
+.randomFeature h3::before {
+  content: "<<  ";
+}
+.randomFeature h3::after {
+  content: "  >>";
 }
 
 @media only screen and (max-width: 1000px) {
