@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.css";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {RandomFeature} from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import {
   Content,

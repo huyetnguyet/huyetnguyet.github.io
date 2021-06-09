@@ -31,7 +31,19 @@ export function RelationNews(props) {
 }
 
 export function RelationNewsInPage(props) {
-  return <div class="RelationNewsInPage"></div>;
+  var count = 0;
+  return (
+    <div class="relationNewsInPage">
+      <ul>
+        {dataContent02.map((obj) => {
+          if (obj.category === props.category && count < 3) {
+            count += 1;
+            return <li>{obj.title}</li>;
+          }
+        })}
+      </ul>
+    </div>
+  );
 }
 
 function ContentItem(props) {

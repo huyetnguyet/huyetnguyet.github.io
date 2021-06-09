@@ -119,7 +119,7 @@ export default function page_20210608140634() {
                     người dân trên cả nước. Người theo dõi Facebook của các cầu
                     thủ trong đội tuyển Việt Nam cũng tăng lên đáng kể.
                   </p>
-                  <RelationNewsInPage />
+                  <RelationNewsInPage category={category} />
                   <p>
                     Dưới đây là 5 cầu thủ Việt Nam hiện đang có mặt trong đội
                     tuyển tham gia thi đấu vòng loại World Cup có lượng người

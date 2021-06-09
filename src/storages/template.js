@@ -1,10 +1,14 @@
 import React from "react";
 import "components/page.css";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 /* ---------------------------------------------------------------- */
 /*
 <ContentItem title="" 
@@ -97,7 +101,9 @@ export default function page_() {
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
+                  <RelationNewsInPage category={category} />
                   <></>
                 </div>
               </div>

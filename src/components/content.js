@@ -23,7 +23,6 @@ export function FacebookShareButton(props) {
         src={props.link}
         width="77"
         height="20"
-        style={{ border: "none", overflow: "hidden" }}
         scrolling="no"
         frameborder="0"
         allowfullscreen="true"

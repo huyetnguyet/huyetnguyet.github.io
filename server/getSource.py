@@ -311,12 +311,12 @@ class GetSource:
     def setupContent(self):
         self.makeNewURL_link(self.URL_link)
         self.getDateTime()
-        self.title = self.title.replace("\"", "'")
-        self.description = self.description.replace("\"", "'")
+        #self.title = self.title.replace("\"", "'")
+        #self.description = self.description.replace("\"", "'")
 
-        self.pageConstValue = "const category = \""+self.category+"\";\nconst categoryLink = \"/"+self.category+"\";\nconst title = \""+self.title+"\";\nconst author = \""+self.author+"\";\nconst source = \""+self.source + \
-            "\";\nconst timestamp = \""+self.timestamp+"\";\nconst description = \"" + \
-            self.description+"\";\nconst link = \""+self.link+"\";\nconst "+self.tags
+        self.pageConstValue = "const category = '"+self.category+"';\nconst categoryLink = '/"+self.category+"';\nconst title = '"+self.title+"';\nconst author = '"+self.author+"';\nconst source = '"+self.source + \
+            "';\nconst timestamp = '"+self.timestamp+"';\nconst description = '" + \
+            self.description+"';\nconst link = '"+self.link+"';\nconst "+self.tags
 
         print("Paragraph: "+str(len(self.ps)))
         print("Images: "+str(len(self.images)))
@@ -324,15 +324,16 @@ class GetSource:
 
         self.content_p = ""
         tempTags = self.getTagsFromString(self.tags)
+        temp_count = 0
         for p in self.ps:
             check_image = False
             # Add image between paragrapth
             for i in range(0, len(self.images_alt)):
                 if(p == self.images_alt[i]):
                     try:
-                        self.content_p += "<ContentImage src=\"" + \
-                            self.images[i] + "\" alt=\""+self.alt + \
-                            "\" note=\""+self.images_alt[i]+"\"/>\n"
+                        self.content_p += "<ContentImage src='" + \
+                            self.images[i] + "' alt='"+self.alt + \
+                            "' note='"+self.images_alt[i]+"'/>\n"
                         self.images[i] = ""
                         check_image = True
                     except:
@@ -358,13 +359,16 @@ class GetSource:
                 self.content_p += p
                 self.content_p += "</p>\n"
 
+            if(temp_count == 0):
+                self.content_p += '<RelationNewsInPage category={category} />'
+            temp_count += 1
             # FIX
 
         self.content_images = ""
         for img in self.images:
             if(len(img) > 5):
-                self.content_images += "<ContentImage src=\"" + \
-                    img + "\" alt=\""+self.alt+"\" note=\"\"/>\n"
+                self.content_images += "<ContentImage src='" + \
+                    img + "' alt='"+self.alt+"' note=''/>\n"
 
         self.filename = self.timeCombine+"-"+self.link+".js"
         self.imagename = self.timeCombine+"-"+self.link
@@ -387,10 +391,10 @@ class GetSource:
                 temp_src = img
                 break
 
-        self.data = "{\n\"timestamp\": "+self.timestamp+"\",\n\"title\": "+self.title+"\",\n\"description\": "+self.description+"\",\n\"src\": " +\
-            temp_src + "\",\n\"alt\": "+self.alt+"\",\n\"category\": "+self.category+"\",\n\"date\": "+self.format_date+"\",\n\"time\": " +\
-            self.format_time+"\",\n\"link\": \"/"+self.link+"\",\n\"zcomponent\": " +\
-            self.component+"\",\n\"filepath\": "+filepath+"\"\n}"
+        self.data = "{\n\"timestamp\": '"+self.timestamp+"',\n\"title\": '"+self.title+"',\n\"description\": '"+self.description+"',\n\"src\": '" +\
+            temp_src + "',\n\"alt\": '"+self.alt+"',\n\"category\": '"+self.category+"',\n\"date\": '"+self.format_date+"',\n\"time\": '" +\
+            self.format_time+"',\n\"link\": '/"+self.link+"',\n\"zcomponent\": '" +\
+            self.component+"',\n\"filepath\": '"+filepath+"'\n}"
 
         data_json = {"timestamp": self.timestamp,
                      "title": self.title,

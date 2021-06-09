@@ -61,6 +61,10 @@
   letter-spacing: 3px;
 }
 
+.footer li:hover {
+  color: #cf0606;
+}
+
 .footer li:before {
   content: "";
   display: block;
