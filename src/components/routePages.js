@@ -20,6 +20,12 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/top-5-meo-giup-dan-pc-yeu-quy-mat-me-quanh-nam" component={pages.page_20210609212527}/>
+
+<Route exact path="/ke-chuyen-bi-ban-dien-bao-luc-nang-hot-girl-phim-18-nhat-ban-khien-fan-thuong-cam-khen-ngoi-su-chuyen-nghiep" component={pages.page_20210609212513}/>
+
+<Route exact path="/game-dinh-cua-nguoi-viet-dang-mien-phi-tren-app-store-game-thu-nuoc-ngoai-het-loi-khen-ngoi" component={pages.page_20210609212503}/>
+
 <Route exact path="/loat-cac-vu-khi-tran-phai-cua-cac-vo-tuong-trong-dynasty-warriors" component={pages.page_20210609094259}/>
 
       <Route

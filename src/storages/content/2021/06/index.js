@@ -104,3 +104,6 @@ export { default as  page_20210608140622 } from "./20210608140622-dan-trai-dep-u
 export { default as  page_20210608140634 } from "./20210608140634-top-5-cau-thu-viet-co-luong-nguoi-theo-doi-khung-nhat-tren-facebook-cai-ten-mlem-mlem-doan-van-hau-xep-thu-may.js";
 export { default as  page_20210608140647 } from "./20210608140647-truc-tiep-tu-uae-hinh-anh-buoi-tap-dau-tien-cua-tuyen-viet-nam-sau-tran-gap-indonesia-nin-tho-huong-ve-tuan-anh-van-toan.js";
 export { default as  page_20210609094259 } from "./20210609094259-loat-cac-vu-khi-tran-phai-cua-cac-vo-tuong-trong-dynasty-warriors.js";
+export { default as  page_20210609212503 } from "./20210609212503-game-dinh-cua-nguoi-viet-dang-mien-phi-tren-app-store-game-thu-nuoc-ngoai-het-loi-khen-ngoi.js";
+export { default as  page_20210609212513 } from "./20210609212513-ke-chuyen-bi-ban-dien-bao-luc-nang-hot-girl-phim-18-nhat-ban-khien-fan-thuong-cam-khen-ngoi-su-chuyen-nghiep.js";
+export { default as  page_20210609212527 } from "./20210609212527-top-5-meo-giup-dan-pc-yeu-quy-mat-me-quanh-nam.js";

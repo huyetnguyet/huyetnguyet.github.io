@@ -39,10 +39,10 @@ def getDataFromGoogleSheet():
     count = 1
     fw.write("export const dataFeatured=[")
     for obj in data:
-        temp = "{title: \""+obj['title']+"\",description: \""+obj['description']+"\",src: \""+obj['src']+"\",alt: \""+obj['alt']+"\",category: \"" + \
-            obj['category']+"\",time: \""+obj['time']+"\",date: \""+obj['date']+"\",timestamp: \""+obj['timestamp']+"\",link: \""+obj['link'] + \
-            "\",component: \""+obj['zcomponent'] + \
-            "\",filepath: \""+obj['filepath']+"\"},"
+        temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+            obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+            "',component: '"+obj['zcomponent'] + \
+            "',filepath: '"+obj['filepath']+"'},"
         fw.write(temp)
         if(count == 3):
             break
@@ -53,10 +53,10 @@ def getDataFromGoogleSheet():
     fw.write("export const dataContent=[")
     for obj in data:
         if(count > 3):
-            temp = "{title: \""+obj['title']+"\",description: \""+obj['description']+"\",src: \""+obj['src']+"\",alt: \""+obj['alt']+"\",category: \"" + \
-                obj['category']+"\",time: \""+obj['time']+"\",date: \""+obj['date']+"\",timestamp: \""+obj['timestamp']+"\",link: \""+obj['link'] + \
-                "\",component: \""+obj['zcomponent'] + \
-                "\",filepath: \""+obj['filepath']+"\"},"
+            temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+                obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+                "',component: '"+obj['zcomponent'] + \
+                "',filepath: '"+obj['filepath']+"'},"
             fw.write(temp)
         if(count == 50):
             break
@@ -67,10 +67,10 @@ def getDataFromGoogleSheet():
     fw.write("export const dataContent02=[")
     for obj in data:
         if(count > 50):
-            temp = "{title: \""+obj['title']+"\",description: \""+obj['description']+"\",src: \""+obj['src']+"\",alt: \""+obj['alt']+"\",category: \"" + \
-                obj['category']+"\",time: \""+obj['time']+"\",date: \""+obj['date']+"\",timestamp: \""+obj['timestamp']+"\",link: \""+obj['link'] + \
-                "\",component: \""+obj['zcomponent'] + \
-                "\",filepath: \""+obj['filepath']+"\"},"
+            temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+                obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+                "',component: '"+obj['zcomponent'] + \
+                "',filepath: '"+obj['filepath']+"'},"
             fw.write(temp)
         count += 1
     fw.write("]\n")
