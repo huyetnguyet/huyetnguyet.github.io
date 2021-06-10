@@ -20,6 +20,16 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/xuat-hien-tua-game-ban-khung-long-sinh-ton-trong-thoi-tien-su-cuc-cuon-hua-hen-se-la-sieu-pham-trong-thoi-gian-toi-day" component={pages.page_20210610131850}/>
+
+<Route exact path="/10-game-chien-thuat-cho-ban-lam-thong-soai-chi-huy-hang-tram-van-quan-phan-1" component={pages.page_20210610131836}/>
+
+<Route exact path="/vi-sao-pokemon-huyen-thoai-mewtwo-dung-cerulean-lam-nha-cua-no" component={pages.page_20210610131823}/>
+
+<Route exact path="/hien-ho-gia-nhap-duong-dua-underwear-cua-ck-nhung-body-muot-mai-mlem-the-kia-thi-ai-chiu-noi" component={pages.page_20210610131807}/>
+
+<Route exact path="/dan-sao-do-bo-le-trao-giai-bach-ngoc-lan-cuc-tinh-y-dep-nhu-tien-tu-de-bep-nghe-ni-quan-hieu-dong-khoe-vong-1-het-co" component={pages.page_20210610131755}/>
+
 <Route exact path="/top-5-meo-giup-dan-pc-yeu-quy-mat-me-quanh-nam" component={pages.page_20210609212527}/>
 
 <Route exact path="/ke-chuyen-bi-ban-dien-bao-luc-nang-hot-girl-phim-18-nhat-ban-khien-fan-thuong-cam-khen-ngoi-su-chuyen-nghiep" component={pages.page_20210609212513}/>

@@ -1,5 +1,85 @@
 export const dataFeatured = [
   {
+    title:
+      "Xuất hiện tựa game bắn khủng long, sinh tồn trong thời tiền sử cực cuốn, hứa hẹn sẽ là siêu phẩm trong thời gian tới đây",
+    description:
+      "Mặc dù mới đang ở bước Early Access, thế nhưng tựa game này đã nhận được rất nhiều những bình luận tích cực.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-1623147814364791725203.jpg",
+    alt: "Game, Game Thu, Tin Tuc Game, Second Exhibition, ",
+    category: "games",
+    time: "01:18 PM",
+    date: "10/06/2021",
+    timestamp: "10/06/2021 01:18 PM",
+    link: "/xuat-hien-tua-game-ban-khung-long-sinh-ton-trong-thoi-tien-su-cuc-cuon-hua-hen-se-la-sieu-pham-trong-thoi-gian-toi-day",
+    component: "page_20210610131850",
+    filepath:
+      "./20210610131850-xuat-hien-tua-game-ban-khung-long-sinh-ton-trong-thoi-tien-su-cuc-cuon-hua-hen-se-la-sieu-pham-trong-thoi-gian-toi-day.js",
+  },
+  {
+    title:
+      "10 game chiến thuật cho bạn làm thống soái, chỉ huy hàng trăm vạn quân (Phần 1)",
+    description: "Những tựa game chiến thuật luôn có sức cuốn hút kỳ lạ.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/10/photo-1-1623342880158183739885.jpg",
+    alt: "Game Chien Thuat, Chien Tranh The Gioi, Company Of Heroes 2, Hearts Of Iron Iv, Total War Three Kingdoms, ",
+    category: "games",
+    time: "01:18 PM",
+    date: "10/06/2021",
+    timestamp: "10/06/2021 01:18 PM",
+    link: "/10-game-chien-thuat-cho-ban-lam-thong-soai-chi-huy-hang-tram-van-quan-phan-1",
+    component: "page_20210610131836",
+    filepath:
+      "./20210610131836-10-game-chien-thuat-cho-ban-lam-thong-soai-chi-huy-hang-tram-van-quan-phan-1.js",
+  },
+  {
+    title: "Vì sao Pokémon huyền thoại Mewtwo dùng hang Cerulean làm nhà?",
+    description:
+      "Không nhiều nơi trên thế giới Pokemon có đủ sự phù hợp để Mewtwo có thể gọi là nhà.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/11/photo-1-16233447817771943324158.png",
+    alt: "Pokemon, Mewtwo, ",
+    category: "games",
+    time: "01:18 PM",
+    date: "10/06/2021",
+    timestamp: "10/06/2021 01:18 PM",
+    link: "/vi-sao-pokemon-huyen-thoai-mewtwo-dung-cerulean-lam-nha-cua-no",
+    component: "page_20210610131823",
+    filepath:
+      "./20210610131823-vi-sao-pokemon-huyen-thoai-mewtwo-dung-cerulean-lam-nha-cua-no.js",
+  },
+];
+export const dataContent = [
+  {
+    title:
+      'Hiền Hồ gia nhập đường đua underwear của CK nhưng body "mướt mải mlem" thế kia thì ai chịu nổi?',
+    description:
+      'Từng chút, từng chút một, netizen sẽ phải quên đi hình ảnh "búp bê không tình yêu" ngày nào của Hiền Hồ.',
+    src: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/10/1949823033500387064801055361509519388287276n-1623335772268860895140.jpeg",
+    alt: "Hien Ho, Underwear, images, Calvin Klein, Bodysuit, Sao Do Thoi Trang, ",
+    category: "images",
+    time: "01:18 PM",
+    date: "10/06/2021",
+    timestamp: "10/06/2021 01:18 PM",
+    link: "/hien-ho-gia-nhap-duong-dua-underwear-cua-ck-nhung-body-muot-mai-mlem-the-kia-thi-ai-chiu-noi",
+    component: "page_20210610131807",
+    filepath:
+      "./20210610131807-hien-ho-gia-nhap-duong-dua-underwear-cua-ck-nhung-body-muot-mai-mlem-the-kia-thi-ai-chiu-noi.js",
+  },
+  {
+    title:
+      "Dàn sao đổ bộ lễ trao giải Bạch Ngọc Lan: Cúc Tịnh Y đẹp như tiên tử, đè bẹp Nghê Ni - Quan Hiểu Đồng khoe vòng 1 hết cỡ",
+    description:
+      "Sự kiện Bạch Ngọc Lan tổ chức ngày 10/6 quy tụ dàn sao cực hot như Nghê Ni, Cúc Tịnh Y, Quan Hiểu Đồng, Nhậm Mẫn,...",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/10/photo-1-1623318837570830234296.jpg",
+    alt: "Cuc Tinh Y, Nghe Ni, Nham Man, Quan Hieu Dong, Tran Triet Vien, Sao Hoa Ngu, My Nhan Hoa Ngu, Ton Thien, Dam Tung Van, Tran Ngoc Ky, Dong Tu Kien, ",
+    category: "photos",
+    time: "01:17 PM",
+    date: "10/06/2021",
+    timestamp: "10/06/2021 01:17 PM",
+    link: "/dan-sao-do-bo-le-trao-giai-bach-ngoc-lan-cuc-tinh-y-dep-nhu-tien-tu-de-bep-nghe-ni-quan-hieu-dong-khoe-vong-1-het-co",
+    component: "page_20210610131755",
+    filepath:
+      "./20210610131755-dan-sao-do-bo-le-trao-giai-bach-ngoc-lan-cuc-tinh-y-dep-nhu-tien-tu-de-bep-nghe-ni-quan-hieu-dong-khoe-vong-1-het-co.js",
+  },
+  {
     title: "Top 5 mẹo giúp dàn PC yêu quý mát mẻ quanh năm",
     description:
       "Nếu một ngày đẹp trời bạn thấy PC mình quá nóng thì đây sẽ là vài viết bạn nên đọc. Hy vọng nó cho bạn vài mẹo để giữ gìn chiếc PC yêu quý.",
@@ -46,8 +126,6 @@ export const dataFeatured = [
     filepath:
       "./20210609212503-game-dinh-cua-nguoi-viet-dang-mien-phi-tren-app-store-game-thu-nuoc-ngoai-het-loi-khen-ngoi.js",
   },
-];
-export const dataContent = [
   {
     title: "Loạt các vũ khí trấn phái của các võ tướng trong Dynasty Warriors",
     description:
@@ -81,7 +159,7 @@ export const dataContent = [
   },
   {
     title:
-      "Top 5 cầu thủ Việt có lượng người theo dõi khủng nhất trên Facebook, cái tên 'mlem mlem' Đoàn Văn Hậu xếp thứ mấy?",
+      'Top 5 cầu thủ Việt có lượng người theo dõi khủng nhất trên Facebook, cái tên "mlem mlem" Đoàn Văn Hậu xếp thứ mấy?',
     description:
       "Sau trận thắng 4-0 trước đội tuyển Indonesia, Facebook các cầu thủ Việt Nam được nhiều người chú ý đến, thấp nhất cũng được cả triệu người follow!",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16231527937981291522408.jpg",
@@ -97,7 +175,7 @@ export const dataContent = [
   },
   {
     title:
-      "Dàn trai đẹp U23 sau 3 năm: Đồng loạt lấy vợ có con nhưng độ 'mlem mlem' không hề suy giảm!",
+      'Dàn trai đẹp U23 sau 3 năm: Đồng loạt lấy vợ có con nhưng độ "mlem mlem" không hề suy giảm!',
     description:
       "Bạn đã sẵn sàng nhìn lại sự thay đổi của những cầu thủ từng được cả Việt Nam hâm mộ cuồng nhiệt sau 3 năm chưa!",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/1-16231658569281054746604.png",
@@ -177,9 +255,9 @@ export const dataContent = [
   },
   {
     title:
-      "Khi các nữ streamer Việt khoe vòng một lấp lửng, từ thần thái cho đến độ quyến rũ đều khiến người xem 'nghẹt thở'",
+      'Khi các nữ streamer Việt khoe vòng một lấp lửng, từ thần thái cho đến độ quyến rũ đều khiến người xem "nghẹt thở"',
     description:
-      "Diện bikini hay thả dáng bạo thôi là chưa đủ, các streamer còn tự tin khoe vòng một trần làm cộng đồng mạng 'nóng mặt' mỗi khi ngắm nhìn.",
+      'Diện bikini hay thả dáng bạo thôi là chưa đủ, các streamer còn tự tin khoe vòng một trần làm cộng đồng mạng "nóng mặt" mỗi khi ngắm nhìn.',
     src: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/8/mai2-1623133702689807881264.jpg",
     alt: "Khoe Vong Mot, Cong Dong Mang, Vong Mot Khong Che, Vong Mot Khung, Mai Dora, Streamer, Linh Chichan, Thien Thy, Ohsusu, Vong Mot Dep, ",
     category: "images",
@@ -193,9 +271,9 @@ export const dataContent = [
   },
   {
     title:
-      "Ngắm nhìn nhan sắc tuyệt phẩm của 'em gái quốc dân' Kudo Mio, người từng hóa thân thành 'siêu nhân hồng'",
+      'Ngắm nhìn nhan sắc tuyệt phẩm của "em gái quốc dân" Kudo Mio, người từng hóa thân thành "siêu nhân hồng"',
     description:
-      "Kudo Mio là chủ nhân của những màn 'biến hình' thành 'siêu nhân hồng' nổi tiếng trong Mashin Sentai Kiramager.",
+      'Kudo Mio là chủ nhân của những màn "biến hình" thành "siêu nhân hồng" nổi tiếng trong Mashin Sentai Kiramager.',
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/lai1-16231402824472146662111.jpg",
     alt: "Festival Cosplay, Le Hoi Cosplay, Bo Anh Cosplay, Chum Anh Cosplay, Anh Cosplay, Nhan Vat Cosplay, Kudo Mio, Kamen Rider Ghost, Mashin Sentai Kiramager, ",
     category: "images",
@@ -208,7 +286,7 @@ export const dataContent = [
       "./20210608140447-ngam-nhin-nhan-sac-tuyet-pham-cua-em-gai-quoc-dan-kudo-mio-nguoi-tung-hoa-than-thanh-sieu-nhan-hong.js",
   },
   {
-    title: "Top 10 game bóng đá hay nhất cho anh em 'quẩy' quên sầu",
+    title: 'Top 10 game bóng đá hay nhất cho anh em "quẩy" quên sầu',
     description:
       "Hòa cùng không khí bóng đá ngập tràn, mời anh em thưởng thức những tựa game đỉnh nhất trong làng túc cầu.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-16231625058421802311440.png",
@@ -240,7 +318,7 @@ export const dataContent = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Những đội hình bá đạo đầu mùa nhưng sử dụng bây giờ là 'tự hủy cực mạnh'",
+      'Đấu Trường Chân Lý: Những đội hình bá đạo đầu mùa nhưng sử dụng bây giờ là "tự hủy cực mạnh"',
     description:
       "Đây là những đội hình hồi đầu mùa 5 Đấu Trường Chân Lý đã tỏ ra vô cùng mạnh nhưng sử dụng ở hiện tại sẽ chỉ tụt rank không phanh.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/-1623132507124323700766.jpg",
@@ -256,7 +334,7 @@ export const dataContent = [
   },
   {
     title:
-      "Không o ép mình trong hình mẫu idol sexy 'đại trà', nữ streamer chấp nhận làm 'người tối cổ' tự tin với phong cách riêng",
+      'Không o ép mình trong hình mẫu idol sexy "đại trà", nữ streamer chấp nhận làm "người tối cổ" tự tin với phong cách riêng',
     description:
       "“Quay xe” đi ngược với hình tượng xây dựng trước đây của mình, nữ streamer Liên Quân được người hâm mộ ủng hộ với sự thay đổi mới.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-162314875179286100347.jpg",
@@ -288,7 +366,7 @@ export const dataContent = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Leo rank dễ dàng hơn với mẹo 'xoay trang bị' cho chủ lực từ kỳ thủ Thách Đấu",
+      'Đấu Trường Chân Lý: Leo rank dễ dàng hơn với mẹo "xoay trang bị" cho chủ lực từ kỳ thủ Thách Đấu',
     description:
       "Việc lựa chọn trang bị cho chủ lực phù hợp với từng trận đấu là yếu tố cực kỳ quan trọng trong Đấu Trường Chân Lý.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/8/draven-162312351755518684537.png",
@@ -304,7 +382,7 @@ export const dataContent = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: 3 đội hình bỗng nhiên được tin dùng trở lại nhờ khả năng khắc chế 'meta Thây Ma'",
+      'Đấu Trường Chân Lý: 3 đội hình bỗng nhiên được tin dùng trở lại nhờ khả năng khắc chế "meta Thây Ma"',
     description:
       "Những đội hình dưới đây sẽ giúp game thủ Đấu Trường Chân Lý hạ gục những team-comp xoay quanh Thây Ma khá đơn giản.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/yasuo-16231430857111318751965.png",
@@ -336,7 +414,7 @@ export const dataContent = [
   },
   {
     title: "Cả MXH không ngủ để cổ vũ ĐT Việt Nam đá bóng: Gay cấn quá rồi",
-    description: "Có đang coi đá bóng 'khum' mọi người ơi!",
+    description: 'Có đang coi đá bóng "khum" mọi người ơi!',
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/base64-16230865264841352253184.png",
     alt: "Dt Viet Nam, Viet Nam Da Bong, Indonesia, ",
     category: "news",
@@ -379,7 +457,7 @@ export const dataContent = [
   },
   {
     title:
-      "Chứng kiến cầu thủ Indonesia liên tục vào bóng triệt hạ, 'Nam vương' boxing Trương Đình Hoàng hiến kế cho thầy trò HLV Park Hang-seo",
+      'Chứng kiến cầu thủ Indonesia liên tục vào bóng triệt hạ, "Nam vương" boxing Trương Đình Hoàng hiến kế cho thầy trò HLV Park Hang-seo',
     description:
       "Nhà vô địch WBA châu Á Trương Đình Hoàng muốn các cầu thủ của tuyển Việt Nam học qua một khóa boxing để không còn ngại những đối thủ chơi bóng thô bạo.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16230975822461769638760.png",
@@ -395,7 +473,7 @@ export const dataContent = [
   },
   {
     title:
-      "Đây đích thị là bộ váy kém duyên nhất Cbiz hôm qua, lại còn 'tòng teng' 1 vật ở ngay chỗ nhạy cảm!",
+      'Đây đích thị là bộ váy kém duyên nhất Cbiz hôm qua, lại còn "tòng teng" 1 vật ở ngay chỗ nhạy cảm!',
     description:
       "Lẽ nào nữ nhi này đã mất nhận thức về không gian, thời gian để ăn vận cho phù hợp?",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-1623079166395367192097.jpg",
@@ -428,7 +506,7 @@ export const dataContent = [
   {
     title: "Fan Việt Nam chế loạt ảnh hài hước sau trận thắng Indonesia",
     description:
-      "Đội tuyển Việt Nam giành chiến thắng dễ dàng 4-0 trước đội tuyển Indonesia. Fan Việt Nam được dịp chế ảnh 'cà khịa' lối đá thô bạo của thầy trò HLV Shin Tae-yong.",
+      'Đội tuyển Việt Nam giành chiến thắng dễ dàng 4-0 trước đội tuyển Indonesia. Fan Việt Nam được dịp chế ảnh "cà khịa" lối đá thô bạo của thầy trò HLV Shin Tae-yong.',
     src: "https://sport5.mediacdn.vn/thumb_w/700/158855217956261888/2021/6/8/19348880914978784438780196833412912387709210n-1623093367726564978067.jpg",
     alt: "Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, World Cup 2022, Tuyen Viet Nam Indonesia, Bong Da, ",
     category: "news",
@@ -458,9 +536,9 @@ export const dataContent = [
   },
   {
     title:
-      "Nhiệt Ba ngày càng táo bạo tới ngộp thở: Hết khoe lưng trần sexy lại 'bắt lú' với váy xuyên thấu khoe vòng 1 căng tràn",
+      'Nhiệt Ba ngày càng táo bạo tới ngộp thở: Hết khoe lưng trần sexy lại "bắt lú" với váy xuyên thấu khoe vòng 1 căng tràn',
     description:
-      "Vẫn biết Địch Lệ Nhiệt Ba sở hữu sắc vóc hàng đầu Cbiz nhưng những hình ảnh trong sự kiện mới của cô nàng vẫn khiến dân tình 'xịt máu mũi'.",
+      'Vẫn biết Địch Lệ Nhiệt Ba sở hữu sắc vóc hàng đầu Cbiz nhưng những hình ảnh trong sự kiện mới của cô nàng vẫn khiến dân tình "xịt máu mũi".',
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/1900971343295717452840988115651203566335817n-1623074855708409541982.jpeg",
     alt: "Dich Le Nhiet Ba, Sao Hoa Ngu, My Nhan Hoa Ngu, Nhan Sac My Nhan Hoa Ngu, Voc Dang My Nhan Hoa Ngu, Body Cua Sao, ",
     category: "images",
@@ -474,9 +552,9 @@ export const dataContent = [
   },
   {
     title:
-      "Trông Nhiệt Ba 'gánh' tấm váy nhìn mà phát ngốt này, ta như hiểu được tầm quan trọng của nhan sắc trong chuyện ăn mặc",
+      'Trông Nhiệt Ba "gánh" tấm váy nhìn mà phát ngốt này, ta như hiểu được tầm quan trọng của nhan sắc trong chuyện ăn mặc',
     description:
-      "Nhan sắc của Địch Lệ Nhiệt Ba như thể tấm phao cứu sinh, 'gánh' được vô số trang phục dù có khó mặc tới mấy.",
+      'Nhan sắc của Địch Lệ Nhiệt Ba như thể tấm phao cứu sinh, "gánh" được vô số trang phục dù có khó mặc tới mấy.',
     src: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/7/1944697613056473045284797254835451750697360n-16230581050632067566763.jpg",
     alt: "Star Style, Thoi Trang, Sao Do Thoi Trang, Dich Le Nhiet Ba, Nu Dien Vien Trung Quoc, Sao Cbiz, Loi Trang Phuc, Trang Phuc Tham Do, ",
     category: "images",
@@ -490,7 +568,7 @@ export const dataContent = [
   },
   {
     title:
-      "Những khoảnh khắc tuyệt đẹp của tuyển Việt Nam khiến người hâm mộ 'đổ rần rần'",
+      'Những khoảnh khắc tuyệt đẹp của tuyển Việt Nam khiến người hâm mộ "đổ rần rần"',
     description:
       "Một chiến thắng ngọt ngào đầy bản lĩnh 4-0 trước Indonesia minh chứng cho sự nỗ lực không ngừng nghỉ của tuyển Việt Nam. Thầy trò HLV Park Hang-seo đã mạnh mẽ vượt qua thử thách đầu tiên trên đất UAE.",
     src: "https://sport5.mediacdn.vn/158855217956261888/2021/6/8/6789cf399f7b6b25326a-16230908905311280246809.jpg",
@@ -521,7 +599,7 @@ export const dataContent = [
       "./20210607183422-noi-cau-truoc-trong-tai-nhung-hlv-park-hang-seo-vo-cung-tinh-cam-om-hoc-tro-sau-tran-thang-indonesia.js",
   },
   {
-    title: "TIẾN LINH - Cầu thủ 'mlem mlem' chưa có bồ hot nhất hôm nay là ai?",
+    title: 'TIẾN LINH - Cầu thủ "mlem mlem" chưa có bồ hot nhất hôm nay là ai?',
     description:
       "Với pha ghi bàn mở màn cho đội tuyển Việt Nam, cái tên Tiến Linh đang chiếm trọn spotlight trên MXH.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/anh-chup-man-hinh-2021-06-08-luc-005815-16230888291721087952933.png",
@@ -553,7 +631,7 @@ export const dataContent = [
   },
   {
     title:
-      "Trận bóng đi qua, BLV Biên Cương để lại 'rổ' quote: Đây không phải bóng đá, đây là võ thuật!",
+      'Trận bóng đi qua, BLV Biên Cương để lại "rổ" quote: Đây không phải bóng đá, đây là võ thuật!',
     description:
       "Những phát biểu của BLV Biên Cương luôn thu hút sự chú ý của khán giả.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/10-1623091570504298968086.jpg",
@@ -649,7 +727,7 @@ export const dataContent = [
   },
   {
     title:
-      "Diện váy xẻ ngực sâu táo bạo, Dương Mịch khiến 'người tình' Hứa Khải bối rối, không dám nhìn ngay trên sân khấu",
+      'Diện váy xẻ ngực sâu táo bạo, Dương Mịch khiến "người tình" Hứa Khải bối rối, không dám nhìn ngay trên sân khấu',
     description:
       "Rõ ràng rất thân thiết với nhau trên phim trường nhưng Hứa Khải tỏ ra xa cách với Dương Mịch tại sự kiện hôm nay.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230572341301297509824.jpg",
@@ -683,7 +761,7 @@ export const dataContent = [
     title:
       "Ảnh “team qua đường” huyền thoại của Jennie: Cam thường mà đẹp không chê nổi, chắc mỗi sáng thích lắm khi tự soi gương",
     description:
-      "Với gương mặt đẹp đỉnh cao cùng vóc dáng hoàn hảo, không gì có thể 'dìm hàng' được Jennie (BLACKPINK).",
+      'Với gương mặt đẹp đỉnh cao cùng vóc dáng hoàn hảo, không gì có thể "dìm hàng" được Jennie (BLACKPINK).',
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/14450780615751480260076814344098544848298000n-1612697360789176231461-16230325955431241259490.jpg",
     alt: "Jennie, Jennie Blackpink, Blackpink, Sao Han, Idol Kpop, Nhan Sac Sao Han, Anh Cam Thuong, ",
     category: "images",
@@ -697,7 +775,7 @@ export const dataContent = [
   },
   {
     title:
-      "Cúc Tịnh Y e ấp bên 'phi công' mới, Lưu Diệc Phi 'về nhà' cùng Trần Hiểu sau thảm họa Mulan ở lễ kỷ niệm 10 năm Tencent",
+      'Cúc Tịnh Y e ấp bên "phi công" mới, Lưu Diệc Phi "về nhà" cùng Trần Hiểu sau thảm họa Mulan ở lễ kỷ niệm 10 năm Tencent',
     description:
       "Sự kiện kỷ niệm 10 năm của Tencent là dịp để hàng loạt ngôi sao tuyên truyền phim của mình, như Lưu Diệc Phi, Dương Mịch, Cúc Tịnh Y,...",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/08-1623042170784105273236.png",
@@ -711,9 +789,11 @@ export const dataContent = [
     filepath:
       "./20210607003747-cuc-tinh-y-e-ap-ben-phi-cong-moi-luu-diec-phi-ve-nha-cung-tran-hieu-sau-tham-hoa-mulan-o-le-ky-niem-10-nam-tencent.js",
   },
+];
+export const dataContent02 = [
   {
     title:
-      "Song Ji Hyo bất ngờ nhảy bổ ôm chặt Jong Kook, 'thuyền SpartAce' lần nữa ra khơi!",
+      'Song Ji Hyo bất ngờ nhảy bổ ôm chặt Jong Kook, "thuyền SpartAce" lần nữa ra khơi!',
     description:
       "Hành động thân mật giữa Song Ji Hyo - Kim Jong Kook khiến fan cực kỳ thích thú!",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg",
@@ -777,7 +857,7 @@ export const dataContent = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Không phải điều tốt, Kho Vũ Khí khả năng sẽ 'con dao hai lưỡi' đối với game thủ",
+      'Đấu Trường Chân Lý: Không phải điều tốt, Kho Vũ Khí khả năng sẽ "con dao hai lưỡi" đối với game thủ',
     description:
       "Chế độ Kho Vũ Khí nhiều khả năng sẽ khiến các game thủ “ôm hận” nếu không sử dụng hợp lý.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/7/-16230105223551699469966.jpg",
@@ -791,8 +871,6 @@ export const dataContent = [
     filepath:
       "./20210607003553-dau-truong-chan-ly-khong-phai-dieu-tot-kho-vu-khi-kha-nang-se-con-dao-hai-luoi-doi-voi-game-thu.js",
   },
-];
-export const dataContent02 = [
   {
     title: "Những mẩu chuyện cảm động khiến fan cứng Doraemon phải bật khóc",
     description:
@@ -812,7 +890,7 @@ export const dataContent02 = [
     title:
       "LMHT: Cố gắng sửa lỗi của phép Trừng Phạt nhưng Riot Games lại vô tình tạo ra thêm 3 bug mới",
     description:
-      "Cộng đồng LMHT cũng phải lắc đầu ngán ngẩm với pha 'chữa lợn lành thành lợn què' này của Riot Games.",
+      'Cộng đồng LMHT cũng phải lắc đầu ngán ngẩm với pha "chữa lợn lành thành lợn què" này của Riot Games.',
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/1/21/photo-1-16101246037061748195876-1611197465456703819752.jpg",
     alt: "Lien Minh Huyen Thoai, Lmht, Riot Games, Riot, Game, Tin Game, Trung Phat, Loi Lmht, Tin Lmht, Tin Lol, Viego, ",
     category: "games",
@@ -857,7 +935,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Cảnh nóng bị nghi thật 100% làm Thang Duy bị 'phong sát': Vợ chồng Lương Triều Vỹ lục đục, nữ chính có chia sẻ gây sốc",
+      'Cảnh nóng bị nghi thật 100% làm Thang Duy bị "phong sát": Vợ chồng Lương Triều Vỹ lục đục, nữ chính có chia sẻ gây sốc',
     description:
       "Cho đến hiện tại, cảnh nóng của Thang Duy và Lương Triều Vỹ trong Sắc, Giới vẫn khiến khán giả tranh cãi.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/lust-caution-547b68e25e0a628-07-202004g33-13-1622995935799375128902.jpg",
@@ -904,7 +982,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Mặc áo khoét sâu khoe vòng 1, nữ streamer Tốc Chiến nóng bỏng bị bạn trai kém tuổi dọa “ban' ngay trên sóng",
+      'Mặc áo khoét sâu khoe vòng 1, nữ streamer Tốc Chiến nóng bỏng bị bạn trai kém tuổi dọa “ban" ngay trên sóng',
     description:
       "Không thích người yêu ăn mặc hớ hênh khi livestream, bạn trai của nữ streamer nổi giận đùng đùng.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/6/anh-chup-man-hinh-2021-06-06-luc-091820-1622947842625468028111.png",
@@ -983,7 +1061,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Nhảy sexy rồi tự cởi áo lưới ngay trên sóng, nữ streamer bức xúc khi bị chỉ trích: 'Xem cho sướng rồi ném đá'",
+      'Nhảy sexy rồi tự cởi áo lưới ngay trên sóng, nữ streamer bức xúc khi bị chỉ trích: "Xem cho sướng rồi ném đá"',
     description:
       "Nhưng cũng phải công nhận rằng lần lên sóng của cô nàng streamer này quả thật có phần hơi táo bạo quá thì phải.",
     src: "https://kenh14cdn.com/203336854389633024/2021/6/6/photo-5-16229479957611852385827.gif",
@@ -1047,7 +1125,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Riot Mortdog gợi ý việc kết hợp từ nhiều mùa khiến game thủ 'phát cuồng'",
+      'Đấu Trường Chân Lý: Riot Mortdog gợi ý việc kết hợp từ nhiều mùa khiến game thủ "phát cuồng"',
     description:
       "Sẽ khó có thể tượng tượng những quân cờ vốn đã “bá đạo” ở mùa 5 sẽ như thế nào nếu được mang những ưu điểm từ các Tộc/Hệ của chúng ở các mùa trước.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/5/-1622870886726486206593.jpg",
@@ -1110,7 +1188,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Xuất hiện tân binh 'thấp' nhất trong lịch sử ngành công nghiệp phim 18+, đe dọa soán ngôi Yua Mikami chỉ sau 2-3 năm",
+      'Xuất hiện tân binh "thấp" nhất trong lịch sử ngành công nghiệp phim 18+, đe dọa soán ngôi Yua Mikami chỉ sau 2-3 năm',
     description:
       "Đa số các tân binh tiềm năng ngày nay đều được mang ra để so sánh với Yua Mikami thì phải.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/3/photo-1-16226903340271764166493.jpg",
@@ -1126,7 +1204,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ninja Gaiden chính thức trở lại vào tuần sau dành cho các game thủ đam mê 'chặt chém'",
+      'Ninja Gaiden chính thức trở lại vào tuần sau dành cho các game thủ đam mê "chặt chém"',
     description:
       "Ninja Gaiden đã trở lại với ba tựa game dự kiến sẽ làm khó người chơi vào tháng 6 năm nay.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/5/photo-1-16228335521911854152638.jpg",
@@ -1158,7 +1236,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Valorant liên tục 'đạt đỉnh', Riot hé lộ ra mắt phiên bản Mobile khiến game thủ phấn khích",
+      'Valorant liên tục "đạt đỉnh", Riot hé lộ ra mắt phiên bản Mobile khiến game thủ phấn khích',
     description:
       "Trung bình trong 1 tháng, số lượng người Valorant đã đạt tới đỉnh 14 triệu người chơi. Không chỉ dừng lại ở đó, Riot còn đang chuẩn bị mang Valorant lên điện thoại.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-162279923339857968698.jpg",
@@ -1174,7 +1252,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Chấp nhận không mặc áo để quảng cáo sản phẩm, nữ streamer Liên Quân chính thức lập 'kỷ lục' về sự nóng bỏng của mình",
+      'Chấp nhận không mặc áo để quảng cáo sản phẩm, nữ streamer Liên Quân chính thức lập "kỷ lục" về sự nóng bỏng của mình',
     description:
       "Pha quảng cáo sản phẩm này của nữ streamer đúng là có một không hai!",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/12001053527346369835233625612492553298947301n-1622801084776974662585.jpg",
@@ -1221,7 +1299,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Leo top là dễ với những đội hình tập hợp những 'Wonder Woman' cực mạnh ở mùa 5",
+      'Đấu Trường Chân Lý: Leo top là dễ với những đội hình tập hợp những "Wonder Woman" cực mạnh ở mùa 5',
     description:
       "Nếu đã cảm thấy chán những công thức đội hình truyền thống, bạn hoàn toàn có thể trải nghiệm thử thách mới với những lối chơi tiêu chuẩn của riêng mình.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/4/-16227560516681426978234.jpg",
@@ -1237,7 +1315,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ghim ngay những câu nói truyền cảm hứng trong Haikyuu!! để 'đếch sợ gì hết' mà tiến lên",
+      'Ghim ngay những câu nói truyền cảm hứng trong Haikyuu!! để "đếch sợ gì hết" mà tiến lên',
     description:
       "Dưới đây là một số câu nói đã tạo nên tiếng vang của anime/manga Haikyuu!!.",
     src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-16227860348861596575077.jpg",
@@ -1271,7 +1349,7 @@ export const dataContent02 = [
     title:
       "Lan Ngọc đã khoe ảnh diện đồ bơi nóng bỏng đón Hè, tiện thể cho “bé mỡ” đi chơi cùng cho vui",
     description:
-      "Body dễ thương của Ninh Dương Lan Ngọc khiến các fans không ngừng 'trêu ghẹo' vì quá dễ thương!",
+      'Body dễ thương của Ninh Dương Lan Ngọc khiến các fans không ngừng "trêu ghẹo" vì quá dễ thương!',
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-16167676833932083825842.jpg",
     alt: "Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, ",
     category: "images",
@@ -1285,7 +1363,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Hoa khôi tiếp viên Vietnam Airlines: Không hở thì thôi, chứ hở là phải 'xịt máu mũi'",
+      'Hoa khôi tiếp viên Vietnam Airlines: Không hở thì thôi, chứ hở là phải "xịt máu mũi"',
     description:
       "Thường xuất hiện trong bộ đồng phục tiếp viên hàng không nên hình ảnh gợi cảm của Dương Thu Thảo khiến nhiều người trầm trồ.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/16/duongthaooo151880898115856967157405764542858277423554n-16159055909201675405743.jpg",
@@ -1301,7 +1379,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Gái xinh nổi tiếng với loạt vlog trên ô tô khoe ảnh quá bạo, phải 'zoom' sát rạt vòng 1 mới chịu",
+      'Gái xinh nổi tiếng với loạt vlog trên ô tô khoe ảnh quá bạo, phải "zoom" sát rạt vòng 1 mới chịu',
     description: "Xem ảnh của Phương Uyên xong mà không đỏ mặt mới lạ.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/17/1605698522582714691872591309494835808438833n-1615981035635385712321.jpg",
     alt: "Mang Xa Hoi, Phuong Uyen, Gai Xinh, Cap Doi Lam Vlog Tren O To, ",
@@ -1316,7 +1394,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ninh Dương Lan Ngọc diện bikini khoe body nóng hơn ngày hè, ai ngờ lướt xuống đôi chân 'té ngang' vì chi tiết này",
+      'Ninh Dương Lan Ngọc diện bikini khoe body nóng hơn ngày hè, ai ngờ lướt xuống đôi chân "té ngang" vì chi tiết này',
     description:
       "Mới gia nhập lại đường đua bikini chào hè nhưng Lan Ngọc đã bị netizen nhận xét thiếu đầu tư, hoặc là chỉ vì... không để ý mà thôi.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/21/1602542722906584957608686882563716759127501o-1616329288396660640978.jpg",
@@ -1348,7 +1426,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Sợ lộ nội y sẽ bị phạt, nữ streamer 'outplay' bằng cách không mặc, buộc áo hờ hững che vòng một",
+      'Sợ lộ nội y sẽ bị phạt, nữ streamer "outplay" bằng cách không mặc, buộc áo hờ hững che vòng một',
     description:
       "Khoảnh khắc đầy gợi cảm của cô nàng streamer khiến cho không ít fan phải chảy máu mũi.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/25/photo-1-16166599985231619238366.jpg",
@@ -1364,7 +1442,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Thánh nữ' Dota 2 mừng tuổi mới, chiêu đãi fan bằng bộ ảnh khoe vòng một cực phẩm trên Instagram",
+      'Thánh nữ" Dota 2 mừng tuổi mới, chiêu đãi fan bằng bộ ảnh khoe vòng một cực phẩm trên Instagram',
     description:
       "Người mẫu Jun Vũ - game thủ Dota 2 - một lần nữa khiến người hâm mộ phải trầm trồ trước vẻ đẹp và thần thái đỉnh cao.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/4/junvu7-16228229722301879983909.png",
@@ -1380,7 +1458,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Mi Vân 'đu' trend TikTok với Bào Ngư: Con gái sắp thành thiếu nữ mà sao chị không chịu già đi một xíu?",
+      'Mi Vân "đu" trend TikTok với Bào Ngư: Con gái sắp thành thiếu nữ mà sao chị không chịu già đi một xíu?',
     description: "Xem clip thì trông rõ chuẩn 2 chị em chứ 2 mẹ con gì đâu!",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/15/12974030113181736618716562919128715140970729n-1615789595911379304573.jpg",
     alt: "Mi Van, Hot Girl, Hot Girl Doi Dau, Con Gai Mi Van, Chi Dep, ",
@@ -1395,9 +1473,9 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ngọc Trinh trình làng BST nội y bị tố đạo nhái Victoria's Secret: Thiết kế và 'giá rổ' thế nào?",
+      'Ngọc Trinh trình làng BST nội y bị tố đạo nhái Victoria"s Secret: Thiết kế và "giá rổ" thế nào?',
     description:
-      "Với khoảng 500k là bạn đã sắm được trọn bộ đồ lót của Venus' Secret.",
+      'Với khoảng 500k là bạn đã sắm được trọn bộ đồ lót của Venus" Secret.',
     src: "https://afamilycdn.com/150157425591193600/2021/6/2/1879373681503831137856513896795404376676089n-162263222469382786144.jpg",
     alt: "Ngọc Trinh",
     category: "images",
@@ -1442,7 +1520,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Đại gia Đức Huy lộ hint du lịch với tình trẻ kém 27 tuổi, chính là địa điểm tuyên bố 'không có em, anh có em khác'",
+      'Đại gia Đức Huy lộ hint du lịch với tình trẻ kém 27 tuổi, chính là địa điểm tuyên bố "không có em, anh có em khác"',
     description:
       "Dù đã đăng ảnh cách nhau cả 4 - 5 ngày nhưng hint hẹn hò của đại gia Đức Huy và tình tin đồn kém 27 tuổi vẫn rõ mồn một.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/0-1622697731272517784711.jpg",
@@ -1492,7 +1570,7 @@ export const dataContent02 = [
     title:
       "Hot girl có khuôn ngực hơn 1m bất ngờ tiết lộ tin sốc: đang xạ trị ung thư, xin cư dân mạng ngưng body shaming",
     description:
-      "Thông tin đang điều trị ung thư từ phía hot girl ngực 'khủng' khiến fan của cô nàng không ngừng lo lắng.",
+      'Thông tin đang điều trị ung thư từ phía hot girl ngực "khủng" khiến fan của cô nàng không ngừng lo lắng.',
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/1/photo-1-16225441898391637114654.jpg",
     alt: "Hot Girl",
     category: "images",
@@ -1506,9 +1584,9 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ken Shimizu chỉ ra 'đối tác' lợi hại nhất từng gặp, khiến anh chàng phải đầu hàng chỉ sau 3 phút, không dám đóng cùng lần hai",
+      'Ken Shimizu chỉ ra "đối tác" lợi hại nhất từng gặp, khiến anh chàng phải đầu hàng chỉ sau 3 phút, không dám đóng cùng lần hai',
     description:
-      "Tới cả Ken Shimizu cũng phải nể phục cô nàng này thì có lẽ chúng ta cũng đủ hiểu độ 'bá đạo' rồi đấy.",
+      'Tới cả Ken Shimizu cũng phải nể phục cô nàng này thì có lẽ chúng ta cũng đủ hiểu độ "bá đạo" rồi đấy.',
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/5/31/photo-1-16224524093421609918764.png",
     alt: "Gai Xinh",
     category: "news",
@@ -1616,7 +1694,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Ngọc Trinh vô tư đăng clip chỉnh sửa nội y, để lộ cả đồ bảo hộ bên trong nhìn mà 'thót tim'",
+      'Ngọc Trinh vô tư đăng clip chỉnh sửa nội y, để lộ cả đồ bảo hộ bên trong nhìn mà "thót tim"',
     description:
       "Ngọc Trinh tiếp tục gây tranh cãi vì hành động vô tư của mình.",
     src: "https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/2/base64-16226096789721565082138.png",
@@ -1648,7 +1726,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Đấu Trường Chân Lý: Học hỏi những mẹo độc khi chơi Sett 'One Punch Man' từ kỳ thủ top 8 Thách Đấu",
+      'Đấu Trường Chân Lý: Học hỏi những mẹo độc khi chơi Sett "One Punch Man" từ kỳ thủ top 8 Thách Đấu',
     description:
       "Những mẹo dưới đây sẽ giúp game thủ Đấu Trường Chân Lý leo rank hiệu quả hơn với việc chơi xoay quanh Sett.",
     src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/2/sett-1622624730224552537391.jpg",
@@ -1664,7 +1742,7 @@ export const dataContent02 = [
   },
   {
     title:
-      "Sam bị tuột bikini trên sóng, nữ YouTuber vội vàng che đậy nhưng vẫn hớ hênh, lên tiếng trần tình tại 'vòng một quá to'",
+      'Sam bị tuột bikini trên sóng, nữ YouTuber vội vàng che đậy nhưng vẫn hớ hênh, lên tiếng trần tình tại "vòng một quá to"',
     description:
       "Tai nạn của cô nàng YouTuber đang khiến khá nhiều người cảm thấy bất ngờ.",
     src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604324537468863202.jpg",
@@ -1697,7 +1775,7 @@ export const dataContent02 = [
   {
     title: "Vũ Thị Anh Thư lộ ảnh thời chưa phẫu thuật thẩm mỹ?",
     description:
-      "So sánh ảnh trước đây, nhiều người cho rằng Vũ Thị Anh Thư đã đụng chạm 'dao kéo' nhiều bộ phận trên cơ thể để có nhan sắc như hiện tại.",
+      'So sánh ảnh trước đây, nhiều người cho rằng Vũ Thị Anh Thư đã đụng chạm "dao kéo" nhiều bộ phận trên cơ thể để có nhan sắc như hiện tại.',
     src: "https://sohanews.sohacdn.com/160588918557773824/2021/6/1/v2-16225299233441943712939.jpg",
     alt: "Vũ Thị Anh Thư",
     category: "images",
