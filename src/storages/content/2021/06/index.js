@@ -117,3 +117,6 @@ export { default as  page_20210611011022 } from "./20210611011022-mo-ngo-song-ji
 export { default as  page_20210611011047 } from "./20210611011047-he-lo-cuoc-song-sau-giai-nghe-cua-thanh-nu-mot-thoi-rina-ishihara-hoa-ra-van-lam-cong-viec-lien-quan-toi-nghe-cu.js";
 export { default as  page_20210611011104 } from "./20210611011104-than-thu-nien-tung-bi-hong-quan-lao-to-danh-bai-trong-than-thoai-trung-hoa-quyen-luc-ra-sao.js";
 export { default as  page_20210611011115 } from "./20210611011115-game-tap-lam-nong-dan-my-time-at-portia-sap-co-mat-tren-nen-tang-di-dong.js";
+export { default as  page_20210611132807 } from "./20210611132807-ben-canh-dota-d-day-day-chinh-la-nhung-custom-map-huyen-thoai-mot-thoi-cua-warcraft-3-ma-hiem-ai-khong-biet-toi-p1.js";
+export { default as  page_20210611132820 } from "./20210611132820-nhung-tua-game-hay-tuyet-nhung-khien-game-thu-phat-cau-vi-cai-ket-vo-van.js";
+export { default as  page_20210611132832 } from "./20210611132832-nu-coser-goc-viet-cung-quyet-dinh-coi-de-bien-thanh-nu-tro-ly-ao-samsung-khoe-tron-nhung-thu-18.js";

@@ -3,25 +3,11 @@ import "components/homeComponents/featuredSection.css";
 import { AdsFeaturdSection } from "components/adsMethods";
 import { dataFeatured } from "storages/database";
 
-function imageCheck(props) {
-  if (props.download === "n") {
-    return <img src={props.src} alt="images" class="img_inner"></img>;
-  } else {
-    return (
-      <img
-        src={require(props.src).default}
-        alt="images"
-        class="img_inner"
-      ></img>
-    );
-  }
-}
-
 function ContentItem(props) {
   return (
     <div className="grip_6">
       <a href={props.link}>
-        <imageCheck src={props.src} download={props.download} />
+        <img src={props.src} alt="images" class="img_inner" />
       </a>
       <div className="featuredText">
         <a href={props.link}>
@@ -49,7 +35,6 @@ function FeaturedContainer() {
                 description={obj.description}
                 src={obj.src}
                 link={obj.link}
-                download={obj.download}
               />
             </>
           );
@@ -60,7 +45,6 @@ function FeaturedContainer() {
               description={obj.description}
               src={obj.src}
               link={obj.link}
-              download={obj.download}
             />
           );
         }

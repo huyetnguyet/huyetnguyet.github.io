@@ -337,9 +337,14 @@ class GetSource:
             for i in range(0, len(self.images_alt)):
                 if(p == self.images_alt[i]):
                     try:
-                        self.content_p += "<ContentImage src='" + \
-                            temp_images[i] + "' alt='"+self.alt + \
-                            "' note='"+self.images_alt[i]+"'/>\n"
+                        if self.check_download == 'n':
+                            self.content_p += "<ContentImage src='" + \
+                                temp_images[i] + "' alt='"+self.alt + \
+                                "' note='"+self.images_alt[i]+"'/>\n"
+                        else:
+                            self.content_p += "<ContentImage src={require('" + \
+                                temp_images[i] + "').default} alt='"+self.alt + \
+                                "' note='"+self.images_alt[i]+"'/>\n"
                         temp_images[i] = ""
                         check_image = True
                     except:
@@ -373,8 +378,12 @@ class GetSource:
         self.content_images = ""
         for img in temp_images:
             if(len(img) > 5):
-                self.content_images += "<ContentImage src='" + \
-                    img + "' alt='"+self.alt+"' note=''/>\n"
+                if self.check_download == 'n':
+                    self.content_images += "<ContentImage src='" + \
+                        img + "' alt='"+self.alt+"' note=''/>\n"
+                else:
+                    self.content_images += "<ContentImage src={require('" + \
+                        img + "').default} alt='"+self.alt+"' note=''/>\n"
 
         self.filename = self.timeCombine+"-"+self.link+".js"
         self.imagename = self.timeCombine+"-"+self.link
@@ -390,11 +399,13 @@ class GetSource:
             "\" component={pages."+self.component+"}/>"
 
         # print(self.images[0])
-
         temp_src = ""
+        if self.check_download == 'y':
+            temp_src += "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/"
+
         for img in temp_images:
             if(len(img) > 5):
-                temp_src = img
+                temp_src += img
                 break
 
         self.data = "{\n\"timestamp\": '"+self.timestamp+"',\n\"title\": '"+self.title+"',\n\"description\": '"+self.description+"',\n\"src\": '" +\

@@ -20,6 +20,12 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/nu-coser-goc-viet-cung-quyet-dinh-coi-de-bien-thanh-nu-tro-ly-ao-samsung-khoe-tron-nhung-thu-18" component={pages.page_20210611132832}/>
+
+<Route exact path="/nhung-tua-game-hay-tuyet-nhung-khien-game-thu-phat-cau-vi-cai-ket-vo-van" component={pages.page_20210611132820}/>
+
+<Route exact path="/ben-canh-dota-d-day-day-chinh-la-nhung-custom-map-huyen-thoai-mot-thoi-cua-warcraft-3-ma-hiem-ai-khong-biet-toi-p1" component={pages.page_20210611132807}/>
+
 <Route exact path="/game-tap-lam-nong-dan-my-time-at-portia-sap-co-mat-tren-nen-tang-di-dong" component={pages.page_20210611011115}/>
 
 <Route exact path="/than-thu-nien-tung-bi-hong-quan-lao-to-danh-bai-trong-than-thoai-trung-hoa-quyen-luc-ra-sao" component={pages.page_20210611011104}/>
