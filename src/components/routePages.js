@@ -20,6 +20,22 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/nu-coser-goc-viet-cung-quyet-dinh-coi-de-bien-thanh-nu-tro-ly-ao-samsung-khoe-tron-nhung-thu-18" component={pages.page_20210611132832}/>
+
+<Route exact path="/nhung-tua-game-hay-tuyet-nhung-khien-game-thu-phat-cau-vi-cai-ket-vo-van" component={pages.page_20210611132820}/>
+
+<Route exact path="/ben-canh-dota-d-day-day-chinh-la-nhung-custom-map-huyen-thoai-mot-thoi-cua-warcraft-3-ma-hiem-ai-khong-biet-toi-p1" component={pages.page_20210611132807}/>
+
+<Route exact path="/game-tap-lam-nong-dan-my-time-at-portia-sap-co-mat-tren-nen-tang-di-dong" component={pages.page_20210611011115}/>
+
+<Route exact path="/than-thu-nien-tung-bi-hong-quan-lao-to-danh-bai-trong-than-thoai-trung-hoa-quyen-luc-ra-sao" component={pages.page_20210611011104}/>
+
+<Route exact path="/he-lo-cuoc-song-sau-giai-nghe-cua-thanh-nu-mot-thoi-rina-ishihara-hoa-ra-van-lam-cong-viec-lien-quan-toi-nghe-cu" component={pages.page_20210611011047}/>
+
+<Route exact path="/mo-ngo-song-ji-hyo-tung-dong-canh-nong-40-lan-cho-mot-bo-phim-bi-chi-trich-ham-hu-danh-nen-moi-lot-do" component={pages.page_20210611011022}/>
+
+<Route exact path="/ngoc-trinh-lai-dot-mat-netizen-trong-bo-anh-dien-noi-y-cuc-nong-bong-vong-3-ngon-ngon-khong-chut-che-chan-chiem-het-spotlight" component={pages.page_20210611010946}/>
+
       <Route
         exact
         path="/xuat-hien-tua-game-ban-khung-long-sinh-ton-trong-thoi-tien-su-cuc-cuon-hua-hen-se-la-sieu-pham-trong-thoi-gian-toi-day"

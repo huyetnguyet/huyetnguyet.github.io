@@ -7,8 +7,7 @@ function ContentItem(props) {
   return (
     <div className="grip_6">
       <a href={props.link}>
-        {" "}
-        <img src={props.src} alt="images" class="img_inner"></img>
+        <img src={props.src} alt="images" class="img_inner" />
       </a>
       <div className="featuredText">
         <a href={props.link}>

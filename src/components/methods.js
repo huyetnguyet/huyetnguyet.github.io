@@ -38,7 +38,11 @@ export function RelationNewsInPage(props) {
         {dataContent02.map((obj) => {
           if (obj.category === props.category && count < 3) {
             count += 1;
-            return <li>{obj.title}</li>;
+            return (
+              <a href={obj.link}>
+                <li>{obj.title}</li>
+              </a>
+            );
           }
         })}
       </ul>
