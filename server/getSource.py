@@ -17,8 +17,9 @@ os.system("cls")
 
 database_json = []
 path_storage_images = "../src/storages/images/content/" + \
-    str(datetime.datetime.now().strftime("%Y")) + "/" + \
-    str(datetime.datetime.now().strftime("%m")) + "/"
+    str(datetime.datetime.now().strftime("%Y")) + "/"
+path_storage_images_import = "storages/images/content/" + \
+    str(datetime.datetime.now().strftime("%Y")) + "/"
 
 
 if not os.path.exists("database"):
@@ -80,10 +81,12 @@ class GetSource:
                     print("Source From: " + part)
                     self.getSourceFrom_Kenh14()
                     break
-            self.setupContent()
-            self.writing2files()
+
+            self.getDateTime()
             if self.check_download == 'y':
                 self.downloadImages()
+            self.setupContent()
+            self.writing2files()
 
     def openBrowser(self):
         # selenium
@@ -307,10 +310,10 @@ class GetSource:
         self.timestamp = self.format_date+" "+self.format_time
         self.timeCombine = x.strftime("%Y")+x.strftime("%m")+x.strftime("%d") + \
             x.strftime("%H")+x.strftime("%M")+x.strftime("%S")
+        self.imagename = self.timeCombine+"-"+self.link
 
     def setupContent(self):
         self.makeNewURL_link(self.URL_link)
-        self.getDateTime()
         #self.title = self.title.replace("\"", "'")
         #self.description = self.description.replace("\"", "'")
 
@@ -325,6 +328,9 @@ class GetSource:
         self.content_p = ""
         tempTags = self.getTagsFromString(self.tags)
         temp_count = 0
+        temp_images = []
+        for image in self.images:
+            temp_images.append(image)
         for p in self.ps:
             check_image = False
             # Add image between paragrapth
@@ -332,9 +338,9 @@ class GetSource:
                 if(p == self.images_alt[i]):
                     try:
                         self.content_p += "<ContentImage src='" + \
-                            self.images[i] + "' alt='"+self.alt + \
+                            temp_images[i] + "' alt='"+self.alt + \
                             "' note='"+self.images_alt[i]+"'/>\n"
-                        self.images[i] = ""
+                        temp_images[i] = ""
                         check_image = True
                     except:
                         continue
@@ -365,7 +371,7 @@ class GetSource:
             # FIX
 
         self.content_images = ""
-        for img in self.images:
+        for img in temp_images:
             if(len(img) > 5):
                 self.content_images += "<ContentImage src='" + \
                     img + "' alt='"+self.alt+"' note=''/>\n"
@@ -386,7 +392,7 @@ class GetSource:
         # print(self.images[0])
 
         temp_src = ""
-        for img in self.images:
+        for img in temp_images:
             if(len(img) > 5):
                 temp_src = img
                 break
@@ -414,7 +420,9 @@ class GetSource:
         try:
             chunk_size = 1024
             count = 10
-            for url in self.images:
+            # print(self.images)
+            for i in range(0, len(self.images)):
+                url = self.images[i]
                 if(url[:4] == "blob"):
                     continue
                 templist = url.split('/')
@@ -426,6 +434,8 @@ class GetSource:
                     filename = path_storage_images+self.imagename+"-" + \
                         str(count)+"-"+formatType
                     if not os.path.exists(filename):
+                        filename_import = path_storage_images_import+self.imagename+"-" + \
+                            str(count)+"-"+formatType
                         break
                     else:
                         count += 1
@@ -437,6 +447,7 @@ class GetSource:
                         for data in tqdm(iterable=req.iter_content(chunk_size=chunk_size), total=total_size/chunk_size, unit='KB'):
                             file.write(data)
                     print("Download Completed !!!")
+                    self.images[i] = filename_import
                 except Exception as e:
                     print("[!] dowload images error")
                     print(e)
@@ -444,9 +455,11 @@ class GetSource:
                     with open(filename, 'wb') as f:
                         f.write(req.content)
                     print("Download Completed !!!")
+                    self.images[i] = filename_import
                 count += 1
-        except:
-            None
+        except Exception as e:
+            print(e)
+        # print(self.images)
 
     def writing2filesOrigin(self):
         print("[!] Writing ...")
