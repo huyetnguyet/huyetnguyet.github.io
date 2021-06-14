@@ -91,7 +91,7 @@ class GetSource:
     def openBrowser(self):
         # selenium
         options = Options()
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
 
         print("[*] Opening Firefox")
         try:
@@ -116,8 +116,8 @@ class GetSource:
                     except Exception as e:
                         print("!!! ERROR: " + str(e))
                         sys.exit()
-        self.driver.set_window_position(0, 0)
-        self.driver.set_window_size(100, 100)
+        #self.driver.set_window_position(0, 0)
+        #self.driver.set_window_size(100, 100)
 
     def exit_handler(self):
         print("exit_handler")
@@ -331,6 +331,7 @@ class GetSource:
         temp_images = []
         for image in self.images:
             temp_images.append(image)
+        img_count = 1
         for p in self.ps:
             check_image = False
             # Add image between paragrapth
@@ -339,13 +340,16 @@ class GetSource:
                     try:
                         if self.check_download == 'n':
                             self.content_p += "<ContentImage src='" + \
-                                temp_images[i] + "' alt='"+self.alt + \
+                                temp_images[i] + "' alt='"+str(img_count)+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
+                            img_count += 1
                         else:
                             self.content_p += "<ContentImage src={require('" + \
-                                temp_images[i] + "').default} alt='"+self.alt + \
+                                temp_images[i] + "').default} alt='"+str(img_count)+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
+                            img_count += 1
                         temp_images[i] = ""
+
                         check_image = True
                     except:
                         continue
@@ -380,10 +384,12 @@ class GetSource:
             if(len(img) > 5):
                 if self.check_download == 'n':
                     self.content_images += "<ContentImage src='" + \
-                        img + "' alt='"+self.alt+"' note=''/>\n"
+                        img + "' alt='"+self.img_count+self.alt+"' note=''/>\n"
+                    img_count += 1
                 else:
                     self.content_images += "<ContentImage src={require('" + \
-                        img + "').default} alt='"+self.alt+"' note=''/>\n"
+                        img + "').default} alt='"+self.img_count+self.alt+"' note=''/>\n"
+                    img_count += 1
 
         self.filename = self.timeCombine+"-"+self.link+".js"
         self.imagename = self.timeCombine+"-"+self.link
@@ -605,6 +611,48 @@ class GetSource:
         write_json(filepath_data_json, database_json)
 
 
+def checkData():
+    filepath_data_json = "database/data_json.json"
+    if(os.path.exists(filepath_data_json)):
+
+        data = load_json(filepath_data_json)
+
+        print("database length: "+str(len(data)))
+
+        fw = open('../src/storages/database.js', 'w', encoding="utf-8")
+
+        count = 1
+        fw.write("export const dataFeatured=[")
+        for obj in data:
+            temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+                obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+                "',component: '"+obj['zcomponent'] + \
+                "',filepath: '"+obj['filepath'] + "'},"
+            fw.write(temp)
+            if(count == 3):
+                break
+            count += 1
+        fw.write("]\n")
+
+        count = 1
+        fw.write("export const dataContent=[")
+        for obj in data:
+            if(count > 3):
+                temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+                    obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+                    "',component: '"+obj['zcomponent'] + \
+                    "',filepath: '"+obj['filepath'] + "'},"
+                fw.write(temp)
+            count += 1
+        fw.write("]\n")
+
+        fw.write("export const dataContent02=[]")
+
+        print("[*] Wrote database to database.js")
+        fw.close()
+
+
 if __name__ == "__main__":
-    gs = GetSource()
-    gs.main()
+    #gs = GetSource()
+    # gs.main()
+    checkData()

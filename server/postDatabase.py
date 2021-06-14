@@ -39,8 +39,7 @@ def getDataFromGoogleSheet():
         temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
             obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
             "',component: '"+obj['zcomponent'] + \
-            "',filepath: '"+obj['filepath'] + \
-            "',download:'"+obj['download']+"'},"
+            "',filepath: '"+obj['filepath'] + "'},"
         fw.write(temp)
         if(count == 3):
             break
@@ -54,8 +53,7 @@ def getDataFromGoogleSheet():
             temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
                 obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
                 "',component: '"+obj['zcomponent'] + \
-                "',filepath: '"+obj['filepath'] + \
-                "',download:'"+obj['download']+"'},"
+                "',filepath: '"+obj['filepath'] + "'},"
             fw.write(temp)
         if(count == 50):
             break
@@ -69,8 +67,7 @@ def getDataFromGoogleSheet():
             temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
                 obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
                 "',component: '"+obj['zcomponent'] + \
-                "',filepath: '"+obj['filepath'] + \
-                "',download:'"+obj['download']+"'},"
+                "',filepath: '"+obj['filepath'] + "'},"
             fw.write(temp)
         count += 1
     fw.write("]\n")

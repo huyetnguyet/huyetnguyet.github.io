@@ -20,6 +20,56 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/nong-buc-hot-girl-con-lai-viet-trung-mac-ao-day-tre-nai-thu-hut-su-chu-y-cua-cong-dong" component={pages.page_20210614093056}/>
+
+<Route exact path="/on-troi-cuoi-cung-trieu-le-dinh-cung-da-bot-mot-mau-va-chuyen-sang-mau-moi-roi" component={pages.page_20210614093016}/>
+
+<Route exact path="/hlv-park-hang-seo-bi-cam-chi-dao-tran-uae" component={pages.page_20210614093003}/>
+
+<Route exact path="/cong-dong-mang-phat-cuong-voi-man-trinh-dien-dinh-cao-cua-manuel-david-de-tan-truong" component={pages.page_20210614092946}/>
+
+<Route exact path="/nu-coser-goc-viet-cung-quyet-dinh-coi-de-bien-thanh-nu-tro-ly-ao-samsung-khoe-tron-nhung-thu-18" component={pages.page_20210614092821}/>
+
+<Route exact path="/nhung-tua-game-hay-tuyet-nhung-khien-game-thu-phat-cau-vi-cai-ket-vo-van" component={pages.page_20210614092810}/>
+
+<Route exact path="/ben-canh-dota-d-day-day-chinh-la-nhung-custom-map-huyen-thoai-mot-thoi-cua-warcraft-3-ma-hiem-ai-khong-biet-toi-p1" component={pages.page_20210614092757}/>
+
+<Route exact path="/nhung-pokemon-duoc-thiet-ke-dua-tren-nhan-vat-co-that" component={pages.page_20210614092742}/>
+
+<Route exact path="/top-10-tua-game-hau-tan-the-voi-ban-do-bat-ngan-cho-ban-thoa-suc-tung-hoanh-p2" component={pages.page_20210614092729}/>
+
+<Route exact path="/cong-dong-game-thu-me-man-bo-anh-nong-bong-mat-cua-nu-cosplayer-hiino-yuki" component={pages.page_20210614092648}/>
+
+<Route exact path="/lien-tuc-tha-dang-goi-cam-voi-bikini-nong-bong-jun-vu-khien-fan-khong-khoi-tram-tro-chay-mau-mui" component={pages.page_20210614092614}/>
+
+<Route exact path="/len-song-ve-tranh-khong-ai-xem-nu-streamer-xinh-dep-quyet-ho-bao-rung-lac-vong-mot-bang-man-vu-dao-de-doi" component={pages.page_20210614092543}/>
+
+<Route exact path="/dam-me-tha-rong-vong-mot-khoe-them-nguc-quyen-ru-cac-hot-girl-lang-game-duoc-va-mat-nhung-gi" component={pages.page_20210614092507}/>
+
+<Route exact path="/10-game-chien-thuat-cho-ban-lam-thong-soai-chi-huy-hang-tram-van-quan-phan-2" component={pages.page_20210614092454}/>
+
+<Route exact path="/kwang-soo-viet-thu-tay-gui-cac-thanh-vien-va-fan-moi-nguoi-bay-gio-hay-quen-em-di" component={pages.page_20210614092438}/>
+
+<Route exact path="/my-nu-titanic-tung-gay-soc-voi-loat-canh-nong-ho-100-ben-nguoi-tinh-kem-15-tuoi-nhan-luon-oscar-vi-qua-xuat-sac" component={pages.page_20210614092415}/>
+
+<Route exact path="/1-a-hau-viet-nam-gay-soc-vi-tha-rong-loa-lo-tuong-dot-pha-ai-de-an-gach-da-tu-cu-dan-mang" component={pages.page_20210614092349}/>
+
+<Route exact path="/bay-gio-thu-dat-song-hye-kyo-va-son-ye-jin-len-ban-can-dien-do-2-day-e-ap-vong-1-toi-na-tho-ai-moi-ngoi-mam-tren" component={pages.page_20210614092054}/>
+
+<Route exact path="/se-chan-khoc-guc-xuong-ban-so-min-va-pd-nhoe-le-khi-chia-tay-kwang-soo" component={pages.page_20210614092039}/>
+
+<Route exact path="/chu-tich-van-toan-day-ban-lam-giau-bi-fan-malaysia-cong-kich-chop-co-hoi-ra-luon-mau-ao-in-hinh-cu-nga-penalty" component={pages.page_20210614092027}/>
+
+<Route exact path="/lee-kwang-soo-trong-mat-nsx-running-man-truoc-gio-chia-tay-cau-ay-khong-phai-la-do-ngoc" component={pages.page_20210614092016}/>
+
+<Route exact path="/nhin-clip-dien-bikini-cua-ngoc-trinh-do-ban-tim-duoc-chut-dau-hieu-con-sot-lai-cua-vong-eo-56" component={pages.page_20210614091942}/>
+
+<Route exact path="/coi-ao-nguc-ngay-tren-song-nu-streamer-xinh-dep-vo-tinh-gay-soc-khi-vo-tinh-ho-henh-nhu-hoa-truoc-hang-ngan-nguoi-xem" component={pages.page_20210614091903}/>
+
+<Route exact path="/top-10-tua-game-hau-tan-the-voi-ban-do-bat-ngan-cho-ban-thoa-suc-tung-hoanh" component={pages.page_20210614091850}/>
+
+<Route exact path="/vo-tu-gac-chan-len-ghe-nu-streamer-xinh-dep-ho-henh-lo-ngay-diem-nhay-cam-gay-chu-y" component={pages.page_20210614091818}/>
+
 <Route exact path="/nu-coser-goc-viet-cung-quyet-dinh-coi-de-bien-thanh-nu-tro-ly-ao-samsung-khoe-tron-nhung-thu-18" component={pages.page_20210611132832}/>
 
 <Route exact path="/nhung-tua-game-hay-tuyet-nhung-khien-game-thu-phat-cau-vi-cai-ket-vo-van" component={pages.page_20210611132820}/>

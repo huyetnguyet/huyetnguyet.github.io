@@ -4,14 +4,18 @@ import { dataContent, dataContent02 } from "storages/database";
 
 export function RandomFeature() {
   var randomNumber = Math.floor(Math.random() * dataContent02.length);
-  var obj = dataContent02[randomNumber];
-  return (
-    <div className="randomFeature">
-      <a href={obj.link}>
-        <h3>{obj.title}</h3>
-      </a>
-    </div>
-  );
+  if (dataContent02.length > 0) {
+    var obj = dataContent02[randomNumber];
+    return (
+      <div className="randomFeature">
+        <a href={obj.link}>
+          <h3>{obj.title}</h3>
+        </a>
+      </div>
+    );
+  } else {
+    return <></>;
+  }
 }
 
 export function RelationNews(props) {
