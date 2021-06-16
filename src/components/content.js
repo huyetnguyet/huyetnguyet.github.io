@@ -27,6 +27,7 @@ export function FacebookShareButton(props) {
         frameborder="0"
         allowfullscreen="true"
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        title="facebook"
       ></iframe>
     </div>
   );

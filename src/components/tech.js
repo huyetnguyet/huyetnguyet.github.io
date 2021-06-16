@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+/* eslint-disable array-callback-return */
+import React from "react";
 import Tabletop from "tabletop";
 import { googleSheetKey } from "../config/googleSheetMethod";
 
@@ -11,7 +11,6 @@ import { TabContainers } from "./methods";
 
 import { AdsHorizontal, AdsVertical } from "./adsMethods";
 
-import { AdsFeaturdSection } from "./adsMethods";
 import { dataContent } from "../storages/database";
 
 var categoryCollection = [];

@@ -2,7 +2,6 @@ import React from "react";
 import "components/page.css";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import { RandomFeature } from "components/methods";
-import { Player } from "video-react";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 

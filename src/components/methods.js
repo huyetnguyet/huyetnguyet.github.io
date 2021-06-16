@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable array-callback-return */
+import React from "react";
 
 import { dataContent, dataContent02 } from "storages/database";
 

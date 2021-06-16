@@ -20,6 +20,32 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/lo-danh-tinh-nang-hot-girl-goi-cam-dang-anh-co-vu-tuyen-viet-nam-gay-bao-mang-hoa-ra-la-guong-mat-quen-thuoc" component={pages.page_20210616113329}/>
+
+<Route exact path="/top-6-tro-choi-open-world-duoc-game-thu-bau-chon-hay-nhat-moi-thoi-dai" component={pages.page_20210616113318}/>
+
+<Route exact path="/tha-rong-vong-mot-nu-streamer-xinh-dep-chi-len-song-buoc-toc-uong-nuoc-cung-thu-hut-ca-ngan-nguoi-theo-doi" component={pages.page_20210616113259}/>
+
+<Route exact path="/bi-phu-huynh-khan-cau-roi-tu-mat-nang-hot-girl-phim-18-van-quyet-tam-theo-nghe-tro-thanh-thanh-nu-de-khang-dinh-ban-than" component={pages.page_20210616113238}/>
+
+<Route exact path="/lien-tuc-gap-tai-nan-khoe-than-ho-henh-voi-cac-clip-lookbook-nu-youtuber-bat-ngo-duoc-len-trang-bia-cua-tap-chi-18" component={pages.page_20210616113119}/>
+
+<Route exact path="/nhung-tua-game-bao-luc-18-khien-nguoi-choi-phai-tranh-xa-vi-qua-dang-so" component={pages.page_20210616113102}/>
+
+<Route exact path="/top-10-nu-than-trong-game-khien-ban-tin-vao-tinh-yeu-dich-thuc" component={pages.page_20210616113051}/>
+
+<Route exact path="/cot-truyen-day-bi-kich-it-nguoi-biet-toi-cua-contra-tua-game-quoc-dan-cua-the-he-8-9x" component={pages.page_20210616113041}/>
+
+<Route exact path="/quang-cao-game-moi-nu-hoang-sexy-lai-thieu-dot-thi-giac-game-thu" component={pages.page_20210616113021}/>
+
+<Route exact path="/so-huu-vong-mot-ca-met-hot-girl-phim-18-vua-debut-da-lap-ky-luc-chia-se-thuong-tha-rong-vi-khong-tim-duoc-noi-y-vua-co" component={pages.page_20210616113003}/>
+
+<Route exact path="/gay-tranh-cai-tai-nong-cung-euro-hot-girl-le-bong-dang-anh-goi-cam-nhung-lien-tuc-bi-fan-troll-sap-mat" component={pages.page_20210616112918}/>
+
+<Route exact path="/cung-ngam-trieu-le-dinh-va-7749-tao-dang-gia-tran-khi-quang-cao-trang-suc" component={pages.page_20210616112833}/>
+
+<Route exact path="/hoa-ra-jennie-tung-co-thoi-mac-dep-den-muc-antifan-cung-phai-cam-nin-khong-che-duoc-diem-nao" component={pages.page_20210616112719}/>
+
 <Route exact path="/nong-buc-hot-girl-con-lai-viet-trung-mac-ao-day-tre-nai-thu-hut-su-chu-y-cua-cong-dong" component={pages.page_20210614093056}/>
 
 <Route exact path="/on-troi-cuoi-cung-trieu-le-dinh-cung-da-bot-mot-mau-va-chuyen-sang-mau-moi-roi" component={pages.page_20210614093016}/>

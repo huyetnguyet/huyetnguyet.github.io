@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import Tabletop from "tabletop";
+import React from "react";
 
 import "components/homeComponents/homeContentSection.css";
 import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";

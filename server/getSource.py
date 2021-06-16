@@ -384,11 +384,12 @@ class GetSource:
             if(len(img) > 5):
                 if self.check_download == 'n':
                     self.content_images += "<ContentImage src='" + \
-                        img + "' alt='"+self.img_count+self.alt+"' note=''/>\n"
+                        img + "' alt='"+str(img_count)+self.alt+"' note=''/>\n"
                     img_count += 1
                 else:
                     self.content_images += "<ContentImage src={require('" + \
-                        img + "').default} alt='"+self.img_count+self.alt+"' note=''/>\n"
+                        img + "').default} alt='" + \
+                        str(img_count)+self.alt+"' note=''/>\n"
                     img_count += 1
 
         self.filename = self.timeCombine+"-"+self.link+".js"

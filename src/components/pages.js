@@ -1,9 +1,5 @@
 import React from "react";
 
-import TopSection from "components/homeComponents/topSection";
-import Navigation from "components/navigation";
-import Footer from "components/footer";
-
 import { MainContent } from "components/homeComponents/homeContentSection";
 import { Pages } from "components/content";
 

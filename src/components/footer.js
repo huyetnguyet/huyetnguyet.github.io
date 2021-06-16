@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+/* eslint-disable array-callback-return */
+import React from "react";
 import "components/footer.css";
 
 import { dataContent } from "storages/database";
