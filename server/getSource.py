@@ -654,6 +654,6 @@ def checkData():
 
 
 if __name__ == "__main__":
-    #gs = GetSource()
-    # gs.main()
+    gs = GetSource()
+    gs.main()
     checkData()

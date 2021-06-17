@@ -20,6 +20,24 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/bi-ga-combo-150-trieu-1-can-nha-cho-mot-dem-o-canh-nang-hot-girl-viet-hai-huoc-dap-tra-em-co-nha-roi" component={pages.page_20210617140755}/>
+
+<Route exact path="/top-7-manga-bong-da-giup-ban-giai-tri-trong-thoi-gian-cho-doi-vong-loai-world-cup-2022-cuoi-cung-cua-doi-tuyen-viet-nam" component={pages.page_20210617140743}/>
+
+<Route exact path="/tan-binh-18-bay-to-chuyen-qua-khu-ke-chuyen-an-tap-bao-nhieu-vao-het-go-bong-dao" component={pages.page_20210617140720}/>
+
+<Route exact path="/nhin-nhung-guong-mat-tuyet-sac-nay-thi-ai-con-dam-noi-dien-anh-nhat-thieu-bong-dang-my-nhan" component={pages.page_20210617140532}/>
+
+<Route exact path="/so-huu-vong-mot-nang-nhat-lang-phim-18-nhat-ban-nang-hot-girl-mo-lat-do-yua-mikami-toi-muon-la-nguoi-gioi-nhat" component={pages.page_20210617140500}/>
+
+<Route exact path="/bat-ngo-dung-len-sap-xep-vong-mot-day-goi-cam-tren-song-nu-streamer-khien-nguoi-xem-ban-loan-khong-hieu-ly-do" component={pages.page_20210617140424}/>
+
+<Route exact path="/nhung-nhan-vat-dang-yeu-bac-nhat-duoc-nhieu-game-thu-ua-thich" component={pages.page_20210617140409}/>
+
+<Route exact path="/top-game-kinh-dien-hay-nhat-tren-mobile-co-mot-phan-final-fantasy-huyen-thoai" component={pages.page_20210617140357}/>
+
+<Route exact path="/do-sac-trong-ta-ao-dai-trang-tinh-khoi-cac-hot-girl-esports-hoa-nang-tho-trong-sang" component={pages.page_20210617140309}/>
+
 <Route exact path="/lo-danh-tinh-nang-hot-girl-goi-cam-dang-anh-co-vu-tuyen-viet-nam-gay-bao-mang-hoa-ra-la-guong-mat-quen-thuoc" component={pages.page_20210616113329}/>
 
 <Route exact path="/top-6-tro-choi-open-world-duoc-game-thu-bau-chon-hay-nhat-moi-thoi-dai" component={pages.page_20210616113318}/>
