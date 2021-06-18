@@ -20,6 +20,46 @@ export default function routePages() {
       <Route exact path="/page02" component={Page02} />
       <></>
 
+<Route exact path="/nghet-tho-voi-bo-anh-sinh-nhat-cua-cuc-tinh-y-visual-kinh-diem-toi-tung-milimet-vong-1-day-da-nhu-muon-truc-trao-ra-ngoai" component={pages.page_20210618130438}/>
+
+<Route exact path="/sau-khi-nu-streamer-sexy-mai-dora-ngat-xiu-ngay-tren-song-mot-bo-phan-cu-dan-mang-co-nhieu-binh-luan-ac-y-voi-tu-ngu-tho-tuc-gieu-cot" component={pages.page_20210618130416}/>
+
+<Route exact path="/su-nghiep-cua-3-nu-hoang-canh-nong-phim-han-vien-man-nhat-dich-thi-la-son-ye-jin" component={pages.page_20210618130342}/>
+
+<Route exact path="/cuoc-hanh-quan-than-toc-trong-dem-cua-chien-si-bac-giang-de-nhuong-doanh-trai-cho-nguoi-dan-cach-ly" component={pages.page_20210618130328}/>
+
+<Route exact path="/nong-nu-streamer-sexy-nhat-viet-nam-mai-dora-bat-ngo-ngat-xiu-ngay-tren-song-livestream" component={pages.page_20210618130259}/>
+
+<Route exact path="/diem-mat-4-manga-ban-chay-nhat-nua-dau-nam-2021-tai-nhat-ban-huong-loi-tu-phan-chuyen-the-anime-xuat-sac" component={pages.page_20210618130226}/>
+
+<Route exact path="/danh-gia-samsung-980-ssd-pcie-gen-3-van-the-hien-dang-cap-nhanh-xe-gio" component={pages.page_20210618130218}/>
+
+<Route exact path="/dao-bitcoin-thuc-su-tieu-ton-nang-luong-den-muc-nao" component={pages.page_20210618130206}/>
+
+<Route exact path="/top-8-bo-truyen-isekai-co-noi-dung-kho-do-lam-mua-lam-gio-nam-2021-p2" component={pages.page_20210618130157}/>
+
+<Route exact path="/ban-do-trong-open-world-game-co-the-rong-den-muc-nao-nhung-tiet-lo-khien-game-thu-sung-sot" component={pages.page_20210618130145}/>
+
+<Route exact path="/tu-gan-mac-van-con-cai-ngan-vang-nang-hot-girl-phim-18-bi-nem-da-toi-ta-ngay-sau-tac-pham-debut" component={pages.page_20210618130125}/>
+
+<Route exact path="/dragon-ball-super-cac-cho-rang-ultra-instinct-cua-goku-da-out-meta-khi-de-dang-bi-granola-ha-guc" component={pages.page_20210618130116}/>
+
+<Route exact path="/noi-tieng-khong-kem-one-piece-the-nhung-5-anime-sau-day-lai-bi-hat-hui-tai-viet-nam-toan-nhung-cai-ten-la-hoac" component={pages.page_20210618130105}/>
+
+<Route exact path="/yua-mikami-hai-ra-tien-nhieu-co-nao-tu-nganh-cong-nghiep-18" component={pages.page_20210618130042}/>
+
+<Route exact path="/worm-la-gi-tai-sao-chung-lai-nguy-hiem-voi-may-tinh" component={pages.page_20210618130029}/>
+
+<Route exact path="/top-10-anime-dang-phat-song-duoc-danh-gia-cao-nhat-hien-nay-theo-myanimelist" component={pages.page_20210618130016}/>
+
+<Route exact path="/mat-mat-ngam-my-nhan-azur-lane-dien-do-boi-khoe-body-nuot-na-tam-hon-cu-goi-la-bat-ngat" component={pages.page_20210618125927}/>
+
+<Route exact path="/day-la-10-y-tuong-thu-vi-ve-pokemon-ma-fan-co-the-chua-biet-cai-ten-ban-dau-cung-rat-cau-ky" component={pages.page_20210618125919}/>
+
+<Route exact path="/top-10-phan-dien-dang-nho-trong-phim-hoat-hinh-pokemon-p2" component={pages.page_20210618125907}/>
+
+<Route exact path="/top-10-phan-dien-dang-nho-trong-phim-hoat-hinh-pokemon-p1" component={pages.page_20210618125537}/>
+
 <Route exact path="/bi-ga-combo-150-trieu-1-can-nha-cho-mot-dem-o-canh-nang-hot-girl-viet-hai-huoc-dap-tra-em-co-nha-roi" component={pages.page_20210617140755}/>
 
 <Route exact path="/top-7-manga-bong-da-giup-ban-giai-tri-trong-thoi-gian-cho-doi-vong-loai-world-cup-2022-cuoi-cung-cua-doi-tuyen-viet-nam" component={pages.page_20210617140743}/>

@@ -11,7 +11,7 @@ import { TabContainers } from "./methods";
 
 import { AdsHorizontal, AdsVertical } from "./adsMethods";
 
-import { dataContent } from "../storages/database";
+import { dataContent } from "storages/database";
 
 var categoryCollection = [];
 var newCategoryCollection = [];

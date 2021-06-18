@@ -32,7 +32,7 @@ def getDataFromGoogleSheet():
     print("Database: " + str(len(data)))
 
     fw = open('../src/storages/database.js', 'w', encoding="utf-8")
-
+    '''
     count = 1
     fw.write("export const dataFeatured=[")
     for obj in data:
@@ -68,7 +68,52 @@ def getDataFromGoogleSheet():
             fw.write(temp)
         count += 1
     fw.write("]\n")
-
+    '''
+    count = 1
+    countdata = 1
+    start = False
+    end = True
+    for obj in data:
+        temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
+            obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
+            "',component: '"+obj['zcomponent'] + "'},"
+        if(count < 3):
+            if start == False:
+                if(end == False):
+                    fw.write("]\n")
+                    end = True
+                fw.write("export const dataFeatured=[")
+                start = True
+                end = False
+            fw.write(temp)
+        elif(count == 3):
+            fw.write("]\n")
+            start = False
+            end = True
+        elif(count > 3 and count < 13+50*countdata):
+            if start == False:
+                if(end == False):
+                    fw.write("]\n")
+                    end = True
+                if(countdata < 10):
+                    if(countdata == 1):
+                        fw.write("export const dataContent=[")
+                    else:
+                        fw.write("export const dataContent0" +
+                                 str(countdata)+"=[")
+                else:
+                    fw.write("export const dataContent"+str(countdata)+"=[")
+                start = True
+                end = False
+            fw.write(temp)
+        elif(count == 13+50*countdata):
+            fw.write("]\n")
+            start = False
+            end = True
+            countdata += 1
+        count += 1
+    if(end == False):
+        fw.write("]\n")
     print("[*] Wrote database to database.js")
     fw.close()
 

@@ -10,7 +10,6 @@ import time
 import sys
 import os
 from urllib import request
-
 from methods_json import load_json, write_json
 
 os.system("cls")
@@ -50,9 +49,10 @@ class GetSource:
         self.ps = []
         self.images = []
         self.category = ""
-        self.tags = ""
+        self.tags = []
         self.link = ""
         self.timestamp = ""
+        self.alt = ""
 
     def main(self):
 
@@ -66,12 +66,8 @@ class GetSource:
             self.check_download = tempList[1]
             self.URL_link = tempList[2]
 
-            # while True:
-            # self.URL_link = input("\nURL: ")
-            # self.initCategory()
-            self.initAltImages()
+            # self.initAltImages()
             tempList2 = tempList[2].split('/')
-            # print(tempList2)
             for part in tempList2:
                 if(part == "gamek.vn" or part == "m.gamek.vn"):
                     print("Source From: " + part)
@@ -116,8 +112,8 @@ class GetSource:
                     except Exception as e:
                         print("!!! ERROR: " + str(e))
                         sys.exit()
-        #self.driver.set_window_position(0, 0)
-        #self.driver.set_window_size(100, 100)
+        # self.driver.set_window_position(0, 0)
+        # self.driver.set_window_size(100, 100)
 
     def exit_handler(self):
         print("exit_handler")
@@ -136,18 +132,6 @@ class GetSource:
 
     def initAltImages(self):
         print("[*] initAltImages")
-        '''
-        print("\nTags: ")
-        self.getTagsFromLink()
-        tempTags = self.getTagsFromString(self.tags)
-        count = 1
-        for tag in tempTags:
-            print(str(count)+". "+tag)
-            count += 1
-        choice_alt = int(input("ALT_Image: "))
-        self.alt = tempTags[choice_alt-1]
-        print("[#] Alt Images = "+self.alt)
-        '''
         self.getTagsFromLink()
         tempTags = self.getTagsFromString(self.tags)
         self.alt = ""
@@ -190,6 +174,9 @@ class GetSource:
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")
 
+        element_tags = element_rightdetail_content.find_elements_by_xpath(
+            "//div[@class='tagnew mgt10']//h3//a")
+
         self.title = element_title.text
         self.author = element_author.text
         self.source = element_source.text
@@ -205,6 +192,8 @@ class GetSource:
             temp_list = img_link.split(".")
             if(temp_list[len(temp_list)-1] != 'svg'):
                 self.images.append(img_link)
+        for element in element_tags:
+            self.tags.append(element.text)
 
     def getSourceFrom_Kenh14(self):
         print("[!] Opening URL")
@@ -235,6 +224,9 @@ class GetSource:
         element_source = self.driver.find_element_by_class_name(
             "link-source-text-name")
 
+        element_tags = element_body.find_elements_by_xpath(
+            "//div[@class='klw-new-tags clearfix']//ul//li//a")
+
         self.title = element_title.text
         self.author = element_author.text
         self.source = element_source.text
@@ -252,6 +244,10 @@ class GetSource:
             temp_list = img_link.split(".")
             if(temp_list[len(temp_list)-1] != 'svg'):
                 self.images.append(img_link)
+        for element in element_tags:
+            self.tags.append(element.text)
+            print(element.text)
+        sys.exit()
 
     def getTagsFromString(self, tags):
         newString = tags[12:len(tags)-2]
@@ -314,19 +310,22 @@ class GetSource:
 
     def setupContent(self):
         self.makeNewURL_link(self.URL_link)
-        #self.title = self.title.replace("\"", "'")
-        #self.description = self.description.replace("\"", "'")
+        # self.title = self.title.replace("\"", "'")
+        # self.description = self.description.replace("\"", "'")
 
+        # const tagparam = ["gai-xinh", "hot-girl", "vo-ngoc-tran", "cong-dong-mang"];
+        temp_tags = "tagparam = ["
+        for tag in self.tags:
+            temp_tags += '"'+tag+'",'
+        temp_tags += '];'
         self.pageConstValue = "const category = '"+self.category+"';\nconst categoryLink = '/"+self.category+"';\nconst title = '"+self.title+"';\nconst author = '"+self.author+"';\nconst source = '"+self.source + \
             "';\nconst timestamp = '"+self.timestamp+"';\nconst description = '" + \
-            self.description+"';\nconst link = '"+self.link+"';\nconst "+self.tags
-
-        print("Paragraph: "+str(len(self.ps)))
-        print("Images: "+str(len(self.images)))
-        print("Alt: "+str(len(self.images_alt)))
+            self.description+"';\nconst link = '"+self.link+"';\nconst "+temp_tags
 
         self.content_p = ""
-        tempTags = self.getTagsFromString(self.tags)
+        for tag in self.tags:
+            self.alt += tag + ','
+        tempTags = self.tags
         temp_count = 0
         temp_images = []
         for image in self.images:
@@ -340,12 +339,12 @@ class GetSource:
                     try:
                         if self.check_download == 'n':
                             self.content_p += "<ContentImage src='" + \
-                                temp_images[i] + "' alt='"+str(img_count)+self.alt + \
+                                temp_images[i] + "' alt='"+str(img_count)+", "+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
                             img_count += 1
                         else:
                             self.content_p += "<ContentImage src={require('" + \
-                                temp_images[i] + "').default} alt='"+str(img_count)+self.alt + \
+                                temp_images[i] + "').default} alt='"+str(img_count)+", "+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
                             img_count += 1
                         temp_images[i] = ""
@@ -384,12 +383,13 @@ class GetSource:
             if(len(img) > 5):
                 if self.check_download == 'n':
                     self.content_images += "<ContentImage src='" + \
-                        img + "' alt='"+str(img_count)+self.alt+"' note=''/>\n"
+                        img + "' alt='"+str(img_count) + \
+                        ", "+self.alt+"' note=''/>\n"
                     img_count += 1
                 else:
                     self.content_images += "<ContentImage src={require('" + \
                         img + "').default} alt='" + \
-                        str(img_count)+self.alt+"' note=''/>\n"
+                        str(img_count)+", "+self.alt+"' note=''/>\n"
                     img_count += 1
 
         self.filename = self.timeCombine+"-"+self.link+".js"
@@ -433,6 +433,10 @@ class GetSource:
                      "filepath": filepath,
                      }
         database_json.append(data_json)
+
+        print("Paragraph: "+str(len(self.ps)))
+        print("Images: "+str(len(self.images)))
+        print("Alt: "+str(len(self.images_alt)))
 
     def downloadImages(self):
         try:
