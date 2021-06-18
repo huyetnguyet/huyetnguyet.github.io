@@ -20,8 +20,10 @@ export default class Home extends Component {
             <TopSection></TopSection>
           </div>
         </div>
-        <div className="container">
-          <Navigation tab="home"></Navigation>
+        <div id="navigation">
+          <div className="container">
+            <Navigation tab="home"></Navigation>
+          </div>
         </div>
         <div id="bodylayout">
           <div className="container">

@@ -23,8 +23,8 @@ function ContentItem(props) {
             {props.date} {props.time}
           </div>
         </div>
-        <p className="desktop">{props.description.substring(0, 100)}</p>
-        <p className="mobile">{props.description.substring(0, 50)}</p>
+        <p className="desktop">{props.description.substring(0, 100)}...</p>
+        <p className="mobile">{props.description.substring(0, 50)}...</p>
       </div>
     </div>
   );

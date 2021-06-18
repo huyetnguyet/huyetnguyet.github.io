@@ -13,7 +13,7 @@ function ContentItem(props) {
         <a href={props.link}>
           <h4>{props.title.substring(0, 45)}...</h4>
         </a>
-        <p>{props.description.substring(0, 70)}...</p>
+        <p>{props.description.substring(0, 60)}...</p>
       </div>
       <a href={props.link} class="featuredBtn">
         read more

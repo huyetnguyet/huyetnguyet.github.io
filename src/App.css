@@ -27,6 +27,11 @@ a {
   width: 100%;
 }
 
+#navigation {
+  background-color: #a21514;
+  width: 100%;
+}
+
 #bodylayout {
   background-image: linear-gradient(#000000, #a21515);
   width: 100%;

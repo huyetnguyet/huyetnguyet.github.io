@@ -54,6 +54,19 @@
   height: 100%;
 }
 
+.slideshow h3,
+.slideshow p {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.slideshow img {
+  max-height: 800px;
+  min-height: 300px;
+  object-fit: cover;
+  object-position: top;
+}
 @media only screen and (max-width: 1000px) {
   .slideshow,
   .slideshowDotsPosition {

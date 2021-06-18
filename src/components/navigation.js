@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "components/navigation.css";
+import { Navbar, Nav } from "react-bootstrap";
 
 function checkTab(tab) {
   var navHome = document.getElementById("navHome");
@@ -76,48 +77,66 @@ export default function Navigation(props) {
     checkTab(props.tab);
   });
   return (
-    <div className="navigation">
-      <ul>
-        <li>
-          <a href="/" id="navHome">
-            HOME
-          </a>
-        </li>
+    <>
+      <div className="navigation">
+        <ul>
+          <li>
+            <a href="/" id="navHome">
+              HOME
+            </a>
+          </li>
 
-        <li>
-          <a href="/games" id="navGames">
-            GAMES
-          </a>
-        </li>
+          <li>
+            <a href="/games" id="navGames">
+              GAMES
+            </a>
+          </li>
 
-        <li>
-          <a href="/news" id="navNews">
-            NEWS
-          </a>
-        </li>
+          <li>
+            <a href="/news" id="navNews">
+              NEWS
+            </a>
+          </li>
 
-        <li>
-          <a href="/tech" id="navTech">
-            TECH
-          </a>
-        </li>
+          <li>
+            <a href="/tech" id="navTech">
+              TECH
+            </a>
+          </li>
 
-        <li>
-          <a href="/guide" id="navGuide">
-            GUIDE
-          </a>
-        </li>
-        <li>
-          <a href="/travel" id="navTravel">
-            TRAVEL
-          </a>
-        </li>
-        <li>
-          <a href="/gallery" id="navGallery">
-            GALLEY
-          </a>
-        </li>
-      </ul>
-    </div>
+          <li>
+            <a href="/guide" id="navGuide">
+              GUIDE
+            </a>
+          </li>
+          <li>
+            <a href="/travel" id="navTravel">
+              TRAVEL
+            </a>
+          </li>
+          <li>
+            <a href="/gallery" id="navGallery">
+              GALLEY
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div className="mobile">
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="mr-auto">
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/games">GAMES</Nav.Link>
+              <Nav.Link href="/news">NEWS</Nav.Link>
+              <Nav.Link href="/tech">TECH</Nav.Link>
+              <Nav.Link href="/guide">GUIDE</Nav.Link>
+              <Nav.Link href="/travel">TRAVEL</Nav.Link>
+              <Nav.Link href="/gallery">GALLERY</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Navbar>
+      </div>
+    </>
   );
 }

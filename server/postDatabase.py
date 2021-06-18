@@ -82,26 +82,31 @@ def getDataFromGoogleSheet():
                 if(end == False):
                     fw.write("]\n")
                     end = True
+                print("dataFeatured")
                 fw.write("export const dataFeatured=[")
                 start = True
                 end = False
             fw.write(temp)
         elif(count == 3):
+            fw.write(temp)
             fw.write("]\n")
             start = False
             end = True
-        elif(count > 3 and count < 13+50*countdata):
+        if(count > 3 and count < 13+50*countdata):
             if start == False:
                 if(end == False):
                     fw.write("]\n")
                     end = True
                 if(countdata < 10):
                     if(countdata == 1):
+                        print("dataContent")
                         fw.write("export const dataContent=[")
                     else:
+                        print("dataContent0" + str(countdata))
                         fw.write("export const dataContent0" +
                                  str(countdata)+"=[")
                 else:
+                    print("dataContent" + str(countdata))
                     fw.write("export const dataContent"+str(countdata)+"=[")
                 start = True
                 end = False
