@@ -94,6 +94,7 @@ class GetSource:
             self.driver = webdriver.Firefox(options=options)
         except Exception as e:
             try:
+                print(e)
                 print("    [!] Open on Windows")
                 binary = FirefoxBinary(
                     "C:\\Program Files\\Mozilla Firefox\\firefox.exe")
@@ -101,19 +102,21 @@ class GetSource:
                     firefox_binary=binary, executable_path=r"C:\\geckodriver.exe", options=options)
             except Exception as e:
                 try:
+                    print(e)
                     print("    [!] Open on Linux")
                     self.driver = webdriver.Firefox(
                         executable_path='geckodriver/geckodriver')
                 except Exception as e:
                     try:
+                        print(e)
                         print("    [!] Trying open last chance")
                         self.driver = webdriver.Firefox(
                             executable_path='geckodriver\\geckodriver')
                     except Exception as e:
                         print("!!! ERROR: " + str(e))
                         sys.exit()
-        # self.driver.set_window_position(0, 0)
-        # self.driver.set_window_size(100, 100)
+        self.driver.set_window_position(0, 0)
+        self.driver.set_window_size(100, 100)
 
     def exit_handler(self):
         print("exit_handler")
@@ -238,16 +241,21 @@ class GetSource:
         self.images = []
         self.videos = []
         for img in element_imgs:
-            temp = str(img.get_attribute("src"))
-            if(len(temp) > 10):
-                img_link = str(img.get_attribute("src"))
-            temp_list = img_link.split(".")
-            if(temp_list[len(temp_list)-1] != 'svg'):
-                self.images.append(img_link)
+            try:
+                temp = str(img.get_attribute("src"))
+                if(len(temp) > 10):
+                    img_link = str(img.get_attribute("src"))
+                temp_list = img_link.split(".")
+                if(temp_list[len(temp_list)-1] != 'svg'):
+                    self.images.append(img_link)
+            except:
+                continue
         for element in element_tags:
-            self.tags.append(element.text)
-            print(element.text)
-        sys.exit()
+            try:
+                self.tags.append(element.text)
+                print(element.text)
+            except:
+                continue
 
     def getTagsFromString(self, tags):
         newString = tags[12:len(tags)-2]
