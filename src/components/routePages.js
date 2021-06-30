@@ -20,6 +20,7 @@ export default function routePages() {
       <Route exact path="/page02" component={page.Page02} />
       <Route exact path="/page03" component={page.Page03} />
       <Route exact path="/page04" component={page.Page04} />
+      <Route exact path="/page05" component={page.Page05} />
       <></>
 
       <Route

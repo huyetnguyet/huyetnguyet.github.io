@@ -63,7 +63,6 @@ export function Page03() {
         <a href="/page04">
           <div className="pagenaviBox">{">>"}</div>
         </a>
-        <div className="pagenaviBox">{"..."}</div>
         <a href={last_page}>
           <div className="pagenaviBox">{"LAST >>"}</div>
         </a>
@@ -81,12 +80,8 @@ export function Page04() {
         <a href="/">
           <div className="pagenaviBox">{"<< FIRST"}</div>
         </a>
-        <div className="pagenaviBox">{"..."}</div>
         <a href="/page03">
           <div className="pagenaviBox">{"<<"}</div>
-        </a>
-        <a href="/">
-          <div className="pagenaviBox">1</div>
         </a>
         <a href="/page02">
           <div className="pagenaviBox">2</div>
@@ -102,7 +97,6 @@ export function Page04() {
         <a href="/page05">
           <div className="pagenaviBox">{">>"}</div>
         </a>
-        <div className="pagenaviBox">{"..."}</div>
         <a href={last_page}>
           <div className="pagenaviBox">{"LAST >>"}</div>
         </a>
@@ -120,7 +114,6 @@ export function Page05() {
         <a href="/">
           <div className="pagenaviBox">{"<< FIRST"}</div>
         </a>
-        <div className="pagenaviBox">{"..."}</div>
         <a href="/page04">
           <div className="pagenaviBox">{"<<"}</div>
         </a>
@@ -132,7 +125,6 @@ export function Page05() {
           <div className="pagenaviBox">4</div>
         </a>
         <div className="pagenaviBox pageCurrent">5</div>
-        <div className="pagenaviBox">{"..."}</div>
         <a href={last_page}>
           <div className="pagenaviBox">{"LAST >>"}</div>
         </a>
@@ -162,7 +154,6 @@ export function Pagenavi01() {
         <a href="/page02">
           <div className="pagenaviBox">{">>"}</div>
         </a>
-        <div className="pagenaviBox">{"..."}</div>
         <a href={last_page}>
           <div className="pagenaviBox">{"LAST >>"}</div>
         </a>
