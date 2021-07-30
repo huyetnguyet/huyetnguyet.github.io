@@ -1,5 +1,254 @@
 export const dataFeatured = [
   {
+    title:
+      "Những sinh vật kỳ bí, quỷ quyết và đầy mê hoặc trong thần thoại Bắc Âu",
+    description:
+      "Trong thần thoại Bắc Âu không chỉ có các vị thần và người khổng lồ.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/30/to-make-my-small-elves-coats-1627635135792898967258.jpg",
+    alt: "KHÁM PHÁ,THẦN THOẠI,THẦN THOẠI BẮC ÂU,",
+    category: "news",
+    time: "12:19 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:19 PM",
+    link: "/nhung-sinh-vat-ky-bi-quy-quyet-va-day-me-hoac-trong-than-thoai-bac-au",
+    component: "page_20210730121944",
+  },
+  {
+    title:
+      '“Nước đến bàn phím vẫn không nhảy", game thủ mặc kệ dòng lũ, xắn quần ngồi đánh quái',
+    description:
+      "Những hình ảnh game thủ Philippines ngồi “cày” game mặc cho dòng nước lũ dâng lên với tốc độ nhanh chóng đang thu hút sự chú ý của cộng đồng.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/29/photo-1-16275517364501564578952.jpg",
+    alt: "GAME THỦ,CÀY GAME,PHILIPPINES,",
+    category: "games",
+    time: "12:19 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:19 PM",
+    link: "/nuoc-den-ban-phim-van-khong-nhay-game-thu-mac-ke-dong-lu-xan-quan-ngoi-danh-quai",
+    component: "page_20210730121934",
+  },
+  {
+    title:
+      "Loạt mỹ nhân 18+ trẻ tuổi được thiên thần Yua Mikami hết lời khen ngợi",
+    description:
+      "Những cô gái này đều là các đàn em được Yua Mikami yêu thích và cũng được đánh giá cao bởi công chúng.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/29/-162755398443429398537.jpg",
+    alt: "RIKKA ONO,IDOL,YUA MIKAMI,NOZOMI ISHIHARA,",
+    category: "images",
+    time: "12:19 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:19 PM",
+    link: "/loat-my-nhan-18-tre-tuoi-duoc-thien-than-yua-mikami-het-loi-khen-ngoi",
+    component: "page_20210730121913",
+  },
+];
+export const dataContent = [
+  {
+    title:
+      "Axie Infinity coin giảm giá chóng mặt, game thủ Việt hoang mang lo lắng",
+    description: "Axie Infinity coin đã bốc hơi 21% giá trị trong 2 ngày qua.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/29/untitled-1627574937832795816169.png",
+    alt: "AXIE INFINITY,AXS,AXS COIN,GAME THỦ VIỆT,GIỚI CÔNG NGHỆ,CÔNG NGHỆ VIỆT NAM,TIỀN ẢO,CRYPTO,",
+    category: "news",
+    time: "12:19 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:19 PM",
+    link: "/axie-infinity-coin-giam-gia-chong-mat-game-thu-viet-hoang-mang-lo-lang",
+    component: "page_20210730121904",
+  },
+  {
+    title: "Top game cấu hình nhẹ nhưng lại sở hữu đồ họa đỉnh cao",
+    description:
+      "Game có đồ họa đẹp không thiếu nhưng game vừa đẹp vừa nhẹ thì lại không nhiều.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/photo-1-1627581743584424295397.png",
+    alt: "CỘNG ĐỒNG MẠNG,GAME HAY,GAME ĐỈNH,TIN TỨC GAME,ĐỒ HỌA ĐẸP,MÁY YẾU,CẤU HÌNH THẤP,",
+    category: "games",
+    time: "12:18 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:18 PM",
+    link: "/top-game-cau-hinh-nhe-nhung-lai-so-huu-do-hoa-dinh-cao",
+    component: "page_20210730121855",
+  },
+  {
+    title: "Top game cấu hình nhẹ nhưng lại sở hữu đồ họa đỉnh cao (P.2)",
+    description:
+      "Game có đồ họa đẹp không thiếu nhưng game vừa đẹp vừa nhẹ thì lại không nhiều.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/photo-1-16276148883661382259834.jpg",
+    alt: "GAME HAY,GAME NHẸ,TIN TỨC GAME,CỘNG ĐỒNG MẠNG,",
+    category: "games",
+    time: "12:18 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:18 PM",
+    link: "/top-game-cau-hinh-nhe-nhung-lai-so-huu-do-hoa-dinh-cao-p2",
+    component: "page_20210730121846",
+  },
+  {
+    title:
+      "4 xung đột giữa các diễn viên của Fast & Furious khiến người dọa bỏ vai kẻ thì bye bye thật",
+    description:
+      "Mặc dù chủ đề chính của Fast & Furious là gia đình, nhưng điều đó không có nghĩa mọi người trong tập thể này lúc nào cũng gắn bó với nhau, dù là trong phim hay ngoài đời.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/29/photo-1-16275643825141972207601.jpg",
+    alt: "FAST & FURIOUS,SERIES FAST,THE FAST AND THE FURIOUS,THE FAST SAGA,VIN DIESEL,THE ROCK,TYRESE GIBSON,",
+    category: "news",
+    time: "12:18 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:18 PM",
+    link: "/4-xung-dot-giua-cac-dien-vien-cua-fast-furious-khien-nguoi-doa-bo-vai-ke-thi-bye-bye-that",
+    component: "page_20210730121837",
+  },
+  {
+    title:
+      "Hòa mình cùng Thế vận hội 2020 với những bộ anime thể thao nổi tiếng",
+    description:
+      "Thế vận hội Tokyo 2020 cuối cùng cũng đang diễn ra tại Nhật Bản và khán giả có thể cùng học cùng chơi với một số anime thể thao sau.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/photo-1-162758385936526249098.jpg",
+    alt: "ANIME,OLYMPIC,",
+    category: "games",
+    time: "12:18 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:18 PM",
+    link: "/hoa-minh-cung-the-van-hoi-2020-voi-nhung-bo-anime-the-thao-noi-tieng",
+    component: "page_20210730121828",
+  },
+  {
+    title: "Tải miễn phí bom tấn siêu anh hùng Marvel Avengers trên Steam",
+    description: "Tải Marvel Avengers và chiến thôi.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627620857366227458726.jpg",
+    alt: "SIÊU ANH HÙNG,GAME PHIÊU LƯU,MARVEL’S AVENGERS,GAME MIỄN PHÍ,GAME SIÊU ANH HÙNG,",
+    category: "games",
+    time: "12:18 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:18 PM",
+    link: "/tai-mien-phi-bom-tan-sieu-anh-hung-marvels-avengers-tren-steam",
+    component: "page_20210730121818",
+  },
+  {
+    title:
+      'Sau “cô vợ quốc dân" Tiểu Hý, thêm một nàng hot TikToker Quảng Ninh được CĐM ráo riết “soi info"',
+    description:
+      "Mới đây, một hot TikToker sinh năm 2004, quê ở Quảng Ninh bất ngờ được tìm kiếm nhiều trên các diễn đàn.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/photo-1-16276393073501722962601.jpg",
+    alt: "TIKTOKER,STREAMER,LỘ CLIP,NHẠY CẢM,DUY NHỎ,CỘNG ĐỒNG MẠNG,LINH NGỌC ĐÀM,",
+    category: "images",
+    time: "12:17 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:17 PM",
+    link: "/sau-co-vo-quoc-dan-tieu-hy-them-mot-nang-hot-tiktoker-quang-ninh-duoc-cdm-rao-riet-soi-info",
+    component: "page_20210730121752",
+  },
+  {
+    title:
+      "5 anime có cái kết đẹp nhất do cư dân mạng Nhật Bản bình chọn: Kimetsu no Yaiba cũng có chân",
+    description:
+      "Theo một khảo sát dành cho netizen Nhật, đây là những bộ anime shonen mà theo họ là có cái kết đẹp nhất.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/inuyashaanime11715041280x0-372f9970-162763048698727674113.jpeg",
+    alt: "ANIME,",
+    category: "games",
+    time: "12:17 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:17 PM",
+    link: "/5-anime-co-cai-ket-dep-nhat-do-cu-dan-mang-nhat-ban-binh-chon-kimetsu-no-yaiba-cung-co-chan",
+    component: "page_20210730121742",
+  },
+  {
+    title:
+      'Dragon Ball Super: Bản chất sức mạnh hủy diệt của Hakai, thứ có thể giúp Vegeta đánh bại "Kẻ sống sót" Granolah',
+    description:
+      "Hakai là sức mạnh của các vị Thần Hủy Diệt và dường như đã được Vegeta sử dụng trong chap mới đây.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/30/anh-1-1627628436774114725314.jpg",
+    alt: "DRAGON BALL SUPER,VEGETA,HOÀNG TỬ SAIYAN,THẦN HỦY DIỆT,HAKAI,SỨC MẠNH HỦY DIỆT,GRANOLAH,CHIẾN BINH MẠNH NHẤT VŨ TRỤ,",
+    category: "games",
+    time: "12:17 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:17 PM",
+    link: "/dragon-ball-super-ban-chat-suc-manh-huy-diet-cua-hakai-thu-co-the-giup-vegeta-danh-bai-ke-song-sot-granolah",
+    component: "page_20210730121731",
+  },
+  {
+    title:
+      'Tiểu mỹ nhân 18+ chia sẻ chuyện lần đầu lên hình, hé lộ về những bộ đồ "cả đời không dám mặc lại"',
+    description:
+      'Miu Shiromine quyết định chọn ngành công nghiệp 18+, bởi nó thỏa mãn điều kiện là "nổi tiếng" và "ít thị phi".',
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627645123243931552153.jpg",
+    alt: "MIU SHIROMINE,IDOL,",
+    category: "images",
+    time: "12:17 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:17 PM",
+    link: "/tieu-my-nhan-18-chia-se-chuyen-lan-dau-len-hinh-he-lo-ve-nhung-bo-do-ca-doi-khong-dam-mac-lai",
+    component: "page_20210730121718",
+  },
+  {
+    title:
+      "Những khung cảnh quen thuộc của game thủ Việt thời còn chưa có Internet, nhìn là thấy cả bầu trời kỷ niệm (p1)",
+    description:
+      "Những hình ảnh đáng quý gợi về không biết bao nhiêu cảm xúc cho thế hệ các game thủ.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/26/photo-1-1627302216562611661450.jpg",
+    alt: "TIN TỨC GAME,GAME THỦ,GAME,",
+    category: "games",
+    time: "12:17 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:17 PM",
+    link: "/nhung-khung-canh-quen-thuoc-cua-game-thu-viet-thoi-con-chua-co-internet-nhin-la-thay-ca-bau-troi-ky-niem-p1",
+    component: "page_20210730121708",
+  },
+  {
+    title:
+      'Ngắm nhan sắc hot TikToker "người yêu tin đồn" của Bụt, mặt cực xinh và body cực "mlem mlem"',
+    description:
+      '"Hot girl 2k4" Lê Thị Khánh Huyền đang được cộng đồng mạng quan tâm bởi tin đồn tình cảm với chàng Bụt.',
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/nghi-van-hot-tiktoker-le-thi-khanh-huyen-la-co-gai-trong-story-cua-tinh-cu-linh-ngoc-dam-1627483775-1-16276479825931298548263.jpg",
+    alt: "lê thị khánh huyền,Khánh Huyền tiktoker,Chàng Bụt,người yêu cũ Linh Ngọc Đàm,bụt,Bụt có người yêu mới,game thủ,streamer,TikToker,",
+    category: "images",
+    time: "12:16 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:16 PM",
+    link: "/ngam-nhan-sac-hot-tiktoker-nguoi-yeu-tin-don-cua-but-mat-cuc-xinh-va-body-cuc-mlem-mlem",
+    component: "page_20210730121652",
+  },
+  {
+    title:
+      "Ngất ngây ảnh nữ thần ngực khủng Anne Hathaway hóa công chúa: Nhan sắc chuẩn báu vật Hollywood, khí chất vương giả khó ai bì",
+    description:
+      "2 thập kỷ đã trôi qua nhưng nhan sắc của Anne Hathaway trong bộ phim Nhật Ký Công Chúa vẫn khiến khán giả phải trầm trồ và mê mẩn.",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-1-16276241792571824908501.jpg",
+    alt: "anne hathaway,sao us uk,sao hollywood,Nhật Ký Công Chúa,mỹ nhân hollywood,nhan sắc mỹ nhân Hollywood,mỹ nhân,Nhật Ký Công Chúa (2001),The Princess Diaries,The Princess Diaries (2001),",
+    category: "stars",
+    time: "12:16 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:16 PM",
+    link: "/ngat-ngay-anh-nu-than-nguc-khung-anne-hathaway-hoa-cong-chua-nhan-sac-chuan-bau-vat-hollywood-khi-chat-vuong-gia-kho-ai-bi",
+    component: "page_20210730121641",
+  },
+  {
+    title:
+      'Vợ chồng trẻ mua căn hộ 76m2, chọn màu bê tông sắc lạnh nhìn "chất" như phim',
+    description:
+      "Ở khu vực phòng ngủ của căn hộ sử dụng mảng tường kính liên thông với WC thông qua 1 hệ rèm chống nước.",
+    src: "https://kenh14cdn.com/thumb_w/500/203336854389633024/2021/7/30/p33-16276390927461692195962.jpg",
+    alt: "phong cách hiện đại,phòng vệ sinh,kiến trúc sư,Phòng ngủ nhỏ,không gian sinh hoạt,Không gian bếp,Tủ quần áo,bàn trang điểm,bàn làm việc,khoe nhà đẹp,house n home,căn hộ,",
+    category: "life",
+    time: "12:16 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:16 PM",
+    link: "/vo-chong-tre-mua-can-ho-76m2-chon-mau-be-tong-sac-lanh-nhin-chat-nhu-phim",
+    component: "page_20210730121631",
+  },
+  {
+    title:
+      "Mang đồ vật nhạy cảm lên sóng, nữ streamer xinh đẹp công khai thói quen đáng lên án, tiết lộ thường vào phòng tắm khi livestream để làm điều này",
+    description:
+      "Những chia sẻ của cô nàng streamer khiến cho rất nhiều người xem cũng phải cảm thấy tức giận.",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-4-16276213516981623035451.jpg",
+    alt: "streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,",
+    category: "images",
+    time: "12:16 PM",
+    date: "30/07/2021",
+    timestamp: "30/07/2021 12:16 PM",
+    link: "/mang-do-vat-nhay-cam-len-song-nu-streamer-xinh-dep-cong-khai-thoi-quen-dang-len-an-tiet-lo-thuong-vao-phong-tam-khi-livestream-de-lam-dieu-nay",
+    component: "page_20210730121620",
+  },
+  {
     title: "Những bí mật ẩn giấu của các vận động viên Olympic",
     description:
       "Qua cách họ tìm mọi cách vượt qua giới hạn bản thân, bạn có thể có cái nhìn mới về cơ thể con người.",
@@ -39,8 +288,6 @@ export const dataFeatured = [
     link: "/can-villa-400m2-co-khoang-san-vuon-ngap-nang-gio-thiet-ke-dep-tinh-te-gian-don-de-cao-su-khong-hoan-hao",
     component: "page_20210729162639",
   },
-];
-export const dataContent = [
   {
     title: "Loạt Pokémon được lấy cảm hứng từ những con quái vật truyền thuyết",
     description:
@@ -605,20 +852,8 @@ export const dataContent = [
     link: "/top-10-cong-viec-ky-la-ma-sieu-anh-hung-da-lam-de-kiem-tien-trang-trai-cuoc-song-trong-comic-p1",
     component: "page_20210729161949",
   },
-  {
-    title:
-      "Top 10 công việc kỳ lạ mà siêu anh hùng đã làm để kiếm tiền trang trải cuộc sống trong comic (P.2)",
-    description:
-      "Không phải ai cũng có nhiều tiền như Batman và Iron Man, một số siêu anh hùng phải làm việc để kiếm sống.",
-    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/18/photo-1-16266035178331141843848.jpg",
-    alt: "MARVEL,DC,GREEN LANTERN,SIÊU ANH HÙNG,NGHỆ NGHIỆP CỦA SIÊU ANH HÙNG,",
-    category: "news",
-    time: "04:19 PM",
-    date: "29/07/2021",
-    timestamp: "29/07/2021 04:19 PM",
-    link: "/top-10-cong-viec-ky-la-ma-sieu-anh-hung-da-lam-de-kiem-tien-trang-trai-cuoc-song-trong-comic-p2",
-    component: "page_20210729161939",
-  },
+];
+export const dataContent02 = [
   {
     title:
       "Ngắm nhan sắc và body của nữ chính Cạo Râu Xong, Tôi Nhặt Gái Về Nhà là hiểu ngay vì sao waifu này được yêu thích nhất",
@@ -854,8 +1089,20 @@ export const dataContent = [
     link: "/yua-mikami-tiet-lo-chuyen-bi-tu-mat-chien-tranh-lanh-voi-me-ruot-vi-lam-dien-vien-18",
     component: "page_20210729161652",
   },
-];
-export const dataContent02 = [
+  {
+    title:
+      "13 báu vật ma thuật của đảo Anh, những truyền thuyết bị lãng quên (P.1)",
+    description:
+      'Các báu vật này được nhắc đến trong văn bản cổ của xứ Welsh với tiêu đề "Tri Thlws ar Ddeg Ynys Prydain", dịch ra có nghĩa là "Tên của 13 báu vật ở phía bắc đảo Anh".',
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/7/9/sword-of-rhydderch-the-generous0-16258376823891587814041.jpg",
+    alt: "KHÁM PHÁ,ĐỜI SỐNG,TRUYỀN THUYẾT,LỊCH SỬ,THẦN THOẠI,",
+    category: "news",
+    time: "04:16 PM",
+    date: "29/07/2021",
+    timestamp: "29/07/2021 04:16 PM",
+    link: "/13-bau-vat-ma-thuat-cua-dao-anh-nhung-truyen-thuyet-bi-lang-quen-p1",
+    component: "page_20210729161642",
+  },
   {
     title:
       'Nữ streamer gợi cảm hé lộ câu chuyện bị bạn trai hành hạ, "quấy rối" mỗi ngày, sợ tới mức không dám mách bố',
@@ -1288,20 +1535,8 @@ export const dataContent02 = [
     link: "/nang-fashion-icon-dang-len-cua-kdrama-phong-cach-hien-dai-nhin-ma-thich-me-bien-luon-iu-thanh-vai-phu-mo-nhat",
     component: "page_20210729161138",
   },
-  {
-    title:
-      'Ngọc Trinh đi bơi tại biệt thự 1800m2, Vũ Khắc Tiệp "tóm gọn" bằng clip quay vội nhưng không dìm nổi body chuẩn chỉnh',
-    description:
-      'Người hâm mộ một lần nữa "mắt tròn mắt dẹt" với chiếc clip "sương sương" ghi lại khoảnh khắc quyến rũ không lối thoát của Ngọc Trinh.',
-    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/4/photo-1-16253595832721777633316.png",
-    alt: "Ngọc Trinh,nữ hoàng nội y Ngọc Trinh,Body Ngọc Trinh,nữ hoàng nội y,Vũ Khắc Tiệp,ông bầu Vũ Khắc Tiệp,ông bầu Venus,sao Việt,đại chiến bikini,Sao diện bikini,",
-    category: "stars",
-    time: "04:11 PM",
-    date: "29/07/2021",
-    timestamp: "29/07/2021 04:11 PM",
-    link: "/ngoc-trinh-hot-hai-di-boi-tai-biet-thu-1800m2-vu-khac-tiep-tom-gon-bang-chiec-clip-quay-voi-nhung-khong-dim-noi-body-chuan-tung-centimet",
-    component: "page_20210729161128",
-  },
+];
+export const dataContent03 = [
   {
     title:
       'Tạm dừng làm YouTuber, cô giáo hot girl Trân Trần khiến CĐM bỏng mắt với màn khoe vòng một gợi cảm để "test phao bơi"',
@@ -1535,8 +1770,20 @@ export const dataContent02 = [
     link: "/nhung-tua-game-open-world-bi-ghe-lanh-mot-cach-oan-uong",
     component: "page_20210729160835",
   },
-];
-export const dataContent03 = [
+  {
+    title:
+      "Ly kỳ bí ẩn chưa từng biết về Shapeshifter, những kẻ đáng sợ có khả năng biến hình người",
+    description:
+      "Shapeshifter là những con quái vật duy nhất trải qua nhiều quá trình biến đổi dữ dội tới thế.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/1/photo-1-16251299149081972291856.jpg",
+    alt: "QUÁI VẬT,BIẾN HÌNH,SHAPESHIFTER,",
+    category: "news",
+    time: "04:08 PM",
+    date: "29/07/2021",
+    timestamp: "29/07/2021 04:08 PM",
+    link: "/ly-ky-bi-an-chua-tung-biet-ve-shapeshifter-nhung-ke-dang-so-co-kha-nang-bien-hinh-nguoi",
+    component: "page_20210729160826",
+  },
   {
     title:
       "Bốn người Việt Nam bất ngờ bị Facebook đệ đơn kiện vì lý do khiến nhiều người cảm thấy hả hê",
@@ -1966,19 +2213,8 @@ export const dataContent03 = [
     link: "/tha-rong-vong-mot-tren-song-nu-streamer-lo-hang-dang-tiec-voi-tran-tinh-thu-ban-thay-khong-giong-nhu-ban-nghi-dau",
     component: "page_20210629220008",
   },
-  {
-    title: 'Những con trùm đòi hỏi game thủ "dùng não" mới có thể vượt qua',
-    description:
-      "Không phải lúc nào bạo lực cũng sẽ là phương án xử lý chính xác cho được.",
-    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/28/photo-1-1624813965384935059512.jpg",
-    alt: "GAME,TRÙM,BOSS,",
-    category: "games",
-    time: "10:00 PM",
-    date: "29/06/2021",
-    timestamp: "29/06/2021 10:00 PM",
-    link: "/nhung-con-trum-doi-hoi-game-thu-dung-nao-moi-co-the-vuot-qua",
-    component: "page_20210629220000",
-  },
+];
+export const dataContent04 = [
   {
     title:
       'Khánh Vy diện bra trông rất xinh nhưng soi kỹ là thấy ngay 1 điểm gây "bất bình"',
@@ -2216,8 +2452,19 @@ export const dataContent03 = [
     link: "/lo-cach-thuc-be-khoa-iphone-cua-co-may-khet-tieng-trong-gioi-bao-mat",
     component: "page_20210629215205",
   },
-];
-export const dataContent04 = [
+  {
+    title:
+      "Cựu tiếp viên hàng không lấy chồng CEO mang bầu vẫn khoe ảnh cực cháy, thế này ai làm lại đây!",
+    description: "Sắc vóc như thế này có mê không cơ chứ.",
+    src: "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/storages/images/content/2021/20210629215143--11-654452.jpg",
+    alt: "vũ ngọc châm,Vũ Ngọc Châm mang thai,CEO,chồng CEO,vũ ngọc châm và bạn trai,",
+    category: "stars",
+    time: "09:51 PM",
+    date: "29/06/2021",
+    timestamp: "29/06/2021 09:51 PM",
+    link: "/cuu-tiep-vien-hang-khong-lay-chong-ceo-mang-bau-van-khoe-anh-cuc-chay-the-nay-ai-lam-lai-day",
+    component: "page_20210629215143",
+  },
   {
     title:
       "Sinh viên mới ra trường: Kiếm mức lương 20 - 30 triệu/tháng thế nào?",
@@ -2648,20 +2895,8 @@ export const dataContent04 = [
     link: "/su-nghiep-cua-3-nu-hoang-canh-nong-phim-han-vien-man-nhat-dich-thi-la-son-ye-jin",
     component: "page_20210618130342",
   },
-  {
-    title:
-      'Cuộc hành quân "thần tốc" trong đêm của chiến sĩ Bắc Giang để nhường doanh trại cho người dân cách ly',
-    description:
-      "Hàng trăm chiến sĩ của Sư đoàn 325 tại huyện Lục Ngạn (Bắc Giang) đã hành quân vào rừng, dựng hàng chục lán trại dã chiến để nhường doanh trại cho các công nhân ở Bắc Giang cách ly tập trung.",
-    src: "https://kenh14cdn.com/thumb_w/1000/203336854389633024/2021/6/18/dsc5152-16239532159142115958997.jpg",
-    alt: "",
-    category: "tech",
-    time: "01:03 PM",
-    date: "18/06/2021",
-    timestamp: "18/06/2021 01:03 PM",
-    link: "/cuoc-hanh-quan-than-toc-trong-dem-cua-chien-si-bac-giang-de-nhuong-doanh-trai-cho-nguoi-dan-cach-ly",
-    component: "page_20210618130328",
-  },
+];
+export const dataContent05 = [
   {
     title:
       "Nóng: Nữ streamer sexy nhất Việt Nam - Mai Dora bất ngờ ngất xỉu ngay trên sóng livestream",
@@ -2894,8 +3129,20 @@ export const dataContent04 = [
     link: "/bi-ga-combo-150-trieu-1-can-nha-cho-mot-dem-o-canh-nang-hot-girl-viet-hai-huoc-dap-tra-em-co-nha-roi",
     component: "page_20210617140755",
   },
-];
-export const dataContent05 = [
+  {
+    title:
+      "Top 7 manga bóng đá giúp bạn giải trí trong thời gian chờ đợi vòng loại World Cup 2022 cuối cùng của đội tuyển Việt Nam",
+    description:
+      "Tiếp bước Tsubasa, Itto, Fantasista vang danh một thời, 7 manga bóng đá sau đây là những siêu phẩm mà các fan của môn thể thao vua không nên bỏ qua trong khi chờ đợi vòng loại World Cup 2022 cuối cùng của đội tuyển Việt Nam.",
+    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/17/ma1-16239080157491600788916.png",
+    alt: "Top Manga, Nhan Vat Manga, Le Hoi Manga, Anime Manga, Shop Manga, Game Manga, Shop Anime Manga, ",
+    category: "games",
+    time: "02:07 PM",
+    date: "17/06/2021",
+    timestamp: "17/06/2021 02:07 PM",
+    link: "/top-7-manga-bong-da-giup-ban-giai-tri-trong-thoi-gian-cho-doi-vong-loai-world-cup-2022-cuoi-cung-cua-doi-tuyen-viet-nam",
+    component: "page_20210617140743",
+  },
   {
     title:
       'Tân binh 18+ bày tỏ chuyện quá khứ, kể chuyện "ăn tập bao nhiêu vào hết gò bồng đảo"',
@@ -3325,20 +3572,8 @@ export const dataContent05 = [
     link: "/lien-tuc-tha-dang-goi-cam-voi-bikini-nong-bong-jun-vu-khien-fan-khong-khoi-tram-tro-chay-mau-mui",
     component: "page_20210614092614",
   },
-  {
-    title:
-      "Lên sóng vẽ tranh không ai xem, nữ streamer xinh đẹp quyết hở bạo, rung lắc vòng một bằng màn vũ đạo để đời",
-    description:
-      "Không phải lúc nào những động tác vũ đạo gợi cảm của cô nàng streamer này cũng được đón nhận.",
-    src: "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/storages/images/content/2021/20210614092543--16-754336.gif",
-    alt: "Gai Xinh, Cong Dong Mang, Streamer, Hot Girl, Grille Young, Nu Streamer, ",
-    category: "images",
-    time: "09:25 AM",
-    date: "14/06/2021",
-    timestamp: "14/06/2021 09:25 AM",
-    link: "/len-song-ve-tranh-khong-ai-xem-nu-streamer-xinh-dep-quyet-ho-bao-rung-lac-vong-mot-bang-man-vu-dao-de-doi",
-    component: "page_20210614092543",
-  },
+];
+export const dataContent06 = [
   {
     title:
       "Đam mê “thả rông” vòng một, khoe thềm ngực quyến rũ, các hot girl làng game được và mất những gì?",
@@ -3575,8 +3810,20 @@ export const dataContent05 = [
     link: "/game-tap-lam-nong-dan-my-time-at-portia-sap-co-mat-tren-nen-tang-di-dong",
     component: "page_20210611011115",
   },
-];
-export const dataContent06 = [
+  {
+    title:
+      "Thần thú Niên từng bị Hồng Quân Lão Tổ đánh bại trong thần thoại Trung Hoa quyền lực ra sao?",
+    description:
+      "Theo truyền thuyết Trung Hoa, Niên đã bị Hồng Quân Lão Tổ đánh bại và chấp nhận trở thành vật cưỡi của ông.",
+    src: "https://gamek.mediacdn.vn/133514250583805952/2021/6/11/thelegendarynian0-16233835237231846806261.jpg",
+    alt: "Kham Pha, Than Thoai, Van Hoa, Nien, Truyen Thuyet Dan Gian, ",
+    category: "news",
+    time: "01:11 AM",
+    date: "11/06/2021",
+    timestamp: "11/06/2021 01:11 AM",
+    link: "/than-thu-nien-tung-bi-hong-quan-lao-to-danh-bai-trong-than-thoai-trung-hoa-quyen-luc-ra-sao",
+    component: "page_20210611011104",
+  },
   {
     title:
       'Hé lộ cuộc sống sau giải nghệ của "thánh nữ" một thời Rina Ishihara, hóa ra vẫn làm công việc liên quan tới nghề cũ',
@@ -4004,18 +4251,8 @@ export const dataContent06 = [
     link: "/cau-thu-indonesia-chap-tay-xin-loi-tuan-anh-trong-duong-ham-vi-pham-loi-nguy-hiem",
     component: "page_20210607183906",
   },
-  {
-    title: "Chùm ảnh: Ối giời ơi Văn Hậu đẹp trai quá!",
-    description: "Càng ngắm càng mê, hihi!",
-    src: "https://kenh14cdn.com/thumb_w/1000/203336854389633024/2021/6/8/2021-5-27-doi-tuyen-viet-nam-tap-luyen-uae-sport5-hieu-luong-40-16221656002181077713714-162309236235551010895.jpg",
-    alt: "Van Hau, Doan Van Hau, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Nam Than, Dan Nam Than Doi Tuyen Viet Nam, ",
-    category: "news",
-    time: "06:38 PM",
-    date: "07/06/2021",
-    timestamp: "07/06/2021 06:38 PM",
-    link: "/chum-anh-oi-gioi-oi-van-hau-dep-trai-qua",
-    component: "page_20210607183855",
-  },
+];
+export const dataContent07 = [
   {
     title:
       'Chứng kiến cầu thủ Indonesia liên tục vào bóng triệt hạ, "Nam vương" boxing Trương Đình Hoàng hiến kế cho thầy trò HLV Park Hang-seo',
@@ -4252,8 +4489,20 @@ export const dataContent06 = [
     link: "/fan-xuc-dong-khi-biet-y-nghia-day-so-tren-ao-lee-kwang-soo-trong-tap-cuoi-ghi-hinh-running-man",
     component: "page_20210607103948",
   },
-];
-export const dataContent07 = [
+  {
+    title:
+      'Diện váy xẻ ngực sâu táo bạo, Dương Mịch khiến "người tình" Hứa Khải bối rối, không dám nhìn ngay trên sân khấu',
+    description:
+      "Rõ ràng rất thân thiết với nhau trên phim trường nhưng Hứa Khải tỏ ra xa cách với Dương Mịch tại sự kiện hôm nay.",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230572341301297509824.jpg",
+    alt: "Duong Mich, Sao Hoa Ngu, My Nhan Hoa Ngu, Nhan Sac My Nhan Hoa Ngu, Voc Dang My Nhan Hoa Ngu, ",
+    category: "news",
+    time: "10:39 AM",
+    date: "07/06/2021",
+    timestamp: "07/06/2021 10:39 AM",
+    link: "/dien-vay-xe-nguc-sau-tao-bao-duong-mich-khien-nguoi-tinh-hua-khai-boi-roi-khong-dam-nhin-ngay-tren-san-khau",
+    component: "page_20210607103935",
+  },
   {
     title:
       "Game Mobile của người Việt làm ra đứng top 1 BXH cổng game nổi tiếng Trung Quốc, vượt qua cả ĐTCL Mobile",
@@ -4683,20 +4932,8 @@ export const dataContent07 = [
     link: "/loat-my-nhan-18-so-huu-than-hinh-mi-nhon-van-duoc-van-nguoi-me-p1",
     component: "page_20210605090338",
   },
-  {
-    title:
-      'Valorant liên tục "đạt đỉnh", Riot hé lộ ra mắt phiên bản Mobile khiến game thủ phấn khích',
-    description:
-      "Trung bình trong 1 tháng, số lượng người Valorant đã đạt tới đỉnh 14 triệu người chơi. Không chỉ dừng lại ở đó, Riot còn đang chuẩn bị mang Valorant lên điện thoại.",
-    src: "https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-162279923339857968698.jpg",
-    alt: "Valorant, Riot, Tin Tuc Game, Cong Dong Mang, Valorant Mobile, ",
-    category: "games",
-    time: "09:01 AM",
-    date: "05/06/2021",
-    timestamp: "05/06/2021 9:01 AM",
-    link: "/valorant-lien-tuc-dat-dinh-riot-he-lo-ra-mat-phien-ban-mobile-khien-game-thu-phan-khich",
-    component: "page_20210605090159",
-  },
+];
+export const dataContent08 = [
   {
     title:
       'Chấp nhận không mặc áo để quảng cáo sản phẩm, nữ streamer Liên Quân chính thức lập "kỷ lục" về sự nóng bỏng của mình',
@@ -4931,8 +5168,20 @@ export const dataContent07 = [
     link: "/2-game-mien-phi-cho-playstation-4-trong-thang-6",
     component: "page_202106030700",
   },
-];
-export const dataContent08 = [
+  {
+    title:
+      'Đại gia Đức Huy lộ hint du lịch với tình trẻ kém 27 tuổi, chính là địa điểm tuyên bố "không có em, anh có em khác"',
+    description:
+      "Dù đã đăng ảnh cách nhau cả 4 - 5 ngày nhưng hint hẹn hò của đại gia Đức Huy và tình tin đồn kém 27 tuổi vẫn rõ mồn một.",
+    src: "https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/0-1622697731272517784711.jpg",
+    alt: "Cam Dan",
+    category: "images",
+    time: "06:53 PM",
+    date: "03/06/2021",
+    timestamp: "03/06/2021 18:53:00",
+    link: "/dai-gia-duc-huy-lo-hint-du-lich-voi-tinh-tre-kem-27-tuoi-chinh-la-dia-diem-tuyen-bo-khong-co-em-anh-co-em-khac",
+    component: "page_20210603065324",
+  },
   {
     title:
       "Bị chế giễu vì nặng tới 1 tạ, nữ YouTuber giảm 30kg thần tốc, lột xác gợi cảm tới khó tin",

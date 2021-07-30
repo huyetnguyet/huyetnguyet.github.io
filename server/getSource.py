@@ -11,12 +11,13 @@ import sys
 import os
 from urllib import request
 from methods_json import load_json, write_json
+from termcolor import colored, cprint
 
 os.system("cls")
 
 database_json = []
-path_storage_images = "../src/storages/images/content/" + \
-    str(datetime.datetime.now().strftime("%Y")) + "/"
+#path_storage_images = "../src/storages/images/content/" + str(datetime.datetime.now().strftime("%Y")) + "/"
+path_storage_images = "./temp_images/"
 path_storage_images_import = "storages/images/content/" + \
     str(datetime.datetime.now().strftime("%Y")) + "/"
 
@@ -25,6 +26,8 @@ if not os.path.exists("database"):
     os.system("mkdir database")
 if not os.path.exists("content"):
     os.system("mkdir content")
+if not os.path.exists("images"):
+    os.system("mkdir temp_images")
 
 
 filepath_data_json = "database/data_json.json"
@@ -32,8 +35,8 @@ if(os.path.exists(filepath_data_json)):
 
     database_json = load_json(filepath_data_json)
 
-    # print(database_json)
-    print("database length: "+str(len(database_json)))
+    cprint("[*] Database length: "+str(len(database_json)),
+           'yellow', attrs=['bold'])
 
 
 class GetSource:
@@ -59,9 +62,10 @@ class GetSource:
 
         self.openBrowser()
         fr = open("links.txt", 'r')
+        count = 1
         for line in fr:
             self.initValues()
-            print("\n\n"+line)
+            cprint("\n\n"+str(count)+'/'+len(fr)+' '+line, 'green')
             tempList = line.split(',')
             self.category = tempList[0]
             self.check_download = tempList[1]
@@ -71,11 +75,11 @@ class GetSource:
             tempList2 = tempList[2].split('/')
             for part in tempList2:
                 if(part == "gamek.vn" or part == "m.gamek.vn"):
-                    print("Source From: " + part)
+                    cprint("Source From: " + part, 'magenta')
                     self.getSourceFrom_Gamek()
                     break
                 elif(part == "kenh14.vn" or part == "m.kenh14.vn"):
-                    print("Source From: " + part)
+                    cprint("Source From: " + part, 'magenta')
                     self.getSourceFrom_Kenh14()
                     break
 
@@ -90,52 +94,52 @@ class GetSource:
         options = Options()
         options.add_argument("--headless")
 
-        print("[*] Opening Firefox")
+        cprint("\n[*] Opening Firefox", 'cyan')
         try:
             self.driver = webdriver.Firefox(options=options)
         except Exception as e:
             try:
-                print(e)
-                print("    [!] Open on Windows")
+                cprint(e, 'red')
+                cprint("[!] Open on Windows", 'cyan')
                 binary = FirefoxBinary(
                     "C:\\Program Files\\Mozilla Firefox\\firefox.exe")
                 self.driver = webdriver.Firefox(
                     firefox_binary=binary, executable_path=r"C:\\geckodriver.exe", options=options)
             except Exception as e:
                 try:
-                    print(e)
-                    print("    [!] Open on Linux")
+                    cprint(e, 'red')
+                    cprint("[!] Open on Linux", 'cyan')
                     self.driver = webdriver.Firefox(
                         executable_path='geckodriver/geckodriver')
                 except Exception as e:
                     try:
-                        print(e)
-                        print("    [!] Trying open last chance")
+                        cprint(e, 'red')
+                        cprint("[!] Trying open last chance", 'cyan')
                         self.driver = webdriver.Firefox(
                             executable_path='geckodriver\\geckodriver')
                     except Exception as e:
-                        print("!!! ERROR: " + str(e))
+                        cprint("!!! ERROR: " + str(e), 'red')
                         sys.exit()
         self.driver.set_window_position(0, 0)
         self.driver.set_window_size(100, 100)
 
     def exit_handler(self):
-        print("exit_handler")
+        cprint("exit_handler", 'red')
         self.driver.close()
         self.driver.quit()
 
     def __exit__(self):
-        print("__exit__")
+        cprint("__exit__", 'red')
         self.driver.close()
         self.driver.quit()
 
     def __del__(self):
-        print("__del__")
+        cprint("__del__", 'red')
         self.driver.close()
         self.driver.quit()
 
     def initAltImages(self):
-        print("[*] initAltImages")
+        cprint("[*] initAltImages", 'blue')
         self.getTagsFromLink()
         tempTags = self.getTagsFromString(self.tags)
         self.alt = ""
@@ -143,10 +147,10 @@ class GetSource:
             if len(tag) < 3:
                 tag = self.category
             self.alt += tag + ", "
-        print("[#] Alt Images = "+self.alt)
+        cprint("[#] Alt Images = "+self.alt, 'cyan')
 
     def getSourceFrom_Gamek(self):
-        print("[!] Opening URL")
+        cprint("[!] Opening URL", 'blue')
         self.driver.get(self.URL_link)
         time.sleep(5)
         element_detail = self.driver.find_element_by_class_name("detail")
@@ -200,7 +204,7 @@ class GetSource:
             self.tags.append(element.text)
 
     def getSourceFrom_Kenh14(self):
-        print("[!] Opening URL")
+        cprint("[!] Opening URL", 'blue')
         self.driver.get(self.URL_link)
         time.sleep(5)
 
@@ -269,7 +273,7 @@ class GetSource:
         return newTags
 
     def getTagsFromLink(self):
-        print("[*] Getting tags from link")
+        cprint("[*] Getting tags from link", 'blue')
         '''
         r = requests.get(self.URL_link, headers={'User-Agent': 'Custom'})
         lines = html.unescape(r.text)
@@ -278,16 +282,10 @@ class GetSource:
         response = request.urlopen(self.URL_link)
         lines = response.read().decode('utf-8')
 
-        # print(lines)
-        # print(len(lines))
-        # print(self.URL_link)
-
         for i in range(0, len(lines)):
             if(lines[i:i+len("tagparam")] == "tagparam"):
-                # print(i)
                 for j in range(i, len(lines)):
                     if(lines[j:j+1] == ";"):
-                        # print(lines[i:j])
                         self.tags = lines[i:j+1]
                         break
                 break
@@ -350,12 +348,16 @@ class GetSource:
                             self.content_p += "<ContentImage src='" + \
                                 temp_images[i] + "' alt='"+str(img_count)+", "+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
-                            img_count += 1
                         else:
+                            '''
                             self.content_p += "<ContentImage src={require('" + \
                                 temp_images[i] + "').default} alt='"+str(img_count)+", "+self.alt + \
                                 "' note='"+self.images_alt[i]+"'/>\n"
-                            img_count += 1
+                            '''
+                            self.content_p += "<ContentImage src='" + \
+                                temp_images[i] + "' alt='"+str(img_count)+", "+self.alt + \
+                                "' note='"+self.images_alt[i]+"'/>\n"
+                        img_count += 1
                         temp_images[i] = ""
 
                         check_image = True
@@ -375,9 +377,6 @@ class GetSource:
                                     p[i:i+len(temp_tag)]+"</strong>" + \
                                     p[i+len(temp_tag):]
                                 i = i+len(temp_tag)
-
-                                # print("["+temp_tag+"]")
-                                # print(p)
                                 break
                 self.content_p += p
                 self.content_p += "</p>\n"
@@ -414,10 +413,10 @@ class GetSource:
         self.routeItem = "<Route exact path=\"/" + self.link + \
             "\" component={pages."+self.component+"}/>"
 
-        # print(self.images[0])
         temp_src = ""
         if self.check_download == 'y':
-            temp_src += "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/"
+            #temp_src += "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/"
+            temp_src = ""
 
         for img in temp_images:
             if(len(img) > 5):
@@ -448,10 +447,10 @@ class GetSource:
         print("Alt: "+str(len(self.images_alt)))
 
     def downloadImages(self):
+        cprint('[*] downloadImages', 'blue')
         try:
             chunk_size = 1024
             count = 10
-            # print(self.images)
             for i in range(0, len(self.images)):
                 url = self.images[i]
                 if(url[:4] == "blob"):
@@ -477,27 +476,24 @@ class GetSource:
                     with open(filename, "wb") as file:
                         for data in tqdm(iterable=req.iter_content(chunk_size=chunk_size), total=total_size/chunk_size, unit='KB'):
                             file.write(data)
-                    print("Download Completed !!!")
-                    self.images[i] = filename_import
+                    cprint("Download Completed !!!", 'green')
                 except Exception as e:
-                    print("[!] dowload images error")
-                    print(e)
-                    print("[!] Try to download again")
+                    cprint("[!] dowload images error", 'red')
+                    cprint(e)
+                    cprint("[#] Try to download again", 'cyan')
                     with open(filename, 'wb') as f:
                         f.write(req.content)
-                    print("Download Completed !!!")
-                    self.images[i] = filename_import
+                    cprint("Download Completed !!!", 'green')
+                    #self.images[i] = filename_import
                 count += 1
         except Exception as e:
-            print(e)
-        # print(self.images)
+            cprint(e, 'red')
 
     def writing2filesOrigin(self):
-        print("[!] Writing ...")
+        cprint("[!] Writing ...", 'blue')
         fw = open('./content/' +
                   self.filename, 'w', encoding="utf-8")
         print(self.filename)
-        # print("\n")
 
         fr = open('./parts/part01.txt', 'r')
         for line in fr:
@@ -505,8 +501,6 @@ class GetSource:
         fr.close()
 
         fw.write(self.data+"\n\n")
-        # print(self.data)
-        # print("\n")
 
         fr = open('./parts/part02.txt', 'r')
         for line in fr:
@@ -515,7 +509,6 @@ class GetSource:
 
         fw.write(self.pageConstValue)
         print(self.pageConstValue)
-        # print("\n")
 
         fr = open('./parts/part03.txt', 'r')
         for line in fr:
@@ -549,17 +542,16 @@ class GetSource:
         fa.write(self.routeImport+"\n")
         fa.close()
 
-        print("[*] Write to data_json.json")
+        cprint("[*] Write to data_json.json", 'green')
         write_json(filepath_data_json, database_json)
 
     def writing2files(self):
 
-        print("[!] Writing ...")
+        cprint("[*] Writing ...", 'blue')
         fw = open('../src/storages/content/' + self.current_year +
                   '/'+self.current_month+"/" +
                   self.filename, 'w', encoding="utf-8")
         print(self.filename)
-        # print("\n")
 
         fr = open('./parts/part01.txt', 'r')
         for line in fr:
@@ -567,8 +559,6 @@ class GetSource:
         fr.close()
 
         fw.write(self.data+"\n\n")
-        # print(self.data)
-        # print("\n")
 
         fr = open('./parts/part02.txt', 'r')
         for line in fr:
@@ -577,7 +567,6 @@ class GetSource:
 
         fw.write(self.pageConstValue)
         print(self.pageConstValue)
-        # print("\n")
 
         fr = open('./parts/part03.txt', 'r')
         for line in fr:
@@ -624,7 +613,7 @@ class GetSource:
         fa.write(self.routeImport+"\n")
         fa.close()
 
-        print("[*] Write to data_json.json")
+        cprint("[*] Write to data_json.json", 'green')
         write_json(filepath_data_json, database_json)
 
 
@@ -634,7 +623,7 @@ def checkData():
 
         data = load_json(filepath_data_json)
 
-        print("database length: "+str(len(data)))
+        cprint("[*]Database length: "+str(len(data)), 'yellow')
 
         fw = open('../src/storages/database.js', 'w', encoding="utf-8")
 
@@ -663,9 +652,10 @@ def checkData():
             count += 1
         fw.write("]\n")
 
-        fw.write("export const dataContent02=[]")
+        for i in range(0, 100):
+            fw.write("export const dataContent0"+str(i)+"=[]")
 
-        print("[*] Wrote database to database.js")
+        cprint("[*] Wrote database to database.js", 'green')
         fw.close()
 
 

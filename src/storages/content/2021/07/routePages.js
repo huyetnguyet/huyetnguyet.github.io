@@ -7,6 +7,42 @@ export default function Pages202107() {
   return (
     <Switch>
       <></>
+
+<Route exact path="/nhung-sinh-vat-ky-bi-quy-quyet-va-day-me-hoac-trong-than-thoai-bac-au" component={pages.page_20210730121944}/>
+
+<Route exact path="/nuoc-den-ban-phim-van-khong-nhay-game-thu-mac-ke-dong-lu-xan-quan-ngoi-danh-quai" component={pages.page_20210730121934}/>
+
+<Route exact path="/loat-my-nhan-18-tre-tuoi-duoc-thien-than-yua-mikami-het-loi-khen-ngoi" component={pages.page_20210730121913}/>
+
+<Route exact path="/axie-infinity-coin-giam-gia-chong-mat-game-thu-viet-hoang-mang-lo-lang" component={pages.page_20210730121904}/>
+
+<Route exact path="/top-game-cau-hinh-nhe-nhung-lai-so-huu-do-hoa-dinh-cao" component={pages.page_20210730121855}/>
+
+<Route exact path="/top-game-cau-hinh-nhe-nhung-lai-so-huu-do-hoa-dinh-cao-p2" component={pages.page_20210730121846}/>
+
+<Route exact path="/4-xung-dot-giua-cac-dien-vien-cua-fast-furious-khien-nguoi-doa-bo-vai-ke-thi-bye-bye-that" component={pages.page_20210730121837}/>
+
+<Route exact path="/hoa-minh-cung-the-van-hoi-2020-voi-nhung-bo-anime-the-thao-noi-tieng" component={pages.page_20210730121828}/>
+
+<Route exact path="/tai-mien-phi-bom-tan-sieu-anh-hung-marvels-avengers-tren-steam" component={pages.page_20210730121818}/>
+
+<Route exact path="/sau-co-vo-quoc-dan-tieu-hy-them-mot-nang-hot-tiktoker-quang-ninh-duoc-cdm-rao-riet-soi-info" component={pages.page_20210730121752}/>
+
+<Route exact path="/5-anime-co-cai-ket-dep-nhat-do-cu-dan-mang-nhat-ban-binh-chon-kimetsu-no-yaiba-cung-co-chan" component={pages.page_20210730121742}/>
+
+<Route exact path="/dragon-ball-super-ban-chat-suc-manh-huy-diet-cua-hakai-thu-co-the-giup-vegeta-danh-bai-ke-song-sot-granolah" component={pages.page_20210730121731}/>
+
+<Route exact path="/tieu-my-nhan-18-chia-se-chuyen-lan-dau-len-hinh-he-lo-ve-nhung-bo-do-ca-doi-khong-dam-mac-lai" component={pages.page_20210730121718}/>
+
+<Route exact path="/nhung-khung-canh-quen-thuoc-cua-game-thu-viet-thoi-con-chua-co-internet-nhin-la-thay-ca-bau-troi-ky-niem-p1" component={pages.page_20210730121708}/>
+
+<Route exact path="/ngam-nhan-sac-hot-tiktoker-nguoi-yeu-tin-don-cua-but-mat-cuc-xinh-va-body-cuc-mlem-mlem" component={pages.page_20210730121652}/>
+
+<Route exact path="/ngat-ngay-anh-nu-than-nguc-khung-anne-hathaway-hoa-cong-chua-nhan-sac-chuan-bau-vat-hollywood-khi-chat-vuong-gia-kho-ai-bi" component={pages.page_20210730121641}/>
+
+<Route exact path="/vo-chong-tre-mua-can-ho-76m2-chon-mau-be-tong-sac-lanh-nhin-chat-nhu-phim" component={pages.page_20210730121631}/>
+
+<Route exact path="/mang-do-vat-nhay-cam-len-song-nu-streamer-xinh-dep-cong-khai-thoi-quen-dang-len-an-tiet-lo-thuong-vao-phong-tam-khi-livestream-de-lam-dieu-nay" component={pages.page_20210730121620}/>
       <Route
         exact
         path="/nhung-bi-mat-an-giau-cua-cac-van-dong-vien-olympic"

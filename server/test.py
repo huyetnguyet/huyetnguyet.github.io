@@ -1,8 +1,10 @@
-import requests
+from termcolor import colored, cprint
 
-response = requests.post('http://localhost:5000/test',
-                         json={'id': 1, 'name': 'Jessa'})
-print(response)
-print("Status code: ", response.status_code)
-print("Printing Entire Post Request")
-print(response)
+cprint('Hello, World!', 'grey')
+cprint('Hello, World!', 'red')
+cprint('Hello, World!', 'green')
+cprint('Hello, World!', 'yellow')
+cprint('Hello, World!', 'blue')
+cprint('Hello, World!', 'magenta')
+cprint('Hello, World!', 'cyan')
+cprint('Hello, World!', 'white')

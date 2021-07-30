@@ -5,8 +5,10 @@ from methods_json import load_json, write_json
 from datetime import datetime
 import sys
 import requests
+import keys
 
-api_key = input("sheet.best api-key: ")
+#api_key = input("sheet.best api-key: ")
+api_key = keys.api_key_sheet_best
 
 
 def sg_get():
