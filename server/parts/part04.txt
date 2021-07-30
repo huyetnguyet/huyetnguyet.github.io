@@ -1,6 +1,10 @@
 () {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+      
       <Content>
         <div className="page">
           <AdsVertical />

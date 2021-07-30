@@ -82,7 +82,7 @@ export function Tabs({ children }) {
   );
 }
 
-export function Pages({ children }) {
+export function PageContent({ children }) {
   return (
     <>
       <div id="topSection">

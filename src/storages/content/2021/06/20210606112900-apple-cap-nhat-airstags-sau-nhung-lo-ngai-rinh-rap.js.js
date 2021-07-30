@@ -5,6 +5,8 @@ import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import { Helmet } from "react-helmet";
+
 /* ---------------------------------------------------------------- */
 /*
 <ContentItem title="Apple cập nhật AirTags sau những lo ngại rình rập" 
@@ -66,6 +68,10 @@ const updatedTags = tagparam.map((tag) => {
 export default function page_20210606112900() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />

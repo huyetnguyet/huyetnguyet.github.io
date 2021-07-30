@@ -49,6 +49,7 @@ class GetSource:
         self.ps = []
         self.images = []
         self.category = ""
+        # games, images, news, stars, tech, life
         self.tags = []
         self.link = ""
         self.timestamp = ""
@@ -602,7 +603,10 @@ class GetSource:
 
         fw.close()
 
-        fr = open("../src/components/routePages.js", 'r')
+        temp_routePage = '../src/storages/content/' + \
+            self.current_year + '/'+self.current_month+'/routePages.js'
+
+        fr = open(temp_routePage, 'r')
 
         string_routePage = ''
         for line in fr:
@@ -611,7 +615,7 @@ class GetSource:
                 if(line[i:i+len('<></>')] == '<></>'):
                     string_routePage += "\n"+self.routeItem+"\n"
                     break
-        fw = open("../src/components/routePages.js", 'w')
+        fw = open(temp_routePage, 'w')
         fw.write(string_routePage)
         fw.close()
 

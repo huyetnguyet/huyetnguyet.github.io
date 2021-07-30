@@ -5,6 +5,8 @@ import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import { Helmet } from "react-helmet";
+
 /* Data Input */
 /*
 
@@ -65,6 +67,10 @@ const updatedTags = tags.map((tag) => {
 export default function page_202106020330() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />

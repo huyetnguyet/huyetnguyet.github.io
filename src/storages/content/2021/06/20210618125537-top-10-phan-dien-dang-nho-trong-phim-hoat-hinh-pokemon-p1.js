@@ -9,6 +9,8 @@ import {
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import { Helmet } from "react-helmet";
+
 /* ---------------------------------------------------------------- */
 
 /*
@@ -65,6 +67,10 @@ const updatedTags = tagparam.map((tag) => {
 export default function page_20210618125537() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />

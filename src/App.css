@@ -196,10 +196,18 @@ p {
   border-width: 1px;
   margin-right: 10px;
   padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+.pagenavi a:hover,
+.pagenavi a:visited,
+.pagenavi a:link,
+.pagenavi a:active {
+  text-decoration: none;
 }
 
 .pagenaviBox:hover {
   background-color: #637e91;
+  text-decoration: none;
 }
 
 .pageCurrent {

@@ -5,6 +5,8 @@ import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import { Helmet } from "react-helmet";
+
 /* Data Input */
 /*
 title="Gấu Kami, nữ streamer gần 7 triệu lượt follow TikTok bị giả mạo tài khoản hàng loạt, thậm chí bị lợi dụng hình ảnh để lừa đảo"
@@ -69,6 +71,10 @@ const updatedTags = tags.map((tag) => {
 export default function page_202106030305() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />

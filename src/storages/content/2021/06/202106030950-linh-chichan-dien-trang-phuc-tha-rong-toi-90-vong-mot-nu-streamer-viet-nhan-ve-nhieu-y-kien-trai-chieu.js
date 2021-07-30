@@ -14,6 +14,8 @@ import image06 from "storages/images/content/2021/linh-chichan-20210602(6).jpg";
 import image07 from "storages/images/content/2021/linh-chichan-20210602(7).jpg";
 import image08 from "storages/images/content/2021/linh-chichan-20210602(8).png";
 
+import { Helmet } from "react-helmet";
+
 /* Data Input */
 
 /*
@@ -71,6 +73,10 @@ const updatedTags = tags.map((tag) => {
 export default function page_202106030950() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />

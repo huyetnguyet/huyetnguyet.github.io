@@ -5,6 +5,8 @@ import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
+import { Helmet } from "react-helmet";
+
 /*
 <ContentItem
             title="Đấu Trường Chân Lý: Học hỏi những mẹo độc khi chơi Sett 'One Punch Man' từ kỳ thủ top 8 Thách Đấu"
@@ -62,6 +64,10 @@ const updatedTags = tags.map((tag) => {
 export default function page_202106021159() {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+      </Helmet>
+
       <Content>
         <div className="page">
           <AdsVertical />
