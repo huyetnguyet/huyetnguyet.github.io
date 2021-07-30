@@ -9454,7 +9454,7 @@
     "react-is" "^16.3.2"
     "warning" "^4.0.0"
 
-"prop-types@^15.6.2", "prop-types@^15.7.2":
+"prop-types@^15.5.8", "prop-types@^15.6.2", "prop-types@^15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -9728,6 +9728,13 @@
     "prop-types" "^15.7.2"
     "react-fast-compare" "^3.1.1"
     "react-side-effect" "^2.1.0"
+
+"react-https-redirect@^1.1.0":
+  "integrity" "sha512-HWN/Ftgi31W2OAFVNo5BO1n8C9D2W0L+sque20dKuwh51hQuMwK4bMAtdrYAmapfGGh+53zQ1NsrSacVS1Q/mw=="
+  "resolved" "https://registry.npmjs.org/react-https-redirect/-/react-https-redirect-1.1.0.tgz"
+  "version" "1.1.0"
+  dependencies:
+    "prop-types" "^15.5.8"
 
 "react-icons@^4.1.0":
   "integrity" "sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ=="
