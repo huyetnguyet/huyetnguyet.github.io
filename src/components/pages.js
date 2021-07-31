@@ -24,7 +24,9 @@ export function Pages() {
     </Switch>
   );
 }
-
+export function Page09() {
+  return <AutoPageNavi database={data.dataContent09} currentPage={9} />;
+}
 export function Page08() {
   return <AutoPageNavi database={data.dataContent08} currentPage={8} />;
 }

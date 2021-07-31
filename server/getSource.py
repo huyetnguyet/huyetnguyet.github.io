@@ -16,7 +16,7 @@ from termcolor import colored, cprint
 os.system("cls")
 
 database_json = []
-#path_storage_images = "../src/storages/images/content/" + str(datetime.datetime.now().strftime("%Y")) + "/"
+# path_storage_images = "../src/storages/images/content/" + str(datetime.datetime.now().strftime("%Y")) + "/"
 path_storage_images = "./temp_images/"
 path_storage_images_import = "storages/images/content/" + \
     str(datetime.datetime.now().strftime("%Y")) + "/"
@@ -26,7 +26,7 @@ if not os.path.exists("database"):
     os.system("mkdir database")
 if not os.path.exists("content"):
     os.system("mkdir content")
-if not os.path.exists("images"):
+if not os.path.exists("temp_images"):
     os.system("mkdir temp_images")
 
 
@@ -37,6 +37,7 @@ if(os.path.exists(filepath_data_json)):
 
     cprint("[*] Database length: "+str(len(database_json)),
            'yellow', attrs=['bold'])
+    database_json = []
 
 
 class GetSource:
@@ -61,17 +62,23 @@ class GetSource:
     def main(self):
 
         self.openBrowser()
-        fr = open("links.txt", 'r')
-        count = 1
+        fr = open("./links.txt", 'r')
+        count = 0
+        total_link = []
         for line in fr:
+            total_link.append(line)
+        fr.close()
+        for link in total_link:
             self.initValues()
-            cprint("\n\n"+str(count)+'/'+len(fr)+' '+line, 'green')
-            tempList = line.split(',')
+            count += 1
+            cprint("\n\n"+str(count)+"/" +
+                   str(len(total_link))+" "+link, 'green')
+
+            tempList = link.split(',')
             self.category = tempList[0]
             self.check_download = tempList[1]
             self.URL_link = tempList[2]
 
-            # self.initAltImages()
             tempList2 = tempList[2].split('/')
             for part in tempList2:
                 if(part == "gamek.vn" or part == "m.gamek.vn"):
@@ -99,7 +106,7 @@ class GetSource:
             self.driver = webdriver.Firefox(options=options)
         except Exception as e:
             try:
-                cprint(e, 'red')
+                print(e)
                 cprint("[!] Open on Windows", 'cyan')
                 binary = FirefoxBinary(
                     "C:\\Program Files\\Mozilla Firefox\\firefox.exe")
@@ -107,18 +114,18 @@ class GetSource:
                     firefox_binary=binary, executable_path=r"C:\\geckodriver.exe", options=options)
             except Exception as e:
                 try:
-                    cprint(e, 'red')
+                    print(e)
                     cprint("[!] Open on Linux", 'cyan')
                     self.driver = webdriver.Firefox(
                         executable_path='geckodriver/geckodriver')
                 except Exception as e:
                     try:
-                        cprint(e, 'red')
+                        print(e)
                         cprint("[!] Trying open last chance", 'cyan')
                         self.driver = webdriver.Firefox(
                             executable_path='geckodriver\\geckodriver')
                     except Exception as e:
-                        cprint("!!! ERROR: " + str(e), 'red')
+                        print("!!! ERROR: " + str(e), 'red')
                         sys.exit()
         self.driver.set_window_position(0, 0)
         self.driver.set_window_size(100, 100)
@@ -393,12 +400,13 @@ class GetSource:
                     self.content_images += "<ContentImage src='" + \
                         img + "' alt='"+str(img_count) + \
                         ", "+self.alt+"' note=''/>\n"
-                    img_count += 1
                 else:
-                    self.content_images += "<ContentImage src={require('" + \
-                        img + "').default} alt='" + \
-                        str(img_count)+", "+self.alt+"' note=''/>\n"
-                    img_count += 1
+                    #self.content_images += "<ContentImage src={require('" + img + "').default} alt='" + str(img_count)+", "+self.alt+"' note=''/>\n"
+                    self.content_images += "<ContentImage src='" + \
+                        img + "' alt='"+str(img_count) + \
+                        ", "+self.alt+"' note=''/>\n"
+
+                img_count += 1
 
         self.filename = self.timeCombine+"-"+self.link+".js"
         self.imagename = self.timeCombine+"-"+self.link
@@ -407,7 +415,7 @@ class GetSource:
 
         filepath = "./"+self.filename
 
-        self.routeImport = "export { default as  " + \
+        self.routeImport = "export { default as " + \
             self.component+" } from \""+filepath+"\";"
 
         self.routeItem = "<Route exact path=\"/" + self.link + \
@@ -415,7 +423,7 @@ class GetSource:
 
         temp_src = ""
         if self.check_download == 'y':
-            #temp_src += "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/"
+            # temp_src += "https://raw.githubusercontent.com/huyetnguyet/huyetnguyet.github.io/main/src/"
             temp_src = ""
 
         for img in temp_images:
@@ -484,7 +492,7 @@ class GetSource:
                     with open(filename, 'wb') as f:
                         f.write(req.content)
                     cprint("Download Completed !!!", 'green')
-                    #self.images[i] = filename_import
+                    # self.images[i] = filename_import
                 count += 1
         except Exception as e:
             cprint(e, 'red')
@@ -618,12 +626,11 @@ class GetSource:
 
 
 def checkData():
-    filepath_data_json = "database/data_json.json"
     if(os.path.exists(filepath_data_json)):
 
         data = load_json(filepath_data_json)
 
-        cprint("[*]Database length: "+str(len(data)), 'yellow')
+        cprint("[*] checkData: Database length: "+str(len(data)), 'yellow')
 
         fw = open('../src/storages/database.js', 'w', encoding="utf-8")
 
@@ -652,10 +659,12 @@ def checkData():
             count += 1
         fw.write("]\n")
 
-        for i in range(0, 100):
-            fw.write("export const dataContent0"+str(i)+"=[]")
+        for i in range(0, 10):
+            fw.write("\nexport const dataContent0"+str(i)+"=[]\n")
+        for i in range(10, 100):
+            fw.write("\nexport const dataContent"+str(i)+"=[]\n")
 
-        cprint("[*] Wrote database to database.js", 'green')
+        cprint("[*] checkData: Wrote database to database.js", 'green')
         fw.close()
 
 
