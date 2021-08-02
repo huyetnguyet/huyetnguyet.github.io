@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -111,6 +111,9 @@ export default function page_20210629214330() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <ContentImage
                     src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-1-1624146306902634929638.jpeg"

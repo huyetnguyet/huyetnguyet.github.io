@@ -1,12 +1,12 @@
 import React from "react";
-import "components/homeComponents/bannerSection.css";
+import "./bannerSection.scss";
 
 function Banner(props) {
   return (
     <a href={props.link}>
       <img src={props.image} alt="images"></img>
       <div className="contentText">
-        <span>{props.title.substring(0, 50)}</span>
+        <span>{props.title.substring(0, 50)}... </span>
       </div>
     </a>
   );

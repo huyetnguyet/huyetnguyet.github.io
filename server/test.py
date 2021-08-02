@@ -1,10 +1,9 @@
-from termcolor import colored, cprint
+import os
+import sys
+import glob
 
-cprint('Hello, World!', 'grey')
-cprint('Hello, World!', 'red')
-cprint('Hello, World!', 'green')
-cprint('Hello, World!', 'yellow')
-cprint('Hello, World!', 'blue')
-cprint('Hello, World!', 'magenta')
-cprint('Hello, World!', 'cyan')
-cprint('Hello, World!', 'white')
+files = glob.glob('../src/storages/content/2021/07/*')
+count_down = 0
+for temp_file in files:
+    count_down += 1
+    print(str(count_down)+'/'+str(len(files))+' '+temp_file)

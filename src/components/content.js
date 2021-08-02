@@ -37,21 +37,21 @@ export function Content({ children }) {
   return (
     <>
       <div id="topSection">
-        <div className="container">
+        <div className="containerMain">
           <TopSection></TopSection>
         </div>
       </div>
       <div id="navigation">
-        <div className="container">
+        <div className="containerMain">
           <Navigation tab=""></Navigation>
         </div>
       </div>
       <div id="bodylayout">
-        <div className="container">{children}</div>
-        <div className="container">
+        <div className="containerMain">{children}</div>
+        <div className="containerMain">
           <HomeContentSection></HomeContentSection>
         </div>
-        <div className="container">
+        <div className="containerMain">
           <Footer></Footer>
         </div>
       </div>
@@ -63,18 +63,18 @@ export function Tabs({ children }) {
   return (
     <>
       <div id="topSection">
-        <div className="container">
+        <div className="containerMain">
           <TopSection></TopSection>
         </div>
       </div>
       <div id="navigation">
-        <div className="container">
+        <div className="containerMain">
           <Navigation tab=""></Navigation>
         </div>
       </div>
       <div id="bodylayout">
-        <div className="container">{children}</div>
-        <div className="container">
+        <div className="containerMain">{children}</div>
+        <div className="containerMain">
           <Footer></Footer>
         </div>
       </div>
@@ -86,17 +86,17 @@ export function PageContent({ children }) {
   return (
     <>
       <div id="topSection">
-        <div className="container">
+        <div className="containerMain">
           <TopSection></TopSection>
         </div>
       </div>
       <div id="navigation">
-        <div className="container">
+        <div className="containerMain">
           <Navigation tab=""></Navigation>
         </div>
       </div>
       <div id="bodylayout">
-        <div className="container">
+        <div className="containerMain">
           <div className="homeContent">
             <div className="containerContent">
               <AdsHorizontal />
@@ -104,7 +104,7 @@ export function PageContent({ children }) {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="containerMain">
           <Footer></Footer>
         </div>
       </div>

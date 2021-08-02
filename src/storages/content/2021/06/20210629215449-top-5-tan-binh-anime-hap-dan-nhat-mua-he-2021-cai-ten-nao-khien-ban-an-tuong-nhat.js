@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -114,6 +114,9 @@ export default function page_20210629215449() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <h5>Mahouka Koukou No Yuutousei</h5>
                   <p>Lịch công chiếu: 3 tháng 7 năm 2021.</p>

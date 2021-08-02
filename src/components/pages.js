@@ -7,7 +7,7 @@ import { PageContent } from "components/content";
 import * as data from "storages/database";
 
 const total_pages = "8";
-const last_page = "/page08";
+const last_page = "/page8";
 
 export function Pages() {
   return (
@@ -52,9 +52,13 @@ export function Page03() {
     <PageContent>
       <MainContent data={data.dataContent03}></MainContent>
       <div className="pagenavi">
-        <div className="pagenaviBox pageTotal">PAGE 3 OF {total_pages}</div>
+        <div>
+          <div className="pagenaviBox pageTotal mobile_sm">
+            PAGE 3 OF {total_pages}
+          </div>
+        </div>
         <a href="/page2">
-          <div className="pagenaviBox">{"<<"}</div>
+          <div className="pagenaviBox mobile">{"<<"}</div>
         </a>
         <a href="/">
           <div className="pagenaviBox">1</div>
@@ -62,7 +66,9 @@ export function Page03() {
         <a href="/page2">
           <div className="pagenaviBox">2</div>
         </a>
-        <div className="pagenaviBox pageCurrent">3</div>
+        <div>
+          <div className="pagenaviBox pageCurrent">3</div>
+        </div>
         <a href="/page4">
           <div className="pagenaviBox">4</div>
         </a>
@@ -70,10 +76,10 @@ export function Page03() {
           <div className="pagenaviBox">5</div>
         </a>
         <a href="/page4">
-          <div className="pagenaviBox">{">>"}</div>
+          <div className="pagenaviBox mobile">{">>"}</div>
         </a>
         <a href={last_page}>
-          <div className="pagenaviBox">{"LAST >>"}</div>
+          <div className="pagenaviBox mobile_sm">{"LAST >>"}</div>
         </a>
       </div>
     </PageContent>
@@ -85,14 +91,20 @@ export function Page02() {
     <PageContent>
       <MainContent data={data.dataContent02}></MainContent>
       <div className="pagenavi">
-        <div className="pagenaviBox pageTotal">PAGE 2 OF {total_pages}</div>
+        <div>
+          <div className="pagenaviBox pageTotal mobile_sm">
+            PAGE 2 OF {total_pages}
+          </div>
+        </div>
         <a href="/">
-          <div className="pagenaviBox">{"<<"}</div>
+          <div className="pagenaviBox mobile">{"<<"}</div>
         </a>
         <a href="/">
           <div className="pagenaviBox">1</div>
         </a>
-        <div className="pagenaviBox pageCurrent">2</div>
+        <div>
+          <div className="pagenaviBox pageCurrent">2</div>
+        </div>
         <a href="/page3">
           <div className="pagenaviBox">3</div>
         </a>
@@ -103,7 +115,10 @@ export function Page02() {
           <div className="pagenaviBox">5</div>
         </a>
         <a href="/page3">
-          <div className="pagenaviBox">{">>"}</div>
+          <div className="pagenaviBox mobile">{">>"}</div>
+        </a>
+        <a href={last_page}>
+          <div className="pagenaviBox mobile_sm">{"LAST >>"}</div>
         </a>
       </div>
     </PageContent>
@@ -114,8 +129,12 @@ export function Pagenavi01() {
   return (
     <>
       <div className="pagenavi">
-        <div className="pagenaviBox pageTotal">PAGE 1 OF {total_pages}</div>
-        <div className="pagenaviBox pageCurrent"> 1 </div>
+        <div>
+          <div className="pagenaviBox pageTotal mobile_sm">
+            PAGE 1 OF {total_pages}
+          </div>
+          <div className="pagenaviBox pageCurrent"> 1 </div>
+        </div>
         <a href="/page2">
           <div className="pagenaviBox">2</div>
         </a>
@@ -129,10 +148,10 @@ export function Pagenavi01() {
           <div className="pagenaviBox">5</div>
         </a>
         <a href="/page2">
-          <div className="pagenaviBox">{">>"}</div>
+          <div className="pagenaviBox  mobile">{">>"}</div>
         </a>
         <a href={last_page}>
-          <div className="pagenaviBox">{"LAST >>"}</div>
+          <div className="pagenaviBox mobile_sm">{"LAST >>"}</div>
         </a>
       </div>
     </>
@@ -154,14 +173,16 @@ export function AutoPageNavi(props) {
     <PageContent>
       <MainContent data={props.database}></MainContent>
       <div className="pagenavi">
-        <div className="pagenaviBox pageTotal">
-          PAGE {props.currentPage} OF {total_pages}
+        <div>
+          <div className="pagenaviBox pageTotal mobile mobile_sm">
+            PAGE {props.currentPage} OF {total_pages}
+          </div>
         </div>
         <a href="/">
-          <div className="pagenaviBox">{"<< FIRST"}</div>
+          <div className="pagenaviBox mobile_sm">{"<< FIRST"}</div>
         </a>
         <a href={link_previousePage1}>
-          <div className="pagenaviBox">{"<<"}</div>
+          <div className="pagenaviBox mobile">{"<<"}</div>
         </a>
         <a href={link_previousePage2}>
           <div className="pagenaviBox">{previousPage2}</div>
@@ -169,8 +190,9 @@ export function AutoPageNavi(props) {
         <a href={link_previousePage1}>
           <div className="pagenaviBox">{previousPage1}</div>
         </a>
-        <div className="pagenaviBox pageCurrent">{props.currentPage}</div>
-
+        <div>
+          <div className="pagenaviBox pageCurrent">{props.currentPage}</div>
+        </div>
         <a href={link_nextPage1}>
           <div className="pagenaviBox">{nextPage1}</div>
         </a>
@@ -178,10 +200,10 @@ export function AutoPageNavi(props) {
           <div className="pagenaviBox">{nextPage2}</div>
         </a>
         <a href={link_nextPage1}>
-          <div className="pagenaviBox">{">>"}</div>
+          <div className="pagenaviBox mobile">{">>"}</div>
         </a>
         <a href={last_page}>
-          <div className="pagenaviBox">{"LAST >>"}</div>
+          <div className="pagenaviBox mobile_sm">{"LAST >>"}</div>
         </a>
       </div>
     </PageContent>

@@ -1,0 +1,293 @@
+@import "../_global.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap");
+
+$fontSizeDefault: 17px;
+
+.page {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  display: block;
+  position: relative;
+  background: url(../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  width: 100%;
+  box-shadow: 0 5px 5px #000;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+  @media only screen and (max-width: 1000px) {
+    padding-top: 0;
+  }
+
+  .path {
+    margin-left: 5%;
+    margin-top: 20px;
+
+    .pathName {
+      display: inline-block;
+      color: rgb(70, 67, 67);
+      padding: 5px;
+      background-color: #ddd6d6;
+      font-family: "Orbitron";
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .title,
+  .info,
+  .contentContainer,
+  .share {
+    width: 90%;
+    margin-left: 5%;
+    @media only screen and (max-width: 1000px) {
+      width: 95%;
+      margin-left: 2.5%;
+    }
+  }
+
+  .title {
+    display: block;
+    position: relative;
+    padding-top: 20px;
+
+    h1 {
+      text-align: left;
+      color: black;
+      @media only screen and (max-width: 1000px) {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .info {
+    .author {
+      display: inline-block;
+      color: red;
+      font-weight: bold;
+    }
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      font-size: 12px;
+    }
+  }
+
+  .share {
+    background-color: #bcbcbc;
+    height: 50px;
+    border-radius: 5px;
+    iframe {
+      margin-top: 15px;
+      margin-left: 5%;
+      border: none;
+      overflow: hidden;
+      z-index: 99;
+    }
+  }
+
+  .containerContent {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+
+    .content {
+      margin-left: 0;
+
+      .contentContainer {
+        .description {
+          font-family: $fontFamilyDefault;
+          font-weight: bold;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          line-height: 1.6;
+          font-size: 17px;
+          @media only screen and (max-width: 1000px) {
+            margin-top: 0;
+            font-size: 15px;
+          }
+        }
+
+        .relationNews {
+          margin-left: 5%;
+          ul {
+            li {
+              padding-top: 5px;
+              font-size: 13px;
+              color: $color_green;
+              cursor: pointer;
+              &::marker {
+                content: "🧔🏾  ";
+                margin-right: 10px;
+              }
+              &:hover::marker {
+                content: "🤯  ";
+              }
+            }
+          }
+        } //relationNews
+
+        .desktop {
+          width: 25%;
+          @media only screen and (max-width: 1000px) {
+            width: 100%;
+          }
+        }
+
+        .contentBody {
+          width: 75%;
+          @media only screen and (max-width: 1000px) {
+            width: 100%;
+          }
+          p {
+            font-family: "Times New Roman", Times, serif;
+            strong {
+              color: black;
+              font-weight: bold;
+              font-style: italic;
+            }
+          }
+
+          h3,
+          h4,
+          h5 {
+            padding-top: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            color: black;
+            font-weight: bold;
+            @media only screen and (max-width: 1000px) {
+              padding-top: 0;
+              padding-bottom: 0;
+            }
+          }
+
+          img {
+            width: 100%;
+          }
+          .contentImage {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          .imageNote {
+            font-style: italic;
+            text-align: center;
+          }
+
+          .relationNewsInPage {
+            float: right;
+            border-top: 2px solid #a31413;
+            border-bottom: 2px solid #a31413;
+            width: 50%;
+            @media only screen and (max-width: 1000px) {
+              width: 80%;
+            }
+
+            ul {
+              a {
+                li {
+                  font-size: 12px;
+                  margin-left: 15px;
+                  color: #e76f51;
+                  padding: 5px;
+                }
+                &::marker {
+                  content: "👉🏼";
+                }
+                &:hover::marker {
+                  content: "👍🏼";
+                  text-decoration: none;
+                }
+              }
+            }
+          }
+        } //contentBody
+      } //contentContainer
+
+      .randomFeature {
+        width: 67%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 10px;
+        @media only screen and (max-width: 1000px) {
+          width: 90%;
+        }
+
+        h3 {
+          display: inline;
+          color: $color-orange;
+          @media only screen and (max-width: 1000px) {
+            font-size: 1.3rem;
+          }
+        }
+        &::before,
+        &::after {
+          color: $color-green;
+          font-size: 30px;
+          font-family: "Euphoria Script", cursive;
+        }
+        &::before {
+          content: "<<  ";
+        }
+        &::after {
+          content: "  >>";
+        }
+      } //randomFeature
+
+      .source {
+        display: inline-block;
+        position: relative;
+        color: black;
+        font-weight: bold;
+        font-size: 12px;
+        background-color: #bcbcbc;
+        border-radius: 5px;
+        padding: 10px;
+
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+      } //source
+
+      .tags {
+        margin-top: 20px;
+        margin-left: 5%;
+        color: black;
+        width: 90%;
+        .tag {
+          font-size: 12px;
+          background-color: #bcbcbc;
+          margin-right: 5px;
+          padding: 5px;
+          text-transform: uppercase;
+          line-height: 2.5;
+          border-radius: 5px;
+        }
+        a {
+          color: $color-dark-green;
+          &:hover {
+            color: $color-green;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page .highlight {
+  display: inline-block;
+  color: blue;
+  font-weight: bold;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+#grad1 {
+  height: 1px;
+  background-color: #a31413; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #a31413, #020101);
+  margin-top: 10px;
+}

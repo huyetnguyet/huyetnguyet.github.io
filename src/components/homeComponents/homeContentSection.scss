@@ -1,0 +1,135 @@
+@import "../../_global.scss";
+
+.homeContent {
+  display: flex;
+  position: relative;
+  background: url("../../asserts/images/cont_bg.png") 0 0 repeat-x #fff;
+  box-shadow: 0 5px 5px #000;
+  width: 100%;
+  padding-bottom: 30px;
+  .desktop {
+    display: block;
+    @media only screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+  .item {
+    background-color: #e6e0de;
+    border-top: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+
+    display: flex;
+    width: 700px;
+    height: 200px;
+    margin-left: 1%;
+    margin-top: 20px;
+    z-index: 5;
+
+    @media only screen and (max-width: 1000px) {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+
+    .img_inner {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      object-fit: cover;
+      display: inline-block;
+
+      width: 300px;
+      height: 200px;
+
+      @media only screen and (max-width: 1000px) {
+        width: 40vw;
+      }
+    }
+
+    .itemContent {
+      display: inline-block;
+      width: 400px;
+      @media only screen and (max-width: 1000px) {
+        width: 60vw;
+      }
+
+      .desktop {
+        display: block;
+        @media only screen and (max-width: 1000px) {
+          display: none;
+        }
+      }
+      .mobile {
+        display: none;
+        @media only screen and (max-width: 1000px) {
+          display: block;
+        }
+      }
+
+      h3,
+      p {
+        color: black;
+        text-align: left;
+        margin: 10px;
+
+        float: left;
+        display: block;
+        position: relative;
+      }
+      h3 {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: $fontFamilyTitle;
+        @media only screen and (max-width: $iPhon5_width) {
+          font-size: 16px;
+        }
+      }
+      p {
+        font-family: $fontFamilyDefault;
+        bottom: 5px;
+        margin-left: 4%;
+        margin-top: 10px;
+        @media only screen and (max-width: $iPhon5_width) {
+          margin-top: 0;
+        }
+      }
+      .timestamp {
+        float: left;
+        display: block;
+        position: relative;
+        bottom: 5px;
+        margin-left: 4%;
+        @media only screen and (max-width: $iPhon5_width) {
+          bottom: 0;
+          margin-left: 4%;
+        }
+        h5 {
+          display: inline-block;
+          text-transform: uppercase;
+          text-align: left;
+          color: $origin_red;
+          font-size: 11px;
+          letter-spacing: 2px;
+          font-weight: bold;
+          @media only screen and (max-width: $iPhon5_width) {
+            font-size: 8px;
+          }
+        }
+        .time {
+          display: inline-block;
+          text-align: left;
+          color: black;
+
+          font-size: 10px;
+          margin-left: 20px;
+          @media only screen and (max-width: $iPhon5_width) {
+            font-size: 8px;
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}

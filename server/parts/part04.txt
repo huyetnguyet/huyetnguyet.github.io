@@ -34,5 +34,7 @@
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
-                <RelationNews category={category} />
+                <RelationNews category={category} /><div className="desktop">
+          <AdsHorizontal />
+        </div>
                 <div className="contentBody">
