@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -112,6 +112,9 @@ export default function page_20210629214718() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <p>
                     Bên cạnh việc đóng phim bình thường, một trong những hoạt

@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
@@ -102,6 +102,9 @@ export default function page_() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <RelationNewsInPage category={category} />
                   <></>

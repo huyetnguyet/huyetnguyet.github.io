@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -115,6 +115,9 @@ export default function page_20210729162453() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <p>
                     Mùa hè chính là thời gian lí tưởng nhất trong năm để các

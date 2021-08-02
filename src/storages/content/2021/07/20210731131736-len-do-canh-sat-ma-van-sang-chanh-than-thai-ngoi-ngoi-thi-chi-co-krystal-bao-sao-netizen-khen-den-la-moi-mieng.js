@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -111,6 +111,9 @@ export default function page_20210731131736() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <p>
                     Vào ngày 9/8 sắp tới đây, drama Police University sẽ chính

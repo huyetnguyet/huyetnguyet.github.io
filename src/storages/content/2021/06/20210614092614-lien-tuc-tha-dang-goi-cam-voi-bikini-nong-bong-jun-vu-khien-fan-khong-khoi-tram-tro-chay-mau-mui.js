@@ -1,5 +1,5 @@
 import React from "react";
-import "components/page.css";
+import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
 import {
   RandomFeature,
@@ -104,6 +104,9 @@ export default function page_20210614092614() {
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
+                <div className="desktop">
+                  <AdsHorizontal />
+                </div>
                 <div className="contentBody">
                   <p>
                     Nổi lên từ một trong những "nữ thần" của làng DOTA 2 Việt

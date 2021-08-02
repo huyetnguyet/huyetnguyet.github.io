@@ -1,6 +1,6 @@
 /* eslint-disable array-callback-return */
 import React from "react";
-
+import { AdsVertical } from "components/adsMethods";
 import { dataContent, dataContent02 } from "storages/database";
 
 export function RandomFeature() {
@@ -24,10 +24,10 @@ export function RelationNews(props) {
   return (
     <div className="relationNews">
       <ul>
-        {dataContent.map((obj) => {
+        {dataContent.map((obj, key) => {
           if (obj.category === props.category && count < 3) {
             count += 1;
-            return <li>{obj.title}</li>;
+            return <li key={key}>{obj.title}</li>;
           }
         })}
       </ul>
@@ -38,72 +38,38 @@ export function RelationNews(props) {
 export function RelationNewsInPage(props) {
   var count = 0;
   return (
-    <div class="relationNewsInPage">
-      <ul>
-        {dataContent02.map((obj) => {
-          if (obj.category === props.category && count < 3) {
-            count += 1;
-            return (
-              <a href={obj.link}>
-                <li>{obj.title}</li>
-              </a>
-            );
-          }
-        })}
-      </ul>
-    </div>
-  );
-}
-
-function ContentItem(props) {
-  return (
-    <div className="card">
-      <a href={props.link}>
-        {" "}
-        <img src={props.src} alt="images" class="cardImg"></img>
-      </a>
-      <div className="cardText">
-        <a href={props.link}>
-          <h4>{props.title.substring(0, 50)}...</h4>
-        </a>
-        <p>{props.description.substring(0, 70)}...</p>
-      </div>
-      <a href={props.link} class="cardBtn">
-        read more
-      </a>
-    </div>
-  );
-}
-
-export const TabContainers = React.memo((props) => {
-  var categoryCollection = [];
-  props.database.map((obj, i) => {
-    if (obj.category === props.category) {
-      categoryCollection.push(obj);
-    }
-  });
-  return (
     <>
-      {categoryCollection.map((obj, i) => {
-        if (i % 3 === 0) {
-          return (
-            <div className="tabContainer">
-              {categoryCollection.map((obj, j) => {
-                if (j === i || j === i + 1 || j === i + 2) {
-                  return (
-                    <ContentItem
-                      title={obj.title}
-                      description={obj.description}
-                      src={obj.src}
-                      link={obj.link}
-                    />
-                  );
-                }
-              })}
-            </div>
-          );
-        }
-      })}
+      <div className="relationNewsInPage">
+        <ul>
+          {dataContent02.map((obj, key) => {
+            if (obj.category === props.category && count < 3) {
+              count += 1;
+              return (
+                <a href={obj.link}>
+                  <li key={key}>{obj.title}</li>
+                </a>
+              );
+            }
+          })}
+        </ul>
+      </div>
+      <AdsVertical />
     </>
   );
-});
+}
+
+export function SearchMethods() {
+  let fruits = ["apple", "banana", "grapes", "mango", "orange"];
+
+  /**
+   * Filter array items based on search criteria (query)
+   */
+  function filterItems(arr, query) {
+    return arr.filter(function (el) {
+      return el.toLowerCase().indexOf(query.toLowerCase()) !== -1;
+    });
+  }
+
+  console.log(filterItems(fruits, "ap")); // ['apple', 'grapes']
+  console.log(filterItems(fruits, "an")); // ['banana', 'mango', 'orange']
+}

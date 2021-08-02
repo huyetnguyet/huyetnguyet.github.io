@@ -1,5 +1,5 @@
 import React from "react";
-import "components/homeComponents/featuredSection.css";
+import "./featuredSection.scss";
 import { AdsFeaturdSection } from "components/adsMethods";
 import { dataFeatured } from "storages/database";
 
@@ -7,7 +7,7 @@ function ContentItem(props) {
   return (
     <div className="grip_6">
       <a href={props.link}>
-        <img src={props.src} alt="images" class="img_inner" />
+        <img src={props.src} alt="images" className="img_inner" />
       </a>
       <div className="featuredText">
         <a href={props.link}>
@@ -15,7 +15,7 @@ function ContentItem(props) {
         </a>
         <p>{props.description.substring(0, 60)}...</p>
       </div>
-      <a href={props.link} class="featuredBtn">
+      <a href={props.link} className="featuredBtn">
         read more
       </a>
     </div>
@@ -29,7 +29,9 @@ function FeaturedContainer() {
         if (i === 2) {
           return (
             <>
-              <AdsFeaturdSection />
+              <div className="grip_6">
+                <AdsFeaturdSection />
+              </div>
               <ContentItem
                 title={obj.title}
                 description={obj.description}
@@ -41,6 +43,7 @@ function FeaturedContainer() {
         } else {
           return (
             <ContentItem
+              key={i}
               title={obj.title}
               description={obj.description}
               src={obj.src}

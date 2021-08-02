@@ -1,6 +1,6 @@
 import React from "react";
 
-import "components/homeComponents/homeContentSection.css";
+import "./homeContentSection.scss";
 import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
 import { Pagenavi01 } from "components/pages";
 
@@ -10,7 +10,7 @@ function ContentItem(props) {
   return (
     <div className="item">
       <a href={props.link}>
-        <img src={props.src} alt={props.alt} class="img_inner"></img>
+        <img src={props.src} alt={props.alt} className="img_inner"></img>
       </a>
       <div className="itemContent">
         <a href={props.link}>
@@ -33,11 +33,11 @@ function ContentItem(props) {
 export function MainContent(props) {
   return (
     <>
-      <AdsVerticalHomeContent />;
+      <AdsVerticalHomeContent />
       {props.data.map((obj, i) => {
         if ((i + 1) % 5 === 0) {
           return (
-            <>
+            <div key={i}>
               <ContentItem
                 title={obj.title}
                 description={obj.description}
@@ -48,12 +48,13 @@ export function MainContent(props) {
                 time={obj.time}
                 link={obj.link}
               />
-              <AdsVerticalHomeContent />;
-            </>
+              <AdsVerticalHomeContent />
+            </div>
           );
         } else {
           return (
             <ContentItem
+              key={i}
               title={obj.title}
               description={obj.description}
               src={obj.src}
@@ -74,7 +75,10 @@ export default function HomeContentSection(props) {
   return (
     <div className="homeContent">
       <div className="containerContent">
-        <AdsHorizontal />
+        <div className="desktop">
+          <AdsHorizontal />
+        </div>
+
         <div className="content">
           <MainContent data={dataContent}></MainContent>
           <Pagenavi01 />

@@ -5,7 +5,7 @@ const slot = "1992653961";
 
 export function AdsVertical() {
   return (
-    <div className="ads-vertical">
+    <div className="adsVertical">
       <AdSense.Google
         client={client}
         slot={slot}
@@ -20,7 +20,7 @@ export function AdsVertical() {
 
 export function AdsHorizontal() {
   return (
-    <div className="ads-horizontal sticky">
+    <div className="adsHorizontal sticky">
       <AdSense.Google
         client={client}
         slot={slot}
@@ -35,7 +35,7 @@ export function AdsHorizontal() {
 
 export function AdsVerticalHomeContent() {
   return (
-    <div className="ads-vertical-home">
+    <div className="adsVerticalHome">
       <AdSense.Google
         client={client}
         slot={slot}
@@ -50,11 +50,10 @@ export function AdsVerticalHomeContent() {
 
 export function AdsFeaturdSection() {
   return (
-    <div className="ads-featured-section grip_6">
+    <div className="adsFeaturedSection">
       <AdSense.Google
         client={client}
         slot={slot}
-        style={{ display: "block" }}
         format="auto"
         responsive="true"
         layoutKey="-gw-1+2a-9x+5c"

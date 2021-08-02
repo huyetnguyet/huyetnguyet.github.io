@@ -1,0 +1,126 @@
+@import "../_global.scss";
+
+.footerContainer {
+  display: block;
+  background: #1b1b1b;
+  .container_24 {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin-left: 2%;
+    .mobile {
+      display: none;
+    }
+    .grid_14 {
+      display: inline-block;
+      position: relative;
+      width: 50%;
+      @media only screen and (max-width: 1000px) {
+        display: none;
+      }
+    }
+
+    .grid_6 {
+      display: inline-block;
+      position: relative;
+      width: 30%;
+      @media only screen and (max-width: 1000px) {
+        width: 100%;
+      }
+
+      .contact {
+        margin-top: 17px;
+        margin-left: 8px;
+      }
+
+      a {
+        color: $color-green;
+        letter-spacing: 1px;
+      }
+      p {
+        text-align: left;
+        strong {
+          color: $color-green;
+        }
+      }
+    }
+
+    .grid_4 {
+      display: inline-block;
+      position: relative;
+      width: 20%;
+      @media only screen and (max-width: 1000px) {
+        display: none;
+      }
+    }
+
+    h3 {
+      color: $color_red;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: left;
+      font-weight: bold;
+      padding-top: 29px !important;
+      letter-spacing: 3px;
+      font-size: 16px;
+      line-height: 22px;
+      margin-bottom: 8px;
+      margin-left: 8px;
+    }
+    ul {
+      list-style: none;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      margin-left: 20px;
+      li {
+        a {
+          color: #fff;
+          font-family: Tahoma, Verdana, Segoe, sans-serif;
+          font: bold 12px/22px Tahoma, sans-serif;
+          letter-spacing: 2px;
+        }
+      }
+      li:hover {
+        a {
+          color: $origin_red;
+        }
+      }
+      li:before {
+        content: "";
+        display: block;
+        position: relative;
+        border-color: transparent #6d6d6d;
+        border-style: solid;
+        border-width: 0.35em 0 0.35em 0.45em;
+        height: 0;
+        width: 0;
+        left: -1em;
+        top: 15px;
+      }
+    }
+
+    .current a {
+      color: $origin_red;
+      text-transform: uppercase;
+      font: bold 12px/22px "Orbitron", sans-serif;
+      letter-spacing: 3px;
+    }
+
+    p {
+      font-family: "Arial", Times, serif;
+      color: white;
+      margin-top: 10px;
+      font-size: 15px;
+    }
+  }
+  .grid_24 {
+    width: 100%;
+    background-color: #6d6d6d;
+    margin-top: 30px;
+    .copy {
+      color: $color_yellow;
+      padding: 10px;
+    }
+  }
+}

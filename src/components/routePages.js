@@ -2,9 +2,17 @@ import React from "react";
 import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import Home from "components/home";
-import Games from "components/games";
-import News from "components/news";
-import Tech from "components/tech";
+import {
+  Games,
+  Guide,
+  Images,
+  Life,
+  News,
+  Stars,
+  Tech,
+  Travel,
+  Search,
+} from "components/tabs";
 
 import { Pages } from "components/pages";
 
@@ -14,9 +22,15 @@ export default function routePages() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/search:querySearch" component={Search} />
       <Route exact path="/games" component={Games} />
+      <Route exact path="/guide" component={Guide} />
+      <Route exact path="/images" component={Images} />
+      <Route exact path="/life" component={Life} />
       <Route exact path="/news" component={News} />
+      <Route exact path="/stars" component={Stars} />
       <Route exact path="/tech" component={Tech} />
+      <Route exact path="/travel" component={Travel} />
       <Pages />
       <Pages2021 />
     </Switch>

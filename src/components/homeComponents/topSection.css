@@ -1,6 +1,7 @@
 .topSection {
   display: flex;
   align-items: left;
+  width: 100%;
 }
 .topSection .logo {
   position: absolute;
@@ -11,6 +12,13 @@
 .topSection img {
   float: left;
 }
+
+@media only screen and (max-width: 375px) {
+  .topSection .logo img {
+    width: 100%;
+  }
+}
+
 .topSection .search {
   position: relative;
   background-color: #393433;
