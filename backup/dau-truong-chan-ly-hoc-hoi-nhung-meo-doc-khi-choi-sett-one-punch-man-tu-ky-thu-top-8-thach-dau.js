@@ -97,7 +97,6 @@ export function pageLayout(props) {
               </div>
             </div>
           </div>
-        </div>
       </Content>
     </>
   );

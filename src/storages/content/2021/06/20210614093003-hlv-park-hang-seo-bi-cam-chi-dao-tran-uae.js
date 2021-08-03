@@ -109,8 +109,6 @@ export default function page_20210614093003() {
                 <RelationNews category={category} />
                 <div className="contentBody">
                   <div className="contentBodyLeft">
-                    <p></p>
-                    <p></p>
                     <p>
                       Đây đã là thẻ vàng thứ 2 của chiến lược gia người Hàn Quốc
                       tại vòng loại World Cup 2022. Thẻ đầu tiên của ông phải
@@ -161,15 +159,15 @@ export default function page_20210614093003() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

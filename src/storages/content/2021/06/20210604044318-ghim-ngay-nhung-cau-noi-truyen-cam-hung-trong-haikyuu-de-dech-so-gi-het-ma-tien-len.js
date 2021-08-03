@@ -102,7 +102,7 @@ export default function page_20210604044318() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -164,6 +164,7 @@ export default function page_20210604044318() {
                       note="Đáng sợ hơn bộ dạng thất bại, chính là bộ dạng sợ hãi trước
                     đối thủ của mình. - Tanaka Ryuunosuke"
                     />
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-1622786087549763070567.jpg"
                       alt="Haikyuu, Chang Khong Lo Ti Hon, Cau Noi Hay Haikyuu, Ukai Keishin, "
@@ -249,15 +250,15 @@ export default function page_20210604044318() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

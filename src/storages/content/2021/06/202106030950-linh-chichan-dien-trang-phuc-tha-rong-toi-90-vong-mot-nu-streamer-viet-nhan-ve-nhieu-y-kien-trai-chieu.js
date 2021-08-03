@@ -89,7 +89,7 @@ export default function page_202106030950() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -154,6 +154,7 @@ export default function page_202106030950() {
                       alt="Linh Chichan"
                       note="Nhưng cũng khá nổi tiếng với ảnh thẻ xinh xuất sắc"
                     />
+                    <RelationNewsInPage />
                     <p>
                       Thực tế, đa phần những hình ảnh mà cô nàng
                       <div className="highlight">Linh Chichan</div> đăng tải đều
@@ -206,15 +207,15 @@ export default function page_202106030950() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

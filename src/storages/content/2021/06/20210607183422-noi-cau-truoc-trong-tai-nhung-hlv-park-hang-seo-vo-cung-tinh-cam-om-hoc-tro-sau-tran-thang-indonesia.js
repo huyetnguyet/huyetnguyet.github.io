@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -184,14 +180,14 @@ export default function page_20210607183422() {
                       note="Sau đó ông Park đi hỏi han, chúc mừng và bắt tay từng cầu
                     thủ của tuyển Việt Nam (Ảnh: Hiếu Lương)"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://sport5.mediacdn.vn/158855217956261888/2021/6/8/59cbc76098226c7c3533-16230937321137832650.jpg"
                       alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Park Hang Seo, Bong Da, "
                       note="Ông Park còn đặc biệt 'xoa đầu' và nói chuyện với tiền vệ
                     Phan Văn Đức (Ảnh: Hiếu Lương)"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://sport5.mediacdn.vn/thumb_w/700/158855217956261888/2021/6/8/750f56770935fd6ba424-16230937317891460558085.jpg"
                       alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Park Hang Seo, Bong Da, "
@@ -200,15 +196,15 @@ export default function page_20210607183422() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

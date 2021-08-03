@@ -97,7 +97,7 @@ export default function page_20210604044342() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -158,6 +158,7 @@ export default function page_20210604044342() {
                       alt="images, Remu Suzumori, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Với nhan sắc xinh đẹp, không khó hiểu vì sao Remu Suzumori
                       được hãng làm phim Prestige "chấm" và đưa làm diễn viên
@@ -216,15 +217,15 @@ export default function page_20210604044342() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

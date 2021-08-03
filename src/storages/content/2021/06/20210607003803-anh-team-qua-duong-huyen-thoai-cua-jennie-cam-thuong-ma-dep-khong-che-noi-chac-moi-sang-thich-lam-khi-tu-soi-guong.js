@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -142,7 +138,7 @@ export default function page_20210607003803() {
                       alt="Jennie, Jennie Blackpink, Blackpink, Sao Han, Idol Kpop, Nhan Sac Sao Han, Anh Cam Thuong, "
                       note="Body cực xịn của Jennie càng thêm nổi bật trong ảnh cam thường fan chụp"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/a-famous-photo-of-jennie-1623032117432755818906.jpg"
                       alt="Jennie, Jennie Blackpink, Blackpink, Sao Han, Idol Kpop, Nhan Sac Sao Han, Anh Cam Thuong, "
@@ -178,19 +174,18 @@ export default function page_20210607003803() {
                       ảnh chụp từ camera thường của người qua đường. Ảnh chụp
                       100% không chỉnh sửa đã chứng minh<strong>Jennie</strong>
                     </p>
-                    <p></p>
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -152,7 +148,6 @@ export default function page_20210607183618() {
                       alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, World Cup 2022, Tuyen Viet Nam Indonesia, Bong Da, "
                       note=""
                     />
-                    <p></p>
                     <ContentImage
                       src="https://sport5.mediacdn.vn/158855217956261888/2021/6/8/18998023235182922183964844316269676853282665n-16230933676491535090752.jpg"
                       alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, World Cup 2022, Tuyen Viet Nam Indonesia, Bong Da, "
@@ -209,15 +204,15 @@ export default function page_20210607183618() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

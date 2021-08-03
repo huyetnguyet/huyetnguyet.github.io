@@ -113,7 +113,6 @@ export default function page_20210802012212() {
                 <RelationNews category={category} />
                 <div className="contentBody">
                   <div className="contentBodyLeft">
-                    <p></p>
                     <p>
                       Với mục tiêu kỉ niệm sinh nhật thứ 200 của nhà thiết kế
                       Louis Vuitton, <strong>thương hiệu thời trang</strong>{" "}
@@ -191,15 +190,15 @@ export default function page_20210802012212() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -172,7 +172,7 @@ export default function page_20210729161147() {
                       alt="1, Ngọc Trinh,sao khoe body,body sao việt,showbiz Việt,Body Ngọc Trinh,đại chiến bikini,"
                       note="Thần thái của Ngọc Trinh vô cùng cuốn hút và luôn toát ra sự tự tin, sexy"
                     />
-                    <p></p>
+
                     <p>
                       Clip: Trước đó, <strong>Ngọc Trinh</strong> thả dáng trong
                       bikini nhỏ xíu, khiến Vũ Khắc Tiệp trầm trồ khen ngợi hết
@@ -211,15 +211,15 @@ export default function page_20210729161147() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

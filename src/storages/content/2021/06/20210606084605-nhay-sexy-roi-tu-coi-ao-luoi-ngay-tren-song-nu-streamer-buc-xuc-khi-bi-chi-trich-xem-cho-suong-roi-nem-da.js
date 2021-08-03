@@ -182,6 +182,7 @@ export default function page_20210606084605() {
                       áo lưới của mình, để lộ ra vóc dáng siêu quyến rũ. Và kế
                       tiếp chính là những màn vũ đạo gợi cảm quen thuộc.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       <ContentImage
                         src="https://kenh14cdn.com/203336854389633024/2021/6/6/photo-3-162294799564637337072.gif"
@@ -231,15 +232,15 @@ export default function page_20210606084605() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

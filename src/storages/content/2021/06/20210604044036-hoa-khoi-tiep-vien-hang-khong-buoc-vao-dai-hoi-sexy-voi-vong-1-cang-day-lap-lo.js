@@ -105,7 +105,7 @@ export default function page_20210604044036() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -181,6 +181,7 @@ export default function page_20210604044036() {
                       anh". Chỉ là sưu tầm từ cõi mạng thôi nhưng nghe người đẹp
                       nói thế này thì anh nào mà không đổ đứ đừ được.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Lâu lâu mới thấy người đẹp hàng không lấn sang style sexy
                       nên dân tình liền thả tim mỏi tay và dành lời khen tới
@@ -214,15 +215,15 @@ export default function page_20210604044036() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

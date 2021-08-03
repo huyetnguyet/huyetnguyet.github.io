@@ -167,6 +167,7 @@ export default function page_20210604043625() {
                       alt="Streamer, Linh Chichan, Nu Tai Xe, An Mac Sexy, Xem Truc Tiep, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Linh Chichan, tên thật là Hoàng Nguyễn Linh Chi, sinh năm
                       2002 đến từ Lạng Sơn. Vốn nổi tiếng từ sớm, Linh Chi được
@@ -232,15 +233,15 @@ export default function page_20210604043625() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

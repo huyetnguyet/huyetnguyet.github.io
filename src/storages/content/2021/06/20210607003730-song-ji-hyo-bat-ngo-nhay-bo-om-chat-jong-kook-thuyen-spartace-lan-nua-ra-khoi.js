@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -132,7 +128,7 @@ export default function page_20210607003730() {
                       alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
                       note="Jong Kook thành công đạp trúng giày cậu em"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg"
                       alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
@@ -142,7 +138,7 @@ export default function page_20210607003730() {
                       Khi bị Yoo Jae Suk chất vấn,<strong>Song Ji Hyo</strong>
                       Khi bị<strong> Yoo Jae Suk</strong>
                     </p>
-                    <p></p>
+
                     <p>
                       Dù biết đây chỉ là một trong những phân đoạn mang tính
                       giải trí của chương trình nhưng "fan ruột" của
@@ -153,19 +149,18 @@ export default function page_20210607003730() {
                       thành viên ghép đôi cùng
                       <strong> Kim Jong Kook</strong>
                     </p>
-                    <p></p>
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ export default function page_20210603054326() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -132,6 +132,7 @@ export default function page_20210603054326() {
                       Arkham City cũng góp phần làm tăng thêm trải nghiệm cho
                       người chơi.
                     </p>
+                    <RelationNewsInPage />
                     <h4>2012: Assassin’s Creed 3</h4>
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/2/wp2628288-1622607351086867999629.jpg"
@@ -245,15 +246,15 @@ export default function page_20210603054326() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

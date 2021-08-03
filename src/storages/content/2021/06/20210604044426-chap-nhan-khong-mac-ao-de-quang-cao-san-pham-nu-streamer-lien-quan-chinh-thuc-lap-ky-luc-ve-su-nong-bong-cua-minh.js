@@ -97,7 +97,7 @@ export default function page_20210604044426() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -164,6 +164,7 @@ export default function page_20210604044426() {
                       note="
                     Ai cũng thấy rằng đây quả là bức hình nhiều dấu cảm thán!"
                     />
+                    <RelationNewsInPage />
                     <p>
                       Dẫu vậy, hơn 100.000 người theo dõi trên trang cá nhân của
                       cô nàng cũng đều dễ dàng xem được, chỉ là việc bình luận
@@ -213,15 +214,15 @@ export default function page_20210604044426() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

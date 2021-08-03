@@ -82,7 +82,7 @@ export default function page_20210603065007() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -129,7 +129,7 @@ export default function page_20210603065007() {
                     Dương Bảo Bối thời vẫn còn là hot girl trong sáng, ngây thơ
                     nổi tiếng"
                     />
-                    <p></p>
+
                     <p>
                       Cụ thể, sau khi bị bóc trần vụ việc, nàng streamer cũng đã
                       lên tiếng xin lỗi, hứa hẹn sẽ trả nợ đồng thời tiết lộ bản
@@ -152,7 +152,7 @@ export default function page_20210603065007() {
                     Cùng đường, cô nàng streamer đành phải hợp tác với SWAG để
                     sớm ngày trả nợ"
                     />
-                    <p></p>
+                    <RelationNewsInPage />
                     <p>
                       Bản thân Dương Bảo Bối cũng chẳng hề giấu giếm thông tin
                       này. Bên cạnh việc thiết lập trạng thái trên trang cá
@@ -171,7 +171,7 @@ export default function page_20210603065007() {
                     Chẳng những tham gia đóng phim và clip 18+, Dương Bảo Bối
                     giờ sẵn sàng làm đủ việc để trả tiền"
                     />
-                    <p></p>
+
                     <p>
                       Tuy nhiên, việc chấp nhận đi vào con đường 18+ cũng khiến
                       cho cô nàng gặp phải rất nhiều những bình luận trái chiều.
@@ -195,15 +195,15 @@ export default function page_20210603065007() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

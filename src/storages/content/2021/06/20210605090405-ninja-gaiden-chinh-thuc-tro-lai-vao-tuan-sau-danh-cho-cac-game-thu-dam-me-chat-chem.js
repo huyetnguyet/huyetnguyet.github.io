@@ -157,6 +157,7 @@ export default function page_20210605090405() {
                       đổi được thực hiện đối với trò chơi Sigma so với phiên bản
                       gốc).
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Ninja Gaiden là một trò chơi phiêu lưu hành động được phát
                       triển bởi Team Ninja cho Xbox và được phát hành bởi Tecmo
@@ -205,15 +206,15 @@ export default function page_20210605090405() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

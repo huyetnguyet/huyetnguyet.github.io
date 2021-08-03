@@ -107,7 +107,7 @@ export default function page_20210604043413() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -157,6 +157,7 @@ export default function page_20210604043413() {
                       áo choàng hờ hững, cô nàng đã khiến nhiều anh em game thủ
                       phải xuýt xoa trước độ gợi cảm khó cưỡng.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Với những game thủ Dota 2 đời đầu, Jun Vũ chắc chắn là cái
                       tên vô cùng quen thuộc. Dù rằng bây giờ đã không còn gắn
@@ -198,15 +199,15 @@ export default function page_20210604043413() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

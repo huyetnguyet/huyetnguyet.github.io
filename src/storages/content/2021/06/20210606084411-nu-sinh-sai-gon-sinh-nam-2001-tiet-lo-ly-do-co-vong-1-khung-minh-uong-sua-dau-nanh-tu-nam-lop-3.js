@@ -146,6 +146,7 @@ export default function page_20210606084411() {
                       alt="Nu Sinh, Vong 1, Cong Dong Mang, Gioi Tre, Lam Dep, Thoi Trang, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Đặc điểm về ngoại hình này khiến Thiên Di thường xuyên bị
                       mọi người so sánh với nữ sinh Hải Dương có vòng 1 hơn 110
@@ -233,15 +234,15 @@ export default function page_20210606084411() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

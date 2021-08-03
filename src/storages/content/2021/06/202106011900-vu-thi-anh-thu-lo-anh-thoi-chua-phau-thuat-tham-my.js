@@ -81,7 +81,7 @@ export default function page_202106011900() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -135,6 +135,7 @@ export default function page_202106011900() {
                       alt="Vũ Thị Anh Thư"
                       note=""
                     />
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://sohanews.sohacdn.com/160588918557773824/2021/6/1/v9-1622529923139388890259.jpg"
                       alt="Vũ Thị Anh Thư"
@@ -158,15 +159,15 @@ export default function page_202106011900() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

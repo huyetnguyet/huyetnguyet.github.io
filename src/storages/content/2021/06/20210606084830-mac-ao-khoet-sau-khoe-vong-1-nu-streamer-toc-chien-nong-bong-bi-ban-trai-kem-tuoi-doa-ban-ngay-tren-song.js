@@ -153,6 +153,7 @@ export default function page_20210606084830() {
                       cái áo???”, “Bỏ m được chưa?” và đỉnh điểm là “T bỏ m
                       nha"...
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/6/6/anh-chup-man-hinh-2021-06-06-luc-091727-16229478424601853109268.png"
                       alt="Streamer, Lai Lai, Zeros, Toc Chien, "
@@ -202,15 +203,15 @@ export default function page_20210606084830() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

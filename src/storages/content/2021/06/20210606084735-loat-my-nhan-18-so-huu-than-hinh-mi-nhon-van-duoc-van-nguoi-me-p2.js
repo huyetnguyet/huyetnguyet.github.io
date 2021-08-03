@@ -153,6 +153,7 @@ export default function page_20210606084735() {
                       còn sản phẩm trình làng cũng nằm trong top 5 những sản
                       phẩm bán chạy nhất của năm.
                     </p>
+                    <RelationNewsInPage />
                     <p>5. Natsu Tojo</p>
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/6/6/photo-1-16229235552961459509266.jpg"
@@ -229,15 +230,15 @@ export default function page_20210606084735() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

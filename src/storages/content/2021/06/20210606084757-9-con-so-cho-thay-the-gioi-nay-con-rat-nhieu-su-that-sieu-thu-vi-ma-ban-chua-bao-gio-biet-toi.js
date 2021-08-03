@@ -146,6 +146,7 @@ export default function page_20210606084757() {
                       chỉ chiếm 12% dân số nước Đức. Trong khi đó tại Kenya, con
                       số lên tới 40%.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/6/6/photo-1-1622955650114305841008.jpg"
                       alt="Su That, Thu Vi, "
@@ -229,15 +230,15 @@ export default function page_20210606084757() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

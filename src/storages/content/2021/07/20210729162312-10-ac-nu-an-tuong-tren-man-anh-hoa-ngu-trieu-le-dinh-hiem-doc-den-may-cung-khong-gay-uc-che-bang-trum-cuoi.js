@@ -157,7 +157,6 @@ export default function page_20210729162312() {
                       alt="8, triệu lệ dĩnh,Lý Thuần,lý thấm,tô thanh,mao hiểu đồng,Tân Chỉ Lôi,Xa Thi Mạn,tưởng hân,Lưu Đào,Mỹ nhân Hoa ngữ,"
                       note=""
                     />
-                    <p></p>
 
                     <RelationNewsInPage category={category} />
                     <ContentImage
@@ -330,15 +329,15 @@ export default function page_20210729162312() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

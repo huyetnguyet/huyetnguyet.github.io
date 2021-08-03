@@ -87,7 +87,7 @@ export default function page_202106030700() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -157,6 +157,7 @@ export default function page_202106030700() {
                     <p>
                       <strong>Virtua Fighter 5 Ultimate Showdown</strong>
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Không giống các phiên bản còn lại của series, Virtua
                       Fighter 5 Final Showdown có một cách tiếp cận người chơi
@@ -195,15 +196,15 @@ export default function page_202106030700() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

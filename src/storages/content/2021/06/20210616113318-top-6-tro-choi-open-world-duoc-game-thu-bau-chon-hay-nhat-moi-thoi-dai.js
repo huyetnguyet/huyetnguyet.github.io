@@ -196,7 +196,7 @@ export default function page_20210616113318() {
                       alt="10Kham Pha, Game Online, Game, Tro Choi Dien Tu, Gia Tri, "
                       note=""
                     />
-                    <p></p>
+
                     <p>
                       Tựa <strong>game</strong> nhập vai này có cốt truyện xoay
                       quanh hành trình đánh bại Alduin, một con rồng được tiên
@@ -290,15 +290,15 @@ export default function page_20210616113318() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

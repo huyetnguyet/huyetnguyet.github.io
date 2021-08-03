@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -157,7 +153,7 @@ export default function page_20210607183631() {
                   alt="Duy Manh, Quang Haii, Doi Tuyen Viet Nam, Cau Thu Indonesia, "
                   note="Quế Ngọc Hải cũng cần một sự công bằng cho Tuấn Anh"
                 />
-                <p></p>
+
                 <ContentImage
                   src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-7-16230894309631325892674.jpg"
                   alt="Duy Manh, Quang Haii, Doi Tuyen Viet Nam, Cau Thu Indonesia, "

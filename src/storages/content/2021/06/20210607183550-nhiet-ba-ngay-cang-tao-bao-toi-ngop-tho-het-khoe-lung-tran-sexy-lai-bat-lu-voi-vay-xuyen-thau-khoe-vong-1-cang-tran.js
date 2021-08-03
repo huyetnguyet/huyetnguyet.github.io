@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -168,7 +164,6 @@ export default function page_20210607183550() {
                     </p>
                     Khoe body "hot hòn họt" thế này, bảo sao Nhiệt Ba càng ngày
                     càng đông fan
-                    <p></p>
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/e8601a4cgy1gr9y5pld93j21ht21a7wh-1623074855215592682849.jpeg"
                       alt="Dich Le Nhiet Ba, Sao Hoa Ngu, My Nhan Hoa Ngu, Nhan Sac My Nhan Hoa Ngu, Voc Dang My Nhan Hoa Ngu, Body Cua Sao, "
@@ -193,15 +188,15 @@ export default function page_20210607183550() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -107,7 +107,7 @@ export default function page_20210604044331() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {" >"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -163,6 +163,7 @@ export default function page_20210604044331() {
                       Lissandra/Soraka/Syndra/LeBlanc để có sát thương đa mục
                       tiêu từ xa sẽ là lựa chọn tốt hơn hết thảy.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Thông thường, các game thủ rank cao sẽ không xác định đội
                       hình sớm, ít nhất là cho đến bãi Quái Đá nếu những quân cờ
@@ -228,15 +229,15 @@ export default function page_20210604044331() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

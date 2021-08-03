@@ -169,6 +169,7 @@ export default function page_20210605090509() {
                       Đồng thời còn liên tục lấy khăn giấy lau vòng một của mình"
                       />
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       <ContentImage
                         src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/2/photo-1-1622610880992216169258.png"
@@ -239,15 +240,15 @@ export default function page_20210605090509() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

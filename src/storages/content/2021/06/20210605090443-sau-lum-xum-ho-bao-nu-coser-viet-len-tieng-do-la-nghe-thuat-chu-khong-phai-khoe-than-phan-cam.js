@@ -192,6 +192,7 @@ export default function page_20210605090443() {
                       cảm thì mình cũng tôn trọng ý kiến đó vì có thể họ chưa
                       quen với hình ảnh mới này của mình”.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/5/photo-1-16228457895201707018996.jpg"
                       alt="Coser, Cosplay, Ho Bao, Nghe Thuat, Phan Cam, "
@@ -228,15 +229,15 @@ export default function page_20210605090443() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

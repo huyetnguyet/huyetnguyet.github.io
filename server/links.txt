@@ -12,3 +12,10 @@ images,y,https://gamek.vn/ven-ao-len-song-nhay-qua-boc-nu-streamer-xinh-dep-xau-
 games,n,https://gamek.vn/one-piece-nhung-bang-chung-ro-rang-nhat-cho-thay-shanks-co-mot-dua-con-nhung-ong-chu-toc-do-lai-bo-be-di-giai-cuu-the-gioi-20210801145802937.chn
 games,n,https://gamek.vn/mot-game-thu-khien-cong-dong-tram-tro-khi-tu-minh-dua-tat-ca-tuong-lmht-thanh-bai-ma-thuat-yu-gi-oh-20210803084133141.chn
 games,n,https://gamek.vn/bao-nam-qua-nguoi-choi-counter-strike-11-bi-lua-boi-bi-mat-vu-khi-trong-game-da-so-chang-he-hay-biet-2021080223481532.chn
+stars,n,https://m.kenh14.vn/muon-boc-tran-nhan-sac-rose-blackpink-o-hau-truong-ma-bo-tay-dat-nhat-combo-toc-vang-bay-ton-len-visual-dep-muon-lim-di-20210803093405134.chn
+games,n,https://m.gamek.vn/one-piece-nhung-bang-chung-ro-rang-nhat-cho-thay-shanks-co-mot-dua-con-nhung-ong-chu-toc-do-lai-bo-be-di-giai-cuu-the-gioi-20210801145802937.chn
+games,n,https://m.gamek.vn/no-ro-cac-du-an-choi-game-kiem-tien-an-theo-axie-infinity-20210803134214849.chn
+images,y,https://m.gamek.vn/bat-ngo-len-song-hit-dat-tap-the-duc-roi-keo-quan-khoe-vong-eo-thon-gon-nu-streamer-goi-cam-nhan-vo-so-chi-trich-20210803105515138.chn
+games,n,https://m.gamek.vn/khi-tam-hon-nang-triu-cua-nu-than-sac-dep-trong-record-of-ragnarok-tro-thanh-vua-muoi-che-anh-tam-nao-nhin-cung-suong-nhuc-mat-20210802201718974.chn
+games,n,https://m.gamek.vn/one-piece-la-su-phu-cua-zoro-lieu-mat-dieu-hau-co-du-suc-de-danh-bai-kaido-20210803123803528.chn
+games,n,https://m.gamek.vn/top-7-manga-moi-nhat-cua-shonen-jump-duoc-doc-gia-danh-gia-cao-cai-ten-nao-cung-banh-cuon-ca-20210802144800415.chn

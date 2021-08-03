@@ -101,7 +101,7 @@ export default function page_20210604043950() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -139,6 +139,7 @@ export default function page_20210604043950() {
                       alt="Mang Xa Hoi, Phuong Uyen, Gai Xinh, Cap Doi Lam Vlog Tren O To, "
                       note="Dân tình ai nấy đều bỏng mắt khi xem loạt ảnh này"
                     />
+                    <RelationNewsInPage />
                     <p>
                       Tạm gác lại những ồn ào, Phương Uyên trở lại làm cô nàng
                       độc thân gợi cảm. Vốn sống ở Tây nên gu ăn mặc nào giờ của
@@ -200,15 +201,15 @@ export default function page_20210604043950() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

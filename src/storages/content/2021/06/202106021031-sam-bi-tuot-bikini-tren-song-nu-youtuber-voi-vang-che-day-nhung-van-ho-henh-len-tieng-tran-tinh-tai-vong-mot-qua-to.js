@@ -83,7 +83,7 @@ export default function page_202106021031() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -135,6 +135,7 @@ export default function page_202106021031() {
                       cũng như lượng người đăng ký. Tuy nhiên, điều gì cũng có
                       cái giá của nó.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604326599893987695.jpg"
                       alt="Streamer"
@@ -179,15 +180,15 @@ export default function page_202106021031() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

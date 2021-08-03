@@ -87,7 +87,7 @@ export default function page_202106030305() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -134,6 +134,7 @@ export default function page_202106030305() {
                       chí còn bán phần mềm gian lận (hack) và có dấu hiệu lừa
                       đảo game thủ.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Theo đó, kẻ mạo danh ghép hình ảnh nữ streamer này vào các
                       video mà chủ yếu là 2 tựa game có lượng fan đông đảo là
@@ -163,15 +164,15 @@ export default function page_202106030305() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

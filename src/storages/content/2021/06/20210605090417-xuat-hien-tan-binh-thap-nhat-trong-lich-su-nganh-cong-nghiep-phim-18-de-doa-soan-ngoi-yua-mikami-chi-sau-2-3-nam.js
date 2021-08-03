@@ -172,6 +172,7 @@ export default function page_20210605090417() {
                       theo nhiều người, Himari trông ra còn gợi cảm hơn cả Yua
                       Mikami nữa.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       <ContentImage
                         src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/3/photo-1-16226900327231528637787.jpg"
@@ -245,15 +246,15 @@ export default function page_20210605090417() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

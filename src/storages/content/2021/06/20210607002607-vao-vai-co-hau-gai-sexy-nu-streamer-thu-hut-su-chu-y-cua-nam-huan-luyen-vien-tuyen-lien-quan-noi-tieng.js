@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -122,7 +118,7 @@ export default function page_20210607002607() {
                       lượng view, lượng fans, cạnh tranh giữa các
                       <strong>streamer</strong>
                     </p>
-                    <p></p>
+
                     <p>
                       Có ngoại hình được nhiều người hâm mộ đánh giá là “mlem”,
                       <strong>streamer</strong>Có ngoại hình được nhiều người
@@ -146,14 +142,13 @@ export default function page_20210607002607() {
                       cưỡng lại trước sức hút lớn. Fan hâm mộ còn soi ra, anh
                       chàng huấn luyện viên của<strong>Team Flash</strong>
                     </p>
-                    <p></p>
-                    <p></p>
+
                     <p>
                       Có thể nói, dù dịch COVID-19 đang có nhiều diễn biến phức
                       tạp ở nước ta thế nhưng đây lại là khoảng thời gian mà nữ
                       <strong>streamer</strong>
                     </p>
-                    <p></p>
+
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/7/tuyen-thu-team-flash-3-16173573762301523385087-1623040854990973300145.jpg"
                       alt="Streamer, Lien Quan Mobile, Team Flash, Hot Girl, Cong Dong Mang, "
@@ -212,15 +207,15 @@ export default function page_20210607002607() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

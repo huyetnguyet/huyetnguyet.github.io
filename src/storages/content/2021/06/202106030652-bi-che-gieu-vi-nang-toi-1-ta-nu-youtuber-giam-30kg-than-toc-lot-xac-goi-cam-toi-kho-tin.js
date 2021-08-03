@@ -83,7 +83,7 @@ export default function page_20210603065223() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -124,7 +124,6 @@ export default function page_20210603065223() {
                       note="Nayoon - cô nàng YouTuber vừa khiến CĐM lác mắt với màn lột
                     xác khó tin"
                     />
-                    <p></p>
                     <p>
                       Cụ thể, cách đây không lâu, CĐM bất ngờ xôn xao trước câu
                       chuyện về màn thay đổi tới chóng mặt của một cô gái xinh
@@ -136,6 +135,7 @@ export default function page_20210603065223() {
                       còn lên tới 1 tạ vì lối sống có phần buông thả và thường
                       xuyên dùng đồ ăn nhanh.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/5/23/photo-1-16217640009571308004302.png"
                       alt="Nayoon"
@@ -143,7 +143,6 @@ export default function page_20210603065223() {
                     Nayoon chia sẻ hình ảnh của bản thân trước và sau khi giảm
                     cân"
                     />
-                    <p></p>
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/5/23/photo-2-1621764001084380552654.png"
                       alt="Nayoon"
@@ -216,15 +215,15 @@ export default function page_20210603065223() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

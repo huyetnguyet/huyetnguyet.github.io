@@ -168,7 +168,7 @@ export default function page_20210729162000() {
                       note="Bạn sẽ phải vượt qua hàng trăm quái vật khác nhau với sức mạnh đáng gờm."
                     />
                     <RelationNewsInPage category={category} />
-                    <p></p>
+
                     <ContentImage
                       src="https://lh6.googleusercontent.com/k-nyrChPR7qai0WvbHCiaCwyO8XBdKJ1FAETnHJeJHKnYLPdV9cajnVL-SffskwPrkh2cJTfBigP5nC0dKzcrJfyPQQFv2EwNuC4dISEN4vL7ScdkyFzSSquiZixZprbJuCOfz5e"
                       alt="5, TIMIING HERO,TIN TỨC GAME,"
@@ -212,15 +212,15 @@ export default function page_20210729162000() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

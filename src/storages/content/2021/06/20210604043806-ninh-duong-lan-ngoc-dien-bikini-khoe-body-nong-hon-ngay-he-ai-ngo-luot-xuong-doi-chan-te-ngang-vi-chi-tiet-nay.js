@@ -105,7 +105,7 @@ export default function page_20210604043806() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -152,6 +152,7 @@ export default function page_20210604043806() {
                       phù kiện hợp bộ đồ thì sẽ cho bức ảnh "sống ảo" hoàn hảo
                       hơn.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/21/1602542722906584957608686882563716759127501o-1616329288396660640978.jpg"
                       alt="Lan Ngoc, Ninh Duong Lan Ngoc, Sao Viet, Vbiz, Showbiz Viet, Body Cua Sao, Body Sao, "
@@ -190,15 +191,15 @@ export default function page_20210604043806() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

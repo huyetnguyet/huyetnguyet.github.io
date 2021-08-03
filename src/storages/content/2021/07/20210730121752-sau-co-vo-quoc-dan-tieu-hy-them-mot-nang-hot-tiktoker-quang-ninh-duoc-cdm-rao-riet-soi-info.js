@@ -182,7 +182,7 @@ export default function page_20210730121752() {
                       đuổi. Thậm chí, chỉ mới 16 tuổi, cô đã táo bạo hơn khi
                       chụp ảnh theo concept “người lớn”.
                     </p>
-                    <p></p>
+
                     <RelationNewsInPage category={category} />
                     <p>
                       Cô nàng cũng chính là nữ <strong>TikToker</strong> xui xẻo
@@ -233,15 +233,15 @@ export default function page_20210730121752() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

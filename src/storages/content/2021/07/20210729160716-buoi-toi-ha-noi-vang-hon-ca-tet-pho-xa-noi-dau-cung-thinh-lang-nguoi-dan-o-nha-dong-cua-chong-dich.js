@@ -173,9 +173,7 @@ export default function page_20210729160716() {
                       <strong>Hà Nội</strong> trong những ngày Tết, những buổi
                       tối mùng 1, mùng 2 vắng vẻ ngày nào...
                     </p>
-                    <p></p>
                     <RelationNewsInPage category={category} />
-                    <p></p>
                     <p>
                       Nhiều tuyến phố cũng tắt đèn tối hơn hẳn thông thường do
                       hầu hết hàng quán đều đóng cửa, thậm chí có nhiều hàng ăn,
@@ -320,15 +318,15 @@ export default function page_20210729160716() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

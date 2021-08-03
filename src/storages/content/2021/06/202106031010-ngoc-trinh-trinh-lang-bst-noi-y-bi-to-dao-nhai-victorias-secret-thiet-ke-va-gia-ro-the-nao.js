@@ -83,7 +83,7 @@ export default function page_202106031010() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -152,6 +152,7 @@ export default function page_202106031010() {
                       <div className="highlight">Ngọc Trinh</div> bị đánh giá
                       khá nhàm chán, một màu.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://afamilycdn.com/150157425591193600/2021/6/2/1924030751503830471189917155216407453610639n-1622632224817765345262.jpg"
                       alt="Ngọc Trinh"
@@ -201,15 +202,15 @@ export default function page_202106031010() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

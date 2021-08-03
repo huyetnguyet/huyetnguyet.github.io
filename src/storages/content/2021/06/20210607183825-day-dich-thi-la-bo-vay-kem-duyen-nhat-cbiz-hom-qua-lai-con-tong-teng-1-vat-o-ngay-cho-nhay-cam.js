@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -126,7 +122,7 @@ export default function page_20210607183825() {
                       alt="Sao Do Thoi Trang, Tham Hoa Thoi Trang, Loi Trang Phuc, Mac Xau, Sao Xau, Sao Mac Xau, Loi An Mac, "
                       note="Nhân vật này có cái tên mỹ miều: Hồ Băng Khanh."
                     />
-                    <p></p>
+
                     <p>
                       Makeup và làm tóc đơn giản, Hồ Băng Khanh dường như muốn
                       lôi kéo sự chú ý vào chiếc váy xẻ "tít mù tắp" lên quá
@@ -159,7 +155,7 @@ export default function page_20210607183825() {
                       note="Body của nữ nhân này dần dần được trưng trổ 1 cách thô lỗ
                     trước mắt công chúng."
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-6-1623079168386493902697.jpg"
                       alt="Sao Do Thoi Trang, Tham Hoa Thoi Trang, Loi Trang Phuc, Mac Xau, Sao Xau, Sao Mac Xau, Loi An Mac, "
@@ -185,15 +181,15 @@ export default function page_20210607183825() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

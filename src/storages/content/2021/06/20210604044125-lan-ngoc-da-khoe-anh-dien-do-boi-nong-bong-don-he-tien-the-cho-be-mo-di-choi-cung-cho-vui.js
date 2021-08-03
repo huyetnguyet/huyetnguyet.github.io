@@ -102,7 +102,7 @@ export default function page_20210604044125() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -172,6 +172,7 @@ export default function page_20210604044125() {
                     Đôi chân nuột nà cũng là điểm cộng giúp Lan Ngọc tự tin
                     sống ảo khi diện bikini"
                     />
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-3-16167672332562003609407.jpg"
                       alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
@@ -194,15 +195,15 @@ export default function page_20210604044125() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -117,7 +113,7 @@ export default function page_20210608140543() {
                       tốt, đặc biệt là những bí kíp sinh tồn giống như danh sách
                       dưới đây.
                     </p>
-                    <p></p>
+
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/6/8/photo-1-1623131702795545224846.jpg"
                       alt="Bi Kip, Chua Chay, Tinh Huong Xau Nhat, "
@@ -231,15 +227,15 @@ export default function page_20210608140543() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -163,7 +163,6 @@ export default function page_20210618130416() {
                     <p>"Chắc bộ bánh bao nặng quá nên mới ngã."</p>
                     <p>"Giả nai thế nhở, chắc trốn live thôi."</p>
                     <RelationNewsInPage category={category} />
-                    <p></p>
                     <p>Mai Dora bất ngờ xỉu trong lúc livestream</p>
                     <p>
                       Việc Mai Dora ngất xỉu trên sóng stream là điều có thật.
@@ -181,15 +180,15 @@ export default function page_20210618130416() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

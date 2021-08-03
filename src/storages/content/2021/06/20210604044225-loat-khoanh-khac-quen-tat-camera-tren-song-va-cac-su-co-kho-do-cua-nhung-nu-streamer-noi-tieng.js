@@ -104,7 +104,7 @@ export default function page_20210604044225() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -173,6 +173,7 @@ export default function page_20210604044225() {
                       alt="Streamer, Camera, Su Co, Noi Am Anh, Hinh Anh Phan Chieu, Hinh Anh Nhay Cam, "
                       note="Yuan Yuan đang là cái tên rất nổi tiếng ở thời điểm hiện tại"
                     />
+                    <RelationNewsInPage />
                     <p>
                       Tiếp đó, một nữ streamer khác cũng gặp sự cố tương tự như
                       Yuan Yuan khi vô tình livestream y nguyên khung cảnh tắm
@@ -214,15 +215,15 @@ export default function page_20210604044225() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

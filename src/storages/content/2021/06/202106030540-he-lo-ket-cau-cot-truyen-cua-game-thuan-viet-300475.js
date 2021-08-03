@@ -79,7 +79,7 @@ export default function page_20210603054034() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -112,6 +112,7 @@ export default function page_20210603054034() {
                       tuy nhiên những tiếng vang lúc đầu có thể coi là bàn đạp
                       lớn để dự án này tiếp tục trong tương lai.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       {" "}
                       Trong nhật ký tuần 4 dự án 300475, Hiker Games đã tiết lộ
@@ -189,15 +190,15 @@ export default function page_20210603054034() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

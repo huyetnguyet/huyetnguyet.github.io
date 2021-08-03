@@ -75,7 +75,7 @@ export default function page_20210603054621() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -137,6 +137,7 @@ export default function page_20210603054621() {
                       ăn thật nhiều để cơ thể không vì xạ trị mà yếu đi nên việc
                       mình ốm mập bất thường là có nguyên do cả.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Vậy nên các bạn đừng bảo mình mập, sề hay còi quá mình
                       buồn lắm. Mình không phải người nổi tiếng hay gì cả nên
@@ -196,15 +197,15 @@ export default function page_20210603054621() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

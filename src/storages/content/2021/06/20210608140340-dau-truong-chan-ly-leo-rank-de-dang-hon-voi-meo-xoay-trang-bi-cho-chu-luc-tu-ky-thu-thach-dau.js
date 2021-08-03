@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -128,8 +124,7 @@ export default function page_20210608140340() {
                       cùng tìm hiểu về hướng dẫn của kỳ thủ Thách Đấu -
                       Mismatched Socks nhé.
                     </p>
-                    <p></p>
-                    <p></p>
+
                     <p>
                       Về cơ bản thì trong Đấu Trường Chân Lý có 2 dạng đội hình
                       chính đó là từ trước đến sau và từ sau ra trước. Thuật ngữ
@@ -214,19 +209,18 @@ export default function page_20210608140340() {
                       khi nào họ định "chuyển bài" để đưa ra các phương án khắc
                       chế thích hợp.
                     </p>
-                    <p></p>
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

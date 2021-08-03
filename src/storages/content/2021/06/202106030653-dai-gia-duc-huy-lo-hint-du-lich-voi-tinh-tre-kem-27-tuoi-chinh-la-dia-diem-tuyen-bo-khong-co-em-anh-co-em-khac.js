@@ -79,7 +79,7 @@ export default function page_20210603065324() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -116,7 +116,7 @@ export default function page_20210603065324() {
                       alt="Cam Dan"
                       note="Đại gia Đức Huy và bồ tin đồn trong 1 lần hẹn hò"
                     />
-                    <p></p>
+
                     <p>
                       Mới đây, cả hai lại bị soi đi du lịch cùng nhau. Dân mạng
                       đã tìm ra điểm chung trong hình ảnh được người đẹp và đại
@@ -134,6 +134,7 @@ export default function page_20210603065324() {
                       alt="Cam Dan"
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Điểm trùng hợp trong bức ảnh đại gia Đức Huy và Cẩm Đan
                       đăng tải
@@ -158,7 +159,7 @@ export default function page_20210603065324() {
                       alt="Cam Dan"
                       note="Vóc dáng xịn xò của Cẩm Đan"
                     />
-                    <p></p>
+
                     <p>
                       Về phần mình, đại gia Đức Huy nhanh tay thả tim sau khi
                       Cẩm Đan đăng ảnh. Hôm 31/5 vừa qua, đại gia Sài thành cũng
@@ -177,15 +178,15 @@ export default function page_20210603065324() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

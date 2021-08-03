@@ -189,6 +189,7 @@ export default function page_20210606084710() {
                       alt="Lien Minh Huyen Thoai, Lmht, Riot Games, Riot, Game, Tin Game, Gian Lan Xep Hang, Client Lmht, Cong Dong Mang, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Tôi không chắc nó diễn ra ở các máy chủ lớn hay không vì
                       tôi chỉ nhìn thấy tool này tại Brazil mà thôi. Về cơ bản
@@ -253,15 +254,15 @@ export default function page_20210606084710() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

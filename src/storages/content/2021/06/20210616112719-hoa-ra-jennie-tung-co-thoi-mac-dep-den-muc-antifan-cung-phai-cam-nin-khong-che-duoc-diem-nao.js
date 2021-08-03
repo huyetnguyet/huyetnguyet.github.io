@@ -247,7 +247,7 @@ export default function page_20210616112719() {
                       rất tích cực diện đồ màu hồng ngọt ngào và đáng yêu đấy.
                     </p>
                     <RelationNewsInPage category={category} />
-                    <p></p>
+
                     <p>
                       Những bộ váy bodycon ngắn cũn hay chất liệu gợi cảm như
                       da, tất lưới cũng được <strong>Jennie</strong> ứng dụng
@@ -381,15 +381,15 @@ export default function page_20210616112719() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -151,7 +151,7 @@ export default function page_20210729161159() {
                       Đồng thời khẳng định, nếu có phải nhận “gạch đá" thì những
                       cô nàng này cũng chẳng biết kêu oan với ai.
                     </p>
-                    <p></p>
+
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/4/-16254118675411949617776.jpg"
                       alt="2, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
@@ -175,15 +175,15 @@ export default function page_20210729161159() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

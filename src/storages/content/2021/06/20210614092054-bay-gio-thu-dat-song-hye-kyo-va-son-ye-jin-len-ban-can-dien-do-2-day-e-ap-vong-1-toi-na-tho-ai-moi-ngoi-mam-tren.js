@@ -221,7 +221,7 @@ export default function page_20210614092054() {
                       Vì vậy dù vòng 1 không thuộc "hàng khủng", Song Hye Kyo
                       vẫn mang lại cảm giác thu hút khó rời.
                     </p>
-                    <p></p>
+
                     <p>
                       Về phía <strong>Son Ye Jin</strong>, người đẹp thoải mái
                       hơn hẳn khi không ngại diện những bộ cánh khoe vòng 1
@@ -300,43 +300,44 @@ export default function page_20210614092054() {
                       alt="Song Hye Kyo, Son Ye Jin, Sao Han, Kbiz, Ngoc Nu, Sexy, Goi Cam, Vong Mot, Quyen Ru, "
                       note=""
                     />
+                    <p>
+                      Nếu bạn nghĩ <strong>Son Ye Jin</strong> chỉ khoe tới đó
+                      là cùng thì bạn nhầm to rồi nhé! Ngoài đời thường, nàng
+                      diễn viên này còn năng diện những trang phục hở bạo hơn
+                      rất nhiều. Nóng bỏng nhất hẳn là hình ảnh cô nàng diện
+                      bikini, khoe vòng một căng đầy, trễ nải, khiến dân tình có
+                      cái nhìn khác hẳn với hình tượng thanh thuần thường thấy.
+                    </p>
+
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092054--24-432661.jpg")
+                          .default
+                      }
+                      alt="Song Hye Kyo, Son Ye Jin, Sao Han, Kbiz, Ngoc Nu, Sexy, Goi Cam, Vong Mot, Quyen Ru, "
+                      note=""
+                    />
+                    <p>
+                      Không chỉ vòng 1 mà vóc dáng của hai nữ thần cũng được đặt
+                      lên bàn cân. Trong khi <strong>Song Hye Kyo</strong> gây
+                      bất ngờ với thân hình nuột nà khi diện váy bodycon thì{" "}
+                      <strong>Son Ye Jin</strong> lại toát lên vẻ hoang dại và
+                      nóng bỏng với bikini.
+                    </p>
+
+                    <p>Ảnh: Sưu tầm</p>
                   </div>
-                  <p>
-                    Nếu bạn nghĩ <strong>Son Ye Jin</strong> chỉ khoe tới đó là
-                    cùng thì bạn nhầm to rồi nhé! Ngoài đời thường, nàng diễn
-                    viên này còn năng diện những trang phục hở bạo hơn rất
-                    nhiều. Nóng bỏng nhất hẳn là hình ảnh cô nàng diện bikini,
-                    khoe vòng một căng đầy, trễ nải, khiến dân tình có cái nhìn
-                    khác hẳn với hình tượng thanh thuần thường thấy.
-                  </p>
-
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092054--24-432661.jpg")
-                        .default
-                    }
-                    alt="Song Hye Kyo, Son Ye Jin, Sao Han, Kbiz, Ngoc Nu, Sexy, Goi Cam, Vong Mot, Quyen Ru, "
-                    note=""
-                  />
-                  <p>
-                    Không chỉ vòng 1 mà vóc dáng của hai nữ thần cũng được đặt
-                    lên bàn cân. Trong khi <strong>Song Hye Kyo</strong> gây bất
-                    ngờ với thân hình nuột nà khi diện váy bodycon thì{" "}
-                    <strong>Son Ye Jin</strong> lại toát lên vẻ hoang dại và
-                    nóng bỏng với bikini.
-                  </p>
-                  <p></p>
-                  <p>Ảnh: Sưu tầm</p>
+                  <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

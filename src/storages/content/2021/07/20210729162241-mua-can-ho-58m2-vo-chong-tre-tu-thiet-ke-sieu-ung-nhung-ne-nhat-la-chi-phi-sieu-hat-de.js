@@ -339,8 +339,7 @@ export default function page_20210729162241() {
                     <p>
                       Chi phí các món <strong>đồ nội thất</strong>:
                     </p>
-                    <p></p>
-                    <p></p>
+
                     <p>
                       - Bục gỗ + Tủ giày + Bàn làm việc: 17 triệu. Gỗ MDF An
                       cường lõi xanh chống ẩm.
@@ -361,15 +360,15 @@ export default function page_20210729162241() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

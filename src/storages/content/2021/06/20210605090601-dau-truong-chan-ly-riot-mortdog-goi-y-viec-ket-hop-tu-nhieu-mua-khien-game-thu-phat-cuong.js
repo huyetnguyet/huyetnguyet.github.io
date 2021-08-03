@@ -145,6 +145,7 @@ export default function page_20210605090601() {
                       mùa 5 có thể mang những đặc điểm từ tộc hệ của chúng ở các
                       mùa trước.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Cụ thể, Riot đăng hình của 4 vị tướng là Nocturne, Riven,
                       Volibear và Katarina với 4 Tộc/Hệ của chúng ở các mùa
@@ -211,15 +212,15 @@ export default function page_20210605090601() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

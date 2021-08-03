@@ -92,7 +92,7 @@ export default function page_202106021223() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -148,6 +148,7 @@ export default function page_202106021223() {
                       alt="One Piece"
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Edward Newgate, hay còn gọi là Râu Trắng là người thứ hai
                       có số tiền thưởng vượt qua 5 tỷ Belly. Với số tiền thưởng
@@ -230,15 +231,15 @@ export default function page_202106021223() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

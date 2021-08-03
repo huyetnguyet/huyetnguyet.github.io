@@ -255,21 +255,23 @@ export default function page_20210608140634() {
                       alt="Doi Tuyen Viet Nam, Cau Thu Viet Nam, Vong Loai World Cup, World Cup 2022, Nguyen Quang Hai, Luong Xuan Truong, Doan Van Hau, Cong Phuong, "
                       note="Facebook của anh có hơn 1,5 triệu người theo dõi, xếp cuối trên bảng xếp hạng này"
                     />
+                    <p>
+                      *Bảng xếp hạng dựa trên số liệu từ Facebook cá nhân (không
+                      tính fanpage) của các cầu thủ Việt Nam hiện nay.
+                    </p>
                   </div>
-                  <p>
-                    *Bảng xếp hạng dựa trên số liệu từ Facebook cá nhân (không
-                    tính fanpage) của các cầu thủ Việt Nam hiện nay.
-                  </p>
+
+                  <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

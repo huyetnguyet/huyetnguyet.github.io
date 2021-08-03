@@ -95,7 +95,7 @@ export default function page_20210604044355() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -187,6 +187,7 @@ export default function page_20210604044355() {
                       Theo tiêu chí nền tảng phân phối quảng cáo, quảng cáo trên
                       Android chiếm tỷ trọng cao nhất, với 58%.
                     </p>
+                    <RelationNewsInPage />
                     <h4>Phân tích các khu vực game sôi động</h4>
                     <p>
                       Bài viết này sẽ tập trung vào phân tích 3 thị trường game
@@ -398,15 +399,15 @@ export default function page_20210604044355() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

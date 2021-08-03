@@ -1,14 +1,8 @@
-import React from "react";
-import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
-
 import { Content, ContentImage, FacebookShareButton } from "components/content";
-
+import { RandomFeature, RelationNews } from "components/methods";
+import "components/page.scss";
+import React from "react";
 import { Helmet } from "react-helmet";
 
 /* ---------------------------------------------------------------- */
@@ -300,15 +294,15 @@ export default function page_20210608140647() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

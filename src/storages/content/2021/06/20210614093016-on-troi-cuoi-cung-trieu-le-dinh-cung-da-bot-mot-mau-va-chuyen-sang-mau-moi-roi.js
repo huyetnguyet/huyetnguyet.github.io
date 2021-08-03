@@ -171,7 +171,7 @@ export default function page_20210614093016() {
                       ảnh của cô thêm phần mới mẻ, không bị nhàm chán.
                     </p>
                     <RelationNewsInPage category={category} />
-                    <p></p>
+
                     <p>
                       Triệu Lệ Dĩnh vốn có gương mặt bầu bĩnh và nước da sáng
                       nên cô hợp với những bộ cánh có sắc màu tươi tắn hẳn. Thay
@@ -254,15 +254,15 @@ export default function page_20210614093016() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

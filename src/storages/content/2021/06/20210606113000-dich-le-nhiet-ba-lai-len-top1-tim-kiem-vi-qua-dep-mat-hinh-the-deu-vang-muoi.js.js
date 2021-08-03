@@ -182,6 +182,7 @@ export default function page_20210606113000() {
                       đường thẳng. Nhờ đó, người đẹp có góc nghiêng hoàn hảo mà
                       không phải ai cũng may mắn có được.
                     </p>
+                    <RelationNewsInPage />
                     <h4>Thân hình mảnh mai nhưng có đường cong</h4>
                     <ContentImage
                       src="https://image-us.24h.com.vn/upload/2-2021/images/2021-06-05/dich-Le-Nhiet-Ba-bi-chi-trich-do-len-hot-search-vi-nhan-sac-dep-cung-la-d145ba25gy1gge5ztbfc7j20v41aowid-1622866488-392-width1024height1536.jpg"
@@ -213,15 +214,15 @@ export default function page_20210606113000() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

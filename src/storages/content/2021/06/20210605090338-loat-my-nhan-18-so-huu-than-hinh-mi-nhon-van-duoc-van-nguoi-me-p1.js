@@ -153,6 +153,7 @@ export default function page_20210605090338() {
                       vậy, Mia cũng tự tin cho rằng khả năng nấu nướng của mình
                       cũng không hề tồi chút nào.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Một trong những sở thích khác của cô nàng này là chơi
                       game. Nhưng theo Mia chia sẻ, hồi còn nhỏ thì cô nàng
@@ -227,15 +228,15 @@ export default function page_20210605090338() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

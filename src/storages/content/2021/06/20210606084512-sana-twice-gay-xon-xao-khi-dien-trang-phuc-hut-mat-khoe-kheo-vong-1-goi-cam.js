@@ -150,6 +150,7 @@ export default function page_20210606084512() {
                       alt="Sana, Twice, Sao Han, Idol, Kpop, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       Vốn là một mỹ nhân được đánh giá đa phong cách trong
                       TWICE, muốn đáng yêu hay quyến rũ cũng đều có tất, hình
@@ -181,15 +182,15 @@ export default function page_20210606084512() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

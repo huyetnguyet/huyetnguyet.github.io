@@ -304,6 +304,9 @@ body {
 
 .adsFeaturedSection {
   background-color: $color-green;
+  width: 100%;
+  display: block;
+  position: relative;
 
   @media (max-width: 1000px) {
     height: 100%;

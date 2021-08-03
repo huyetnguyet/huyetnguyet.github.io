@@ -102,7 +102,7 @@ export default function page_20210604043337() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -134,6 +134,7 @@ export default function page_20210604043337() {
                       dân tình điêu đứng. Thậm chí nếu nói Mi Vân chẳng khác gì
                       hồi mới ngoài đôi mươi cũng chẳng mấy người phản đối.
                     </p>
+                    <RelationNewsInPage />
 
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/15/12974030113181736618716562919128715140970729n-1615789595911379304573.jpg"
@@ -145,15 +146,15 @@ export default function page_20210604043337() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -178,6 +178,7 @@ export default function page_20210605090549() {
                       không bị kiện bởi Valve thì không biết chừng lại có một
                       cuộc tranh đoạt thị phần giữa hai ông lớn này.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/5/photo-1-1622890470389424679942.jpg"
                       alt="Csgo, Csgo Mobile, The Origin Mission, Garena, Vng, Tin Tuc Game, Valve, "
@@ -192,15 +193,15 @@ export default function page_20210605090549() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -81,7 +81,7 @@ export default function page_20210603053727() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {" >"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -126,6 +126,7 @@ export default function page_20210603053727() {
                       cung thủ tầm xa và cả những nhân vật chuyên sử dụng sức
                       mạnh phép thuật.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/6/3/photo-1-16227163893301846490738.jpg"
                       alt="Warhammer Quest Silver Tower"
@@ -158,15 +159,15 @@ export default function page_20210603053727() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -82,7 +82,7 @@ export default function page_20210603054509() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -139,7 +139,7 @@ export default function page_20210603054509() {
                       note="Ken Shimizu - người đàn ông khỏe nhất ngành công nghiệp AV
                     Nhật Bản"
                     />
-                    <p></p>
+
                     <p>
                       Cụ thể, như lời Ken miêu tả, trong một lần duy nhất hợp
                       tác với Kodama, anh chàng đã chẳng thể hiện được một chút
@@ -151,6 +151,7 @@ export default function page_20210603054509() {
                       tới Kodama Rena, đồng thời cho rằng cô là một trong những
                       diễn viên giỏi nhất anh từng gặp.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/133514250583805952/2021/5/31/photo-1-1622452573771321637223.jpg"
                       alt="Gai Xinh"
@@ -195,15 +196,15 @@ export default function page_20210603054509() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

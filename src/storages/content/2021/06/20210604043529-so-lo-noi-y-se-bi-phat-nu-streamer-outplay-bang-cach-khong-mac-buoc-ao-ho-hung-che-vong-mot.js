@@ -109,7 +109,7 @@ export default function page_20210604043529() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -163,6 +163,7 @@ export default function page_20210604043529() {
                       bật nhất trong những lần lên sóng của cô nàng vẫn luôn là
                       những màn khoe thân gợi cảm với đôi gò bồng đảo nóng bỏng.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Điều luật của AfreecaTV cũng phần nào hạn chế đi khá nhiều
                       thế mạnh của Padak. Nhưng với sự sáng tạo của mình, không
@@ -234,15 +235,15 @@ export default function page_20210604043529() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

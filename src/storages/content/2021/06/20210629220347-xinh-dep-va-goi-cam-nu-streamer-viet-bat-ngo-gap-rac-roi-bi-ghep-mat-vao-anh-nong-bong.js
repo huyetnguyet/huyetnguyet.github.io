@@ -170,7 +170,7 @@ export default function page_20210629220347() {
                       vòng 1 để đỡ hộp sữa và nhận về những ý kiến khá trái
                       chiều.
                     </p>
-                    <p></p>
+
                     <p>
                       Thậm chí, tồi tệ hơn nữa, có lần{" "}
                       <strong>Quỳnh Alee</strong> còn bất ngờ dính “phốt” lộ ảnh
@@ -204,15 +204,15 @@ export default function page_20210629220347() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

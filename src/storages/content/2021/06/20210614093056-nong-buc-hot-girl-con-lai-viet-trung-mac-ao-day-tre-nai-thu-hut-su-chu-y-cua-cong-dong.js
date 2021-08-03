@@ -236,7 +236,6 @@ export default function page_20210614093056() {
                       cách trau dồi, bồi dưỡng thêm vốn hiểu biết và cư xử có
                       chừng mực với những người xung quanh.
                     </p>
-                    <p></p>
 
                     <ContentImage
                       src={
@@ -281,15 +280,15 @@ export default function page_20210614093056() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

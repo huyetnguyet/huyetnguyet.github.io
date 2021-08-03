@@ -83,7 +83,7 @@ export default function page_202106030443() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -151,6 +151,7 @@ export default function page_202106030443() {
                       không có gì nổi trội thành một idol được nhiều người biết
                       đến và yêu mến.{" "}
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Nhờ đó, cô trở nên tự tin và hoà đồng hơn cũng như khai
                       phá những tiềm năng của bản thân. Shuri không quên gửi lời
@@ -181,15 +182,15 @@ export default function page_202106030443() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -100,7 +100,7 @@ export default function page_20210606084722() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {" >"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -195,6 +195,7 @@ export default function page_20210606084722() {
                       alt="Nha Phat Trien, Game Thuan Viet, Chien Dich Ho Chi Minh, 300475, Cong Dong Game Thu, "
                       note=""
                     />
+                    <RelationNewsInPage />
                     <p>
                       *Phiên bản vật lý nâng cao: có giá 2.000.0000 VNĐ, đây là
                       phiên bản đặc biệt khi game thủ vừa có thể nhận được code
@@ -279,15 +280,15 @@ export default function page_20210606084722() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -80,7 +80,7 @@ export default function page_202106021319() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -150,6 +150,7 @@ export default function page_202106021319() {
                   Khoảnh khắc hớ hênh của Ngọc Trinh khiến không ít người ngượng
                   chín mặt"
                     />
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/ntrinh-16226098736481502758299.jpg"
                       alt="Ngọc Trinh"
@@ -181,15 +182,15 @@ export default function page_202106021319() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

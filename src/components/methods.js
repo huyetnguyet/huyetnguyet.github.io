@@ -4,19 +4,23 @@ import { AdsVertical } from "components/adsMethods";
 import { dataContent, dataContent02 } from "storages/database";
 
 export function RandomFeature() {
-  var randomNumber = Math.floor(Math.random() * dataContent02.length);
+  var randomNumber = null;
+  var obj = null;
   if (dataContent02.length > 0) {
-    var obj = dataContent02[randomNumber];
-    return (
-      <div className="randomFeature">
-        <a href={obj.link}>
-          <h3>{obj.title}</h3>
-        </a>
-      </div>
-    );
+    randomNumber = Math.floor(Math.random() * dataContent02.length);
+    obj = dataContent02[randomNumber];
   } else {
-    return <></>;
+    randomNumber = Math.floor(Math.random() * dataContent.length);
+    obj = dataContent[randomNumber];
   }
+
+  return (
+    <div className="randomFeature">
+      <a href={obj.link}>
+        <h3>{obj.title}</h3>
+      </a>
+    </div>
+  );
 }
 
 export function RelationNews(props) {
@@ -37,11 +41,19 @@ export function RelationNews(props) {
 
 export function RelationNewsInPage(props) {
   var count = 0;
+  var temp_data = null;
+  if (dataContent02.length > 0) {
+    temp_data = [...dataContent02];
+  } else {
+    temp_data = [...dataContent];
+  }
+
   return (
     <>
+      <AdsVertical />
       <div className="relationNewsInPage">
         <ul>
-          {dataContent02.map((obj, key) => {
+          {temp_data.map((obj, key) => {
             if (obj.category === props.category && count < 3) {
               count += 1;
               return (

@@ -1,6 +1,6 @@
                     </div>
                   <AdsHorizontal />
-                </div>
+                </div></div>
 
                 <RandomFeature />
 
@@ -12,7 +12,6 @@
               </div>
             </div>
           </div>
-        </div>
       </Content>
     </>
   );

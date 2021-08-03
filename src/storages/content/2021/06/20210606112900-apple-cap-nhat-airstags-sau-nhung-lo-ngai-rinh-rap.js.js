@@ -139,6 +139,7 @@ export default function page_20210606112900() {
                       thiết kế các tính năng để ngăn chúng được sử dụng để theo
                       dõi mọi người.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Thiết bị này đủ nhỏ để đặt bên trong túi xách hoặc túi áo
                       khoác, điều này làm dấy lên lo ngại về khả năng sử dụng
@@ -198,15 +199,15 @@ export default function page_20210606112900() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -79,7 +79,7 @@ export default function page_20210603054155() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -122,6 +122,7 @@ export default function page_20210603054155() {
                       tại, nhất là việc nó có thể giải quyết vấn đề giảm thiểu
                       chi phí chơi game cho học sinh, sinh viên.
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Sau đây, mời các bạn đến với 3 CPU phân khúc giá rẻ tốt
                       nhất có thể chiến game mà không cần card màn hình rời.
@@ -191,15 +192,15 @@ export default function page_20210603054155() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

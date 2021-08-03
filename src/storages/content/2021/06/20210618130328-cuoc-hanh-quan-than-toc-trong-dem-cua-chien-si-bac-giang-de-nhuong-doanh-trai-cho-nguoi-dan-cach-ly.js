@@ -118,7 +118,7 @@ export default function page_20210618130328() {
                       đóng cửa. Cảnh người lớn, trẻ em nháo nhác ôm ba lô, vội
                       vã lên đường cách ly làm nghẹn lòng người.
                     </p>
-                    <p></p>
+
                     <p>
                       Cuộc hành quân "thần tốc" trong đêm của chiến sĩ Bắc Giang
                       để nhường doanh trại cho người dân cách ly
@@ -364,15 +364,15 @@ export default function page_20210618130328() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

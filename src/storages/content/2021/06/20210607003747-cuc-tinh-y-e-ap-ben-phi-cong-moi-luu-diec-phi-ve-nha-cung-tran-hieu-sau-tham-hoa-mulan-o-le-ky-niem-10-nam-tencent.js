@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -129,13 +125,13 @@ export default function page_20210607003747() {
                       Vào ngày 7/6, sự kiện cực hoành tráng kỷ niệm chặng đường
                       10 năm của<strong> Tencent</strong>
                     </p>
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/2020/9/21/nong-16006642926121959325129.png"
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
                       note=""
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/1977569353241478059038718579649980436415004n-16230421856801782700112.jpg"
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
@@ -146,7 +142,7 @@ export default function page_20210607003747() {
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
                       note="Lưu Diệc Phi đứng trên sân khấu của Tencent bên cạnh bạn diễn Trần Hiểu"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/01-16230415507651584960765.png"
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
@@ -217,7 +213,7 @@ export default function page_20210607003747() {
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
                       note="Tiêu Chiến"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/13-16230454055731494472722.png"
                       alt="Cuc Tinh Y, Tang Thuan Hy, Luu Diec Phi, Tran Hieu, Dich Le Nhiet Ba, Ngo Loi, Duong Mich, Hua Khai, Mo Nam Chi, Mong Hoa Luc, Truong Ca Hanh, Dinh Luat Tinh Yeu 8020, Hoan Lac Tung 3, Phim Hoa Ngu, Phim Trung Quoc, Phim Truyen Hinh, Thap Quang Thinh Dien 2021, Tencent, "
@@ -236,15 +232,15 @@ export default function page_20210607003747() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

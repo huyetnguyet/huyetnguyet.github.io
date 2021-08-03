@@ -133,7 +133,7 @@ export default function page_20210616113021() {
                       bàn tán sôi nổi. Thậm chí có người còn khẳng định, sẽ chơi
                       game này với hy vọng có thể gặp được cô nàng trong game.{" "}
                     </p>
-                    <p></p>
+
                     <ContentImage
                       src={
                         require("storages/images/content/2021/20210616113021--10-498000.jpg")
@@ -217,15 +217,15 @@ export default function page_20210616113021() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

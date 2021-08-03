@@ -80,7 +80,7 @@ export default function page_202106021159() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -140,6 +140,7 @@ từng lọt vào top 9 giải đấu CKTG Đấu Trường Chân Lý: Định M
                       ứng 4 Đấu Sĩ. Bạn cũng nên làm điều tương tự trước khi
                       vòng chọn chung thứ hai diễn ra.
                     </p>
+                    <RelationNewsInPage />
                     <ContentImage
                       src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/4/22/-16190809019721455945527.jpg"
                       alt="Đấu Trường Chân Lý"
@@ -228,15 +229,15 @@ này gây ra"
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

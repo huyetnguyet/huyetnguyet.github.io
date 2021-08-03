@@ -83,7 +83,7 @@ export default function page_202106020330() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -138,6 +138,7 @@ export default function page_202106020330() {
                       người sở hữu trọn bộ skin McLaren nhanh nhất thì hãy
                       comment:
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       #TRUMSIEUXEPUBGM + Role ID của bạn + Ảnh chụp chứng minh
                       kho đồ của bạn với trọn bộ 6 skin xe McLaren
@@ -172,15 +173,15 @@ export default function page_202106020330() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -181,7 +181,6 @@ export default function page_20210614091942() {
                       - "Chị Trinh ơi bây giờ số đo vòng eo của chị là bao nhiêu
                       rồi?".
                     </p>
-                    <p></p>
                     <p>
                       Đã có thời điểm, Ngọc Trinh "say goodbye" với vòng eo 56
                       để chinh phục số đo 53 cm, trở thành 1 trong những mỹ nhân
@@ -238,15 +237,15 @@ export default function page_20210614091942() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

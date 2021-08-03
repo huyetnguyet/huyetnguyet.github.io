@@ -255,19 +255,18 @@ export default function page_20210618130218() {
                       lãnh thổ Việt Nam, phân phối chính thức bởi công ty máy
                       tính Vĩnh Xuân.
                     </p>
-                    <p></p>
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

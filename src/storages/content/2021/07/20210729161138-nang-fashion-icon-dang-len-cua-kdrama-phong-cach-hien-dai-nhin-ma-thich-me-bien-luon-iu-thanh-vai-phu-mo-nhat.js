@@ -244,7 +244,6 @@ export default function page_20210729161138() {
                       cô quá hiền và đơn giản nên lần nào đứng cạnh Kang Han Na
                       trông IU cũng như "cameo" của Kang Han Na.
                     </p>
-                    <p></p>
                     <RelationNewsInPage category={category} />
                     <p>
                       Trong số 3 bộ phim hôm nay, đây chính là bộ duy nhất Kang
@@ -322,15 +321,15 @@ export default function page_20210729161138() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -128,7 +128,7 @@ export default function page_20210729162352() {
                       phải theo dấu trong Pokédex. Đó là còn chưa kể nếu không
                       có Masterball thì tỉ lệ bắt được là cực thấp nữa.
                     </p>
-                    <p></p>
+
                     <h5>
                       2. Mew - <strong>Pokémon</strong> Red
                     </h5>
@@ -218,15 +218,15 @@ export default function page_20210729162352() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

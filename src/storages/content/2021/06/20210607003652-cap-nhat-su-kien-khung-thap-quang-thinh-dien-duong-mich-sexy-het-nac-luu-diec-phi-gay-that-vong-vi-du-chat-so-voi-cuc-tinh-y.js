@@ -1,11 +1,7 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import {
-  RandomFeature,
-  RelationNews,
-  RelationNewsInPage,
-} from "components/methods";
+import { RandomFeature, RelationNews } from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -117,8 +113,6 @@ export default function page_20210607003652() {
                 <RelationNews category={category} />
                 <div className="contentBody">
                   <div className="contentBodyLeft">
-                    <p></p>
-                    <p></p>
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230384584171718332887.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
@@ -129,41 +123,37 @@ export default function page_20210607003652() {
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note="Nét đẹp kiêu sa, sang chảnh của Dương Mịch hoàn toàn gây ấn tượng mạnh"
                     />
-                    <p></p>
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-1623038511869651112191.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note="Lưu Diệc Phi lại khiến nhiều người bất ngờ khi để mái tóc xoã"
                     />
-                    <p></p>
-                    <p></p>
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/7/006qj4jkly1gr9mnvjqmvj30u01hd7bz-1623043169754420807162.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note="Quả thật, người đẹp lộ nhiều khuyết điểm nhan sắc"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/7/006qj4jkly1gr9mnuu2ffj30u018zwkd-162304316967347679784.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note="Diện chiếc váy xanh cực kỳ gợi cảm, Nhiệt Ba gây sốt với visual xuất sắc"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/005m1dahly1gr9mmue7l4j30qo140jts-162304338789963802120.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note="Tạo hình của người đẹp nhận được ngàn like ngàn tim"
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/005m1dahly1gr9mmswwspj30qo13ydih-1623043388127894274778.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note=""
                     />
-                    <p></p>
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-1623038611979546790576.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
@@ -174,7 +164,7 @@ export default function page_20210607003652() {
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
                       note=""
                     />
-                    <p></p>
+
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230384841691843566957.jpg"
                       alt="Duong Mich, Luu Diec Phi, Cuc Tinh Y, Hua Nguy Chau, Sao Hoa Ngu, Dich Le Nhiet Ba, Truong Vu Ky, My Nhan Hoa Ngu, Ngo Loi, Nhan Sac My Nhan Hoa Ngu, "
@@ -263,15 +253,15 @@ export default function page_20210607003652() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

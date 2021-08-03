@@ -101,7 +101,7 @@ export default function page_20210605090159() {
               home
             </a>
             <div className="pathName" style={{ color: "red" }}>
-              >
+              {">"}
             </div>
             <a href={categoryLink} className="pathName">
               {category}
@@ -169,6 +169,7 @@ export default function page_20210605090159() {
                       thông báo lượng người chơi trung bình 1 tháng đã tăng lên
                       con số 14 triệu.{" "}
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       - Đồng thời, Riot cũng tiết lộ họ sắp đưa Valorant lên
                       điện thoại.
@@ -184,15 +185,15 @@ export default function page_20210605090159() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

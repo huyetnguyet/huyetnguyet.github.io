@@ -161,6 +161,7 @@ export default function page_20210605090617() {
                     khuyên dùng"
                       />
                     </p>
+                    <RelationNewsInPage />
                     <p>
                       Một vị tướng gây khống chế diện rộng vô cùng khó chịu khác
                       mà bạn cũng cần phải khắc chế đó là Kennen. Nếu các bạn
@@ -245,15 +246,15 @@ export default function page_20210605090617() {
                   </div>
                   <AdsHorizontal />
                 </div>
-
-                <RandomFeature />
-
-                <div className="source">Source: {source}</div>
-
-                <FacebookShareButton link={facebookLinkShare} />
-
-                <div className="tags">Tags: {updatedTags}</div>
               </div>
+
+              <RandomFeature />
+
+              <div className="source">Source: {source}</div>
+
+              <FacebookShareButton link={facebookLinkShare} />
+
+              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>
