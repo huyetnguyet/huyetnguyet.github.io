@@ -99,73 +99,74 @@ export default function page_20210729162112() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Ung thư gan là một trong những căn bệnh rất phổ biến ngày
+                      nay và tỷ lệ người mắc bệnh đang ngày càng tăng cao. Nếu
+                      bạn không chủ động phát hiện ra bệnh từ sớm thì khả năng
+                      chữa khỏi bệnh sẽ giảm xuống. Vậy nên, ngay khi thấy có 3
+                      hiện tượng xuất hiện ở lòng bàn tay dưới đây thì bạn nên
+                      chủ động đi kiểm tra gan ngay.
+                      <RelationNewsInPage category={category} />
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-16267430533472025884574.jpg"
+                      alt="1, thay đổi bất thường,mu bàn tay,tế bào gan,"
+                      note=""
+                    />
+                    <p>
+                      Nếu trên <strong>mu bàn tay</strong> lộ ra những đường gân
+                      xanh rõ rệt thì điều này cho thấy gan và túi mật hoạt động
+                      không tốt. Điều này khiến bạn thường dễ sinh ra nóng giận,
+                      cáu gắt. Vậy nên, bạn đừng chủ quan khi thấy mu bàn tay
+                      nổi gân xanh thường xuyên nhé!
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-16267431040531096335686.jpg"
+                      alt="2, thay đổi bất thường,mu bàn tay,tế bào gan,"
+                      note=""
+                    />
+                    <p>
+                      Các vết mẩn đỏ xuất hiện trên lòng bàn tay và các đầu ngón
+                      tay cũng là một dấu hiệu rõ rệt của bệnh về gan. Khi bạn
+                      ấn mạnh vào thì màu đỏ sẽ mờ dần nhưng chỉ một lúc sau là
+                      lại trở về màu đỏ như cũ. Đây là biểu hiện của các bệnh
+                      như viêm gan, xơ gan cấp và mãn tính hay thậm chí còn là
+                      dấu hiệu của ung thư gan. Do đó, bạn đừng chủ quan khi
+                      thấy hiện tượng này xuất hiện trên lòng bàn tay của mình.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-1626743126302229050729.jpg"
+                      alt="3, thay đổi bất thường,mu bàn tay,tế bào gan,"
+                      note=""
+                    />
+                    <p>
+                      Móng tay có sọc nâu là dấu hiệu{" "}
+                      <strong>tế bào gan</strong> đang bị tổn thương. Nếu bạn bị
+                      viêm gan thì các tế bào gan sẽ sưng to, sâu, hoại tử và
+                      làm xuất hiện triệu chứng sọc nâu trên móng tay. Sau khi
+                      đã điều trị khỏi bệnh gan thì triệu chứng này sẽ được cải
+                      thiện rõ rệt.
+                    </p>
+                    <p>Nguồn và ảnh: Sohu, Healthline</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Ung thư gan là một trong những căn bệnh rất phổ biến ngày
-                    nay và tỷ lệ người mắc bệnh đang ngày càng tăng cao. Nếu bạn
-                    không chủ động phát hiện ra bệnh từ sớm thì khả năng chữa
-                    khỏi bệnh sẽ giảm xuống. Vậy nên, ngay khi thấy có 3 hiện
-                    tượng xuất hiện ở lòng bàn tay dưới đây thì bạn nên chủ động
-                    đi kiểm tra gan ngay.
-                    <RelationNewsInPage category={category} />
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-16267430533472025884574.jpg"
-                    alt="1, thay đổi bất thường,mu bàn tay,tế bào gan,"
-                    note=""
-                  />
-                  <p>
-                    Nếu trên <strong>mu bàn tay</strong> lộ ra những đường gân
-                    xanh rõ rệt thì điều này cho thấy gan và túi mật hoạt động
-                    không tốt. Điều này khiến bạn thường dễ sinh ra nóng giận,
-                    cáu gắt. Vậy nên, bạn đừng chủ quan khi thấy mu bàn tay nổi
-                    gân xanh thường xuyên nhé!
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-16267431040531096335686.jpg"
-                    alt="2, thay đổi bất thường,mu bàn tay,tế bào gan,"
-                    note=""
-                  />
-                  <p>
-                    Các vết mẩn đỏ xuất hiện trên lòng bàn tay và các đầu ngón
-                    tay cũng là một dấu hiệu rõ rệt của bệnh về gan. Khi bạn ấn
-                    mạnh vào thì màu đỏ sẽ mờ dần nhưng chỉ một lúc sau là lại
-                    trở về màu đỏ như cũ. Đây là biểu hiện của các bệnh như viêm
-                    gan, xơ gan cấp và mãn tính hay thậm chí còn là dấu hiệu của
-                    ung thư gan. Do đó, bạn đừng chủ quan khi thấy hiện tượng
-                    này xuất hiện trên lòng bàn tay của mình.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/20/photo-1-1626743126302229050729.jpg"
-                    alt="3, thay đổi bất thường,mu bàn tay,tế bào gan,"
-                    note=""
-                  />
-                  <p>
-                    Móng tay có sọc nâu là dấu hiệu <strong>tế bào gan</strong>{" "}
-                    đang bị tổn thương. Nếu bạn bị viêm gan thì các tế bào gan
-                    sẽ sưng to, sâu, hoại tử và làm xuất hiện triệu chứng sọc
-                    nâu trên móng tay. Sau khi đã điều trị khỏi bệnh gan thì
-                    triệu chứng này sẽ được cải thiện rõ rệt.
-                  </p>
-                  <p>Nguồn và ảnh: Sohu, Healthline</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

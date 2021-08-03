@@ -103,59 +103,59 @@ export default function page_20210614092438() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Tập 559 <strong>Running Man</strong> tuần này đã để lại
+                      nhiều cảm xúc cho người hâm mộ khi là tập ghi hình cuối
+                      cùng của <strong>Lee Kwang Soo</strong> trước khi anh nói
+                      lời tạm biệt chương trình.
+                    </p>
+                    <p>
+                      Ngoài những thử thách với loạt kỷ niệm khó quên, các thành
+                      viên cũng viết thư tay gửi Kwang Soo sau 11 năm đã đồng
+                      hành cùng nhau. Ngược lại, Kwang Soo cũng đã chia sẻ nỗi
+                      lòng khi anh rời chương trình. Những dòng chữ viết rồi lại
+                      gạch của "chàng Hươu" cũng đủ thấy tâm trạng rối bời của
+                      Kwang Soo, khiến khán giả không thể kìm được cảm xúc.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Trong bức thư cuối cùng của mình, Kwang Soo chia sẻ: "Cảm
+                      ơn mọi người đã tạo nên em ngày hôm nay và cho em cảm giác
+                      của 1 gia đình. Em xin lỗi. Xin lỗi mọi người. Thật lòng
+                      xin lỗi... 11 năm qua có thể em đã làm chưa tốt, nhưng em
+                      đã cố gắng hết mình. Cho dù bị chấn thương nhưng em luôn
+                      cố gắng làm tốt nhất có thể. Thời gian tới mọi người hãy
+                      quan tâm và yêu thương <strong>Running Man</strong> nhiều
+                      hơn nữa nhé! Cảm ơn mọi người".
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/13/photo-1-16235849348172030459849.jpg"
+                      alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
+                      note=""
+                    />
+                    <p>
+                      Ảnh: Cắt từ chương trình, Internet; Nguồn: FC{" "}
+                      <strong>Running Man</strong> Việt Nam
+                    </p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Tập 559 <strong>Running Man</strong> tuần này đã để lại
-                    nhiều cảm xúc cho người hâm mộ khi là tập ghi hình cuối cùng
-                    của <strong>Lee Kwang Soo</strong> trước khi anh nói lời tạm
-                    biệt chương trình.
-                  </p>
-                  <p>
-                    Ngoài những thử thách với loạt kỷ niệm khó quên, các thành
-                    viên cũng viết thư tay gửi Kwang Soo sau 11 năm đã đồng hành
-                    cùng nhau. Ngược lại, Kwang Soo cũng đã chia sẻ nỗi lòng khi
-                    anh rời chương trình. Những dòng chữ viết rồi lại gạch của
-                    "chàng Hươu" cũng đủ thấy tâm trạng rối bời của Kwang Soo,
-                    khiến khán giả không thể kìm được cảm xúc.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Trong bức thư cuối cùng của mình, Kwang Soo chia sẻ: "Cảm ơn
-                    mọi người đã tạo nên em ngày hôm nay và cho em cảm giác của
-                    1 gia đình. Em xin lỗi. Xin lỗi mọi người. Thật lòng xin
-                    lỗi... 11 năm qua có thể em đã làm chưa tốt, nhưng em đã cố
-                    gắng hết mình. Cho dù bị chấn thương nhưng em luôn cố gắng
-                    làm tốt nhất có thể. Thời gian tới mọi người hãy quan tâm và
-                    yêu thương <strong>Running Man</strong> nhiều hơn nữa nhé!
-                    Cảm ơn mọi người".
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/13/photo-1-16235849348172030459849.jpg"
-                    alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
-                    note=""
-                  />
-                  <p>
-                    Ảnh: Cắt từ chương trình, Internet; Nguồn: FC{" "}
-                    <strong>Running Man</strong> Việt Nam
-                  </p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

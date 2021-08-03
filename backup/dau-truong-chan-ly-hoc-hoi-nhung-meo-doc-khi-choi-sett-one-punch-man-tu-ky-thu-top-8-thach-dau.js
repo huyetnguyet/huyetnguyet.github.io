@@ -78,20 +78,23 @@ export function pageLayout(props) {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
-                <div className="contentBody">{children}</div>
+                <RelationNews category={category} />
+                <div className="contentBody">
+                  <div className="contentBodyLeft">{children}</div>
+                </div>
+
+                <div className="randomNewFeature"></div>
+
+                <div className="source">Source: Trí Thức Trẻ</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <div className="randomNewFeature"></div>
-
-              <div className="source">Source: Trí Thức Trẻ</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

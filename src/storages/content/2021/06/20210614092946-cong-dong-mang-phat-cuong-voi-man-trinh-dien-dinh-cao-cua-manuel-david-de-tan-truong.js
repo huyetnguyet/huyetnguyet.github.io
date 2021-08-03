@@ -110,69 +110,70 @@ export default function page_20210614092946() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      2 pha cứu thua ấn tượng của Tấn Trường trước ĐT Malaysia
+                    </p>
+                    <p>
+                      Trong lần thứ 2 được HLV Park Hang-seo lựa chọn bắt chính,
+                      Tấn Trường đã không khiến vị chiến lược gia người Hàn Quốc
+                      thất vọng. Trong hiệp một, Tấn Trường liên tiếp có những
+                      pha bay người đẹp mắt. Đặc biệt là tình huống đẩy bóng sau
+                      pha đánh đầu cận thành của Muhammad Ahmad ở phút 38.
+                    </p>
+                    <p>
+                      Ngay sau đó, trên mạng xã hội, các CĐV Việt Nam đã so sánh
+                      Tấn Trường với những thủ môn nổi tiếng thế giới như David
+                      De Gea hay Manuel Neuer bằng cách ghép tên khá hài hước.
+                      Sau đó, dù phải nhận bàn thua trên chấm 11m, Tấn Trường
+                      vẫn vững vàng. ĐT Việt Nam có những sự thay đổi người kịp
+                      thời và có được bàn vươn lên dẫn trước 2-1 nhờ công của
+                      Quế Ngọc Hải.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-1-1623437890849206762956.png"
+                      alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-1-1623437891814894335729.png"
+                      alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-2-16234378923321923498185-16234380233301870923911.png"
+                      alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-3-16234378918402130335590.png"
+                      alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-4-1623437892873511100096.png"
+                      alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    2 pha cứu thua ấn tượng của Tấn Trường trước ĐT Malaysia
-                  </p>
-                  <p>
-                    Trong lần thứ 2 được HLV Park Hang-seo lựa chọn bắt chính,
-                    Tấn Trường đã không khiến vị chiến lược gia người Hàn Quốc
-                    thất vọng. Trong hiệp một, Tấn Trường liên tiếp có những pha
-                    bay người đẹp mắt. Đặc biệt là tình huống đẩy bóng sau pha
-                    đánh đầu cận thành của Muhammad Ahmad ở phút 38.
-                  </p>
-                  <p>
-                    Ngay sau đó, trên mạng xã hội, các CĐV Việt Nam đã so sánh
-                    Tấn Trường với những thủ môn nổi tiếng thế giới như David De
-                    Gea hay Manuel Neuer bằng cách ghép tên khá hài hước. Sau
-                    đó, dù phải nhận bàn thua trên chấm 11m, Tấn Trường vẫn vững
-                    vàng. ĐT Việt Nam có những sự thay đổi người kịp thời và có
-                    được bàn vươn lên dẫn trước 2-1 nhờ công của Quế Ngọc Hải.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-1-1623437890849206762956.png"
-                    alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-1-1623437891814894335729.png"
-                    alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-2-16234378923321923498185-16234380233301870923911.png"
-                    alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-3-16234378918402130335590.png"
-                    alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/12/photo-4-1623437892873511100096.png"
-                    alt="Viet Nam, Viet Nam Vs Malaysia, Viet Nam Dau Malaysia, Bui Tan Truong, Tan Truong, Thu Mon Tan Truong, Vong Loai World Cup 2022, World Cup 2022, Tan Truong Cuu Thua, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

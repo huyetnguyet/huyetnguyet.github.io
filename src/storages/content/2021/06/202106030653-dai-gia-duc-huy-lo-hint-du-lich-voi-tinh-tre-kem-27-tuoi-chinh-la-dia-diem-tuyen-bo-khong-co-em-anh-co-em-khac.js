@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -93,91 +97,95 @@ export default function page_20210603065324() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Kể từ khi vướng tin đồn hẹn hò đến nay, đại gia Đức Huy và
-                    người đẹp Cẩm Đan dù không đăng ảnh chụp chung lên mạng
-                    nhưng vẫn thường xuyên xuất hiện cùng nhau tại các sự kiện.
-                    Không những thế cặp đôi còn liên tục bị dân tình soi ra các
-                    chi tiết chứng minh chuyện hẹn hò.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/0-1622697731272517784711.jpg"
-                    alt="Cam Dan"
-                    note="Đại gia Đức Huy và bồ tin đồn trong 1 lần hẹn hò"
-                  />
-                  <p></p>
-                  <p>
-                    Mới đây, cả hai lại bị soi đi du lịch cùng nhau. Dân mạng đã
-                    tìm ra điểm chung trong hình ảnh được người đẹp và đại gia
-                    Sài thành chia sẻ lên mạng xã hội. Cả hai cùng đăng ảnh
-                    check-in tại một resort sang chảnh.
-                  </p>
-                  <p>
-                    Dù cặp đôi tin đồn đăng cách nhau cả dăm ba ngày nhưng
-                    background và view y hệt nhau, nếu không muốn nói là một. Vì
-                    vậy mà nhiều người mau chóng cho rằng họ đã ở cùng 1 địa
-                    điểm.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1951048611827480104313206424331537295241921n-16226967170341942339010.png"
-                    alt="Cam Dan"
-                    note=""
-                  />
-                  <p>
-                    Điểm trùng hợp trong bức ảnh đại gia Đức Huy và Cẩm Đan đăng
-                    tải
-                  </p>
-                  <p>
-                    Ngoài ra, trong những bức hình mà Cẩm Đan chia sẻ dân tình
-                    lại được phen trầm trồ vì body chuẩn Hoa hậu của gái đẹp 2k2
-                    với đôi chân dài miên man, vòng nào ra vòng nấy.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan19632165029222121346967026527099399104554790n-16226969068352002108157.jpg"
-                    alt="Cam Dan"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1958799987585743014557056169615325228011738n-16226969068231312630129.jpg"
-                    alt="Cam Dan"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1949059145101971533511148332749146070707960n-1622696906812709810279.jpg"
-                    alt="Cam Dan"
-                    note="Vóc dáng xịn xò của Cẩm Đan"
-                  />
-                  <p></p>
-                  <p>
-                    Về phần mình, đại gia Đức Huy nhanh tay thả tim sau khi Cẩm
-                    Đan đăng ảnh. Hôm 31/5 vừa qua, đại gia Sài thành cũng đăng
-                    ảnh ở chiếc bể bơi này và chia sẻ dòng trạng thái ai thấy
-                    cũng tò mò: "Không gió thổi, biển làm gì có sóng... Không có
-                    em, anh có em khác thôi mà".
-                  </p>
-                  <p>Bức ảnh từ 3 ngày trước của đại gia Đức Huy</p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Kể từ khi vướng tin đồn hẹn hò đến nay, đại gia Đức Huy và
+                      người đẹp Cẩm Đan dù không đăng ảnh chụp chung lên mạng
+                      nhưng vẫn thường xuyên xuất hiện cùng nhau tại các sự
+                      kiện. Không những thế cặp đôi còn liên tục bị dân tình soi
+                      ra các chi tiết chứng minh chuyện hẹn hò.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/0-1622697731272517784711.jpg"
+                      alt="Cam Dan"
+                      note="Đại gia Đức Huy và bồ tin đồn trong 1 lần hẹn hò"
+                    />
+                    <p></p>
+                    <p>
+                      Mới đây, cả hai lại bị soi đi du lịch cùng nhau. Dân mạng
+                      đã tìm ra điểm chung trong hình ảnh được người đẹp và đại
+                      gia Sài thành chia sẻ lên mạng xã hội. Cả hai cùng đăng
+                      ảnh check-in tại một resort sang chảnh.
+                    </p>
+                    <p>
+                      Dù cặp đôi tin đồn đăng cách nhau cả dăm ba ngày nhưng
+                      background và view y hệt nhau, nếu không muốn nói là một.
+                      Vì vậy mà nhiều người mau chóng cho rằng họ đã ở cùng 1
+                      địa điểm.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1951048611827480104313206424331537295241921n-16226967170341942339010.png"
+                      alt="Cam Dan"
+                      note=""
+                    />
+                    <p>
+                      Điểm trùng hợp trong bức ảnh đại gia Đức Huy và Cẩm Đan
+                      đăng tải
+                    </p>
+                    <p>
+                      Ngoài ra, trong những bức hình mà Cẩm Đan chia sẻ dân tình
+                      lại được phen trầm trồ vì body chuẩn Hoa hậu của gái đẹp
+                      2k2 với đôi chân dài miên man, vòng nào ra vòng nấy.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan19632165029222121346967026527099399104554790n-16226969068352002108157.jpg"
+                      alt="Cam Dan"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1958799987585743014557056169615325228011738n-16226969068231312630129.jpg"
+                      alt="Cam Dan"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/6/3/ncamdan1949059145101971533511148332749146070707960n-1622696906812709810279.jpg"
+                      alt="Cam Dan"
+                      note="Vóc dáng xịn xò của Cẩm Đan"
+                    />
+                    <p></p>
+                    <p>
+                      Về phần mình, đại gia Đức Huy nhanh tay thả tim sau khi
+                      Cẩm Đan đăng ảnh. Hôm 31/5 vừa qua, đại gia Sài thành cũng
+                      đăng ảnh ở chiếc bể bơi này và chia sẻ dòng trạng thái ai
+                      thấy cũng tò mò: "Không gió thổi, biển làm gì có sóng...
+                      Không có em, anh có em khác thôi mà".
+                    </p>
+                    <p>Bức ảnh từ 3 ngày trước của đại gia Đức Huy</p>
 
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/duchuy751941261881871827499564973697804630282041717n-1622696906797234544570.jpg"
-                    alt="Cam Dan"
-                    note=""
-                  />
-                  <p>Ảnh: Tổng hợp</p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/3/duchuy751941261881871827499564973697804630282041717n-1622696906797234544570.jpg"
+                      alt="Cam Dan"
+                      note=""
+                    />
+                    <p>Ảnh: Tổng hợp</p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

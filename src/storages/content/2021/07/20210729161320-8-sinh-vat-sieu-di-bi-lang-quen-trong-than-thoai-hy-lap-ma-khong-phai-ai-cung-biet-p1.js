@@ -105,120 +105,121 @@ export default function page_20210729161320() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Có rất nhiều sinh vật <strong>thần thoại</strong> quen
+                      thuộc với chúng ta ngày nay có nguồn gốc từ{" "}
+                      <strong>thần thoại Hy Lạp</strong> như ma cà rồng, nhân
+                      mã, nhân sư… Thậm chí, một số nhân vật còn trở thành nguồn
+                      cảm hứng bất tận cho việc sáng tạo trên nhiều lĩnh vực như
+                      Medusa, Pegasus và Minotaur.
+                    </p>
+                    <p>
+                      Những sinh vật <strong>thần thoại</strong> này còn được
+                      biết đến và kể lại là nhờ vào các nguồn tài liệu văn học
+                      phong phú cũng như các bằng chứng khảo cổ. Tuy nhiên, chắc
+                      chắn rằng chúng ta vẫn vẫn để lỡ mất nhiều loài sinh vật
+                      kì dị trong <strong>thần thoại Hy Lạp</strong>.
+                    </p>
+                    <h5>Dracaenae</h5>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/campebyhighdarktemplardd3kenh-fullview-16254955842141325519901.jpg"
+                      alt="1, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Tiên cá với hình dạng nửa người nửa cá thì hẳn là ai cũng
+                      biết, vì chúng rất phổ biến trong văn hóa đại chúng. Nhưng
+                      còn dracaenae thì sao?
+                    </p>
+                    <p>
+                      Dracaenae là một sinh vật trong{" "}
+                      <strong>thần thoại</strong> Hy Lạp. Phần thân trên của
+                      dracaenae là một phụ nữ xinh đẹp và thân dưới là một con
+                      rồng gớm ghiếc. Dracaenae nổi tiếng nhất có lẽ là Kampe,
+                      nhân vật đã được giao nhiệm vụ canh giữ những cánh cổng
+                      của ngục Tartaros. Kampe khá đáng sợ, ả được miêu tả có
+                      phần cơ thể của rồng, một cái đuôi của bọ cạp có thể tiêm
+                      nọc độc chết người, xung quanh chân Kampe là hàng trăm con
+                      rắn, phần đầu của năm mươi con thú như gấu chẳng hạn,
+                      quanh eo ả là những con sói và một đôi cánh lớn màu đen.
+                    </p>
+                    <h5>Chim Stymphalian</h5>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/david-demaret-stymphalian-birds-16254956290971471486897.jpg"
+                      alt="2, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Loài chim trong <strong>thần thoại</strong> này được biết
+                      đến nhiều ở kỳ công thứ sáu của Herakles, chúng có âm
+                      thanh cực kỳ đáng sợ. Tên của chúng lấy theo nơi chúng cư
+                      ngụ – một đầm lầy có thật ở Stymphalia. Tương truyền loài
+                      chim này ăn thịt người với lưỡi kiếm giống như những chiếc
+                      lông vũ kim loại mà chúng có thể phóng về phía cách mục
+                      tiêu của mình. Chiếc mỏ của chúng bằng đồng và phân thải
+                      ra có độc.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <h5>Cerastes</h5>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/tumblro6ih4alceb1v9qvuco21280-1625495695311292560304.jpg"
+                      alt="3, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Cerastes, có nghĩa là "có sừng", là một loại mãng xà trong
+                      truyền thuyết Hy Lạp. Nó được cho là hoàn toàn không có
+                      xương mà chỉ có một cặp sừng lớn, tương tự như sừng cừu.
+                      Leonardo Da Vinci viết về các cerastes và miêu tả chúng
+                      như những kẻ săn mồi ẩn nấp.
+                    </p>
+                    <p>
+                      Người ta cho rằng cerastes trong{" "}
+                      <strong>thần thoại</strong> được sáng tạo dựa trên một
+                      loài vật có thật. Loài rắn có sừng, chúng có những cục u
+                      giống như sừng trên mắt và thường săn mồi theo cách phục
+                      kích, được xem là nguồn cảm hứng đời thực cho sinh vật
+                      thần thoại này. Tuy nhiên, rắn có sừng không hạ được đối
+                      thủ nào to lớn như cerastes trong truyền thuyết.
+                    </p>
+                    <h5>Onocentaur</h5>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/1200px-curiouscreaturesinzoology28153825137072928cropped29-16254957891461784764808.jpg"
+                      alt="4, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Onocentaur là loài họ hàng kém trang nhã hơn của centaur.
+                      Onocentaur cũng chỉ có nửa người, nhưng nửa còn lại không
+                      phải ngựa mà là lừa. Pythagoras và sau này là Aelian đều
+                      miêu tả onocentaur như một loài có tính khí hoang dã, hung
+                      bạo và khó mà nhận nhầm được.
+                    </p>
+                    <p>
+                      Onocentaur được mô tả là có hai chân sau của một con lừa
+                      trong khi nửa thân trước thì phức tạp hơn một chút, nó vừa
+                      có thể dùng cánh tay làm chân trước khi chạy, vừa có thể
+                      sử dụng để xách đồ nếu cần.
+                    </p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Có rất nhiều sinh vật <strong>thần thoại</strong> quen thuộc
-                    với chúng ta ngày nay có nguồn gốc từ{" "}
-                    <strong>thần thoại Hy Lạp</strong> như ma cà rồng, nhân mã,
-                    nhân sư… Thậm chí, một số nhân vật còn trở thành nguồn cảm
-                    hứng bất tận cho việc sáng tạo trên nhiều lĩnh vực như
-                    Medusa, Pegasus và Minotaur.
-                  </p>
-                  <p>
-                    Những sinh vật <strong>thần thoại</strong> này còn được biết
-                    đến và kể lại là nhờ vào các nguồn tài liệu văn học phong
-                    phú cũng như các bằng chứng khảo cổ. Tuy nhiên, chắc chắn
-                    rằng chúng ta vẫn vẫn để lỡ mất nhiều loài sinh vật kì dị
-                    trong <strong>thần thoại Hy Lạp</strong>.
-                  </p>
-                  <h5>Dracaenae</h5>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/campebyhighdarktemplardd3kenh-fullview-16254955842141325519901.jpg"
-                    alt="1, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Tiên cá với hình dạng nửa người nửa cá thì hẳn là ai cũng
-                    biết, vì chúng rất phổ biến trong văn hóa đại chúng. Nhưng
-                    còn dracaenae thì sao?
-                  </p>
-                  <p>
-                    Dracaenae là một sinh vật trong <strong>thần thoại</strong>{" "}
-                    Hy Lạp. Phần thân trên của dracaenae là một phụ nữ xinh đẹp
-                    và thân dưới là một con rồng gớm ghiếc. Dracaenae nổi tiếng
-                    nhất có lẽ là Kampe, nhân vật đã được giao nhiệm vụ canh giữ
-                    những cánh cổng của ngục Tartaros. Kampe khá đáng sợ, ả được
-                    miêu tả có phần cơ thể của rồng, một cái đuôi của bọ cạp có
-                    thể tiêm nọc độc chết người, xung quanh chân Kampe là hàng
-                    trăm con rắn, phần đầu của năm mươi con thú như gấu chẳng
-                    hạn, quanh eo ả là những con sói và một đôi cánh lớn màu
-                    đen.
-                  </p>
-                  <h5>Chim Stymphalian</h5>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/david-demaret-stymphalian-birds-16254956290971471486897.jpg"
-                    alt="2, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Loài chim trong <strong>thần thoại</strong> này được biết
-                    đến nhiều ở kỳ công thứ sáu của Herakles, chúng có âm thanh
-                    cực kỳ đáng sợ. Tên của chúng lấy theo nơi chúng cư ngụ –
-                    một đầm lầy có thật ở Stymphalia. Tương truyền loài chim này
-                    ăn thịt người với lưỡi kiếm giống như những chiếc lông vũ
-                    kim loại mà chúng có thể phóng về phía cách mục tiêu của
-                    mình. Chiếc mỏ của chúng bằng đồng và phân thải ra có độc.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <h5>Cerastes</h5>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/tumblro6ih4alceb1v9qvuco21280-1625495695311292560304.jpg"
-                    alt="3, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Cerastes, có nghĩa là "có sừng", là một loại mãng xà trong
-                    truyền thuyết Hy Lạp. Nó được cho là hoàn toàn không có
-                    xương mà chỉ có một cặp sừng lớn, tương tự như sừng cừu.
-                    Leonardo Da Vinci viết về các cerastes và miêu tả chúng như
-                    những kẻ săn mồi ẩn nấp.
-                  </p>
-                  <p>
-                    Người ta cho rằng cerastes trong <strong>thần thoại</strong>{" "}
-                    được sáng tạo dựa trên một loài vật có thật. Loài rắn có
-                    sừng, chúng có những cục u giống như sừng trên mắt và thường
-                    săn mồi theo cách phục kích, được xem là nguồn cảm hứng đời
-                    thực cho sinh vật thần thoại này. Tuy nhiên, rắn có sừng
-                    không hạ được đối thủ nào to lớn như cerastes trong truyền
-                    thuyết.
-                  </p>
-                  <h5>Onocentaur</h5>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/1200px-curiouscreaturesinzoology28153825137072928cropped29-16254957891461784764808.jpg"
-                    alt="4, KHÁM PHÁ,THẦN THOẠI,LỊCH SỬ,THẦN THOẠI HY LẠP,ĐỜI SỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Onocentaur là loài họ hàng kém trang nhã hơn của centaur.
-                    Onocentaur cũng chỉ có nửa người, nhưng nửa còn lại không
-                    phải ngựa mà là lừa. Pythagoras và sau này là Aelian đều
-                    miêu tả onocentaur như một loài có tính khí hoang dã, hung
-                    bạo và khó mà nhận nhầm được.
-                  </p>
-                  <p>
-                    Onocentaur được mô tả là có hai chân sau của một con lừa
-                    trong khi nửa thân trước thì phức tạp hơn một chút, nó vừa
-                    có thể dùng cánh tay làm chân trước khi chạy, vừa có thể sử
-                    dụng để xách đồ nếu cần.
-                  </p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

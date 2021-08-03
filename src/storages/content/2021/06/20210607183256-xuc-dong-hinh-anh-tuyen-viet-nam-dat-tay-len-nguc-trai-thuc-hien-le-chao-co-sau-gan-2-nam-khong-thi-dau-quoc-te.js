@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -100,56 +104,60 @@ export default function page_20210607183256() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-1623088048557732454516.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="23h45 ngày 7/6 (theo giờ Việt Nam), tuyển Việt Nam ra sân trong trận đấu vòng loại World Cup 2022 gặp Indonesia"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16230880494192036577319.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Trước trận, hai đội chào cờ và hát Quốc ca. Các chàng trai áo đỏ đặt tay lên ngực trái nơi có lá cờ Tổ quốc, hát vang lời ca hào hùng. Sau gần 2 năm, hình ảnh này của đội tuyển gợi lên niềm tự hào trong lòng người hâm mộ"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-2-16230880505071250157854.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Nhóm cầu thủ dự bị cũng hát Quốc ca trang nghiêm trên khán đài"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-3-16230880509941548409947.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Khi Indonesia hát Quốc ca, tuyển thủ Việt Nam đứng nghiêm lắng nghe"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-4-1623088049438258128842.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Sau chào cờ, hai đội xếp hàng chụp ảnh theo kiểu giãn cách vì tình hình dịch bệnh Covid-19"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-5-16230880499342116736690.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Các cầu thủ vỗ tay cảm ơn CĐV Việt Nam tại UAE đã đến sân cổ vũ cho đội tuyển"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-6-162308804994215442000.jpg"
-                    alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
-                    note="Người hâm mộ đang trông chờ vào màn trình diễn đỉnh cao của thầy trò HLV Park Hang-seo để đem về 3 điểm giúp đội tuyển tiến gần mục tiêu vào vòng loại 3 World Cup 2022"
-                  />
+                  <div className="contentBodyLeft">
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-1623088048557732454516.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="23h45 ngày 7/6 (theo giờ Việt Nam), tuyển Việt Nam ra sân trong trận đấu vòng loại World Cup 2022 gặp Indonesia"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16230880494192036577319.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Trước trận, hai đội chào cờ và hát Quốc ca. Các chàng trai áo đỏ đặt tay lên ngực trái nơi có lá cờ Tổ quốc, hát vang lời ca hào hùng. Sau gần 2 năm, hình ảnh này của đội tuyển gợi lên niềm tự hào trong lòng người hâm mộ"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-2-16230880505071250157854.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Nhóm cầu thủ dự bị cũng hát Quốc ca trang nghiêm trên khán đài"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-3-16230880509941548409947.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Khi Indonesia hát Quốc ca, tuyển thủ Việt Nam đứng nghiêm lắng nghe"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-4-1623088049438258128842.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Sau chào cờ, hai đội xếp hàng chụp ảnh theo kiểu giãn cách vì tình hình dịch bệnh Covid-19"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-5-16230880499342116736690.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Các cầu thủ vỗ tay cảm ơn CĐV Việt Nam tại UAE đã đến sân cổ vũ cho đội tuyển"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-6-162308804994215442000.jpg"
+                      alt="Indonesia, Viet Nam, Viet Nam Vs Indonesia, Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, "
+                      note="Người hâm mộ đang trông chờ vào màn trình diễn đỉnh cao của thầy trò HLV Park Hang-seo để đem về 3 điểm giúp đội tuyển tiến gần mục tiêu vào vòng loại 3 World Cup 2022"
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

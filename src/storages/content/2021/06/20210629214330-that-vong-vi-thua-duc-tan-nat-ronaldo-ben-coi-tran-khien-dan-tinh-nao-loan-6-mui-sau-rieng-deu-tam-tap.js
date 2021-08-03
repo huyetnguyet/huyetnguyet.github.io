@@ -106,102 +106,102 @@ export default function page_20210629214330() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-1-1624146306902634929638.jpeg"
+                      alt="6, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note="Mặt nghiêng chứng minh điều đó, cơ lưng xô hiện lên rõ nét"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/2-16242679673902085424873.jpeg"
+                      alt="7, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note="Thứ tự ưu tiên của Ronaldo: ĐT Bồ Đào Nha. Nước lọc. Coca"
+                    />
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      <strong>Ronaldo</strong> ghi bàn mở tỷ số, những tưởng{" "}
+                      <strong>Bồ Đào Nha</strong> sẽ giành chiến thắng trước{" "}
+                      <strong>Đức</strong>. Nhưng không, đó chỉ là khởi đầu cho
+                      ác mộng. Hai cầu thủ Bồ Đào Nha liên tiếp phản lưới nhà
+                      giúp Đức dẫn 2-1, sau đó "Cỗ xe tăng" ghi tiếp 2 bàn nữa
+                      để dẫn 4-1. Về cuối trận, BĐN chỉ gỡ thêm được 1 bàn.
+                      Chung cuộc, Bồ Đào Nha thua 2-4
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-2-16241463085541705053764.jpeg"
+                      alt="8, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note="Ngoài pha lập công, Ronaldo còn kiến tạo đáp lễ cho Jota ghi bàn"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-3-162414630905721651254.jpeg"
+                      alt="9, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-4-16241463081211300134862.jpeg"
+                      alt="10, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/3-1624147653935959978905.jpeg"
+                      alt="11, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-1-1624146308081764237574.jpeg"
+                      alt="12, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-5-1624146308609844623651.jpeg"
+                      alt="13, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/1-1624267915518197825633.jpeg"
+                      alt="14, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-6-16241463081401918094675.jpeg"
+                      alt="15, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-7-1624146308638166543337.jpeg"
+                      alt="16, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-8-16241463086721190372158.png"
+                      alt="17, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/1-16242138510402121902113.jpeg"
+                      alt="18, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
+                      note=""
+                    />
+                    <p>Ảnh: Getty</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-1-1624146306902634929638.jpeg"
-                    alt="6, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note="Mặt nghiêng chứng minh điều đó, cơ lưng xô hiện lên rõ nét"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/2-16242679673902085424873.jpeg"
-                    alt="7, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note="Thứ tự ưu tiên của Ronaldo: ĐT Bồ Đào Nha. Nước lọc. Coca"
-                  />
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    <strong>Ronaldo</strong> ghi bàn mở tỷ số, những tưởng{" "}
-                    <strong>Bồ Đào Nha</strong> sẽ giành chiến thắng trước{" "}
-                    <strong>Đức</strong>. Nhưng không, đó chỉ là khởi đầu cho ác
-                    mộng. Hai cầu thủ Bồ Đào Nha liên tiếp phản lưới nhà giúp
-                    Đức dẫn 2-1, sau đó "Cỗ xe tăng" ghi tiếp 2 bàn nữa để dẫn
-                    4-1. Về cuối trận, BĐN chỉ gỡ thêm được 1 bàn. Chung cuộc,
-                    Bồ Đào Nha thua 2-4
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-2-16241463085541705053764.jpeg"
-                    alt="8, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note="Ngoài pha lập công, Ronaldo còn kiến tạo đáp lễ cho Jota ghi bàn"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-3-162414630905721651254.jpeg"
-                    alt="9, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-4-16241463081211300134862.jpeg"
-                    alt="10, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/3-1624147653935959978905.jpeg"
-                    alt="11, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
 
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-1-1624146308081764237574.jpeg"
-                    alt="12, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-5-1624146308609844623651.jpeg"
-                    alt="13, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/1-1624267915518197825633.jpeg"
-                    alt="14, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-6-16241463081401918094675.jpeg"
-                    alt="15, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-7-1624146308638166543337.jpeg"
-                    alt="16, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/20/photo-8-16241463086721190372158.png"
-                    alt="17, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/21/1-16242138510402121902113.jpeg"
-                    alt="18, ronaldo,Bồ Đào Nha,đức,Euro 2020,tiêu điểm euro,Đồng hành cùng Euro,tin nóng Euro,"
-                    note=""
-                  />
-                  <p>Ảnh: Getty</p>
-                </div>
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

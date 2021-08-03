@@ -109,143 +109,144 @@ export default function page_20210629215258() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Không phải đơn thuần mà 2 con Lọ Lem và Hạt Dẻ nhà{" "}
+                      <strong>MC Quyền Linh</strong> có sức hút cực khủng trên
+                      mạng xã hội. Đâu chỉ học giỏi, sinh ra trong hào môn, 2 ái
+                      nữ của nam MC và bà xã doanh nhân Dạ Thảo còn sở hữu nhan
+                      sắc trong veo, xinh xắn như Hoa hậu. Cứ mỗi lần vợ MC
+                      Quyền Linh tung ảnh con gái đều gây sốt, ekip toàn "của
+                      nhà trồng được" nhưng cũng rất gì và này nọ.
+                    </p>
+                    <p>
+                      Nói đâu xa, nhân dịp cuối tuần rảnh rỗi, cả gia đình{" "}
+                      <strong>MC Quyền Linh</strong> đã cùng nhau dạo vườn hồng
+                      bên trong biệt thự 21 tỷ để chụp ảnh "sống ảo". Ở nhà nên
+                      chỉ ăn mặc giản dị, chẳng cần son phấn mà ái nữ Lọ Lem vẫn
+                      đủ sức giật trọn spotlight, nụ cười toả nắng khiến ai nhìn
+                      vào cũng tan chảy. Đặc biệt, chỉ qua khoảnh khắc cận
+                      visual được mẹ chụp bằng camera thường, Lọ Lem đã chứng
+                      minh nhan sắc chuẩn <strong>mỹ nhân Gen Z</strong> đình
+                      đám, soi cận cũng khó tìm được khuyết điểm. Choáng nhất có
+                      lẽ là bức ảnh cận mặt và góc nghiêng của Lọ Lem. Ra ngoài
+                      làm "MC quốc dân" nổi tiếng chứ khi về đến nhà, MC Quyền
+                      Linh đành trở thành nền trong bức ảnh chụp cùng con gái
+                      cưng.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--10-365620.jpg")
+                          .default
+                      }
+                      alt="1, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note="Chỉ cần bước ra vườn hồng bên trong biệt thự 21 tỷ, MC Quyền Linh và con gái cũng có bộ ảnh gây sốt"
+                    />
+                    <p>
+                      Vợ chồng doanh nhân Dạ Thảo có cô con gái tròn 10 điểm,
+                      nhan sắc này mà chinh chiến các cuộc thi nhan sắc là gây
+                      "bão" cho mà xem
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--12-919892.jpg")
+                          .default
+                      }
+                      alt="2, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note="Ảnh cận visual qua camera thường khó chê của Lọ Lem, từ nụ cười đến ánh mắt đều cực cuốn hút"
+                    />
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Ái nữ nhà Quyền Linh sở hữu góc nghiêng và thần thái đỉnh
+                      của chóp, ekip toàn của nhà trồng được nhưng xem ảnh "sống
+                      ảo" xịn khác gì studio
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--14-641320.jpg")
+                          .default
+                      }
+                      alt="3, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note="Lọ Lem đích thị là mỹ nhân Gen Z khó ai vượt qua trong showbiz Việt"
+                    />
+                    <p>
+                      Chẳng cần đi đâu xa, Lọ Lem cứ chọn bừa 1 góc bên trong
+                      biệt thự 21 tỷ là cũng có bộ ảnh "sống ảo" nức nở!
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--11-099671.jpg")
+                          .default
+                      }
+                      alt="4, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--13-621190.jpg")
+                          .default
+                      }
+                      alt="5, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--15-014071.jpg")
+                          .default
+                      }
+                      alt="6, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--16-158776.jpg")
+                          .default
+                      }
+                      alt="7, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--17-925226.jpg")
+                          .default
+                      }
+                      alt="8, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--18-815010.jpg")
+                          .default
+                      }
+                      alt="9, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215258--19-521208.jpg")
+                          .default
+                      }
+                      alt="10, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Không phải đơn thuần mà 2 con Lọ Lem và Hạt Dẻ nhà{" "}
-                    <strong>MC Quyền Linh</strong> có sức hút cực khủng trên
-                    mạng xã hội. Đâu chỉ học giỏi, sinh ra trong hào môn, 2 ái
-                    nữ của nam MC và bà xã doanh nhân Dạ Thảo còn sở hữu nhan
-                    sắc trong veo, xinh xắn như Hoa hậu. Cứ mỗi lần vợ MC Quyền
-                    Linh tung ảnh con gái đều gây sốt, ekip toàn "của nhà trồng
-                    được" nhưng cũng rất gì và này nọ.
-                  </p>
-                  <p>
-                    Nói đâu xa, nhân dịp cuối tuần rảnh rỗi, cả gia đình{" "}
-                    <strong>MC Quyền Linh</strong> đã cùng nhau dạo vườn hồng
-                    bên trong biệt thự 21 tỷ để chụp ảnh "sống ảo". Ở nhà nên
-                    chỉ ăn mặc giản dị, chẳng cần son phấn mà ái nữ Lọ Lem vẫn
-                    đủ sức giật trọn spotlight, nụ cười toả nắng khiến ai nhìn
-                    vào cũng tan chảy. Đặc biệt, chỉ qua khoảnh khắc cận visual
-                    được mẹ chụp bằng camera thường, Lọ Lem đã chứng minh nhan
-                    sắc chuẩn <strong>mỹ nhân Gen Z</strong> đình đám, soi cận
-                    cũng khó tìm được khuyết điểm. Choáng nhất có lẽ là bức ảnh
-                    cận mặt và góc nghiêng của Lọ Lem. Ra ngoài làm "MC quốc
-                    dân" nổi tiếng chứ khi về đến nhà, MC Quyền Linh đành trở
-                    thành nền trong bức ảnh chụp cùng con gái cưng.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--10-365620.jpg")
-                        .default
-                    }
-                    alt="1, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note="Chỉ cần bước ra vườn hồng bên trong biệt thự 21 tỷ, MC Quyền Linh và con gái cũng có bộ ảnh gây sốt"
-                  />
-                  <p>
-                    Vợ chồng doanh nhân Dạ Thảo có cô con gái tròn 10 điểm, nhan
-                    sắc này mà chinh chiến các cuộc thi nhan sắc là gây "bão"
-                    cho mà xem
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--12-919892.jpg")
-                        .default
-                    }
-                    alt="2, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note="Ảnh cận visual qua camera thường khó chê của Lọ Lem, từ nụ cười đến ánh mắt đều cực cuốn hút"
-                  />
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Ái nữ nhà Quyền Linh sở hữu góc nghiêng và thần thái đỉnh
-                    của chóp, ekip toàn của nhà trồng được nhưng xem ảnh "sống
-                    ảo" xịn khác gì studio
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--14-641320.jpg")
-                        .default
-                    }
-                    alt="3, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note="Lọ Lem đích thị là mỹ nhân Gen Z khó ai vượt qua trong showbiz Việt"
-                  />
-                  <p>
-                    Chẳng cần đi đâu xa, Lọ Lem cứ chọn bừa 1 góc bên trong biệt
-                    thự 21 tỷ là cũng có bộ ảnh "sống ảo" nức nở!
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--11-099671.jpg")
-                        .default
-                    }
-                    alt="4, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--13-621190.jpg")
-                        .default
-                    }
-                    alt="5, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--15-014071.jpg")
-                        .default
-                    }
-                    alt="6, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--16-158776.jpg")
-                        .default
-                    }
-                    alt="7, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--17-925226.jpg")
-                        .default
-                    }
-                    alt="8, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--18-815010.jpg")
-                        .default
-                    }
-                    alt="9, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215258--19-521208.jpg")
-                        .default
-                    }
-                    alt="10, MC Quyền Linh,sao Việt,Vbiz,showbiz Việt,Con gái MC Quyền Linh,bé lọ lem,con gái Quyền Linh,Lọ Lem con Quyền Linh,mỹ nhân gen z,"
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

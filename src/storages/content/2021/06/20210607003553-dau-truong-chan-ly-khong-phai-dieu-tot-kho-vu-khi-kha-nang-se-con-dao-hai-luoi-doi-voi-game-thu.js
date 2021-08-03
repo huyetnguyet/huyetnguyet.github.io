@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -106,31 +110,35 @@ export default function page_20210607003553() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/6/7/-1623010520447345349609.jpg"
-                    alt="Dau Truong Chan Ly, Dtcl, Kho Vu Khi, Riot Games, Riot, Tin Game, Tin Tuc Game, Tin Tft, Tin Dtcl, Tft, "
-                    note="Riot thông báo Kho Vũ Khí sẽ xuất hiện ở bản 11.12"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/7/-16230105223551699469966.jpg"
-                    alt="Dau Truong Chan Ly, Dtcl, Kho Vu Khi, Riot Games, Riot, Tin Game, Tin Tuc Game, Tin Tft, Tin Dtcl, Tft, "
-                    note="Kho Vũ Khí ở bản 11.12 sẽ bao gồm nhiều loại trang bị khác nhau, bao gồm cả trang bị hiếm"
-                  />
+                  <div className="contentBodyLeft">
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/6/7/-1623010520447345349609.jpg"
+                      alt="Dau Truong Chan Ly, Dtcl, Kho Vu Khi, Riot Games, Riot, Tin Game, Tin Tuc Game, Tin Tft, Tin Dtcl, Tft, "
+                      note="Riot thông báo Kho Vũ Khí sẽ xuất hiện ở bản 11.12"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/7/-16230105223551699469966.jpg"
+                      alt="Dau Truong Chan Ly, Dtcl, Kho Vu Khi, Riot Games, Riot, Tin Game, Tin Tuc Game, Tin Tft, Tin Dtcl, Tft, "
+                      note="Kho Vũ Khí ở bản 11.12 sẽ bao gồm nhiều loại trang bị khác nhau, bao gồm cả trang bị hiếm"
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

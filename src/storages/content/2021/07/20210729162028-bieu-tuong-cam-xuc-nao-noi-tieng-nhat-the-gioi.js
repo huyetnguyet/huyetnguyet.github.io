@@ -97,67 +97,69 @@ export default function page_20210729162028() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Khảo sát 7.000 người dùng tại Mỹ, Anh, Đức, Pháp, Nhật
+                      Bản, Australia và Hàn Quốc của Adobe cho thấy biểu tượng
+                      "cười ra nước mắt" là <strong>emoji</strong> phổ biến nhất
+                      thế giới. Hai biểu tượng đứng thứ hai và ba lần lượt là ra
+                      dấu ngón cái (tán thành) và trái tim đỏ. Biểu tượng "nháy
+                      mắt hôn" và "mặt buồn" hoàn thành top 5.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266831185991254590428.jpg"
+                      alt="1, EMOJI,NỔI TIẾNG NHẤT,NGƯỜI THAM GIA,MẠNG XÃ HỘI,"
+                      note=""
+                    />
+                    <p>
+                      Adobe công bố phát hiện ngay trước Ngày{" "}
+                      <strong>Emoji</strong> 2021 diễn ra. Dù vậy, không phải ai
+                      cũng đồng tình với vị trí số 1. Chẳng hạn, thế hệ Gen Z
+                      cho rằng emoji "cười ra nước mắt" không còn thú vị nữa, vì
+                      những người lớn tuổi hơn như mẹ, anh chị, người già… đều
+                      dùng nó.
+                    </p>
+                    <p>
+                      Báo cáo Xu hướng <strong>Emoji</strong> mới nhất của Adobe
+                      cũng chỉ ra 3 emoji hay bị hiểu nhầm nhất. Đó chính là
+                      biểu tượng cà tím, đào và mặt hề.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Phần lớn <strong>người tham gia</strong> khảo sát (90%)
+                      tin rằng <strong>emoji</strong> giúp họ biểu lộ ý kiến dễ
+                      dàng hơn, 89% cho biết emoji đơn giản hóa việc giao tiếp,
+                      vượt qua rào cản ngôn ngữ. 67% nghĩ rằng những người dùng
+                      emoji thân thiện, vui tính và thú vị hơn những người không
+                      dùng.
+                    </p>
+                    <p>
+                      Nhiều người cảm thấy thoải mái khi bày tỏ cảm xúc bằng{" "}
+                      <strong>emoji</strong> hơn là nói chuyện trực tiếp hay qua
+                      điện thoại. 55% tiết lộ dùng emoji khi nói chuyện khiến
+                      sức khỏe tinh thần của họ tích cực hơn. 76% nói emoji là
+                      công cụ giao tiếp quan trọng để tạo ra sự thống nhất, tôn
+                      trọng và hiểu lẫn nhau. 88% cảm thấy đồng cảm với những
+                      người dùng emoji.
+                    </p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Khảo sát 7.000 người dùng tại Mỹ, Anh, Đức, Pháp, Nhật Bản,
-                    Australia và Hàn Quốc của Adobe cho thấy biểu tượng "cười ra
-                    nước mắt" là <strong>emoji</strong> phổ biến nhất thế giới.
-                    Hai biểu tượng đứng thứ hai và ba lần lượt là ra dấu ngón
-                    cái (tán thành) và trái tim đỏ. Biểu tượng "nháy mắt hôn" và
-                    "mặt buồn" hoàn thành top 5.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266831185991254590428.jpg"
-                    alt="1, EMOJI,NỔI TIẾNG NHẤT,NGƯỜI THAM GIA,MẠNG XÃ HỘI,"
-                    note=""
-                  />
-                  <p>
-                    Adobe công bố phát hiện ngay trước Ngày{" "}
-                    <strong>Emoji</strong> 2021 diễn ra. Dù vậy, không phải ai
-                    cũng đồng tình với vị trí số 1. Chẳng hạn, thế hệ Gen Z cho
-                    rằng emoji "cười ra nước mắt" không còn thú vị nữa, vì những
-                    người lớn tuổi hơn như mẹ, anh chị, người già… đều dùng nó.
-                  </p>
-                  <p>
-                    Báo cáo Xu hướng <strong>Emoji</strong> mới nhất của Adobe
-                    cũng chỉ ra 3 emoji hay bị hiểu nhầm nhất. Đó chính là biểu
-                    tượng cà tím, đào và mặt hề.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Phần lớn <strong>người tham gia</strong> khảo sát (90%) tin
-                    rằng <strong>emoji</strong> giúp họ biểu lộ ý kiến dễ dàng
-                    hơn, 89% cho biết emoji đơn giản hóa việc giao tiếp, vượt
-                    qua rào cản ngôn ngữ. 67% nghĩ rằng những người dùng emoji
-                    thân thiện, vui tính và thú vị hơn những người không dùng.
-                  </p>
-                  <p>
-                    Nhiều người cảm thấy thoải mái khi bày tỏ cảm xúc bằng{" "}
-                    <strong>emoji</strong> hơn là nói chuyện trực tiếp hay qua
-                    điện thoại. 55% tiết lộ dùng emoji khi nói chuyện khiến sức
-                    khỏe tinh thần của họ tích cực hơn. 76% nói emoji là công cụ
-                    giao tiếp quan trọng để tạo ra sự thống nhất, tôn trọng và
-                    hiểu lẫn nhau. 88% cảm thấy đồng cảm với những người dùng
-                    emoji.
-                  </p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

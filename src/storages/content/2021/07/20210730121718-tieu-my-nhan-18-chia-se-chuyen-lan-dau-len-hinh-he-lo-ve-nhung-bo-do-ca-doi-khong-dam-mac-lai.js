@@ -99,109 +99,110 @@ export default function page_20210730121718() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      <strong>Miu Shiromine</strong> sinh năm 1997, hiện tại
+                      đang là một trong những nữ diễn viên thuộc quản lý của
+                      công ty One's Double, hiện đang đầu quân cho studio Idea
+                      Pocket. Giống với đàn chị Yua Mikami, cô nàng chính thức
+                      bước chân vào ngành công nghiệp 18+ vào cuối năm 2020 và
+                      đã ngay lập tức gây được sức hút lớn trong khoảng thời
+                      gian cuối năm 2020, đầu năm 2021.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627645123243931552153.jpg"
+                      alt="1, MIU SHIROMINE,IDOL,"
+                      note=""
+                    />
+                    <p>
+                      Với chiều cao 170 cm với các số đo 90 - 60 - 94 cm chuẩn
+                      chỉ, cô gái sinh năm 1997 đã bước đầu tiến vào ngành giải
+                      trí với vị trí gravure <strong>idol</strong> và thời gian
+                      gần đây quyết định chuyển sang ngành công nghiệp phim
+                      người lớn. Ngay trong tháng 1/2020 vừa qua, cô nàng đã leo
+                      lên được vị trí thứ 4 trên bảng xếp hạng, ngay sau đàn chị
+                      sinh năm 1993.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627645125835843346414.jpg"
+                      alt="2, MIU SHIROMINE,IDOL,"
+                      note=""
+                    />
+                    <p>
+                      Sở hữu thân hình như vậy, thế nên không lạ gì ngay từ khi
+                      còn nhỏ, Miu đã luôn muốn trở thành người mẫu, được xuất
+                      hiện trong những tạp chí thời trang. Tuy nhiên, bố mẹ của
+                      cô nàng luôn ngăn cản con mình vì cho rằng giới showbiz là
+                      một nơi đầy cạm bẫy. Nhưng điều đó không thể chùn bước ước
+                      mơ được nổi tiếng, Miu quyết định chọn ngành công nghiệp
+                      18+, bởi nó thỏa mãn điều kiện là "nổi tiếng" và "ít thị
+                      phi".
+                    </p>
+                    <p>
+                      Miu đã từng rất muốn trở thành 1 người tham gia vào giới
+                      giải trí như Kyoko Fukada, nữ diễn viên kiêm ca sĩ. Hiện
+                      tại, nếu để chọn 1 cái tên cùng ngành thì cô nàng sẽ chọn
+                      thần tượng để học tập là Asuka Kirara và Yua Mikami. Trong
+                      lần đầu đóng phim, cô nàng nhận ra công việc này vui hơn
+                      mình từng nghĩ và cũng rất thú vị. Ngoài ra còn có thể làm
+                      nhiều biểu cảm khác nhau hơn, không giống như chụp ảnh áo
+                      tắm.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/2180129821214403168495334847411153811296114n-16276487301111220497059.jpg"
+                      alt="3, MIU SHIROMINE,IDOL,"
+                      note=""
+                    />
+                    <p>
+                      Theo như Shiromine chia sẻ, cô nàng vốn định ngủ một giấc
+                      thật sâu rồi để chuẩn bị tinh thần cho ngày đầu tiên đi
+                      quay thật thoải mái. Tuy nhiên, cô nàng cuối cùng lại quá
+                      căng thẳng và cuối cùng trằn trọc suôt đêm. Đến lúc quay
+                      hình, cô nàng còn không thể nào nhớ nổi mình đã nói những
+                      gì trước ống kính.{" "}
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Ngoài ra, cô nàng cũng chia sẻ về những bộ trang phục xuất
+                      hiện trong các bộ phim 18+. Về cơ bản, những bộ trang phục
+                      này được thiết kế gợi cảm tối đa và khoe hết những đường
+                      cong trên cơ thể các cô gái ra. Điều này khiến cho{" "}
+                      <strong>Miu Shiromine</strong> cảm thấy ngượng ngùng và
+                      rất không thoải mái. Bản thân cô cho rằng, nếu không phải
+                      nghề nghiệp yêu cầu, bản thân cô sẽ không bao giờ đụng tới
+                      những bộ bikini kiểu này.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/2178448067949218312139243405549906080096719n-1627648730075891879712.jpg"
+                      alt="4, MIU SHIROMINE,IDOL,"
+                      note=""
+                    />
+                    <p>
+                      Những trải nghiệm 18+ quả thực rất thú vị với{" "}
+                      <strong>Miu Shiromine</strong>, đó là những gì cô nàng
+                      nghĩ sau khi đóng xong sản phẩm đầu tiên. Bên cạnh đó, cô
+                      nàng cũng muốn thử tất cả mọi thứ, bởi cảm xúc lần đầu bao
+                      giờ cũng là cảm xúc tuyệt vời nhất.
+                    </p>
+                    <p>Bài viết được thực hiện với sự trợ giúp của AV Crush.</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    <strong>Miu Shiromine</strong> sinh năm 1997, hiện tại đang
-                    là một trong những nữ diễn viên thuộc quản lý của công ty
-                    One's Double, hiện đang đầu quân cho studio Idea Pocket.
-                    Giống với đàn chị Yua Mikami, cô nàng chính thức bước chân
-                    vào ngành công nghiệp 18+ vào cuối năm 2020 và đã ngay lập
-                    tức gây được sức hút lớn trong khoảng thời gian cuối năm
-                    2020, đầu năm 2021.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627645123243931552153.jpg"
-                    alt="1, MIU SHIROMINE,IDOL,"
-                    note=""
-                  />
-                  <p>
-                    Với chiều cao 170 cm với các số đo 90 - 60 - 94 cm chuẩn
-                    chỉ, cô gái sinh năm 1997 đã bước đầu tiến vào ngành giải
-                    trí với vị trí gravure <strong>idol</strong> và thời gian
-                    gần đây quyết định chuyển sang ngành công nghiệp phim người
-                    lớn. Ngay trong tháng 1/2020 vừa qua, cô nàng đã leo lên
-                    được vị trí thứ 4 trên bảng xếp hạng, ngay sau đàn chị sinh
-                    năm 1993.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/photo-1-1627645125835843346414.jpg"
-                    alt="2, MIU SHIROMINE,IDOL,"
-                    note=""
-                  />
-                  <p>
-                    Sở hữu thân hình như vậy, thế nên không lạ gì ngay từ khi
-                    còn nhỏ, Miu đã luôn muốn trở thành người mẫu, được xuất
-                    hiện trong những tạp chí thời trang. Tuy nhiên, bố mẹ của cô
-                    nàng luôn ngăn cản con mình vì cho rằng giới showbiz là một
-                    nơi đầy cạm bẫy. Nhưng điều đó không thể chùn bước ước mơ
-                    được nổi tiếng, Miu quyết định chọn ngành công nghiệp 18+,
-                    bởi nó thỏa mãn điều kiện là "nổi tiếng" và "ít thị phi".
-                  </p>
-                  <p>
-                    Miu đã từng rất muốn trở thành 1 người tham gia vào giới
-                    giải trí như Kyoko Fukada, nữ diễn viên kiêm ca sĩ. Hiện
-                    tại, nếu để chọn 1 cái tên cùng ngành thì cô nàng sẽ chọn
-                    thần tượng để học tập là Asuka Kirara và Yua Mikami. Trong
-                    lần đầu đóng phim, cô nàng nhận ra công việc này vui hơn
-                    mình từng nghĩ và cũng rất thú vị. Ngoài ra còn có thể làm
-                    nhiều biểu cảm khác nhau hơn, không giống như chụp ảnh áo
-                    tắm.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/2180129821214403168495334847411153811296114n-16276487301111220497059.jpg"
-                    alt="3, MIU SHIROMINE,IDOL,"
-                    note=""
-                  />
-                  <p>
-                    Theo như Shiromine chia sẻ, cô nàng vốn định ngủ một giấc
-                    thật sâu rồi để chuẩn bị tinh thần cho ngày đầu tiên đi quay
-                    thật thoải mái. Tuy nhiên, cô nàng cuối cùng lại quá căng
-                    thẳng và cuối cùng trằn trọc suôt đêm. Đến lúc quay hình, cô
-                    nàng còn không thể nào nhớ nổi mình đã nói những gì trước
-                    ống kính.{" "}
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Ngoài ra, cô nàng cũng chia sẻ về những bộ trang phục xuất
-                    hiện trong các bộ phim 18+. Về cơ bản, những bộ trang phục
-                    này được thiết kế gợi cảm tối đa và khoe hết những đường
-                    cong trên cơ thể các cô gái ra. Điều này khiến cho{" "}
-                    <strong>Miu Shiromine</strong> cảm thấy ngượng ngùng và rất
-                    không thoải mái. Bản thân cô cho rằng, nếu không phải nghề
-                    nghiệp yêu cầu, bản thân cô sẽ không bao giờ đụng tới những
-                    bộ bikini kiểu này.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/30/2178448067949218312139243405549906080096719n-1627648730075891879712.jpg"
-                    alt="4, MIU SHIROMINE,IDOL,"
-                    note=""
-                  />
-                  <p>
-                    Những trải nghiệm 18+ quả thực rất thú vị với{" "}
-                    <strong>Miu Shiromine</strong>, đó là những gì cô nàng nghĩ
-                    sau khi đóng xong sản phẩm đầu tiên. Bên cạnh đó, cô nàng
-                    cũng muốn thử tất cả mọi thứ, bởi cảm xúc lần đầu bao giờ
-                    cũng là cảm xúc tuyệt vời nhất.
-                  </p>
-                  <p>Bài viết được thực hiện với sự trợ giúp của AV Crush.</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -99,8 +99,8 @@ export function PageContent({ children }) {
         <div className="containerMain">
           <div className="homeContent">
             <div className="containerContent">
-              <AdsHorizontal />
               <div className="content">{children} </div>
+              <AdsHorizontal />
             </div>
           </div>
         </div>

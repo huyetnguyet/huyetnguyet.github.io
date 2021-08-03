@@ -105,77 +105,78 @@ export default function page_20210629220538() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Mới đây, trang Sohu đã "đào mộ" được những hình ảnh cực kỳ
+                      quý giá của <strong>Lưu Thi Thi</strong> thuở mới chân ướt
+                      chân ráo bước vào nghề. Netizen lại được dịp "xỉu up xỉu
+                      down" với nét đẹp trong veo cực kỳ xuất sắc của Lưu Thi
+                      Thi. Vẫn biết bà xã Ngô Kỳ Long sở hữu visual bất chấp cả
+                      ảnh không PTS, lại chưa từng "dao kéo" lần nào song Cnet
+                      vẫn phải trầm trồ với những khung hình lột tả rõ nét nhan
+                      sắc ngày ấy của nàng "Nhược Hy".
+                    </p>
+                    <p>
+                      Năm 17 tuổi, <strong>Lưu Thi Thi</strong> để mái bằng, mái
+                      tóc dài đen tuyền càng tôn lên làn da trắng hồng, mịn màng
+                      cùng làn môi căng mọng dịu dàng. Có thể nói, cho tới tận
+                      bây giờ, nét đẹp của Lưu Thi Thi vẫn y như ngày xưa. Không
+                      chỉ vậy, khoảnh khắc cô nàng tóc bết vì dầm mưa, gương mặt
+                      lem nhem vì nước mắt lại khiến dân tình "đổ gục" vì quá
+                      xinh.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249822963361057313185.gif" />
+                    <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-1624982382641646939865.gif" />
+                    <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249823900711736515318.gif" />
+                    <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-1624982399398217482314.gif" />
+                    <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249823886411356406311.gif" />
+                    <p>
+                      Khi <strong>mỹ nhân</strong> rơi lệ, triệu trái tim như
+                      tan vỡ
+                    </p>
+                    <p>
+                      Cho tới tận bây giờ, <strong>Lưu Thi Thi</strong> vẫn là{" "}
+                      <strong>mỹ nhân</strong> "bảo chứng visual" của showbiz
+                      Hoa ngữ khi không có bất cứ scandal nào liên quan tới thẩm
+                      mỹ. Nét đẹp của bà mẹ một con giờ đây trở nên đằm thắm,
+                      quyến rũ hơn rất nhiều.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629220538--10-845782.jpg")
+                          .default
+                      }
+                      alt="1, Lưu Thi Thi,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,mỹ nhân,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629220538--11-213612.jpg")
+                          .default
+                      }
+                      alt="2, Lưu Thi Thi,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,mỹ nhân,"
+                      note=""
+                    />
+                    <p>Nguồn: Sohu</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Mới đây, trang Sohu đã "đào mộ" được những hình ảnh cực kỳ
-                    quý giá của <strong>Lưu Thi Thi</strong> thuở mới chân ướt
-                    chân ráo bước vào nghề. Netizen lại được dịp "xỉu up xỉu
-                    down" với nét đẹp trong veo cực kỳ xuất sắc của Lưu Thi Thi.
-                    Vẫn biết bà xã Ngô Kỳ Long sở hữu visual bất chấp cả ảnh
-                    không PTS, lại chưa từng "dao kéo" lần nào song Cnet vẫn
-                    phải trầm trồ với những khung hình lột tả rõ nét nhan sắc
-                    ngày ấy của nàng "Nhược Hy".
-                  </p>
-                  <p>
-                    Năm 17 tuổi, <strong>Lưu Thi Thi</strong> để mái bằng, mái
-                    tóc dài đen tuyền càng tôn lên làn da trắng hồng, mịn màng
-                    cùng làn môi căng mọng dịu dàng. Có thể nói, cho tới tận bây
-                    giờ, nét đẹp của Lưu Thi Thi vẫn y như ngày xưa. Không chỉ
-                    vậy, khoảnh khắc cô nàng tóc bết vì dầm mưa, gương mặt lem
-                    nhem vì nước mắt lại khiến dân tình "đổ gục" vì quá xinh.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249822963361057313185.gif" />
-                  <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-1624982382641646939865.gif" />
-                  <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249823900711736515318.gif" />
-                  <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-1624982399398217482314.gif" />
-                  <ContentImage src="https://kenh14cdn.com/203336854389633024/2021/6/29/photo-1-16249823886411356406311.gif" />
-                  <p>
-                    Khi <strong>mỹ nhân</strong> rơi lệ, triệu trái tim như tan
-                    vỡ
-                  </p>
-                  <p>
-                    Cho tới tận bây giờ, <strong>Lưu Thi Thi</strong> vẫn là{" "}
-                    <strong>mỹ nhân</strong> "bảo chứng visual" của showbiz Hoa
-                    ngữ khi không có bất cứ scandal nào liên quan tới thẩm mỹ.
-                    Nét đẹp của bà mẹ một con giờ đây trở nên đằm thắm, quyến rũ
-                    hơn rất nhiều.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629220538--10-845782.jpg")
-                        .default
-                    }
-                    alt="1, Lưu Thi Thi,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,mỹ nhân,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629220538--11-213612.jpg")
-                        .default
-                    }
-                    alt="2, Lưu Thi Thi,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,mỹ nhân,"
-                    note=""
-                  />
-                  <p>Nguồn: Sohu</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

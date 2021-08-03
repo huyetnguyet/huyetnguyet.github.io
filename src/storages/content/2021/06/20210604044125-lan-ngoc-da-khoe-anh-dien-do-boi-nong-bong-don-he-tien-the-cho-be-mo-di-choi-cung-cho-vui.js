@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -116,85 +120,89 @@ export default function page_20210604044125() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Sở hữu body gợi cảm nên nhiều mỹ nhân Vbiz rất chăm chỉ hở
-                    bạo hay diện bikini để phô diễn lợi thế này của mình. Chưa
-                    chính thức vào Hè nhưng tràn ngập MXH là những hình ảnh
-                    bikini của loạt sao Vbiz. Gia nhập đường đua này mới đây có
-                    Ninh Dương Lan Ngọc.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-16167676833932083825842.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note=""
-                  />
-                  <p>
-                    Phải thừa nhận rằng đã không khoe thì thôi mà khoe lần nào
-                    là Lan Ngọc lại gây "xuýt xoa" lần đó. Trên trang cá nhân
-                    vào ngày 26/3, bóng hồng thu hút hàng chục nghìn lượt thả
-                    tương tác và bình luận chỉ với một bức ảnh mặc bikini hai
-                    mảnh cùng dòng trạng thái: "Nóng quá bụng mỡ lại muốn đi
-                    bơi". Vốn biết Lan Ngọc sở hữu vòng eo 54cm thế nhưng lần
-                    này, netizen có hơi chút bất ngờ khi cô "vạch trần" khuyết
-                    điểm là chiếc bụng mỡ. Dù vậy, không ít bình luận thích thú
-                    vì Lan Ngọc khoe “bé mỡ” mà không ngần ngại gì.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-1616767230126151914993.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="
+                  <div className="contentBodyLeft">
+                    <p>
+                      Sở hữu body gợi cảm nên nhiều mỹ nhân Vbiz rất chăm chỉ hở
+                      bạo hay diện bikini để phô diễn lợi thế này của mình. Chưa
+                      chính thức vào Hè nhưng tràn ngập MXH là những hình ảnh
+                      bikini của loạt sao Vbiz. Gia nhập đường đua này mới đây
+                      có Ninh Dương Lan Ngọc.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-16167676833932083825842.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note=""
+                    />
+                    <p>
+                      Phải thừa nhận rằng đã không khoe thì thôi mà khoe lần nào
+                      là Lan Ngọc lại gây "xuýt xoa" lần đó. Trên trang cá nhân
+                      vào ngày 26/3, bóng hồng thu hút hàng chục nghìn lượt thả
+                      tương tác và bình luận chỉ với một bức ảnh mặc bikini hai
+                      mảnh cùng dòng trạng thái: "Nóng quá bụng mỡ lại muốn đi
+                      bơi". Vốn biết Lan Ngọc sở hữu vòng eo 54cm thế nhưng lần
+                      này, netizen có hơi chút bất ngờ khi cô "vạch trần" khuyết
+                      điểm là chiếc bụng mỡ. Dù vậy, không ít bình luận thích
+                      thú vì Lan Ngọc khoe “bé mỡ” mà không ngần ngại gì.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-1616767230126151914993.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="
                     Vòng 2 lộ chút mỡ bụng này chẳng những không làm nữ diễn
                     viên kém quyến rũ đi mà ngược lại trông rất thu hút trong
                     mắt khán giả"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-1616767232775546155203.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-1-1616767232775546155203.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="
                     Ở góc chụp khác, ảnh bikini đốt mắt của Lan Ngọc khoe trọn
                     vòng eo con kiến cực phẩm cùng vòng 1 lấp ló gợi cảm"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-2-16167672337651205381086.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-2-16167672337651205381086.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="
                     Đôi chân nuột nà cũng là điểm cộng giúp Lan Ngọc tự tin
                     sống ảo khi diện bikini"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-3-16167672332562003609407.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="Lần nào khoe ảnh bikini Lan Ngọc lại gây bão MXH lần đó"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-4-16167672327581576453927.jpg"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-3-16167672332562003609407.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="Lần nào khoe ảnh bikini Lan Ngọc lại gây bão MXH lần đó"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/26/photo-4-16167672327581576453927.jpg"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="
                     Đẳng cấp nhan sắc của Lan Ngọc khiến nhiều người phải ngưỡng
                     mộ"
-                  />
-                  <ContentImage
-                    src="https://nv.vi-serve.com/vis-media/922/1823/FNE9jHkBB4amCadClX_Q_720p.mp4"
-                    alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
-                    note="
+                    />
+                    <ContentImage
+                      src="https://nv.vi-serve.com/vis-media/922/1823/FNE9jHkBB4amCadClX_Q_720p.mp4"
+                      alt="Sao Viet, Showbiz Viet, Ninh Duong Lan Ngoc, Lan Ngoc, "
+                      note="
                     Thậm chí, nhiều mỹ nhân Vbiz còn phải dè chừng Lan Ngọc
                     nếu gia nhập đường đua mặc bikini khoe body đón hè"
-                  />
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -106,102 +106,104 @@ export default function page_20210730121620() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      <strong>Nhân vật chính</strong> đang được nhắc tới trong
+                      câu chuyện là Seoyoon - một trong những tân binh rất nổi
+                      bật của ngành công nghiệp <strong>streamer</strong> Hàn
+                      Quốc ở thời điểm hiện tại. Xinh xắn, tài năng và trên hết
+                      là rất biết cách tận dụng lợi thế về{" "}
+                      <strong>nhan sắc gợi cảm</strong> của mình, Seoyoon nhanh
+                      chóng sở hữu lượng fan hâm mộ khổng lồ.{" "}
+                    </p>
+                    <p>
+                      Tuy nhiên, cô nàng cũng đồng thời là cái tên tạo ra vô số
+                      những tranh cãi bởi chính phong cách gợi cảm của bản thân.
+                      Chưa kể, bản thân Seoyoon, sau rất nhiều sự cố cũng chẳng
+                      hề giấu giếm việc mình không hề "ngoan" như nhiều người
+                      vẫn lầm tưởng một chút nào.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-1-1627621346701312500185.jpg"
+                      alt="1, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
+                      note="Seoyoon - cô nàng streamer thường xuyên nhận phải những tranh cãi trái chiều"
+                    />
+                    <p>
+                      Khác hẳn với gương mặt và vẻ đẹp có phần trong sáng, đáng
+                      yêu, cô nàng Seoyoon lại chẳng ngại ngần khi công khai
+                      những hình ảnh không lấy gì làm đẹp lắm của bản thân mình.
+                      Theo đó, trong lần lên sóng làm khách mời của một đồng
+                      nghiệp nam khác, Seoyoon đã khiến cả bạn mình lẫn khán giả
+                      cực kỳ sốc khi thản nhiên lấy ra một điếu thuốc kèm theo
+                      chiếc bật lửa xịn xò rồi châm lửa ngay trên sóng. Hành
+                      động có phần phản cảm này đã khiến cho không ít người phải
+                      nhăn mặt.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-1-16276213481961276204816.jpg"
+                      alt="2, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
+                      note="Hành động hút thuốc trên sóng có phần phản cảm của cô nàng streamer"
+                    />
+                    <p>
+                      Đáng nói hơn, ở thời điểm mới ra mắt, cô nàng{" "}
+                      <strong>streamer</strong> có vẻ ngoài trong sáng này cũng
+                      không ít lần thừa nhận với fan rằng mình chưa bao giờ hút
+                      thuốc trong cuộc đời. Để rồi với{" "}
+                      <strong>hình ảnh phản cảm</strong> ở trên, nó đã trở thành{" "}
+                      <strong>câu nói dối</strong> tồi tệ nhất mà Seoyoon từng
+                      thực hiện.
+                    </p>
+                    <p>
+                      Thậm chí, cô nàng còn tỏ ra khá "chuyên nghiệp" khi thú
+                      nhận với đồng nghiệp rằng đôi lúc vẫn hút thuốc ngay cả
+                      trong quá trình đang lên sóng livestream của mình. Những
+                      lúc như vậy, cô nàng thường sẽ lấy cớ và vào phòng tắm để
+                      thỏa cơn "ghiền". Đó cũng là lý do tại sao, Seoyoon thường
+                      xuyên có những phút "giải lao" trong suốt phiên livestream
+                      của mình.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-2-1627621348276589103041.jpg"
+                      alt="3, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
+                      note="Sở hữu vẻ ngoài trong sáng, dễ thương"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-3-1627621349427259620671.png"
+                      alt="4, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
+                      note="Nhưng chẳng ai ngờ cô nàng streamer này lại dám công khai tật xấu một cách thản nhiên tới vậy"
+                    />
+                    <p>
+                      Thực tế, đây cũng không phải là lần đầu tiên mà Seoyoon
+                      gặp phải những scandal, lùm xùm như vậy trong sự nghiệp.
+                      Trước đó, màn kéo tụt áo khi lên sóng đầy khêu gợi của nữ{" "}
+                      <strong>streamer</strong> này cũng từng tạo ra không ít
+                      những ồn ào.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-4-16276213516981623035451.jpg"
+                      alt="5, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
+                      note="Màn lùm xùm trong quá khứ của Seoyoon với bộ trang phục có phần gợi cảm quá mức"
+                    />
+                    <p>Ảnh: Internet</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    <strong>Nhân vật chính</strong> đang được nhắc tới trong câu
-                    chuyện là Seoyoon - một trong những tân binh rất nổi bật của
-                    ngành công nghiệp <strong>streamer</strong> Hàn Quốc ở thời
-                    điểm hiện tại. Xinh xắn, tài năng và trên hết là rất biết
-                    cách tận dụng lợi thế về <strong>nhan sắc gợi cảm</strong>{" "}
-                    của mình, Seoyoon nhanh chóng sở hữu lượng fan hâm mộ khổng
-                    lồ.{" "}
-                  </p>
-                  <p>
-                    Tuy nhiên, cô nàng cũng đồng thời là cái tên tạo ra vô số
-                    những tranh cãi bởi chính phong cách gợi cảm của bản thân.
-                    Chưa kể, bản thân Seoyoon, sau rất nhiều sự cố cũng chẳng hề
-                    giấu giếm việc mình không hề "ngoan" như nhiều người vẫn lầm
-                    tưởng một chút nào.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-1-1627621346701312500185.jpg"
-                    alt="1, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
-                    note="Seoyoon - cô nàng streamer thường xuyên nhận phải những tranh cãi trái chiều"
-                  />
-                  <p>
-                    Khác hẳn với gương mặt và vẻ đẹp có phần trong sáng, đáng
-                    yêu, cô nàng Seoyoon lại chẳng ngại ngần khi công khai những
-                    hình ảnh không lấy gì làm đẹp lắm của bản thân mình. Theo
-                    đó, trong lần lên sóng làm khách mời của một đồng nghiệp nam
-                    khác, Seoyoon đã khiến cả bạn mình lẫn khán giả cực kỳ sốc
-                    khi thản nhiên lấy ra một điếu thuốc kèm theo chiếc bật lửa
-                    xịn xò rồi châm lửa ngay trên sóng. Hành động có phần phản
-                    cảm này đã khiến cho không ít người phải nhăn mặt.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-1-16276213481961276204816.jpg"
-                    alt="2, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
-                    note="Hành động hút thuốc trên sóng có phần phản cảm của cô nàng streamer"
-                  />
-                  <p>
-                    Đáng nói hơn, ở thời điểm mới ra mắt, cô nàng{" "}
-                    <strong>streamer</strong> có vẻ ngoài trong sáng này cũng
-                    không ít lần thừa nhận với fan rằng mình chưa bao giờ hút
-                    thuốc trong cuộc đời. Để rồi với{" "}
-                    <strong>hình ảnh phản cảm</strong> ở trên, nó đã trở thành{" "}
-                    <strong>câu nói dối</strong> tồi tệ nhất mà Seoyoon từng
-                    thực hiện.
-                  </p>
-                  <p>
-                    Thậm chí, cô nàng còn tỏ ra khá "chuyên nghiệp" khi thú nhận
-                    với đồng nghiệp rằng đôi lúc vẫn hút thuốc ngay cả trong quá
-                    trình đang lên sóng livestream của mình. Những lúc như vậy,
-                    cô nàng thường sẽ lấy cớ và vào phòng tắm để thỏa cơn
-                    "ghiền". Đó cũng là lý do tại sao, Seoyoon thường xuyên có
-                    những phút "giải lao" trong suốt phiên livestream của mình.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-2-1627621348276589103041.jpg"
-                    alt="3, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
-                    note="Sở hữu vẻ ngoài trong sáng, dễ thương"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-3-1627621349427259620671.png"
-                    alt="4, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
-                    note="Nhưng chẳng ai ngờ cô nàng streamer này lại dám công khai tật xấu một cách thản nhiên tới vậy"
-                  />
-                  <p>
-                    Thực tế, đây cũng không phải là lần đầu tiên mà Seoyoon gặp
-                    phải những scandal, lùm xùm như vậy trong sự nghiệp. Trước
-                    đó, màn kéo tụt áo khi lên sóng đầy khêu gợi của nữ{" "}
-                    <strong>streamer</strong> này cũng từng tạo ra không ít
-                    những ồn ào.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/30/photo-4-16276213516981623035451.jpg"
-                    alt="5, streamer,nhan sắc gợi cảm,hình ảnh phản cảm,câu nói dối,đáng lên án,nhân vật chính,"
-                    note="Màn lùm xùm trong quá khứ của Seoyoon với bộ trang phục có phần gợi cảm quá mức"
-                  />
-                  <p>Ảnh: Internet</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

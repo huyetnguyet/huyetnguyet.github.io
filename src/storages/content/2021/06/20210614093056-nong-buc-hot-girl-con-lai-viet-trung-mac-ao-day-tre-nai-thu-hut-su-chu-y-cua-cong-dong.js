@@ -99,196 +99,197 @@ export default function page_20210614093056() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Đinh Triệu Đoan Nghi, sinh năm 2002, đến từ đồng Tháp nổi
+                      lên với khoảnh khắc đẹp như thiên thần khi cô nàng đi cổ
+                      vũ cho đội tuyển U23 Việt Nam cách đây 3 năm. Có hai dòng
+                      máu Việt từ bố và Trung từ mẹ, <strong>hot girl</strong>{" "}
+                      <strong>10X</strong> này sở hữu gương mặt sắc nét, vừa đẹp
+                      nhẹ nhàng nhưng không kém phần quyến rũ.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--10-550813.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <p>
+                      Khác với khi 16 tuổi, giờ đây, <strong>hot girl</strong>{" "}
+                      con lai này đã thay đổi nhiều phần. Vẫn với gương mặt
+                      trong sáng, nhẹ nhàng “nàng thơ” ấy nhưng ngoại hình phổng
+                      phao hơn. Đặc biệt, với vòng một nở nang và làn da trắng
+                      nõn, cô nàng khiến người yêu mến không ngớt lời khen trong
+                      những tấm hình trên trang cá nhân của mình. Dù chỉ "phơi
+                      nắng" nhẹ nhưng nữ sinh Đồng Tháp cũng được cư dân mạng
+                      "thả tim" rần rần.
+                    </p>
+
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--11-844737.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--12-281692.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--13-322800.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--14-801937.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <p>
+                      Theo dõi Facebook của Đoan Nghi, người hâm mộ được thường
+                      xuyên cập nhật những hình ảnh trong cuộc sống của cô nàng:
+                      những chuyến du lịch “chanh sả” hay những ngày bận rộn với
+                      việc làm mẫu ảnh cho các shop thời trang đều được chủ nhân
+                      công khai.
+                    </p>
+
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--15-303653.png")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <p>
+                      Từng được hỏi quan điểm của mình về phẫu thuật thẩm mỹ,
+                      Đoan Nghi thẳng thắn bày tỏ: “Ai cũng mong muốn được hoàn
+                      thiện nhan sắc để trở nên xinh đẹp hơn. Quan trọng là mọi
+                      thứ cần trong chừng mực, nếu lạm dụng dao kéo sẽ dẫn đến
+                      những hệ quả đáng tiếc”.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Bên cạnh đó, nữ sinh khẳng định mình sẽ không “đụng chạm
+                      dao kéo” vì cô đã cảm thấy may mắn khi được sinh ra với
+                      ngoại hình trời cho. Đồng thời, cô nàng bật mí bí kíp để
+                      có được vóc dáng nuột nà của mình là uống nhiều nước, ăn
+                      rau xanh, hoa quả và sinh hoạt khoa học, ngủ nghỉ đúng
+                      giờ.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--16-222721.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--17-514970.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--18-202069.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--19-184231.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <p>
+                      Hình tượng phụ nữ mà Đoan Nghi hướng đến chính là xinh
+                      đẹp, độc lập, tự chủ về mọi mặt trong cuộc sống. Với cô,
+                      một người phụ nữ hiện đại đẹp thôi chưa đủ mà cần biết
+                      cách trau dồi, bồi dưỡng thêm vốn hiểu biết và cư xử có
+                      chừng mực với những người xung quanh.
+                    </p>
+                    <p></p>
+
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--20-847656.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--21-178705.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--22-105757.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--23-683784.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614093056--24-320729.jpg")
+                          .default
+                      }
+                      alt="Hot Girl, Gai Xinh, 10x, Sexy, "
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Đinh Triệu Đoan Nghi, sinh năm 2002, đến từ đồng Tháp nổi
-                    lên với khoảnh khắc đẹp như thiên thần khi cô nàng đi cổ vũ
-                    cho đội tuyển U23 Việt Nam cách đây 3 năm. Có hai dòng máu
-                    Việt từ bố và Trung từ mẹ, <strong>hot girl</strong>{" "}
-                    <strong>10X</strong> này sở hữu gương mặt sắc nét, vừa đẹp
-                    nhẹ nhàng nhưng không kém phần quyến rũ.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--10-550813.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <p>
-                    Khác với khi 16 tuổi, giờ đây, <strong>hot girl</strong> con
-                    lai này đã thay đổi nhiều phần. Vẫn với gương mặt trong
-                    sáng, nhẹ nhàng “nàng thơ” ấy nhưng ngoại hình phổng phao
-                    hơn. Đặc biệt, với vòng một nở nang và làn da trắng nõn, cô
-                    nàng khiến người yêu mến không ngớt lời khen trong những tấm
-                    hình trên trang cá nhân của mình. Dù chỉ "phơi nắng" nhẹ
-                    nhưng nữ sinh Đồng Tháp cũng được cư dân mạng "thả tim" rần
-                    rần.
-                  </p>
 
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--11-844737.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--12-281692.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--13-322800.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--14-801937.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <p>
-                    Theo dõi Facebook của Đoan Nghi, người hâm mộ được thường
-                    xuyên cập nhật những hình ảnh trong cuộc sống của cô nàng:
-                    những chuyến du lịch “chanh sả” hay những ngày bận rộn với
-                    việc làm mẫu ảnh cho các shop thời trang đều được chủ nhân
-                    công khai.
-                  </p>
+                <RandomFeature />
 
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--15-303653.png")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <p>
-                    Từng được hỏi quan điểm của mình về phẫu thuật thẩm mỹ, Đoan
-                    Nghi thẳng thắn bày tỏ: “Ai cũng mong muốn được hoàn thiện
-                    nhan sắc để trở nên xinh đẹp hơn. Quan trọng là mọi thứ cần
-                    trong chừng mực, nếu lạm dụng dao kéo sẽ dẫn đến những hệ
-                    quả đáng tiếc”.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Bên cạnh đó, nữ sinh khẳng định mình sẽ không “đụng chạm dao
-                    kéo” vì cô đã cảm thấy may mắn khi được sinh ra với ngoại
-                    hình trời cho. Đồng thời, cô nàng bật mí bí kíp để có được
-                    vóc dáng nuột nà của mình là uống nhiều nước, ăn rau xanh,
-                    hoa quả và sinh hoạt khoa học, ngủ nghỉ đúng giờ.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--16-222721.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--17-514970.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--18-202069.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--19-184231.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <p>
-                    Hình tượng phụ nữ mà Đoan Nghi hướng đến chính là xinh đẹp,
-                    độc lập, tự chủ về mọi mặt trong cuộc sống. Với cô, một
-                    người phụ nữ hiện đại đẹp thôi chưa đủ mà cần biết cách trau
-                    dồi, bồi dưỡng thêm vốn hiểu biết và cư xử có chừng mực với
-                    những người xung quanh.
-                  </p>
-                  <p></p>
+                <div className="source">Source: {source}</div>
 
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--20-847656.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--21-178705.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--22-105757.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--23-683784.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614093056--24-320729.jpg")
-                        .default
-                    }
-                    alt="Hot Girl, Gai Xinh, 10x, Sexy, "
-                    note=""
-                  />
-                </div>
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

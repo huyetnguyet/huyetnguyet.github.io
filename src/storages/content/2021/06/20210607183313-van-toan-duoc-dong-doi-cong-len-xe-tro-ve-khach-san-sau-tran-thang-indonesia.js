@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -100,62 +104,66 @@ export default function page_20210607183313() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Theo thông tin từ CLB HAGL, tiền đạo Nguyễn Văn Toàn đã bị
-                    đau do pha va cham trong tình huống gần cuối hiệp 1 trận
-                    Việt Nam gặp Indonesia. Văn Toàn bứt tốc, tiếp cận khung
-                    thành Indonesia nhưng cầu thủ số 4 đối phương đã lạo tới húc
-                    ngang khiến Văn Toàn ngã lăn. Anh vẫn có thể tiếp tục thi
-                    đấu nhưng được thay ra khi hiệp 1 kết thúc. Hiệp 2, Công
-                    Phượng vào thay Văn Toàn.
-                  </p>
-                  <p>
-                    Sau trận, Văn Toàn không thể tự di chuyển, anh được Văn Toản
-                    cõng lên xe buýt trở về khách sạn. Các cầu thủ được yêu cầu
-                    không tắm tại phòng thay đồ sân thi đấu nên họ nhanh chóng
-                    thay trang phục rồi lên xe trở về.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-1623097159194116242689.jpg"
-                    alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Van Toan, Cong Phuong, "
-                    note="Văn Toàn được Văn Toản cõng lên xe buýt sau trận (Ảnh: TT)"
-                  />
-                  <p>
-                    Ngay khi hình ảnh Văn Toản cõng Văn Toàn được đăng tải,
-                    nhiều người hâm mộ bày tỏ sự lo lắng cho cầu thủ sinh năm
-                    1996. Văn Toàn đang có 1 phong độ ổn định khi thi đấu cho
-                    HAGL. Lên đội tuyển, anh được HLV Park Hang-seo điền tên
-                    trong đội hình thi đấu chính thức ngay từ hiệp 1 trận gặp
-                    Indonesia và có nhiều tình huống nguy hiểm. Hiện chưa rõ
-                    tình trạng sức khỏe của Văn Toàn.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16230971599242090655739.jpg"
-                    alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Van Toan, Cong Phuong, "
-                    note=""
-                  />
-                  <p>
-                    Ở trận đấu đêm 7/6, đội tuyển Việt Nam đã giành chiến thắng
-                    chung cuộc 4-0 trước Indonesia. Những cầu thủ ghi bàn lần
-                    lượt là Tiến Linh, Quang Hải, Công Phượng, Văn Thanh. Đội
-                    tuyển sẽ nghỉ ngơi 1 ngày sau đó tiếp tục chuẩn bị cho trận
-                    tới gặp Malaysia ngày 11/6.
-                  </p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Theo thông tin từ CLB HAGL, tiền đạo Nguyễn Văn Toàn đã bị
+                      đau do pha va cham trong tình huống gần cuối hiệp 1 trận
+                      Việt Nam gặp Indonesia. Văn Toàn bứt tốc, tiếp cận khung
+                      thành Indonesia nhưng cầu thủ số 4 đối phương đã lạo tới
+                      húc ngang khiến Văn Toàn ngã lăn. Anh vẫn có thể tiếp tục
+                      thi đấu nhưng được thay ra khi hiệp 1 kết thúc. Hiệp 2,
+                      Công Phượng vào thay Văn Toàn.
+                    </p>
+                    <p>
+                      Sau trận, Văn Toàn không thể tự di chuyển, anh được Văn
+                      Toản cõng lên xe buýt trở về khách sạn. Các cầu thủ được
+                      yêu cầu không tắm tại phòng thay đồ sân thi đấu nên họ
+                      nhanh chóng thay trang phục rồi lên xe trở về.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-1623097159194116242689.jpg"
+                      alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Van Toan, Cong Phuong, "
+                      note="Văn Toàn được Văn Toản cõng lên xe buýt sau trận (Ảnh: TT)"
+                    />
+                    <p>
+                      Ngay khi hình ảnh Văn Toản cõng Văn Toàn được đăng tải,
+                      nhiều người hâm mộ bày tỏ sự lo lắng cho cầu thủ sinh năm
+                      1996. Văn Toàn đang có 1 phong độ ổn định khi thi đấu cho
+                      HAGL. Lên đội tuyển, anh được HLV Park Hang-seo điền tên
+                      trong đội hình thi đấu chính thức ngay từ hiệp 1 trận gặp
+                      Indonesia và có nhiều tình huống nguy hiểm. Hiện chưa rõ
+                      tình trạng sức khỏe của Văn Toàn.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/8/photo-1-16230971599242090655739.jpg"
+                      alt="Tuyen Viet Nam Tham Du Vong Loai World Cup 2022, Tuyen Viet Nam, Van Toan, Cong Phuong, "
+                      note=""
+                    />
+                    <p>
+                      Ở trận đấu đêm 7/6, đội tuyển Việt Nam đã giành chiến
+                      thắng chung cuộc 4-0 trước Indonesia. Những cầu thủ ghi
+                      bàn lần lượt là Tiến Linh, Quang Hải, Công Phượng, Văn
+                      Thanh. Đội tuyển sẽ nghỉ ngơi 1 ngày sau đó tiếp tục chuẩn
+                      bị cho trận tới gặp Malaysia ngày 11/6.
+                    </p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

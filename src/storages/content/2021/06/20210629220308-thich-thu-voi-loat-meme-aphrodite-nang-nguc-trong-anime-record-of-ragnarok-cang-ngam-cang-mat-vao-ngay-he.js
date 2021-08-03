@@ -110,88 +110,89 @@ export default function page_20210629220308() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Shuumatsu No Valkyrie - Record Of Ragnarok là tựa
+                      manga/anime vô cùng đình đám thời gian gần đây. Sau khi
+                      anime này lên sóng Netflix, Record Of Ragnarok ngày càng
+                      được khán giả toàn thế giới biết đến ngày càng nhiều và
+                      được đón nhận hết sức nồng nhiệt. Thậm chí nhiều fan anime
+                      cho rằng Record Of Ragnarok sẽ là một trong những siêu
+                      phẩm đáng xem nhất trong năm 2021 này.
+                    </p>
+                    <p>
+                      Anime Record Of Ragnarok lấy chủ đề về những trận đấu giữa
+                      các vị thần mạnh nhất và những con người mạnh nhất, hầu
+                      hết các nhân vật đều là những cái tên được nhiều người
+                      biết đến. Trong số đó, Aphrodite có lẽ là được fan quan
+                      tâm nhiều nhất khi có không ít ảnh chế, meme hài hước lấy
+                      cảm hứng từ vị nữ thần này. Nổi bật nhất có lẽ phải kể đến
+                      trend "nâng ngực" độc đáo được người hâm mộ "fanart" với
+                      các nhân vật từ nhiều manga, anime hay các tựa game nổi
+                      tiếng như Jujutsu Kaisen, Genshin Impact, Naruto, One
+                      Piece. Cùng chúng tôi điểm qua những meme ấn tượng này
+                      nhé!
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou1-162494151203817476037.jpg"
+                      alt="1, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou2-16249415154271808871993.jpg"
+                      alt="2, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou3-16249415240102066915327.jpg"
+                      alt="3, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou4-1624941519386112678441.jpg"
+                      alt="4, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou5-16249415279731775350009.jpg"
+                      alt="5, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou6-1624941531438541435978.jpg"
+                      alt="6, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou8-1624941538705217726908.jpg"
+                      alt="7, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
+                      note=""
+                    />
+                    <p>
+                      Trên đây là những meme về nữ thần sắc đẹp Aphrodite trong
+                      anime Shuumatsu No Valkyrie - Record Of Ragnarok. Các bạn
+                      thấy những hình ảnh này như thế nào, hãy để lại ý kiến của
+                      mình nhé!
+                    </p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Shuumatsu No Valkyrie - Record Of Ragnarok là tựa
-                    manga/anime vô cùng đình đám thời gian gần đây. Sau khi
-                    anime này lên sóng Netflix, Record Of Ragnarok ngày càng
-                    được khán giả toàn thế giới biết đến ngày càng nhiều và được
-                    đón nhận hết sức nồng nhiệt. Thậm chí nhiều fan anime cho
-                    rằng Record Of Ragnarok sẽ là một trong những siêu phẩm đáng
-                    xem nhất trong năm 2021 này.
-                  </p>
-                  <p>
-                    Anime Record Of Ragnarok lấy chủ đề về những trận đấu giữa
-                    các vị thần mạnh nhất và những con người mạnh nhất, hầu hết
-                    các nhân vật đều là những cái tên được nhiều người biết đến.
-                    Trong số đó, Aphrodite có lẽ là được fan quan tâm nhiều nhất
-                    khi có không ít ảnh chế, meme hài hước lấy cảm hứng từ vị nữ
-                    thần này. Nổi bật nhất có lẽ phải kể đến trend "nâng ngực"
-                    độc đáo được người hâm mộ "fanart" với các nhân vật từ nhiều
-                    manga, anime hay các tựa game nổi tiếng như Jujutsu Kaisen,
-                    Genshin Impact, Naruto, One Piece. Cùng chúng tôi điểm qua
-                    những meme ấn tượng này nhé!
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou1-162494151203817476037.jpg"
-                    alt="1, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou2-16249415154271808871993.jpg"
-                    alt="2, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou3-16249415240102066915327.jpg"
-                    alt="3, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou4-1624941519386112678441.jpg"
-                    alt="4, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou5-16249415279731775350009.jpg"
-                    alt="5, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou6-1624941531438541435978.jpg"
-                    alt="6, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/29/aou8-1624941538705217726908.jpg"
-                    alt="7, SHOP ANIME - MANGA,PHONG CÁCH ANIME,TRAILER ANIME,MOVIE ANIME,REVIEW ANIME,ĐÁNH GIÁ ANIME,TV ANIME,GAME ANIME,MANGA ANIME,TOP ANIME,"
-                    note=""
-                  />
-                  <p>
-                    Trên đây là những meme về nữ thần sắc đẹp Aphrodite trong
-                    anime Shuumatsu No Valkyrie - Record Of Ragnarok. Các bạn
-                    thấy những hình ảnh này như thế nào, hãy để lại ý kiến của
-                    mình nhé!
-                  </p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

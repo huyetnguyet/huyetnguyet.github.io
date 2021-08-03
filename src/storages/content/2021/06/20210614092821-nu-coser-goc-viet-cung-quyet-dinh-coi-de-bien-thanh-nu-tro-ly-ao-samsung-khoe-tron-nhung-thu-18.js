@@ -107,95 +107,97 @@ export default function page_20210614092821() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Trong tuần vừa qua, một trong những nhân vật được cư dân
+                      mạng quan tâm nhất chính là nàng nữ trợ lý ảo của{" "}
+                      <strong>Sam</strong>sung với cái tên là Sam. Không chỉ
+                      Samfan mà ngay cả game thủ trên toàn thế giới cũng ngây
+                      ngất với phiên bản nữ trợ lý ảo bốc lửa đến từ{" "}
+                      <strong>Samsung</strong>. Như đã từng giới thiệu tại một
+                      vài bài viết trước đây, Sam được thiết kế bởi công ty kỹ
+                      thuật số tại Brazil có tên là Lightfarm. Nữ trợ lý ảo 3D
+                      này là một phần của một dự án bị từ chối và bị xóa bỏ.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--11-955207.png")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                    <p>
+                      Thế nhưng với sức hấp dẫn rất lớn đến từ mạng xã hội thời
+                      gian gần đây thì có lẽ <strong>Sam</strong>sung sẽ phải
+                      suy nghĩ lại. Nhất là khi cô nàng Sam này đang dần trở nên
+                      phổ biến từ mạng xã hội, game cho đến các trang web “đen”
+                      với lượt tìm kiếm tăng cao. Mới đây, nàng{" "}
+                      <strong>coser</strong> gốc Việt là{" "}
+                      <strong>Hanna Bunny</strong> cũng quyết định “cởi” để hóa
+                      thân thành cô nàng nữ trợ lý ảo của{" "}
+                      <strong>Samsung</strong>. Hãy cùng chiêm ngưỡng tại đây
+                      nhé:
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--10-789976.jpg")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--12-992300.jpg")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--13-name=large")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--14-name=large")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092821--15-name=large")
+                          .default
+                      }
+                      alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Trong tuần vừa qua, một trong những nhân vật được cư dân
-                    mạng quan tâm nhất chính là nàng nữ trợ lý ảo của{" "}
-                    <strong>Sam</strong>sung với cái tên là Sam. Không chỉ
-                    Samfan mà ngay cả game thủ trên toàn thế giới cũng ngây ngất
-                    với phiên bản nữ trợ lý ảo bốc lửa đến từ{" "}
-                    <strong>Samsung</strong>. Như đã từng giới thiệu tại một vài
-                    bài viết trước đây, Sam được thiết kế bởi công ty kỹ thuật
-                    số tại Brazil có tên là Lightfarm. Nữ trợ lý ảo 3D này là
-                    một phần của một dự án bị từ chối và bị xóa bỏ.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--11-955207.png")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                  <p>
-                    Thế nhưng với sức hấp dẫn rất lớn đến từ mạng xã hội thời
-                    gian gần đây thì có lẽ <strong>Sam</strong>sung sẽ phải suy
-                    nghĩ lại. Nhất là khi cô nàng Sam này đang dần trở nên phổ
-                    biến từ mạng xã hội, game cho đến các trang web “đen” với
-                    lượt tìm kiếm tăng cao. Mới đây, nàng <strong>coser</strong>{" "}
-                    gốc Việt là <strong>Hanna Bunny</strong> cũng quyết định
-                    “cởi” để hóa thân thành cô nàng nữ trợ lý ảo của{" "}
-                    <strong>Samsung</strong>. Hãy cùng chiêm ngưỡng tại đây nhé:
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--10-789976.jpg")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--12-992300.jpg")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--13-name=large")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--14-name=large")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092821--15-name=large")
-                        .default
-                    }
-                    alt="Sam, Samsung, Gai Xinh, Cosplayer, images, Hanna Bunny, Coser, "
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

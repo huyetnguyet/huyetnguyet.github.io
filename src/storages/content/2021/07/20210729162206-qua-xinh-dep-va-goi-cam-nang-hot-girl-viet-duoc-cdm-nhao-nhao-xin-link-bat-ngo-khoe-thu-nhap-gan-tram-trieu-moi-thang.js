@@ -99,126 +99,127 @@ export default function page_20210729162206() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Nếu bàn về <strong>gái xinh</strong>, chắc hẳn Việt Nam
+                      chúng ta cũng không hề thua kém nếu phải đặt lên bàn cân
+                      với bất kỳ quốc gia nổi tiếng nào như Nhật Bản, Hàn Quốc,
+                      Thái Lan... Điều này có lẽ cũng chẳng cần phải bàn cãi
+                      nhiều, khi mà chỉ riêng trong những năm gần đây thôi, đã
+                      có khá nhiều cô nàng xuất hiện trên các trang báo quốc tế
+                      và khiến cộng đồng phải xuýt xoa tán thưởng vì nhan sắc
+                      cực phẩm của mình. Và gần đây, lại thêm một cái tên nữa
+                      xuất hiện trong bản danh sách này. Cụ thể, đó là một cô
+                      nàng <strong>hot girl</strong> khá xinh đẹp và cũng có cái
+                      tên dễ thương không kém Đinh Triệu{" "}
+                      <strong>Đoan Nghi</strong>.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266870565781755851606.jpg"
+                      alt="1, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Đoan Nghi - cô nàng hot girl xinh đẹp đang nhận được rất nhiều sự quan tâm"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266870731131913935840.jpg"
+                      alt="2, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Nàng hot girl nhận được rất nhiều lời khen về nhan sắc"
+                    />
+                    <p>
+                      Thực tế, cái tên <strong>Đoan Nghi</strong> đã bắt đầu
+                      được nhiều người chú ý sau những hình ảnh mặc áo dài đầy
+                      xinh đẹp cũng như khi cô nàng xuống phố cổ vũ cho đội
+                      tuyển u23 Việt Nam cách đây ba năm. Tuy nhiên, phải tới
+                      thời điểm hiện tại, nhan sắc của Đoan Nghi dường như mới
+                      đạt tới "độ chín" và thật sự tạo nên một cơn sốt đối với{" "}
+                      <strong>cộng đồng mạng</strong>. Cô nàng{" "}
+                      <strong>hot girl</strong> sinh năm 2002 này nhận được rất
+                      nhiều lời khen ngợi về sự nhẹ nhàng nhưng không kém phần
+                      quyến rũ của mình. Ngoài ra, Đoan Nghi cũng đồng thời được
+                      chú ý nhờ mang trong mình hai dòng máu Việt - Trung.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687249657625826625.jpg"
+                      alt="3, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Nàng hot girl sở hữu vẻ ngoài nhẹ nhàng, ngọt ngào"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687296036497656621.jpg"
+                      alt="4, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Nhưng cũng không kém phần gợi cảm, quyến rũ"
+                    />
+                    <p>
+                      Sự nổi tiếng đôi khi cũng luôn đi kèm với những tai tiếng,
+                      và bản thân <strong>Đoan Nghi</strong> cũng không tránh
+                      khỏi những điều tiêu cực này. Cụ thể, cô nàng thường xuyên
+                      gặp phải những bình luận nghi ngờ về sự thiếu "tự nhiên"
+                      trong nhan sắc của mình. Nàng <strong>hot girl</strong>{" "}
+                      thậm chí còn công khai luôn cả hình ảnh hồi nhỏ của bản
+                      thân cũng như liên tục lên tiếng khẳng định rằng mình
+                      không hề đụng chạm dao kéo.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266874578541473221275.jpg"
+                      alt="5, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Nàng hot girl khẳng định bản thân xinh tự nhiên"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687424461183141924.jpg"
+                      alt="6, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Không hề đụng chạm dao kéo"
+                    />
+                    <p>
+                      Và bên cạnh vẻ ngoài xinh đẹp, quyến rũ ấy, chẳng mấy
+                      người ngờ được rằng cô nàng <strong>hot girl</strong> cũng
+                      rất tài năng. Mới đây, trong một bài phỏng vấn,{" "}
+                      <strong>Đoan Nghi</strong> cũng chia sẻ rằng trước dịch
+                      bệnh, nàng hot girl mặc dù mới 19 tuổi nhưng đã sở hữu thu
+                      nhập cực khủng, có thời điểm lên tới gần trăm triệu mỗi
+                      tháng nhờ vào công việc người mẫu ảnh, quảng cáo cũng như
+                      kinh doanh thời trang. Tuy nhiên, đi kèm với đó, cô nàng
+                      cũng cho rằng nổi tiếng khá "mệt" khi bản thân đã phải
+                      chặn, xóa không biết bao nhiêu những tin nhắn quấy rối,
+                      khiếm nhã. Thậm chí, có những tài khoản còn gửi hẳn hình
+                      "nhạy cảm" cho cô nàng.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266877438521829774275.jpg"
+                      alt="7, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Công việc người mẫu ảnh, kinh doanh thời trang mang tới cho Đoan Nghi thu nhập rất cao"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266877334081929373816.jpg"
+                      alt="8, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Nhưng đồng thời, sự nổi tiếng cũng khiến cô nàng phải nhận vô số những tin nhắn khiếm nhã"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687819255123924759.jpg"
+                      alt="9, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note="Đôi khi còn bị gửi cả những hình ảnh đầy nhạy cảm"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687793287460678808.jpg"
+                      alt="10, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Nếu bàn về <strong>gái xinh</strong>, chắc hẳn Việt Nam
-                    chúng ta cũng không hề thua kém nếu phải đặt lên bàn cân với
-                    bất kỳ quốc gia nổi tiếng nào như Nhật Bản, Hàn Quốc, Thái
-                    Lan... Điều này có lẽ cũng chẳng cần phải bàn cãi nhiều, khi
-                    mà chỉ riêng trong những năm gần đây thôi, đã có khá nhiều
-                    cô nàng xuất hiện trên các trang báo quốc tế và khiến cộng
-                    đồng phải xuýt xoa tán thưởng vì nhan sắc cực phẩm của mình.
-                    Và gần đây, lại thêm một cái tên nữa xuất hiện trong bản
-                    danh sách này. Cụ thể, đó là một cô nàng{" "}
-                    <strong>hot girl</strong> khá xinh đẹp và cũng có cái tên dễ
-                    thương không kém Đinh Triệu <strong>Đoan Nghi</strong>.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266870565781755851606.jpg"
-                    alt="1, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Đoan Nghi - cô nàng hot girl xinh đẹp đang nhận được rất nhiều sự quan tâm"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266870731131913935840.jpg"
-                    alt="2, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Nàng hot girl nhận được rất nhiều lời khen về nhan sắc"
-                  />
-                  <p>
-                    Thực tế, cái tên <strong>Đoan Nghi</strong> đã bắt đầu được
-                    nhiều người chú ý sau những hình ảnh mặc áo dài đầy xinh đẹp
-                    cũng như khi cô nàng xuống phố cổ vũ cho đội tuyển u23 Việt
-                    Nam cách đây ba năm. Tuy nhiên, phải tới thời điểm hiện tại,
-                    nhan sắc của Đoan Nghi dường như mới đạt tới "độ chín" và
-                    thật sự tạo nên một cơn sốt đối với{" "}
-                    <strong>cộng đồng mạng</strong>. Cô nàng{" "}
-                    <strong>hot girl</strong> sinh năm 2002 này nhận được rất
-                    nhiều lời khen ngợi về sự nhẹ nhàng nhưng không kém phần
-                    quyến rũ của mình. Ngoài ra, Đoan Nghi cũng đồng thời được
-                    chú ý nhờ mang trong mình hai dòng máu Việt - Trung.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687249657625826625.jpg"
-                    alt="3, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Nàng hot girl sở hữu vẻ ngoài nhẹ nhàng, ngọt ngào"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687296036497656621.jpg"
-                    alt="4, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Nhưng cũng không kém phần gợi cảm, quyến rũ"
-                  />
-                  <p>
-                    Sự nổi tiếng đôi khi cũng luôn đi kèm với những tai tiếng,
-                    và bản thân <strong>Đoan Nghi</strong> cũng không tránh khỏi
-                    những điều tiêu cực này. Cụ thể, cô nàng thường xuyên gặp
-                    phải những bình luận nghi ngờ về sự thiếu "tự nhiên" trong
-                    nhan sắc của mình. Nàng <strong>hot girl</strong> thậm chí
-                    còn công khai luôn cả hình ảnh hồi nhỏ của bản thân cũng như
-                    liên tục lên tiếng khẳng định rằng mình không hề đụng chạm
-                    dao kéo.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266874578541473221275.jpg"
-                    alt="5, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Nàng hot girl khẳng định bản thân xinh tự nhiên"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687424461183141924.jpg"
-                    alt="6, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Không hề đụng chạm dao kéo"
-                  />
-                  <p>
-                    Và bên cạnh vẻ ngoài xinh đẹp, quyến rũ ấy, chẳng mấy người
-                    ngờ được rằng cô nàng <strong>hot girl</strong> cũng rất tài
-                    năng. Mới đây, trong một bài phỏng vấn,{" "}
-                    <strong>Đoan Nghi</strong> cũng chia sẻ rằng trước dịch
-                    bệnh, nàng hot girl mặc dù mới 19 tuổi nhưng đã sở hữu thu
-                    nhập cực khủng, có thời điểm lên tới gần trăm triệu mỗi
-                    tháng nhờ vào công việc người mẫu ảnh, quảng cáo cũng như
-                    kinh doanh thời trang. Tuy nhiên, đi kèm với đó, cô nàng
-                    cũng cho rằng nổi tiếng khá "mệt" khi bản thân đã phải chặn,
-                    xóa không biết bao nhiêu những tin nhắn quấy rối, khiếm nhã.
-                    Thậm chí, có những tài khoản còn gửi hẳn hình "nhạy cảm" cho
-                    cô nàng.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266877438521829774275.jpg"
-                    alt="7, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Công việc người mẫu ảnh, kinh doanh thời trang mang tới cho Đoan Nghi thu nhập rất cao"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-16266877334081929373816.jpg"
-                    alt="8, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Nhưng đồng thời, sự nổi tiếng cũng khiến cô nàng phải nhận vô số những tin nhắn khiếm nhã"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687819255123924759.jpg"
-                    alt="9, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note="Đôi khi còn bị gửi cả những hình ảnh đầy nhạy cảm"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/photo-1-1626687793287460678808.jpg"
-                    alt="10, GÁI XINH,HOT GIRL,CỘNG ĐỒNG MẠNG,ĐOAN NGHI,"
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

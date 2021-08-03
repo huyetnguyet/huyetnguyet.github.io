@@ -112,110 +112,111 @@ export default function page_20210729162423() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Những ngày cuối tháng 7 này là khoảng thời gian mà tin vui
+                      ập đến với nhóm sáng lập <strong>game</strong>{" "}
+                      <strong>Axie Infinity</strong> khi mà tựa game này đang
+                      trở thành hiện tượng toàn cầu với hàng trăm nghìn game thủ
+                      từ khắp nơi trên thế giới. Tổng{" "}
+                      <strong>giá trị vốn hóa</strong> của{" "}
+                      <strong>dự án game</strong> tiền ảo này có những lúc đạt
+                      tới 2,7 tỷ USD. Thành công này còn được bản tin của Chuyển
+                      động 24h đăng tải, càng khiến cộng đồng game nức nở.
+                    </p>
+
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-1-16272869695311005334810.jpg"
+                      alt="2, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
+                      note=""
+                    />
+                    <p>
+                      Tựa <strong>game</strong> do người Việt sáng tạo vượt mốc{" "}
+                      <strong>2 tỷ USD</strong> - <strong>VTV</strong>24
+                    </p>
+
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-3-16272869696371746171328.png"
+                      alt="4, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
+                      note=""
+                    />
+                    <p>
+                      Theo như <strong>Đài truyền hình quốc gia</strong> đưa
+                      tin, <strong>Axie Infinity</strong> là tựa{" "}
+                      <strong>game</strong> Việt đang khiến cả thế giới "chao
+                      đảo", giá trị game tăng chóng mặt 600% chỉ trong tháng 7.
+                      Đặc biệt tăng mạnh từ ngày 7/7,{" "}
+                      <strong>giá trị vốn hóa</strong> là 0,6 tỷ đô, một tuần
+                      sau tăng gấp đôi và tính đến ngày 23/7 là 2,4 tỷ đô.
+                    </p>
+                    <p>
+                      Lý giải sự cuốn hút <strong>Axie Infinity</strong>, được
+                      biết đây là trò chơi có sự kết hợp giữa{" "}
+                      <strong>game</strong> và tiền ảo, 2 chủ đề hết sức hấp
+                      dẫn, đặc biệt với người trẻ. Trong game, bối cảnh là một
+                      vũ trụ của các thú cưng (được gọi là các axie). Người chơi
+                      sẽ điều khiển đội quân axie của mình để chiến đấu với
+                      những người chơi khác và nhận về phần thưởng. Họ cũng có
+                      thể lai tạo các axie để cho ra đời những nhân vật mới và
+                      bán các axie đó để kiếm lời.
+                    </p>
+                    <p>
+                      Bên cạnh đó, đồ họa đẹp và <strong>game</strong>play hấp
+                      dẫn, phát triển trên nền tảng Blockchain nên người dùng có
+                      thể trao đổi, mua bán các nhân vật với nhau và quy điểm
+                      thưởng trong game ra tiền bằng việc bán cho các người chơi
+                      khác. Chơi game nhưng vẫn kiếm được tiền, đó là lý do{" "}
+                      <strong>Axie Infinity</strong> đang trở thành một hiện
+                      tượng toàn cầu.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-1-1627286967903452974596.png"
+                      alt="1, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
+                      note="Làng game chúc mừng sự thành công của nhà phát triển người Việt."
+                    />
+                    <p>
+                      Thành công của tựa <strong>game</strong> cán mốc tỷ đô này
+                      sẽ giúp Việt Nam có một <strong>tỷ phú công nghệ</strong>{" "}
+                      đầu tiên là anh Nguyễn Thành Trung (1992), "cha đẻ" game
+                      Việt hấp dẫn này.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-2-16272869695861832427659.png"
+                      alt="3, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
+                      note=""
+                    />
+                    <p>
+                      Trước khi sáng lập Sky Mavis và bắt tay vào gây dựng tựa{" "}
+                      <strong>game</strong> <strong>Axie Infinity</strong>, tài
+                      năng này chính là <strong>nhà sáng lập</strong> kiêm Giám
+                      đốc công nghệ của Lozi - mạng xã hội chia sẻ địa điểm ăn
+                      uống. Anh còn từng làm việc tại TrustSocial - nhà cung cấp
+                      hồ sơ rủi ro tín dụng lớn nhất châu Á với hơn 1 tỷ người
+                      dùng tại Ấn Độ, Indonesia, Việt Nam và Philippines. Là
+                      nhân sự của Anduin Transactions - một{" "}
+                      <strong>công ty công nghệ</strong> tài chính có trụ sở đặt
+                      tại Mỹ.
+                    </p>
+                    <p>Ảnh: Internet</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Những ngày cuối tháng 7 này là khoảng thời gian mà tin vui
-                    ập đến với nhóm sáng lập <strong>game</strong>{" "}
-                    <strong>Axie Infinity</strong> khi mà tựa game này đang trở
-                    thành hiện tượng toàn cầu với hàng trăm nghìn game thủ từ
-                    khắp nơi trên thế giới. Tổng{" "}
-                    <strong>giá trị vốn hóa</strong> của{" "}
-                    <strong>dự án game</strong> tiền ảo này có những lúc đạt tới
-                    2,7 tỷ USD. Thành công này còn được bản tin của Chuyển động
-                    24h đăng tải, càng khiến cộng đồng game nức nở.
-                  </p>
 
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-1-16272869695311005334810.jpg"
-                    alt="2, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
-                    note=""
-                  />
-                  <p>
-                    Tựa <strong>game</strong> do người Việt sáng tạo vượt mốc{" "}
-                    <strong>2 tỷ USD</strong> - <strong>VTV</strong>24
-                  </p>
+                <RandomFeature />
 
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-3-16272869696371746171328.png"
-                    alt="4, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
-                    note=""
-                  />
-                  <p>
-                    Theo như <strong>Đài truyền hình quốc gia</strong> đưa tin,{" "}
-                    <strong>Axie Infinity</strong> là tựa <strong>game</strong>{" "}
-                    Việt đang khiến cả thế giới "chao đảo", giá trị game tăng
-                    chóng mặt 600% chỉ trong tháng 7. Đặc biệt tăng mạnh từ ngày
-                    7/7, <strong>giá trị vốn hóa</strong> là 0,6 tỷ đô, một tuần
-                    sau tăng gấp đôi và tính đến ngày 23/7 là 2,4 tỷ đô.
-                  </p>
-                  <p>
-                    Lý giải sự cuốn hút <strong>Axie Infinity</strong>, được
-                    biết đây là trò chơi có sự kết hợp giữa{" "}
-                    <strong>game</strong> và tiền ảo, 2 chủ đề hết sức hấp dẫn,
-                    đặc biệt với người trẻ. Trong game, bối cảnh là một vũ trụ
-                    của các thú cưng (được gọi là các axie). Người chơi sẽ điều
-                    khiển đội quân axie của mình để chiến đấu với những người
-                    chơi khác và nhận về phần thưởng. Họ cũng có thể lai tạo các
-                    axie để cho ra đời những nhân vật mới và bán các axie đó để
-                    kiếm lời.
-                  </p>
-                  <p>
-                    Bên cạnh đó, đồ họa đẹp và <strong>game</strong>play hấp
-                    dẫn, phát triển trên nền tảng Blockchain nên người dùng có
-                    thể trao đổi, mua bán các nhân vật với nhau và quy điểm
-                    thưởng trong game ra tiền bằng việc bán cho các người chơi
-                    khác. Chơi game nhưng vẫn kiếm được tiền, đó là lý do{" "}
-                    <strong>Axie Infinity</strong> đang trở thành một hiện tượng
-                    toàn cầu.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-1-1627286967903452974596.png"
-                    alt="1, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
-                    note="Làng game chúc mừng sự thành công của nhà phát triển người Việt."
-                  />
-                  <p>
-                    Thành công của tựa <strong>game</strong> cán mốc tỷ đô này
-                    sẽ giúp Việt Nam có một <strong>tỷ phú công nghệ</strong>{" "}
-                    đầu tiên là anh Nguyễn Thành Trung (1992), "cha đẻ" game
-                    Việt hấp dẫn này.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/26/photo-2-16272869695861832427659.png"
-                    alt="3, VTV,game,Axie Infinity,dự án game,2 tỷ usd,Đài truyền hình quốc gia,Nhà sáng lập,công ty công nghệ,nhà phát triển,giá trị vốn hóa,tổng giá trị,tỷ phú công nghệ,"
-                    note=""
-                  />
-                  <p>
-                    Trước khi sáng lập Sky Mavis và bắt tay vào gây dựng tựa{" "}
-                    <strong>game</strong> <strong>Axie Infinity</strong>, tài
-                    năng này chính là <strong>nhà sáng lập</strong> kiêm Giám
-                    đốc công nghệ của Lozi - mạng xã hội chia sẻ địa điểm ăn
-                    uống. Anh còn từng làm việc tại TrustSocial - nhà cung cấp
-                    hồ sơ rủi ro tín dụng lớn nhất châu Á với hơn 1 tỷ người
-                    dùng tại Ấn Độ, Indonesia, Việt Nam và Philippines. Là nhân
-                    sự của Anduin Transactions - một{" "}
-                    <strong>công ty công nghệ</strong> tài chính có trụ sở đặt
-                    tại Mỹ.
-                  </p>
-                  <p>Ảnh: Internet</p>
-                </div>
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

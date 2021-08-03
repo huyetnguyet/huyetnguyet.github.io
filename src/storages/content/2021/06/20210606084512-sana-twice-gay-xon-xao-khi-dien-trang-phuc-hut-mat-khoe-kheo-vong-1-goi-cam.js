@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -109,79 +113,83 @@ export default function page_20210606084512() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    TWICE sắp trở lại với album mới Taste Of Love nên công ty
-                    chủ quản JYP cũng tích cực để 9 cô gái tham gia quảng bá
-                    trong các chương trình truyền hình thực tế. Sana & Dahyun
-                    chính là 2 cô nàng mở màn đầu tiên khi xuất hiện trong show
-                    thực tế hài hước Amazing Saturday cùng các đàn anh, đàn chị
-                    Taeyeon (SNSD), Key (SHINee)...
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/photo2021-06-0610-55-43-16229517521241808648820.jpg"
-                    alt="Sana, Twice, Sao Han, Idol, Kpop, "
-                    note=""
-                  />
-                  <p>
-                    Nổi bần bật trong bộ trang phục màu đỏ, 2 mỹ nhân TWICE đã
-                    tương tác rất tốt trong chương trình. Đặc biệt, Sana được
-                    stylist cho diện một bộ đồ khoe khéo được vòng 1 gợi cảm.{" "}
-                  </p>
-                  <p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      TWICE sắp trở lại với album mới Taste Of Love nên công ty
+                      chủ quản JYP cũng tích cực để 9 cô gái tham gia quảng bá
+                      trong các chương trình truyền hình thực tế. Sana & Dahyun
+                      chính là 2 cô nàng mở màn đầu tiên khi xuất hiện trong
+                      show thực tế hài hước Amazing Saturday cùng các đàn anh,
+                      đàn chị Taeyeon (SNSD), Key (SHINee)...
+                    </p>
                     <ContentImage
-                      src="https://kenh14cdn.com/203336854389633024/2021/6/6/ezgifcom-gif-maker-16229517268581135633449.gif"
-                      alt="Sana, Twice, Sao Han, Idol, Kpop, "
-                      note="Sana được diện trang phục khoe khéo vòng 1"
-                    />
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/203336854389633024/2021/6/6/ezgifcom-gif-maker-1-162295172680979624917.gif"
-                    alt="Sana, Twice, Sao Han, Idol, Kpop, "
-                    note=""
-                  />
-                  <p>
-                    Vốn là một mỹ nhân được đánh giá đa phong cách trong TWICE,
-                    muốn đáng yêu hay quyến rũ cũng đều có tất, hình ảnh này của
-                    Sana khiến các fan không ngừng thích thú.
-                  </p>
-                  <p>
-                    <ContentImage
-                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/sanatwicejypent429457317501125-1622951862800815210565.jpg"
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/photo2021-06-0610-55-43-16229517521241808648820.jpg"
                       alt="Sana, Twice, Sao Han, Idol, Kpop, "
                       note=""
                     />
+                    <p>
+                      Nổi bần bật trong bộ trang phục màu đỏ, 2 mỹ nhân TWICE đã
+                      tương tác rất tốt trong chương trình. Đặc biệt, Sana được
+                      stylist cho diện một bộ đồ khoe khéo được vòng 1 gợi cảm.{" "}
+                    </p>
+                    <p>
+                      <ContentImage
+                        src="https://kenh14cdn.com/203336854389633024/2021/6/6/ezgifcom-gif-maker-16229517268581135633449.gif"
+                        alt="Sana, Twice, Sao Han, Idol, Kpop, "
+                        note="Sana được diện trang phục khoe khéo vòng 1"
+                      />
+                    </p>
                     <ContentImage
-                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/qxninnazpvh31-1622951942307339702396.jpg"
+                      src="https://kenh14cdn.com/203336854389633024/2021/6/6/ezgifcom-gif-maker-1-162295172680979624917.gif"
                       alt="Sana, Twice, Sao Han, Idol, Kpop, "
                       note=""
                     />
-                    <ContentImage
-                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/2222286019067323305222471906153005431656325578752n-1622951862803149823242.jpg"
-                      alt="Sana, Twice, Sao Han, Idol, Kpop, "
-                      note="Sana là một mỹ nhân đa phong cách của TWICE"
-                    />
-                    <ContentImage
-                      src="https://nv.vi-serve.com/vis-media/472/931/ZXjVJnABtstz7zUe7Gwo_720p.MP4"
-                      alt="Sana, Twice, Sao Han, Idol, Kpop, "
-                      note=""
-                    />
-                  </p>
-                  <p>Ảnh: Internet</p>
+                    <p>
+                      Vốn là một mỹ nhân được đánh giá đa phong cách trong
+                      TWICE, muốn đáng yêu hay quyến rũ cũng đều có tất, hình
+                      ảnh này của Sana khiến các fan không ngừng thích thú.
+                    </p>
+                    <p>
+                      <ContentImage
+                        src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/sanatwicejypent429457317501125-1622951862800815210565.jpg"
+                        alt="Sana, Twice, Sao Han, Idol, Kpop, "
+                        note=""
+                      />
+                      <ContentImage
+                        src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/qxninnazpvh31-1622951942307339702396.jpg"
+                        alt="Sana, Twice, Sao Han, Idol, Kpop, "
+                        note=""
+                      />
+                      <ContentImage
+                        src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/6/2222286019067323305222471906153005431656325578752n-1622951862803149823242.jpg"
+                        alt="Sana, Twice, Sao Han, Idol, Kpop, "
+                        note="Sana là một mỹ nhân đa phong cách của TWICE"
+                      />
+                      <ContentImage
+                        src="https://nv.vi-serve.com/vis-media/472/931/ZXjVJnABtstz7zUe7Gwo_720p.MP4"
+                        alt="Sana, Twice, Sao Han, Idol, Kpop, "
+                        note=""
+                      />
+                    </p>
+                    <p>Ảnh: Internet</p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

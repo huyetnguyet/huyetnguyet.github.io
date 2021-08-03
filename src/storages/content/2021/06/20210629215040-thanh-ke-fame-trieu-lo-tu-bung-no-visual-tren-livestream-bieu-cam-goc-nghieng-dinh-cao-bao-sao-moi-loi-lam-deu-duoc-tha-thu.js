@@ -104,108 +104,108 @@ export default function page_20210629215040() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Thời gian qua, <strong>Triệu Lộ Tư</strong> tiếp tục vướng
+                      vào loạt thị phi mới, từ việc "hóng hớt" phốt của thiếu
+                      gia Vương Tư Thông cho tới drama ấn like các bài viết chê
+                      bai, hạ bệ đồng nghiệp Cúc Tịnh Y. Lùm xùm này khiến cho
+                      nữ diễn viên bị gán danh xưng "Thánh ké fame", danh tiếng
+                      bị ảnh hưởng không hề nhỏ.
+                    </p>
+                    <p>
+                      Vậy nhưng, không thể phủ nhận được sức hút của cô nàng
+                      "trà xanh" này trên bình diện MXH. Mới đây,{" "}
+                      <strong>Triệu Lộ Tư</strong> khiến fandom "xỉu up xỉu
+                      down" với màn livestream giao lưu cùng khán giả. Không cần
+                      make up hay váy vóc cầu kỳ, chính nhan sắc lẫn biểu cảm
+                      của cô nàng khiến dân tình phải xiêu lòng. Bảo sao Triệu
+                      Lộ Tư càng ngày càng nổi tiếng, được tha thứ mọi lỗi lầm
+                      chỉ với visual trong trẻo không tì vết này.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--10-41668.jpeg")
+                          .default
+                      }
+                      alt="1, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note="Triệu Lộ Tư thách thức camera livestream, sẵn sàng dí sát gương mặt vào ống kính mà vẫn xinh như công chúa"
+                    />
+                    <p>
+                      Khoảnh khắc cô nàng nhăn mặt đáng yêu "muốn xỉu" làm các
+                      fanboy xao xuyến
+                    </p>
+                    <p>
+                      Cô nàng còn chiều lòng các fan bằng điệu nhảy siêu đáng
+                      yêu và nhắng nhít
+                    </p>
+                    <p>
+                      Trên Weibo, các fan dành nhiều lời ngợi khen cho nét đẹp
+                      trong trẻo của <strong>Triệu Lộ Tư</strong>: "Tư Tư xinh
+                      quá đi mất", "Nhan sắc khiến ai cũng phải ghen tị", "Nói
+                      gì thì nói, Triệu Lộ Tư quá xinh", "Nữ thần không 'dao
+                      kéo' của lòng tôi"...
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--12-890772.gif")
+                          .default
+                      }
+                      alt="2, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--13-03256.jpeg")
+                          .default
+                      }
+                      alt="3, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--14-87691.jpeg")
+                          .default
+                      }
+                      alt="4, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note="Gạt bỏ mọi scandal, Triệu Lộ Tư quả thật là 1 nhân vật rất có sức hút với truyền thông và người hâm mộ"
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--11-089240.gif")
+                          .default
+                      }
+                      alt="5, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210629215040--15-35021.jpeg")
+                          .default
+                      }
+                      alt="6, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
+                      note=""
+                    />
+                    <p>Nguồn: Sohu</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Thời gian qua, <strong>Triệu Lộ Tư</strong> tiếp tục vướng
-                    vào loạt thị phi mới, từ việc "hóng hớt" phốt của thiếu gia
-                    Vương Tư Thông cho tới drama ấn like các bài viết chê bai,
-                    hạ bệ đồng nghiệp Cúc Tịnh Y. Lùm xùm này khiến cho nữ diễn
-                    viên bị gán danh xưng "Thánh ké fame", danh tiếng bị ảnh
-                    hưởng không hề nhỏ.
-                  </p>
-                  <p>
-                    Vậy nhưng, không thể phủ nhận được sức hút của cô nàng "trà
-                    xanh" này trên bình diện MXH. Mới đây,{" "}
-                    <strong>Triệu Lộ Tư</strong> khiến fandom "xỉu up xỉu down"
-                    với màn livestream giao lưu cùng khán giả. Không cần make up
-                    hay váy vóc cầu kỳ, chính nhan sắc lẫn biểu cảm của cô nàng
-                    khiến dân tình phải xiêu lòng. Bảo sao Triệu Lộ Tư càng ngày
-                    càng nổi tiếng, được tha thứ mọi lỗi lầm chỉ với visual
-                    trong trẻo không tì vết này.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--10-41668.jpeg")
-                        .default
-                    }
-                    alt="1, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note="Triệu Lộ Tư thách thức camera livestream, sẵn sàng dí sát gương mặt vào ống kính mà vẫn xinh như công chúa"
-                  />
-                  <p>
-                    Khoảnh khắc cô nàng nhăn mặt đáng yêu "muốn xỉu" làm các
-                    fanboy xao xuyến
-                  </p>
-                  <p>
-                    Cô nàng còn chiều lòng các fan bằng điệu nhảy siêu đáng yêu
-                    và nhắng nhít
-                  </p>
-                  <p>
-                    Trên Weibo, các fan dành nhiều lời ngợi khen cho nét đẹp
-                    trong trẻo của <strong>Triệu Lộ Tư</strong>: "Tư Tư xinh quá
-                    đi mất", "Nhan sắc khiến ai cũng phải ghen tị", "Nói gì thì
-                    nói, Triệu Lộ Tư quá xinh", "Nữ thần không 'dao kéo' của
-                    lòng tôi"...
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--12-890772.gif")
-                        .default
-                    }
-                    alt="2, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--13-03256.jpeg")
-                        .default
-                    }
-                    alt="3, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--14-87691.jpeg")
-                        .default
-                    }
-                    alt="4, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note="Gạt bỏ mọi scandal, Triệu Lộ Tư quả thật là 1 nhân vật rất có sức hút với truyền thông và người hâm mộ"
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--11-089240.gif")
-                        .default
-                    }
-                    alt="5, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210629215040--15-35021.jpeg")
-                        .default
-                    }
-                    alt="6, Triệu Lộ Tư,sao Hoa ngữ,Mỹ nhân Hoa ngữ,nhan sắc mỹ nhân Hoa ngữ,"
-                    note=""
-                  />
-                  <p>Nguồn: Sohu</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

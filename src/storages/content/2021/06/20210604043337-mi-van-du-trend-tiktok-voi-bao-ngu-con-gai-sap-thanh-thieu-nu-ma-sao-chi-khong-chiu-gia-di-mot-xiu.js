@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -116,36 +120,40 @@ export default function page_20210604043337() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Mi Vân là tượng đài nhan sắc của giới hot girl Hà thành thì
-                    ai cũng rõ rồi. Đến hiện tại, ngay cả khi đã 33 tuổi và trở
-                    thành mẹ 2 con, vẻ đẹp không tuổi của cô vẫn khiến dân tình
-                    điêu đứng. Thậm chí nếu nói Mi Vân chẳng khác gì hồi mới
-                    ngoài đôi mươi cũng chẳng mấy người phản đối.
-                  </p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Mi Vân là tượng đài nhan sắc của giới hot girl Hà thành
+                      thì ai cũng rõ rồi. Đến hiện tại, ngay cả khi đã 33 tuổi
+                      và trở thành mẹ 2 con, vẻ đẹp không tuổi của cô vẫn khiến
+                      dân tình điêu đứng. Thậm chí nếu nói Mi Vân chẳng khác gì
+                      hồi mới ngoài đôi mươi cũng chẳng mấy người phản đối.
+                    </p>
 
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/15/12974030113181736618716562919128715140970729n-1615789595911379304573.jpg"
-                    alt="Mi Van, Hot Girl, Hot Girl Doi Dau, Con Gai Mi Van, Chi Dep, "
-                    note=""
-                  />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/3/15/12974030113181736618716562919128715140970729n-1615789595911379304573.jpg"
+                      alt="Mi Van, Hot Girl, Hot Girl Doi Dau, Con Gai Mi Van, Chi Dep, "
+                      note=""
+                    />
 
-                  <p>Ảnh: Tổng hợp</p>
+                    <p>Ảnh: Tổng hợp</p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

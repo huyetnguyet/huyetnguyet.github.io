@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -101,127 +105,132 @@ export default function page_20210608140402() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Từng có thời gian “làm mưa làm gió” cộng đồng game thủ với
-                    nick name <strong>Trang Banana</strong>, nữ{" "}
-                    <strong>streamer</strong> tên thật là Hà Kiều Trang, sinh
-                    năm 1998 được fan chú ý với sự phóng khoáng, táo bạo thông
-                    qua những bộ ảnh <strong>sexy</strong>, nóng bỏng.{" "}
-                  </p>
-                  <p>
-                    Có nhiều cơ hội mới tìm đến sau khi nổi tiếng, cô nàng này
-                    tiến thân thử sức nhiều hơn: mẫu ảnh, diễn viên..., vậy nên
-                    cũng không thể chăm chút cho những giờ live của mình như
-                    trước được nữa. Tuy vậy, cô vẫn là nữ{" "}
-                    <strong>streamer</strong> Liên Quân Mobile người hâm mộ quan
-                    tâm.
-                  </p>
-                  <p>
-                    Cập nhật những hình ảnh mới nhất của cô nàng này từ Facebook
-                    cá nhân, fan của Trang Chuối không khó để nhận ra rằng, nữ{" "}
-                    <strong>streamer</strong> này đã thay đổi nhiều. Không còn
-                    là <strong>hot girl</strong> bị gắn mác “khoe thân” giờ đây
-                    cô nàng mang vẻ đẹp nhẹ nhàng. Không chạy theo hình mẫu
-                    những chân dài có đường cong chữ S, Kiều Trang tự tin với sự
-                    mũm mĩm, dễ thương của mình.
-                  </p>
-                  <p>
-                    Dẫu vậy thì với gương mặt má “bánh bao” này, cô nàng bị nhầm
-                    tưởng có can thiệp “dao kéo”, tiêm má baby.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-16231487362601731458250.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note="Đây là lý do của sự mũm mĩm."
-                  />
-                  <p>
-                    Hoạt động trong lĩnh vực không thiếu drama, với cá tính của
-                    mình, <strong>Trang Banana</strong> quan niệm: Tiền bạc phân
-                    minh, ái tình dứt khoát. Với Trang, mọi lời gạ gẫm đều có
-                    chung một kết quả là số 0. Cô cũng chia sẻ cách xử lý khi bị
-                    gạ gẫm là vẫn lịch sự từ chối nhẹ nhàng. Nhưng nếu đối tượng
-                    không còn tôn trọng nữa thì sẽ cô nàng nghiêm túc dằn mặt.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-162314875179286100347.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19019347129267598775671134010843828094984770n-16231489822501263801521.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/18651190329267597675671242337274566143886459n-16231489822732018001530.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17186979828963067372790943708196124820257641n-16231489987511450456599.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17189780828963067606124255368353556461514250n-16231489987711620360866.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19420506918147757520276054698773308224438327n-16231492442091326844754.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19273846218147758120275992542766511337228339n-1623149244235660859917.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19562069418147757320276073359700782585064632n-16231492442751930766418.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17378315328991942569903421609749206445854224n-16231490169851182684987.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17407081528991942969903385841777638180627439n-1623149017006933788940.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/6/8/screenshot1132-16231490488541303962892.png"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/6/8/screenshot1133-1623149056027955755972.png"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-16231488381731788357195.jpg"
-                    alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
-                    note=""
-                  />
+                  <div className="contentBodyLeft">
+                    <p>
+                      Từng có thời gian “làm mưa làm gió” cộng đồng game thủ với
+                      nick name <strong>Trang Banana</strong>, nữ{" "}
+                      <strong>streamer</strong> tên thật là Hà Kiều Trang, sinh
+                      năm 1998 được fan chú ý với sự phóng khoáng, táo bạo thông
+                      qua những bộ ảnh <strong>sexy</strong>, nóng bỏng.{" "}
+                    </p>
+                    <p>
+                      Có nhiều cơ hội mới tìm đến sau khi nổi tiếng, cô nàng này
+                      tiến thân thử sức nhiều hơn: mẫu ảnh, diễn viên..., vậy
+                      nên cũng không thể chăm chút cho những giờ live của mình
+                      như trước được nữa. Tuy vậy, cô vẫn là nữ{" "}
+                      <strong>streamer</strong> Liên Quân Mobile người hâm mộ
+                      quan tâm.
+                    </p>
+                    <p>
+                      Cập nhật những hình ảnh mới nhất của cô nàng này từ
+                      Facebook cá nhân, fan của Trang Chuối không khó để nhận ra
+                      rằng, nữ <strong>streamer</strong> này đã thay đổi nhiều.
+                      Không còn là <strong>hot girl</strong> bị gắn mác “khoe
+                      thân” giờ đây cô nàng mang vẻ đẹp nhẹ nhàng. Không chạy
+                      theo hình mẫu những chân dài có đường cong chữ S, Kiều
+                      Trang tự tin với sự mũm mĩm, dễ thương của mình.
+                    </p>
+                    <p>
+                      Dẫu vậy thì với gương mặt má “bánh bao” này, cô nàng bị
+                      nhầm tưởng có can thiệp “dao kéo”, tiêm má baby.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-16231487362601731458250.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note="Đây là lý do của sự mũm mĩm."
+                    />
+                    <p>
+                      Hoạt động trong lĩnh vực không thiếu drama, với cá tính
+                      của mình, <strong>Trang Banana</strong> quan niệm: Tiền
+                      bạc phân minh, ái tình dứt khoát. Với Trang, mọi lời gạ
+                      gẫm đều có chung một kết quả là số 0. Cô cũng chia sẻ cách
+                      xử lý khi bị gạ gẫm là vẫn lịch sự từ chối nhẹ nhàng.
+                      Nhưng nếu đối tượng không còn tôn trọng nữa thì sẽ cô nàng
+                      nghiêm túc dằn mặt.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-162314875179286100347.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19019347129267598775671134010843828094984770n-16231489822501263801521.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/18651190329267597675671242337274566143886459n-16231489822732018001530.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17186979828963067372790943708196124820257641n-16231489987511450456599.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17189780828963067606124255368353556461514250n-16231489987711620360866.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19420506918147757520276054698773308224438327n-16231492442091326844754.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19273846218147758120275992542766511337228339n-1623149244235660859917.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/19562069418147757320276073359700782585064632n-16231492442751930766418.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17378315328991942569903421609749206445854224n-16231490169851182684987.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/6/8/17407081528991942969903385841777638180627439n-1623149017006933788940.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/6/8/screenshot1132-16231490488541303962892.png"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/6/8/screenshot1133-1623149056027955755972.png"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/8/photo-1-16231488381731788357195.jpg"
+                      alt="Streamer, Trang Banana, Lien Quan Mobile, Hot Girl, Sexy, "
+                      note=""
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

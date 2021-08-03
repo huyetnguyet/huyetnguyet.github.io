@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -102,62 +106,66 @@ export default function page_20210607003730() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Trong tập phát sóng mới nhất, các thành viên Running Man đã
-                    tham gia cuộc đua "3 bữa phục vụ Yoo Jae Suk" theo đúng
-                    nguyện vọng của "MC quốc dân" trong tập trước đó. Đặc biệt,
-                    trong một phần trò chơi giữa 9 thành viên, fan
-                    <strong> SpartAce</strong>
-                  </p>
-                  <p>
-                    Cụ thể, theo luật từ chương trình, mỗi thành viên sẽ theo
-                    thứ tự nhảy vào các vị trí ngẫu nhiên trên thảm. Trong
-                    trường hợp đạp trúng giày đối thủ sẽ có quyền "hoạ mặt" cho
-                    thành viên đó, nếu ngã sẽ bị loại. Sau khi
-                    <strong> Lee Kwang Soo</strong>
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg"
-                    alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
-                    note="Jong Kook thành công đạp trúng giày cậu em"
-                  />
-                  <p></p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg"
-                    alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
-                    note="Ji Hyo đã bất ngờ nhảy đến ôm chặt Jong Kook"
-                  />
-                  <p>
-                    Khi bị Yoo Jae Suk chất vấn,<strong>Song Ji Hyo</strong>Khi
-                    bị<strong> Yoo Jae Suk</strong>
-                  </p>
-                  <p></p>
-                  <p>
-                    Dù biết đây chỉ là một trong những phân đoạn mang tính giải
-                    trí của chương trình nhưng "fan ruột" của
-                    <strong> SpartAce</strong>
-                  </p>
-                  <p>
-                    Sau khi Monday Couple tan rã, Song Ji Hyo luôn được các
-                    thành viên ghép đôi cùng
-                    <strong> Kim Jong Kook</strong>
-                  </p>
-                  <p></p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Trong tập phát sóng mới nhất, các thành viên Running Man
+                      đã tham gia cuộc đua "3 bữa phục vụ Yoo Jae Suk" theo đúng
+                      nguyện vọng của "MC quốc dân" trong tập trước đó. Đặc
+                      biệt, trong một phần trò chơi giữa 9 thành viên, fan
+                      <strong> SpartAce</strong>
+                    </p>
+                    <p>
+                      Cụ thể, theo luật từ chương trình, mỗi thành viên sẽ theo
+                      thứ tự nhảy vào các vị trí ngẫu nhiên trên thảm. Trong
+                      trường hợp đạp trúng giày đối thủ sẽ có quyền "hoạ mặt"
+                      cho thành viên đó, nếu ngã sẽ bị loại. Sau khi
+                      <strong> Lee Kwang Soo</strong>
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg"
+                      alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
+                      note="Jong Kook thành công đạp trúng giày cậu em"
+                    />
+                    <p></p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-1-16230057709232088822568.jpg"
+                      alt="Running Man, Song Ji Hyo, Kim Jong Kook, Lee Kwang Soo, Yoo Jae Suk, Spartace, "
+                      note="Ji Hyo đã bất ngờ nhảy đến ôm chặt Jong Kook"
+                    />
+                    <p>
+                      Khi bị Yoo Jae Suk chất vấn,<strong>Song Ji Hyo</strong>
+                      Khi bị<strong> Yoo Jae Suk</strong>
+                    </p>
+                    <p></p>
+                    <p>
+                      Dù biết đây chỉ là một trong những phân đoạn mang tính
+                      giải trí của chương trình nhưng "fan ruột" của
+                      <strong> SpartAce</strong>
+                    </p>
+                    <p>
+                      Sau khi Monday Couple tan rã, Song Ji Hyo luôn được các
+                      thành viên ghép đôi cùng
+                      <strong> Kim Jong Kook</strong>
+                    </p>
+                    <p></p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -99,61 +103,65 @@ export default function page_20210607103948() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Trailer tập phát sóng cuối cùng của{" "}
-                    <strong>Running Man</strong> có sự góp mặt của{" "}
-                    <strong>Lee Kwang Soo</strong> khiến người hâm mộ không thể
-                    kìm nổi nước mắt. Tất cả các thành viên đều nghẹn ngào trong
-                    giờ phút nói lời chia tay cùng "Thánh nhọ" sau nhiều năm
-                    "chạy" cùng nhau như người thân trong gia đình.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/19127129046244096909215973861846989639936871n-16230502418581478682244.jpeg"
-                    alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
-                    note="Tập cuối cùng có Kwang Soo là thành viên chính thức sẽ lên sóng vào ngày 13/6, khép lại hành trình của anh sau 11 năm gắn bó cùng Running Man"
-                  />
-                  <p>
-                    Trong trailer, trên chiếc áo của Kwang Soo có ghi số 3991.
-                    Sau khi tìm hiểu, các fan đã phát hiện ra ý nghĩa đặc biệt
-                    của con số này.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/18918575643928001940841387690197652193687852n-16230493559001906054696.jpeg"
-                    alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
-                    note=""
-                  />
-                  <p>
-                    Ngày 11/7/2010 là ngày Kwang Soo xuất hiện lần đầu với tư
-                    cách là thành viên chính thức của{" "}
-                    <strong>Running Man</strong>. Ngày 13/6/2021 là ngày "Hoàng
-                    tử châu Á" xuất hiện lần cuối với tư cách là thành viên cố
-                    định của chương trình. Số 3991 trên áo của Kwang Soo trong
-                    tập 559 tới đây, chính là số ngày gắn bó của Kwang Soo trong
-                    11 năm tham gia Running Man. Có thể thấy, ê-kíp chương trình
-                    đã rất tinh tế khi để "chàng Hươu" mặc chiếc áo có dãy số
-                    này trong ngày cuối chia tay mọi người.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-2-1622994189590992603592-16230504527311881116045.jpeg"
-                    alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
-                    note=""
-                  />
-                  <p>Ảnh: Cắt từ chương trình, Internet</p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Trailer tập phát sóng cuối cùng của{" "}
+                      <strong>Running Man</strong> có sự góp mặt của{" "}
+                      <strong>Lee Kwang Soo</strong> khiến người hâm mộ không
+                      thể kìm nổi nước mắt. Tất cả các thành viên đều nghẹn ngào
+                      trong giờ phút nói lời chia tay cùng "Thánh nhọ" sau nhiều
+                      năm "chạy" cùng nhau như người thân trong gia đình.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/19127129046244096909215973861846989639936871n-16230502418581478682244.jpeg"
+                      alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
+                      note="Tập cuối cùng có Kwang Soo là thành viên chính thức sẽ lên sóng vào ngày 13/6, khép lại hành trình của anh sau 11 năm gắn bó cùng Running Man"
+                    />
+                    <p>
+                      Trong trailer, trên chiếc áo của Kwang Soo có ghi số 3991.
+                      Sau khi tìm hiểu, các fan đã phát hiện ra ý nghĩa đặc biệt
+                      của con số này.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/18918575643928001940841387690197652193687852n-16230493559001906054696.jpeg"
+                      alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
+                      note=""
+                    />
+                    <p>
+                      Ngày 11/7/2010 là ngày Kwang Soo xuất hiện lần đầu với tư
+                      cách là thành viên chính thức của{" "}
+                      <strong>Running Man</strong>. Ngày 13/6/2021 là ngày
+                      "Hoàng tử châu Á" xuất hiện lần cuối với tư cách là thành
+                      viên cố định của chương trình. Số 3991 trên áo của Kwang
+                      Soo trong tập 559 tới đây, chính là số ngày gắn bó của
+                      Kwang Soo trong 11 năm tham gia Running Man. Có thể thấy,
+                      ê-kíp chương trình đã rất tinh tế khi để "chàng Hươu" mặc
+                      chiếc áo có dãy số này trong ngày cuối chia tay mọi người.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/7/photo-2-1622994189590992603592-16230504527311881116045.jpeg"
+                      alt="Lee Kwang Soo, Lee Kwang Soo Roi Running Man Sau 11 Nam, Running Man, "
+                      note=""
+                    />
+                    <p>Ảnh: Cắt từ chương trình, Internet</p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

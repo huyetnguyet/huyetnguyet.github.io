@@ -99,77 +99,79 @@ export default function page_20210729161613() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      <strong>Bánh quy</strong> là món bánh có thể ở bất kỳ hình
+                      dạng nào. Nhưng chúng ta sẽ thường xuyên nhìn thấy những
+                      loại bánh quy có viền răng cưa xung quanh. Lâu nay, đa
+                      phần mọi người sẽ đơn giản cho rằng đây chỉ là thiết kế
+                      cho đẹp, giúp miếng bánh trông bớt đơn điệu từ nhà sản
+                      xuất. Hoặc cũng có "thuyết âm mưu" đưa ra suy đoán làm
+                      bánh uốn lượn răng cưa ngoài viền thay vì tròn hay vuông
+                      hoàn toàn sẽ phần nào giúp nhà sản xuất bánh quy "ăn gian"
+                      được nguyên liệu.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/l-intro-1607192801-16257363617461793505190.jpg"
+                      alt="1, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
+                      note="Bánh quy thường có viền răng cưa, nhưng ít ai thắc mắc vì sao (Ảnh minh họa)"
+                    />
+                    <p>
+                      Mới đây, trên trang TikTok chính thức của thương hiệu{" "}
+                      <strong>bánh quy</strong> nổi tiếng toàn cầu Ritz - nhà
+                      sản xuất bánh quy có viền răng cưa quen thuộc suốt hàng
+                      chục năm qua đã đăng tải một video khiến dân mạng vô cùng
+                      bất ngờ.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/origin-1625736108920577896359.jpg"
+                      alt="2, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
+                      note="Bánh quy Ritz từ hàng chục năm qua đều có viền răng cưa như thế này, và nó không phải là ngẫu nhiên cho đẹp"
+                    />
+                    <p>
+                      Trong clip, hãng đã giải thích "bí ẩn" về thiết kế răng
+                      cưa này của mình: Đó là để người ăn dễ dàng cắt phô mai -
+                      món ăn kèm chuẩn chỉnh khi thưởng thức{" "}
+                      <strong>bánh quy</strong> Ritz. Đây cũng chính là mục đích
+                      thiết kế viền lượn sóng của bánh quy từ xưa. Lâu dần, ngay
+                      cả với những loại bánh ngọt không ăn kèm phomai, mọi người
+                      cũng làm viền răng cưa như một thói quen
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/newfile-8-16257365816362135614612.jpg"
+                      alt="3, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
+                      note="Đây chính là mục đích của viền răng cưa bánh quy: giúp cắt phô mai cho dễ"
+                    />
+                    <p>
+                      Với lời giải đáp hàng chục năm mới bật mí này, cư dân mạng
+                      tất nhiên đều ngỡ ngàng vì nhìn chung hiếm ai từng nghĩ
+                      mục đích của nó lại là như vậy. Nhiều người còn quyết định
+                      không chịu tin tưởng và đây chỉ là lời giải thích "cho
+                      vui" của Ritz mà thôi. Sau tiết lộ thú vị của thương hiệu{" "}
+                      <strong>bánh quy</strong> nổi tiếng, không ít fan của hãng
+                      cũng đã "đu trend" thử ứng dụng thực tế và đều cho lời
+                      nhận xét: "Quả thực là rất tiện!".
+                    </p>
+                    <p>Nguồn: NY Post</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    <strong>Bánh quy</strong> là món bánh có thể ở bất kỳ hình
-                    dạng nào. Nhưng chúng ta sẽ thường xuyên nhìn thấy những
-                    loại bánh quy có viền răng cưa xung quanh. Lâu nay, đa phần
-                    mọi người sẽ đơn giản cho rằng đây chỉ là thiết kế cho đẹp,
-                    giúp miếng bánh trông bớt đơn điệu từ nhà sản xuất. Hoặc
-                    cũng có "thuyết âm mưu" đưa ra suy đoán làm bánh uốn lượn
-                    răng cưa ngoài viền thay vì tròn hay vuông hoàn toàn sẽ phần
-                    nào giúp nhà sản xuất bánh quy "ăn gian" được nguyên liệu.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/l-intro-1607192801-16257363617461793505190.jpg"
-                    alt="1, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
-                    note="Bánh quy thường có viền răng cưa, nhưng ít ai thắc mắc vì sao (Ảnh minh họa)"
-                  />
-                  <p>
-                    Mới đây, trên trang TikTok chính thức của thương hiệu{" "}
-                    <strong>bánh quy</strong> nổi tiếng toàn cầu Ritz - nhà sản
-                    xuất bánh quy có viền răng cưa quen thuộc suốt hàng chục năm
-                    qua đã đăng tải một video khiến dân mạng vô cùng bất ngờ.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/origin-1625736108920577896359.jpg"
-                    alt="2, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
-                    note="Bánh quy Ritz từ hàng chục năm qua đều có viền răng cưa như thế này, và nó không phải là ngẫu nhiên cho đẹp"
-                  />
-                  <p>
-                    Trong clip, hãng đã giải thích "bí ẩn" về thiết kế răng cưa
-                    này của mình: Đó là để người ăn dễ dàng cắt phô mai - món ăn
-                    kèm chuẩn chỉnh khi thưởng thức <strong>bánh quy</strong>{" "}
-                    Ritz. Đây cũng chính là mục đích thiết kế viền lượn sóng của
-                    bánh quy từ xưa. Lâu dần, ngay cả với những loại bánh ngọt
-                    không ăn kèm phomai, mọi người cũng làm viền răng cưa như
-                    một thói quen
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/7/8/newfile-8-16257365816362135614612.jpg"
-                    alt="3, bánh quy,giải đáp thắc mắc,bánh quy Ritz,"
-                    note="Đây chính là mục đích của viền răng cưa bánh quy: giúp cắt phô mai cho dễ"
-                  />
-                  <p>
-                    Với lời giải đáp hàng chục năm mới bật mí này, cư dân mạng
-                    tất nhiên đều ngỡ ngàng vì nhìn chung hiếm ai từng nghĩ mục
-                    đích của nó lại là như vậy. Nhiều người còn quyết định không
-                    chịu tin tưởng và đây chỉ là lời giải thích "cho vui" của
-                    Ritz mà thôi. Sau tiết lộ thú vị của thương hiệu{" "}
-                    <strong>bánh quy</strong> nổi tiếng, không ít fan của hãng
-                    cũng đã "đu trend" thử ứng dụng thực tế và đều cho lời nhận
-                    xét: "Quả thực là rất tiện!".
-                  </p>
-                  <p>Nguồn: NY Post</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

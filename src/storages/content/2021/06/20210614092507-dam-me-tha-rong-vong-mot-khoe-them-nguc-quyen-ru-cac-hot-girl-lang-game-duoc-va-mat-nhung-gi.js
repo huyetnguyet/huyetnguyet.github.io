@@ -99,74 +99,26 @@ export default function page_20210614092507() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
-                  <AdsHorizontal />
-                </div>
                 <div className="contentBody">
-                  <p>
-                    Hiện nay, <strong>streamer</strong> là ngành nghề mới được
-                    giới trẻ vô cùng yêu thích, đặc biệt đối với những hot girl
-                    mạng xã hội. Việc thử sức với công việc này là một cách để
-                    những cô nàng duy trì, thậm chí để tăng độ nổi tiếng cho tên
-                    tuổi. Để thêm phần tự "đánh bóng" cho danh tiếng của mình,
-                    nhiều streamer không ngại ăn mặc sexy, thậm chí nghiện “thả
-                    rông” vòng một, chụp ảnh và đăng tải trên các nền tảng mạng
-                    xã hội để thu hút sự chú ý.
-                  </p>{" "}
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--10-65347.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--11-52556.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--12-03357.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--13-75750.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note="Nàng mẫu gợi cảm Thiên Thy."
-                  />
-                  <p>
-                    Quả thực, khi liên tục khoe vóc dáng trên mạng xã hội, tuy
-                    cũng có vấp phải lời chỉ trích khá nặng nề từ khán giả nhưng
-                    chủ nhân của những bức hình khoe body đẹp mê mẩn này cũng
-                    khiến đa số dân tình "đổ gục" bởi vóc dáng không thua kém
-                    bất cứ cô người mẫu nào.
-                  </p>
-                  <p>
-                    Mạnh dạn chọn thiết kế áo hai dây khoe tấm lưng trần quyến
-                    rũ, trang phục trễ nải, gợi cảm cùng làn da mịn màng không
-                    tì vết, phong cách thời trang cực táo bạo này khiến các nữ{" "}
-                    <strong>streamer</strong> dần có lượng fan đông đảo.
-                  </p>
-                  <p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Hiện nay, <strong>streamer</strong> là ngành nghề mới được
+                      giới trẻ vô cùng yêu thích, đặc biệt đối với những hot
+                      girl mạng xã hội. Việc thử sức với công việc này là một
+                      cách để những cô nàng duy trì, thậm chí để tăng độ nổi
+                      tiếng cho tên tuổi. Để thêm phần tự "đánh bóng" cho danh
+                      tiếng của mình, nhiều streamer không ngại ăn mặc sexy,
+                      thậm chí nghiện “thả rông” vòng một, chụp ảnh và đăng tải
+                      trên các nền tảng mạng xã hội để thu hút sự chú ý.
+                    </p>{" "}
                     <ContentImage
                       src={
-                        require("storages/images/content/2021/20210614092507--14-84975.jpeg")
+                        require("storages/images/content/2021/20210614092507--10-65347.jpeg")
                           .default
                       }
                       alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
@@ -174,56 +126,7 @@ export default function page_20210614092507() {
                     />
                     <ContentImage
                       src={
-                        require("storages/images/content/2021/20210614092507--15-51786.jpeg")
-                          .default
-                      }
-                      alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                      note=" Streamer Linh Chichan"
-                    />
-                    .
-                  </p>
-                  <p>
-                    Theo quy định, việc khoe thân quá đà khi livestream là vi
-                    phạm nội quy, quy định của truyền thông. Có những{" "}
-                    <strong>streamer</strong> may mắn chỉ bị nhắc nhở nhưng cũng
-                    có những streamer đã bị khóa kênh vĩnh viễn vì vi phạm quy
-                    định này. Không muốn bị phạt nhưng vẫn khoe được dáng sexy
-                    trước người hâm mộ, các streamer "lách luật" bằng cách diện
-                    trang phục mà không cần nội y.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Phong cách thời trang này khiến vòng một của các cô gái như
-                    muốn “rơi” ra ngoài. Chiêu trò này không mới nhưng vẫn giúp
-                    các cô gái thu hút rất nhiều lượt tương tác trong mỗi bài
-                    đăng, tên tuổi của nữ <strong>streamer</strong> cũng nhờ đó
-                    mà ngày càng được nhiều người biết đến.{" "}
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--16-59276.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614092507--17-65153.jpeg")
-                        .default
-                    }
-                    alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                    note=""
-                  />
-                  <p>
-                    Theo đuổi phong cách gợi cảm cả trong công việc lẫn cuộc
-                    sống đời thường, trang cá nhân của ArBy thường xuyên khiến
-                    các fan phải bỏng mắt với những hình ảnh cực kỳ nóng bỏng.
-                  </p>
-                  <p>
-                    <ContentImage
-                      src={
-                        require("storages/images/content/2021/20210614092507--18-306185.png")
+                        require("storages/images/content/2021/20210614092507--11-52556.jpeg")
                           .default
                       }
                       alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
@@ -231,7 +134,7 @@ export default function page_20210614092507() {
                     />
                     <ContentImage
                       src={
-                        require("storages/images/content/2021/20210614092507--19-411029.png")
+                        require("storages/images/content/2021/20210614092507--12-03357.jpeg")
                           .default
                       }
                       alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
@@ -239,31 +142,128 @@ export default function page_20210614092507() {
                     />
                     <ContentImage
                       src={
-                        require("storages/images/content/2021/20210614092507--20-027573.png")
+                        require("storages/images/content/2021/20210614092507--13-75750.jpeg")
                           .default
                       }
                       alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
-                      note="
+                      note="Nàng mẫu gợi cảm Thiên Thy."
+                    />
+                    <p>
+                      Quả thực, khi liên tục khoe vóc dáng trên mạng xã hội, tuy
+                      cũng có vấp phải lời chỉ trích khá nặng nề từ khán giả
+                      nhưng chủ nhân của những bức hình khoe body đẹp mê mẩn này
+                      cũng khiến đa số dân tình "đổ gục" bởi vóc dáng không thua
+                      kém bất cứ cô người mẫu nào.
+                    </p>
+                    <p>
+                      Mạnh dạn chọn thiết kế áo hai dây khoe tấm lưng trần quyến
+                      rũ, trang phục trễ nải, gợi cảm cùng làn da mịn màng không
+                      tì vết, phong cách thời trang cực táo bạo này khiến các nữ{" "}
+                      <strong>streamer</strong> dần có lượng fan đông đảo.
+                    </p>
+                    <p>
+                      <ContentImage
+                        src={
+                          require("storages/images/content/2021/20210614092507--14-84975.jpeg")
+                            .default
+                        }
+                        alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                        note=""
+                      />
+                      <ContentImage
+                        src={
+                          require("storages/images/content/2021/20210614092507--15-51786.jpeg")
+                            .default
+                        }
+                        alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                        note=" Streamer Linh Chichan"
+                      />
+                      .
+                    </p>
+                    <p>
+                      Theo quy định, việc khoe thân quá đà khi livestream là vi
+                      phạm nội quy, quy định của truyền thông. Có những{" "}
+                      <strong>streamer</strong> may mắn chỉ bị nhắc nhở nhưng
+                      cũng có những streamer đã bị khóa kênh vĩnh viễn vì vi
+                      phạm quy định này. Không muốn bị phạt nhưng vẫn khoe được
+                      dáng sexy trước người hâm mộ, các streamer "lách luật"
+                      bằng cách diện trang phục mà không cần nội y.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Phong cách thời trang này khiến vòng một của các cô gái
+                      như muốn “rơi” ra ngoài. Chiêu trò này không mới nhưng vẫn
+                      giúp các cô gái thu hút rất nhiều lượt tương tác trong mỗi
+                      bài đăng, tên tuổi của nữ <strong>streamer</strong> cũng
+                      nhờ đó mà ngày càng được nhiều người biết đến.{" "}
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092507--16-59276.jpeg")
+                          .default
+                      }
+                      alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614092507--17-65153.jpeg")
+                          .default
+                      }
+                      alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                      note=""
+                    />
+                    <p>
+                      Theo đuổi phong cách gợi cảm cả trong công việc lẫn cuộc
+                      sống đời thường, trang cá nhân của ArBy thường xuyên khiến
+                      các fan phải bỏng mắt với những hình ảnh cực kỳ nóng bỏng.
+                    </p>
+                    <p>
+                      <ContentImage
+                        src={
+                          require("storages/images/content/2021/20210614092507--18-306185.png")
+                            .default
+                        }
+                        alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                        note=""
+                      />
+                      <ContentImage
+                        src={
+                          require("storages/images/content/2021/20210614092507--19-411029.png")
+                            .default
+                        }
+                        alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                        note=""
+                      />
+                      <ContentImage
+                        src={
+                          require("storages/images/content/2021/20210614092507--20-027573.png")
+                            .default
+                        }
+                        alt="Streamer, Vong Mot, Tha Rong, Chieu Tro, "
+                        note="
                     Với khoảnh khắc táo bạo này, nữ MC Mai Dora muốn khẳng định
                     phong cách và cá tính của mình."
-                    />
-                  </p>
-                  <p>
-                    Tuy nhiên, suy cho cùng, “thả rông” vòng 1 vẫn không thể coi
-                    là bí quyết mà các cô nàng nên học hỏi, bởi hơn hết, việc
-                    không mặc nội y sẽ dễ biến phong cách của cô nàng trở nên
-                    phô trương, kém duyên thay vì gợi cảm, quyến rũ.
-                  </p>
+                      />
+                    </p>
+                    <p>
+                      Tuy nhiên, suy cho cùng, “thả rông” vòng 1 vẫn không thể
+                      coi là bí quyết mà các cô nàng nên học hỏi, bởi hơn hết,
+                      việc không mặc nội y sẽ dễ biến phong cách của cô nàng trở
+                      nên phô trương, kém duyên thay vì gợi cảm, quyến rũ.
+                    </p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

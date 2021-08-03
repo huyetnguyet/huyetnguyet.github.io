@@ -29,12 +29,11 @@
           </div>
           <FacebookShareButton link={facebookLinkShare} />
 
-          <div class="containerContent">
-            <AdsHorizontal />
+         <div class="containerContent">
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
-                <RelationNews category={category} /><div className="desktop">
-          <AdsHorizontal />
-        </div>
+                <RelationNews category={category} />
                 <div className="contentBody">
+                  <div className="contentBodyLeft">

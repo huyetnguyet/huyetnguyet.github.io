@@ -136,9 +136,14 @@ $fontSizeDefault: 17px;
         }
 
         .contentBody {
-          width: 75%;
+          width: 100%;
+          display: flex;
           @media only screen and (max-width: 1000px) {
             width: 100%;
+          }
+          .contentBodyLeft {
+            width: 80%;
+            margin-right: 1%;
           }
           p {
             font-family: "Times New Roman", Times, serif;

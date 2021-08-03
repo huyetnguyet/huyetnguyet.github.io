@@ -99,91 +99,91 @@ export default function page_20210729161159() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Trong thời gian gần đây, mạng xã hội của các nữ{" "}
+                      <strong>streamer</strong> đã liên tục khiến người hâm mộ
+                      "ngỡ ngàng", "ngã ngửa" khi thường xuyên cập nhật những
+                      hình ảnh đã không ngần ngại vạch áo quá ngực để lộ vòng 1
+                      lấp ló của mình.{" "}
+                    </p>
+                    <p>
+                      Cụ thể, khi chiếc áo được vén lên thì dường như không có
+                      một tấm “lá chắn" bảo hộ nào bên trong, do đó khuôn ngực
+                      của các cô nàng phô ra trước mắt người xem theo kiểu “nửa
+                      kín nửa hở".
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/4/-1625411867011830069116.jpg"
+                      alt="1, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
+                      note="Có vẻ như các cô nàng đã khá chiều fan của mình khi không ngần ngại vạch áo lên trên ngực để lộ vòng 1. Chắc chắn rất nhiều người sẽ lưu lại bức ảnh của cô nàng này."
+                    />
+                    <p>
+                      Ở góc chụp mới mẻ này, các cô nàng ngoài thể hiện được vẻ
+                      đẹp ngọt ngào, dễ thương của mình thì còn khiến cho fan
+                      được phen "bỏng mắt".
+                    </p>
+                    <p>
+                      Bên cạnh như ý kiến khen ngợi của người hâm mộ dành cho
+                      những cô nàng chịu chơi, diện đồ “<strong>hở bạo</strong>"
+                      thì cũng có fan phàn nàn về hiện tượng “show thân" quá đà.{" "}
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Cụ thể, dân mạng cho rằng, đối với nhiều nữ{" "}
+                      <strong>streamer</strong> ở thời điểm hiện tại, sự ám ảnh
+                      của việc phải nổi tiếng cũng như được nhiều người biết tới
+                      đã làm lu mờ đi những suy nghĩ đúng đắn của họ thì phải.
+                      Thay vì đầu tư vào chất lượng nội dung cũng như cải thiện
+                      khả năng tương tác, cuốn hút người xem, rất nhiều cô nàng
+                      lại lựa chọn cách cực kỳ phản cảm đó là tạo ra các chiêu
+                      trò giật gân, thậm chí sẵn sàng để hở các bộ phận trên cơ
+                      thể để kiếm thêm các chỉ số tương tác cũng như lượng
+                      donate từ phía người xem.{" "}
+                    </p>
+                    <p>
+                      Đồng thời khẳng định, nếu có phải nhận “gạch đá" thì những
+                      cô nàng này cũng chẳng biết kêu oan với ai.
+                    </p>
+                    <p></p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/4/-16254118675411949617776.jpg"
+                      alt="2, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/4/-16254118680271141357519.jpg"
+                      alt="3, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/4/-16254118631681829831468.jpg"
+                      alt="4, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/4/photo-1-1625413031135533424082.jpg"
+                      alt="5, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Trong thời gian gần đây, mạng xã hội của các nữ{" "}
-                    <strong>streamer</strong> đã liên tục khiến người hâm mộ
-                    "ngỡ ngàng", "ngã ngửa" khi thường xuyên cập nhật những hình
-                    ảnh đã không ngần ngại vạch áo quá ngực để lộ vòng 1 lấp ló
-                    của mình.{" "}
-                  </p>
-                  <p>
-                    Cụ thể, khi chiếc áo được vén lên thì dường như không có một
-                    tấm “lá chắn" bảo hộ nào bên trong, do đó khuôn ngực của các
-                    cô nàng phô ra trước mắt người xem theo kiểu “nửa kín nửa
-                    hở".
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/4/-1625411867011830069116.jpg"
-                    alt="1, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
-                    note="Có vẻ như các cô nàng đã khá chiều fan của mình khi không ngần ngại vạch áo lên trên ngực để lộ vòng 1. Chắc chắn rất nhiều người sẽ lưu lại bức ảnh của cô nàng này."
-                  />
-                  <p>
-                    Ở góc chụp mới mẻ này, các cô nàng ngoài thể hiện được vẻ
-                    đẹp ngọt ngào, dễ thương của mình thì còn khiến cho fan được
-                    phen "bỏng mắt".
-                  </p>
-                  <p>
-                    Bên cạnh như ý kiến khen ngợi của người hâm mộ dành cho
-                    những cô nàng chịu chơi, diện đồ “<strong>hở bạo</strong>"
-                    thì cũng có fan phàn nàn về hiện tượng “show thân" quá đà.{" "}
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Cụ thể, dân mạng cho rằng, đối với nhiều nữ{" "}
-                    <strong>streamer</strong> ở thời điểm hiện tại, sự ám ảnh
-                    của việc phải nổi tiếng cũng như được nhiều người biết tới
-                    đã làm lu mờ đi những suy nghĩ đúng đắn của họ thì phải.
-                    Thay vì đầu tư vào chất lượng nội dung cũng như cải thiện
-                    khả năng tương tác, cuốn hút người xem, rất nhiều cô nàng
-                    lại lựa chọn cách cực kỳ phản cảm đó là tạo ra các chiêu trò
-                    giật gân, thậm chí sẵn sàng để hở các bộ phận trên cơ thể để
-                    kiếm thêm các chỉ số tương tác cũng như lượng donate từ phía
-                    người xem.{" "}
-                  </p>
-                  <p>
-                    Đồng thời khẳng định, nếu có phải nhận “gạch đá" thì những
-                    cô nàng này cũng chẳng biết kêu oan với ai.
-                  </p>
-                  <p></p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/4/-16254118675411949617776.jpg"
-                    alt="2, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/4/-16254118680271141357519.jpg"
-                    alt="3, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/4/-16254118631681829831468.jpg"
-                    alt="4, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/4/photo-1-1625413031135533424082.jpg"
-                    alt="5, STREAMER,HỞ BẠO,GÁI XINH,CỘNG ĐỒNG MẠNG,"
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

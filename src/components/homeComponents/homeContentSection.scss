@@ -7,10 +7,10 @@
   box-shadow: 0 5px 5px #000;
   width: 100%;
   padding-bottom: 30px;
-  .desktop {
-    display: block;
-    @media only screen and (max-width: 1000px) {
-      display: none;
+  .containerContent {
+    display: flex;
+    .content {
+      width: 75%;
     }
   }
   .item {

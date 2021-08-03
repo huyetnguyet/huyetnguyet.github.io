@@ -105,96 +105,96 @@ export default function page_20210729161209() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Từng gây “bão" fan <strong>Liên Quân Mobile</strong> khi
+                      cosplay nữ <strong>tướng Natalya</strong> siêu quyến rũ
+                      với khuôn ngực “ngồn ngộn", Lê Ngọc Như khiến cho anh em
+                      game thủ không thể không chú ý.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16254538383201763302749.jpg"
+                      alt="1, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
+                      note=""
+                    />
+                    <p>
+                      Chưa hết, thời gian qua, Ngọc Như còn khiến fan của mình
+                      đứng ngồi không yên với loạt ảnh hở bạo gây tranh cãi. Tuy
+                      tạo dáng có phần nhạy cảm nhưng không thể phủ định rằng,
+                      “nữ tướng” có ngoại hình khá “mlem”, vòng eo đáng mơ ước,
+                      vóc dáng thon gọn, quyến rũ.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625453840182181948812.jpg"
+                      alt="2, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
+                      note=""
+                    />
+                    <p>
+                      Có lẽ việc thay đổi phong cách 180 độ này khiến cô nàng vô
+                      tình trở thành đích ngắm của những tay săn “
+                      <strong>sugar baby</strong>”. Bằng chứng là mới đây, đăng
+                      tải hình ảnh loạt tin nhắn từ “người môi giới”, nàng hot
+                      girl này thể hiện sự bức xúc khi nhận được nhiều lời đề
+                      nghị từ các đại gia giấu mặt.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625453930565938543993-1625453970545755493282.jpg"
+                      alt="3, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
+                      note=""
+                    />
+                    <p>
+                      Theo đó, Ngọc Như được đặt vấn đề: “Em muốn quen sếp chị
+                      không, quen xa, sếp chị không đẹp trai”, cô nàng nhanh
+                      chóng trả lời đậm tính “cà khịa” rằng: “Thế chị bảo sếp
+                      chị dùng tiền đập mặt cho đẹp trai rồi tính tiếp ạ”, đồng
+                      thời bơ đi những câu chat của người trợ lý mặc cho người
+                      này kiên nhẫn “5 lần 7 lượt” tiếp tục đặt vấn đề, hứa chu
+                      cấp cho nàng mẫu nóng bỏng.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-1625454053267737357184.jpg"
+                      alt="4, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
+                      note=""
+                    />
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Không chịu được sự phiền phức, “nữ{" "}
+                      <strong>tướng Natalya</strong>” quyết định chụp lại màn
+                      hình, công khai danh tính người trợ lý và đoạn hội thoại
+                      cùng dòng chú thích: “Ai có nhu cầu cần sugar{" "}
+                      <strong>daddy</strong> thì liên hệ Facebook chị này nhé
+                      ạ,. Chứ mình thì mình thừa sugar rồi, rất là mệt”.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16254540642521977410660.jpg"
+                      alt="5, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
+                      note=""
+                    />
+                    <p>
+                      Là mẫu ảnh, <strong>coser</strong> có thể tự kiếm không ít
+                      tiền từ công việc của mình, tự chủ về tài chính là điều mà
+                      cô nàng xinh đẹp này có thể đảm bảo được. Với sự cá tính
+                      của mình, Ngọc Như cứng rắn, quyết tâm theo đuổi quan điểm
+                      và lối sống chủ động của bản thân.
+                    </p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Từng gây “bão" fan <strong>Liên Quân Mobile</strong> khi
-                    cosplay nữ <strong>tướng Natalya</strong> siêu quyến rũ với
-                    khuôn ngực “ngồn ngộn", Lê Ngọc Như khiến cho anh em game
-                    thủ không thể không chú ý.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16254538383201763302749.jpg"
-                    alt="1, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
-                    note=""
-                  />
-                  <p>
-                    Chưa hết, thời gian qua, Ngọc Như còn khiến fan của mình
-                    đứng ngồi không yên với loạt ảnh hở bạo gây tranh cãi. Tuy
-                    tạo dáng có phần nhạy cảm nhưng không thể phủ định rằng, “nữ
-                    tướng” có ngoại hình khá “mlem”, vòng eo đáng mơ ước, vóc
-                    dáng thon gọn, quyến rũ.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625453840182181948812.jpg"
-                    alt="2, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
-                    note=""
-                  />
-                  <p>
-                    Có lẽ việc thay đổi phong cách 180 độ này khiến cô nàng vô
-                    tình trở thành đích ngắm của những tay săn “
-                    <strong>sugar baby</strong>”. Bằng chứng là mới đây, đăng
-                    tải hình ảnh loạt tin nhắn từ “người môi giới”, nàng hot
-                    girl này thể hiện sự bức xúc khi nhận được nhiều lời đề nghị
-                    từ các đại gia giấu mặt.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625453930565938543993-1625453970545755493282.jpg"
-                    alt="3, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
-                    note=""
-                  />
-                  <p>
-                    Theo đó, Ngọc Như được đặt vấn đề: “Em muốn quen sếp chị
-                    không, quen xa, sếp chị không đẹp trai”, cô nàng nhanh chóng
-                    trả lời đậm tính “cà khịa” rằng: “Thế chị bảo sếp chị dùng
-                    tiền đập mặt cho đẹp trai rồi tính tiếp ạ”, đồng thời bơ đi
-                    những câu chat của người trợ lý mặc cho người này kiên nhẫn
-                    “5 lần 7 lượt” tiếp tục đặt vấn đề, hứa chu cấp cho nàng mẫu
-                    nóng bỏng.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-1625454053267737357184.jpg"
-                    alt="4, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
-                    note=""
-                  />
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Không chịu được sự phiền phức, “nữ{" "}
-                    <strong>tướng Natalya</strong>” quyết định chụp lại màn
-                    hình, công khai danh tính người trợ lý và đoạn hội thoại
-                    cùng dòng chú thích: “Ai có nhu cầu cần sugar{" "}
-                    <strong>daddy</strong> thì liên hệ Facebook chị này nhé ạ,.
-                    Chứ mình thì mình thừa sugar rồi, rất là mệt”.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16254540642521977410660.jpg"
-                    alt="5, COSER,LIÊN QUÂN MOBILE,TƯỚNG NATALYA,SUGAR BABY,DADDY,"
-                    note=""
-                  />
-                  <p>
-                    Là mẫu ảnh, <strong>coser</strong> có thể tự kiếm không ít
-                    tiền từ công việc của mình, tự chủ về tài chính là điều mà
-                    cô nàng xinh đẹp này có thể đảm bảo được. Với sự cá tính của
-                    mình, Ngọc Như cứng rắn, quyết tâm theo đuổi quan điểm và
-                    lối sống chủ động của bản thân.
-                  </p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

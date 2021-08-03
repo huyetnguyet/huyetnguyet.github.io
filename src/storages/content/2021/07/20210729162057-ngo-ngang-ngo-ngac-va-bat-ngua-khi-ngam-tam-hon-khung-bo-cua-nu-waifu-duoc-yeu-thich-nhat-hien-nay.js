@@ -107,106 +107,106 @@ export default function page_20210729162057() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Với nội dung nhân văn cùng nhân vật nữ chính ấn tượng,
+                      anime <strong>Cạo Râu Xong</strong>,{" "}
+                      <strong>Tôi Nhặt Gái Về Nhà</strong> chính là một trong
+                      những cái tên đình đám nhất của anime mùa xuân 2021. Do
+                      đó, ngày càng có nhiều <strong>coser</strong> chọn các
+                      waifu trong bộ phim hoạt hình này để hóa thân thành.{" "}
+                    </p>
+                    <p>
+                      Đáng chú ý ở chỗ, tuy <strong>Cạo Râu Xong</strong>,{" "}
+                      <strong>Tôi Nhặt Gái Về Nhà</strong> không phải là một
+                      anime 18+ xôi thịt, thế nhưng các nhân vật trong tác phẩm
+                      này khi được các nàng <strong>coser</strong>{" "}
+                      <strong>cosplay</strong> lại, họ bỗng trở nên... cực kỳ
+                      khiêu gợi và quyến rũ. Đặc biệt nữ chính{" "}
+                      <strong>Sayu Ogiwara</strong> là gương mặt được cosplay
+                      nhiều nhất, các phiên bản hóa trang thành cô nàng này đều
+                      rất nóng bỏng và hút mắt.
+                    </p>
+                    <p>
+                      Dưới đây mời các bạn cùng xem loạt ảnh{" "}
+                      <strong>cosplay</strong> cô nàng{" "}
+                      <strong>Sayu Ogiwara</strong> do nữ <strong>coser</strong>{" "}
+                      <strong>芥川Aku</strong> thể hiện nhé! Đảm bảo khó mà rời
+                      mắt được đó!
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/1626677152592646766036-16266771648542087629670.jpg"
+                      alt="1, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note="Sayu Ogiwara phiên bản người thật nóng bỏng như thế này có làm anh em điêu đứng?"
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-16266772433611736615094.jpg"
+                      alt="2, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note="Bạn có hài lòng với những hình ảnh cosplay của nữ coser 芥川Aku thành waifu Sayu không?"
+                    />
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Bạn cảm thấy những hình ảnh <strong>cosplay</strong> trên
+                      thế nào? Chúng quá khác biệt so với{" "}
+                      <strong>Cạo Râu Xong</strong>,{" "}
+                      <strong>Tôi Nhặt Gái Về Nhà</strong> hay đã mô tả chính
+                      xác "nội dung" mà anime truyền tải?
+                    </p>
+                    <p>
+                      Và nếu câu chuyện của <strong>Cạo Râu Xong</strong>,{" "}
+                      <strong>Tôi Nhặt Gái Về Nhà</strong> xảy ra với chính bạn
+                      và nữ chính là 1 cô nàng bốc lửa như ở trên xin được ở
+                      nhờ, liệu bạn có đủ sức hành động như nam chính Yoshida
+                      hay không?
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-16266772503211234007580.jpg"
+                      alt="3, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677172875190949201.jpg"
+                      alt="4, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/1626677180381376351716-162667719946990418992.jpg"
+                      alt="5, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677210510556619792.jpg"
+                      alt="6, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677234148282609770.jpg"
+                      alt="7, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677263828638216072.jpg"
+                      alt="8, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Với nội dung nhân văn cùng nhân vật nữ chính ấn tượng, anime{" "}
-                    <strong>Cạo Râu Xong</strong>,{" "}
-                    <strong>Tôi Nhặt Gái Về Nhà</strong> chính là một trong
-                    những cái tên đình đám nhất của anime mùa xuân 2021. Do đó,
-                    ngày càng có nhiều <strong>coser</strong> chọn các waifu
-                    trong bộ phim hoạt hình này để hóa thân thành.{" "}
-                  </p>
-                  <p>
-                    Đáng chú ý ở chỗ, tuy <strong>Cạo Râu Xong</strong>,{" "}
-                    <strong>Tôi Nhặt Gái Về Nhà</strong> không phải là một anime
-                    18+ xôi thịt, thế nhưng các nhân vật trong tác phẩm này khi
-                    được các nàng <strong>coser</strong>{" "}
-                    <strong>cosplay</strong> lại, họ bỗng trở nên... cực kỳ
-                    khiêu gợi và quyến rũ. Đặc biệt nữ chính{" "}
-                    <strong>Sayu Ogiwara</strong> là gương mặt được cosplay
-                    nhiều nhất, các phiên bản hóa trang thành cô nàng này đều
-                    rất nóng bỏng và hút mắt.
-                  </p>
-                  <p>
-                    Dưới đây mời các bạn cùng xem loạt ảnh{" "}
-                    <strong>cosplay</strong> cô nàng{" "}
-                    <strong>Sayu Ogiwara</strong> do nữ <strong>coser</strong>{" "}
-                    <strong>芥川Aku</strong> thể hiện nhé! Đảm bảo khó mà rời
-                    mắt được đó!
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/1626677152592646766036-16266771648542087629670.jpg"
-                    alt="1, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note="Sayu Ogiwara phiên bản người thật nóng bỏng như thế này có làm anh em điêu đứng?"
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-16266772433611736615094.jpg"
-                    alt="2, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note="Bạn có hài lòng với những hình ảnh cosplay của nữ coser 芥川Aku thành waifu Sayu không?"
-                  />
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Bạn cảm thấy những hình ảnh <strong>cosplay</strong> trên
-                    thế nào? Chúng quá khác biệt so với{" "}
-                    <strong>Cạo Râu Xong</strong>,{" "}
-                    <strong>Tôi Nhặt Gái Về Nhà</strong> hay đã mô tả chính xác
-                    "nội dung" mà anime truyền tải?
-                  </p>
-                  <p>
-                    Và nếu câu chuyện của <strong>Cạo Râu Xong</strong>,{" "}
-                    <strong>Tôi Nhặt Gái Về Nhà</strong> xảy ra với chính bạn và
-                    nữ chính là 1 cô nàng bốc lửa như ở trên xin được ở nhờ,
-                    liệu bạn có đủ sức hành động như nam chính Yoshida hay
-                    không?
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-16266772503211234007580.jpg"
-                    alt="3, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677172875190949201.jpg"
-                    alt="4, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/19/1626677180381376351716-162667719946990418992.jpg"
-                    alt="5, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677210510556619792.jpg"
-                    alt="6, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677234148282609770.jpg"
-                    alt="7, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/19/-1626677263828638216072.jpg"
-                    alt="8, CẠO RÂU XONG,TÔI NHẶT GÁI VỀ NHÀ,SAYU OGIWARA,芥川AKU,COSER,COSPLAY,GÁI XINH,"
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

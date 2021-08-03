@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -97,81 +101,86 @@ export default function page_202106020330() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Mới đây, làng game thế giới đã đón nhận một tin tức vô cùng
-                    sốt dẻo, khi PUBG Mobile tiếp tục công bố thương vụ hợp tác
-                    đình đám tiếp theo của mình. Sau bom tấn điện ảnh "Godzilla
-                    vs Kong" thì hãng xe McLaren sẽ là cái tên tiếp theo sát
-                    cánh cùng tựa game sinh tồn số một thế giới này kể từ ngày
-                    01/06. Được biết, tổng cộng sẽ có 19,999 siêu xe McLaren
-                    được mở bán trong PUBG Mobile trên toàn cầu, với 6 mẫu thiết
-                    kế xe mang màu sắc và hiệu ứng riêng biệt.
-                  </p>
-                  <ContentImage
-                    src="https://channel.mediacdn.vn/thumb_w/640/2021/6/2/photo-1-1622618642854899203721.jpg"
-                    alt="PUBG MOBILE"
-                    note=""
-                  />
-                  <p>
-                    Để chào mừng việc hợp tác này, PUBG Mobile Việt Nam cũng đã
-                    triển khai các hoạt động vô cùng thú vị dành cho các bạn
-                    game thủ. Đó là event "Đi tìm Trùm siêu xe - người Việt Nam
-                    đầu tiên sở hữu trọn bộ skin McLaren hoặc "Tìm người nhanh
-                    tay, tinh mắt tìm ra Trùm siêu xe", với thời gian bắt đầu từ
-                    00:00 ngày 01/06 cho tới 23:59 ngày 03/06. Được biết, các
-                    bạn chỉ cần comment tại đây theo cú pháp cũng vô cùng đơn
-                    giản như sau:
-                  </p>
-                  <p>
-                    - Nếu bạn là "Trùm siêu xe" mà mọi người đang tìm kiếm,
-                    người sở hữu trọn bộ skin McLaren nhanh nhất thì hãy
-                    comment:
-                  </p>
-                  <p>
-                    #TRUMSIEUXEPUBGM + Role ID của bạn + Ảnh chụp chứng minh kho
-                    đồ của bạn với trọn bộ 6 skin xe McLaren
-                  </p>
-                  <p>
-                    - Nếu bạn nhanh tay, tinh mắt tìm ra "Trùm siêu xe" thì
-                    comment rằng:
-                  </p>
-                  <p>
-                    #TRUMSIEUXEPUBGM + Role ID của bạn + Tên ingame hoặc Role ID
-                    của "Trùm siêu xe"
-                  </p>
-                  <ContentImage
-                    src="https://channel.mediacdn.vn/thumb_w/640/2021/6/2/photo-1-1622618650933658080991.jpg"
-                    alt="PUBG MOBILE"
-                    note=""
-                  />
-                  <p>
-                    Ngoài ra, phần thưởng dành cho sự kiện này cũng vô cùng hấp
-                    dẫn, khi những người thắng cuộc sẽ có cơ hội nhận được các
-                    phần quà như sau:
-                  </p>
-                  <p>
-                    - 01 suất trải nghiệm xe McLaren ngoài đời thật và xuất hiện
-                    trong video McLaren sang-xịn-mịn từ PUBG MOBILE
-                  </p>
-                  <p>
-                    - 01 tai nghe Airpods Max - thiết bị giúp trải nghiệm tiếng
-                    động cơ siêu xe trong game thêm phần sống động và chân thật
-                  </p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Mới đây, làng game thế giới đã đón nhận một tin tức vô
+                      cùng sốt dẻo, khi PUBG Mobile tiếp tục công bố thương vụ
+                      hợp tác đình đám tiếp theo của mình. Sau bom tấn điện ảnh
+                      "Godzilla vs Kong" thì hãng xe McLaren sẽ là cái tên tiếp
+                      theo sát cánh cùng tựa game sinh tồn số một thế giới này
+                      kể từ ngày 01/06. Được biết, tổng cộng sẽ có 19,999 siêu
+                      xe McLaren được mở bán trong PUBG Mobile trên toàn cầu,
+                      với 6 mẫu thiết kế xe mang màu sắc và hiệu ứng riêng biệt.
+                    </p>
+                    <ContentImage
+                      src="https://channel.mediacdn.vn/thumb_w/640/2021/6/2/photo-1-1622618642854899203721.jpg"
+                      alt="PUBG MOBILE"
+                      note=""
+                    />
+                    <p>
+                      Để chào mừng việc hợp tác này, PUBG Mobile Việt Nam cũng
+                      đã triển khai các hoạt động vô cùng thú vị dành cho các
+                      bạn game thủ. Đó là event "Đi tìm Trùm siêu xe - người
+                      Việt Nam đầu tiên sở hữu trọn bộ skin McLaren hoặc "Tìm
+                      người nhanh tay, tinh mắt tìm ra Trùm siêu xe", với thời
+                      gian bắt đầu từ 00:00 ngày 01/06 cho tới 23:59 ngày 03/06.
+                      Được biết, các bạn chỉ cần comment tại đây theo cú pháp
+                      cũng vô cùng đơn giản như sau:
+                    </p>
+                    <p>
+                      - Nếu bạn là "Trùm siêu xe" mà mọi người đang tìm kiếm,
+                      người sở hữu trọn bộ skin McLaren nhanh nhất thì hãy
+                      comment:
+                    </p>
+                    <p>
+                      #TRUMSIEUXEPUBGM + Role ID của bạn + Ảnh chụp chứng minh
+                      kho đồ của bạn với trọn bộ 6 skin xe McLaren
+                    </p>
+                    <p>
+                      - Nếu bạn nhanh tay, tinh mắt tìm ra "Trùm siêu xe" thì
+                      comment rằng:
+                    </p>
+                    <p>
+                      #TRUMSIEUXEPUBGM + Role ID của bạn + Tên ingame hoặc Role
+                      ID của "Trùm siêu xe"
+                    </p>
+                    <ContentImage
+                      src="https://channel.mediacdn.vn/thumb_w/640/2021/6/2/photo-1-1622618650933658080991.jpg"
+                      alt="PUBG MOBILE"
+                      note=""
+                    />
+                    <p>
+                      Ngoài ra, phần thưởng dành cho sự kiện này cũng vô cùng
+                      hấp dẫn, khi những người thắng cuộc sẽ có cơ hội nhận được
+                      các phần quà như sau:
+                    </p>
+                    <p>
+                      - 01 suất trải nghiệm xe McLaren ngoài đời thật và xuất
+                      hiện trong video McLaren sang-xịn-mịn từ PUBG MOBILE
+                    </p>
+                    <p>
+                      - 01 tai nghe Airpods Max - thiết bị giúp trải nghiệm
+                      tiếng động cơ siêu xe trong game thêm phần sống động và
+                      chân thật
+                    </p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

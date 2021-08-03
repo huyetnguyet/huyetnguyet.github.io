@@ -106,107 +106,108 @@ export default function page_20210611010946() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Từ trước đến nay, khi nhắc đến Ngọc Trinh, netizen sẽ nghĩ
+                      ngay đến hình ảnh một mỹ nhân nóng bỏng thích mặc đồ hở
+                      bạo để khoe trọn từng "đường gân thớ thịt" trên cơ thể. Dễ
+                      thấy, danh hiệu "Nữ hoàng nội y" của Ngọc Trinh tính đến
+                      thời điểm hiện tại vẫn chưa có đối thủ nào đủ mạnh để có
+                      thể đánh bại.
+                    </p>
+                    <p>
+                      Sáng 11/6, trên Instagram cá nhân, bạn thân Vũ Khắc Tiệp
+                      lại một lần nữa chứng minh đẳng cấp diện nội y không ai
+                      qua mặt được khi tung ra một bộ ảnh cực hút mắt. Biết được
+                      lợi thế của bản thân, Ngọc Trinh đã liên tục tạo những
+                      dáng chụp vô cùng "hư hỏng" để phô diễn toàn bộ đường cong
+                      cơ thể. Đặc biệt, việc cố tình khoe vòng 3 "ná thở" của cô
+                      nàng cũng khiến người hâm mộ không thể rời mắt được. Có
+                      thể thấy, ngoài vòng eo con kiến, vòng 3 cũng là một điểm
+                      mạnh đáng mơ ước trên body của Ngọc Trinh.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--10-718437.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note="Ngọc Trinh luôn biết cách phô diễn 3 vòng sao cho hút mắt nhất"
+                    />
+                    <p>
+                      Loạt ảnh này ngay sau khi được đăng tải đã thu hút sự chú
+                      ý của đông đảo cộng đồng mạng và nhận lại hàng ngàn lượt
+                      like. Dưới phần bình luận, dân tình cũng đã dành rất nhiều
+                      lời khen cho body đỉnh cao của "Nữ hoàng nội y".
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--11-840337.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note="Đường cong nóng bỏng kèm với vẻ sexy khó cưỡng của Ngọc Trinh luôn là ước mơ của nhiều cô gái"
+                    />
+                    <RelationNewsInPage category={category} />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--12-619387.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note="Bạn thân Vũ Khắc Tiệp cũng nhận được rất nhiều lời khen trong bộ ảnh này, bên cạnh đó cũng có ý kiến cho rằng cô đang khoe thân quá đà"
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--13-181060.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note="Ngọc Trinh dạo gần đây thường xuyên đăng tải những bộ ảnh diện nội y lên trang cá nhân"
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--14-13272.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--15-68044.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210611010946--16-19868.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
+                      note=""
+                    />
+                    <p>Ảnh: Instagram nhân vật</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Từ trước đến nay, khi nhắc đến Ngọc Trinh, netizen sẽ nghĩ
-                    ngay đến hình ảnh một mỹ nhân nóng bỏng thích mặc đồ hở bạo
-                    để khoe trọn từng "đường gân thớ thịt" trên cơ thể. Dễ thấy,
-                    danh hiệu "Nữ hoàng nội y" của Ngọc Trinh tính đến thời điểm
-                    hiện tại vẫn chưa có đối thủ nào đủ mạnh để có thể đánh bại.
-                  </p>
-                  <p>
-                    Sáng 11/6, trên Instagram cá nhân, bạn thân Vũ Khắc Tiệp lại
-                    một lần nữa chứng minh đẳng cấp diện nội y không ai qua mặt
-                    được khi tung ra một bộ ảnh cực hút mắt. Biết được lợi thế
-                    của bản thân, Ngọc Trinh đã liên tục tạo những dáng chụp vô
-                    cùng "hư hỏng" để phô diễn toàn bộ đường cong cơ thể. Đặc
-                    biệt, việc cố tình khoe vòng 3 "ná thở" của cô nàng cũng
-                    khiến người hâm mộ không thể rời mắt được. Có thể thấy,
-                    ngoài vòng eo con kiến, vòng 3 cũng là một điểm mạnh đáng mơ
-                    ước trên body của Ngọc Trinh.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--10-718437.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note="Ngọc Trinh luôn biết cách phô diễn 3 vòng sao cho hút mắt nhất"
-                  />
-                  <p>
-                    Loạt ảnh này ngay sau khi được đăng tải đã thu hút sự chú ý
-                    của đông đảo cộng đồng mạng và nhận lại hàng ngàn lượt like.
-                    Dưới phần bình luận, dân tình cũng đã dành rất nhiều lời
-                    khen cho body đỉnh cao của "Nữ hoàng nội y".
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--11-840337.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note="Đường cong nóng bỏng kèm với vẻ sexy khó cưỡng của Ngọc Trinh luôn là ước mơ của nhiều cô gái"
-                  />
-                  <RelationNewsInPage category={category} />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--12-619387.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note="Bạn thân Vũ Khắc Tiệp cũng nhận được rất nhiều lời khen trong bộ ảnh này, bên cạnh đó cũng có ý kiến cho rằng cô đang khoe thân quá đà"
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--13-181060.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note="Ngọc Trinh dạo gần đây thường xuyên đăng tải những bộ ảnh diện nội y lên trang cá nhân"
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--14-13272.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--15-68044.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210611010946--16-19868.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Nu Hoang Noi Y, Ban Than Vu Khac Tiep, Ngoc Trinh Dien Bikini, Sao Viet, Showbiz Viet, "
-                    note=""
-                  />
-                  <p>Ảnh: Instagram nhân vật</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

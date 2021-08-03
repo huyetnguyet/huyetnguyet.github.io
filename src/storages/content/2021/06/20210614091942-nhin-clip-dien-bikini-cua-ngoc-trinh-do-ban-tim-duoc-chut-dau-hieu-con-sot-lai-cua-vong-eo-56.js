@@ -106,145 +106,147 @@ export default function page_20210614091942() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Ngoài biệt danh "Nữ hoàng nội y", "Yêu nữ hàng hiệu", ...
+                      thế nhân vẫn lấy số đo 56 của vòng 2 ra làm biệt danh cho
+                      Ngọc Trinh. Thế nhưng, vạn vật đều chịu sự tác động của
+                      thời gian và trong đoạn clip mới đăng tải, Ngọc Trinh đã
+                      chứng minh nhận định trên là đúng.
+                    </p>{" "}
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--10-493647.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--11-122155.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note='Ngọc Trinh lộ "bé mỡ" khi diện bikini'
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--12-080266.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--13-046123.png")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <p>
+                      Diện 1 loạt <strong>bikini</strong> và monokini cut-out ở
+                      mạn sườn, Ngọc Trinh đã để lộ ra vòng 2 không còn thon thả
+                      như loạt ảnh nàng tự đăng. Trong từng bước catwalk, phần
+                      mỡ thừa ở eo Ngọc Trinh chuyển động qua lại như sóng biển,
+                      nom đến là thích mắt!
+                    </p>
+                    <p>
+                      Nhìn ảnh tĩnh thế này thì thấy bình thường, chứ xem clip
+                      là nhận ra "bé mỡ" của Ngọc Trinh đang dậy sóng đó!
+                    </p>
+                    <p>Bình "loạn" của dân mạng:</p>
+                    <p>- "Hello bé mỡ".</p>
+                    <p>
+                      - "Không tìm thấy vòng eo 56 đâu luôn! Đây chắc eo 65".
+                    </p>
+                    <p>
+                      - "Cảm giác Trinh mập lên rồi đó, không còn eo ót như hồi
+                      trước nữa!".
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      - "Mình thì thấy Trinh bụ bẫm 1 tí trông khoẻ khoắn hơn
+                      đó!".
+                    </p>
+                    <p>
+                      - "Chị Trinh ơi bây giờ số đo vòng eo của chị là bao nhiêu
+                      rồi?".
+                    </p>
+                    <p></p>
+                    <p>
+                      Đã có thời điểm, Ngọc Trinh "say goodbye" với vòng eo 56
+                      để chinh phục số đo 53 cm, trở thành 1 trong những mỹ nhân
+                      có vòng eo nhỏ nhất Vbiz. Tuy nhiên theo thông tin do
+                      chính chủ cung cấp, vòng eo của người đẹp hiện tại đã lên
+                      tới 58 cm. Thôi thì từ hôm nay hãy gọi Ngọc Trinh là "Vòng
+                      eo 58" đi vậy...
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--14-02889.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--15-67664.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--16-36349.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--17-63281.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210614091942--18-63281.jpeg")
+                          .default
+                      }
+                      alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
+                      note=""
+                    />
+                    <p>
+                      Nhờ vòng eo siêu nhỏ, Ngọc Trinh có thể dễ dàng "cân" mọi
+                      kiểu trang phục chống chỉ định cho người thừa cân
+                    </p>
+                    <p>Ảnh: Sưu tầm</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Ngoài biệt danh "Nữ hoàng nội y", "Yêu nữ hàng hiệu", ...
-                    thế nhân vẫn lấy số đo 56 của vòng 2 ra làm biệt danh cho
-                    Ngọc Trinh. Thế nhưng, vạn vật đều chịu sự tác động của thời
-                    gian và trong đoạn clip mới đăng tải, Ngọc Trinh đã chứng
-                    minh nhận định trên là đúng.
-                  </p>{" "}
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--10-493647.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--11-122155.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note='Ngọc Trinh lộ "bé mỡ" khi diện bikini'
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--12-080266.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--13-046123.png")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <p>
-                    Diện 1 loạt <strong>bikini</strong> và monokini cut-out ở
-                    mạn sườn, Ngọc Trinh đã để lộ ra vòng 2 không còn thon thả
-                    như loạt ảnh nàng tự đăng. Trong từng bước catwalk, phần mỡ
-                    thừa ở eo Ngọc Trinh chuyển động qua lại như sóng biển, nom
-                    đến là thích mắt!
-                  </p>
-                  <p>
-                    Nhìn ảnh tĩnh thế này thì thấy bình thường, chứ xem clip là
-                    nhận ra "bé mỡ" của Ngọc Trinh đang dậy sóng đó!
-                  </p>
-                  <p>Bình "loạn" của dân mạng:</p>
-                  <p>- "Hello bé mỡ".</p>
-                  <p>- "Không tìm thấy vòng eo 56 đâu luôn! Đây chắc eo 65".</p>
-                  <p>
-                    - "Cảm giác Trinh mập lên rồi đó, không còn eo ót như hồi
-                    trước nữa!".
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    - "Mình thì thấy Trinh bụ bẫm 1 tí trông khoẻ khoắn hơn
-                    đó!".
-                  </p>
-                  <p>
-                    - "Chị Trinh ơi bây giờ số đo vòng eo của chị là bao nhiêu
-                    rồi?".
-                  </p>
-                  <p></p>
-                  <p>
-                    Đã có thời điểm, Ngọc Trinh "say goodbye" với vòng eo 56 để
-                    chinh phục số đo 53 cm, trở thành 1 trong những mỹ nhân có
-                    vòng eo nhỏ nhất Vbiz. Tuy nhiên theo thông tin do chính chủ
-                    cung cấp, vòng eo của người đẹp hiện tại đã lên tới 58 cm.
-                    Thôi thì từ hôm nay hãy gọi Ngọc Trinh là "Vòng eo 58" đi
-                    vậy...
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--14-02889.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--15-67664.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--16-36349.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--17-63281.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210614091942--18-63281.jpeg")
-                        .default
-                    }
-                    alt="Ngoc Trinh, Bikini, Vong Eo, Vong 2, Body Sao Viet, Sexy Body, "
-                    note=""
-                  />
-                  <p>
-                    Nhờ vòng eo siêu nhỏ, Ngọc Trinh có thể dễ dàng "cân" mọi
-                    kiểu trang phục chống chỉ định cho người thừa cân
-                  </p>
-                  <p>Ảnh: Sưu tầm</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

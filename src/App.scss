@@ -133,8 +133,7 @@ body {
         }
       }
       .cardBtn {
-        float: left;
-        position: relative;
+        display: block;
         text-transform: uppercase;
         color: #fff;
         font: bold 12px/21px "Orbitron", sans-serif;
@@ -145,6 +144,8 @@ body {
         width: 70%;
         margin-left: 15%;
         margin-bottom: 10px;
+        position: absolute;
+        bottom: 0;
         @media only screen and (max-width: 1000px) {
           margin-left: 30%;
           width: 40%;
@@ -250,13 +251,21 @@ body {
 .adsVerticalHome,
 .adsFeaturedSection {
   z-index: 3;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .adsHorizontal {
-  float: right;
+  background-color: $color-red;
+  margin: 0;
+  padding: 0;
+
+  display: block;
   z-index: 999;
-  width: 25%;
-  background-color: $color_red;
+  width: 310px;
   @media (max-width: 1000px) {
     display: block;
     position: relative;
@@ -265,6 +274,8 @@ body {
 }
 
 .adsVertical {
+  background-color: $color-orange;
+
   display: block;
   position: relative;
   width: 100%;
@@ -276,19 +287,22 @@ body {
 }
 
 .adsVerticalHome {
+  background-color: $color-yellow;
+
   float: left;
   width: 700px;
   height: 200px;
-  margin-top: 20px;
+  margin: 20px auto;
+  margin-left: 1%;
+
   @media (max-width: 1000px) {
     width: 100%;
     margin-left: 0;
-    margin-top: 20px;
+    margin: 10px auto;
   }
 }
 
 .adsFeaturedSection {
-  content: "";
   background-color: $color-green;
 
   @media (max-width: 1000px) {

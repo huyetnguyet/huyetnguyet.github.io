@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -97,89 +101,93 @@ export default function page_202106021031() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Lên sóng thay đồ, khoe nội y bằng việc thực hiện các clip
-                    Lookbook cũng như nhiều tuyến nội dung khác đang trở thành
-                    một trong những chủ đề hot và được đón nhận nhiều nhất trên
-                    YouTube. Chẳng thế mà thời gian gần đây, rất nhiều những
-                    streamer, YouTuber cũng tỏ ra vô cùng hào hứng khi chạy theo
-                    trào lưu này, khi ít nhất, nó đã mang lại những điều tích
-                    cực nhất thời như view và lượng follow trong ngắn hạn. Tuy
-                    nhiên, đôi khi điều này cũng mang tới một số những tai nạn
-                    với cái giá rất đắt, điển hình như trường hợp của Sam, một
-                    cô nàng YouTuber dưới đây.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604324537468863202.jpg"
-                    alt="Streamer"
-                    note="Sam - cô nàng YouTuber đang được nhắc tới trong câu chuyện"
-                  />
-                  <p>
-                    Theo đó, vốn dĩ cô nàng YouTuber này đã khá nổi tiếng với
-                    những clip hướng dẫn tập yoga cũng như các biện pháp giữ
-                    gìn, tăng sự gợi cảm về vóc dáng cho các chị em. Thế nhưng,
-                    như đã đề cập ở trên, theo thời gian, các nội dung của cô
-                    nàng YouTuber này cũng dần dần thiên về trào lưu gợi cảm
-                    nhiều hơn, như một cách để thu hút thêm fan hâm mộ cũng như
-                    lượng người đăng ký. Tuy nhiên, điều gì cũng có cái giá của
-                    nó.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604326599893987695.jpg"
-                    alt="Streamer"
-                    note="Hình ảnh của Sam ngày càng trở nên gợi cảm hơn theo thời gian"
-                  />
-                  <p>
-                    Cụ thể, trong lần lên sóng mới nhất, không hiểu vì lý do gì
-                    mà cô nàng lại bất ngờ nghĩ tới việc thử một bộ đồ bơi khá
-                    gợi cảm. Vấn đề là không hiểu có sự nhầm lẫn từ đâu, mà
-                    dường như kích thước bộ đồ bơi lại có phần chật chội, không
-                    quá thoải mái, để rồi dẫn tới việc dây quai của Sam còn bất
-                    ngờ bị tụt ngay trên sóng, khiến cô nàng hoảng hồn dùng tay
-                    che đậy để tránh đi sự hớ hênh.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-2-16226043266491888177528.gif"
-                    alt="Streamer"
-                    note="Khoảnh khắc đầy gợi cảm trên sóng của cô nàng YouTuber"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-3-16226043271871578363010.gif"
-                    alt="Streamer"
-                    note="Mặc dù suýt gặp sự cố hớ hênh nhưng Sam vẫn tỏ ra khá bình thản"
-                  />
-                  <ContentImage
-                    src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-4-1622604327247885087532.gif"
-                    alt="Streamer"
-                    note="Cô nàng còn không ngần ngại chia sẻ rằng bộ bikini bị chật vì vòng một và vòng ba của cô nàng đều quá to"
-                  />
-                  <p>
-                    Tất nhiên, vì chưa có sự cố hớ hênh đáng tiếc nào xảy ra nên
-                    cô nàng YouTuber cũng chẳng phải nhận án phạt quá nghiêm
-                    khắc. Nhưng đổi lại, Sam cũng đã nhận phải không ít những
-                    chỉ trích từ phía fan hâm mộ - những người cho rằng cô nàng
-                    càng ngày càng chiêu trò để nhận lấy sự chú ý.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-5-16226043273021274672683.gif"
-                    alt="Streamer"
-                    note=""
-                  />
+                  <div className="contentBodyLeft">
+                    <p>
+                      Lên sóng thay đồ, khoe nội y bằng việc thực hiện các clip
+                      Lookbook cũng như nhiều tuyến nội dung khác đang trở thành
+                      một trong những chủ đề hot và được đón nhận nhiều nhất
+                      trên YouTube. Chẳng thế mà thời gian gần đây, rất nhiều
+                      những streamer, YouTuber cũng tỏ ra vô cùng hào hứng khi
+                      chạy theo trào lưu này, khi ít nhất, nó đã mang lại những
+                      điều tích cực nhất thời như view và lượng follow trong
+                      ngắn hạn. Tuy nhiên, đôi khi điều này cũng mang tới một số
+                      những tai nạn với cái giá rất đắt, điển hình như trường
+                      hợp của Sam, một cô nàng YouTuber dưới đây.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604324537468863202.jpg"
+                      alt="Streamer"
+                      note="Sam - cô nàng YouTuber đang được nhắc tới trong câu chuyện"
+                    />
+                    <p>
+                      Theo đó, vốn dĩ cô nàng YouTuber này đã khá nổi tiếng với
+                      những clip hướng dẫn tập yoga cũng như các biện pháp giữ
+                      gìn, tăng sự gợi cảm về vóc dáng cho các chị em. Thế
+                      nhưng, như đã đề cập ở trên, theo thời gian, các nội dung
+                      của cô nàng YouTuber này cũng dần dần thiên về trào lưu
+                      gợi cảm nhiều hơn, như một cách để thu hút thêm fan hâm mộ
+                      cũng như lượng người đăng ký. Tuy nhiên, điều gì cũng có
+                      cái giá của nó.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622604326599893987695.jpg"
+                      alt="Streamer"
+                      note="Hình ảnh của Sam ngày càng trở nên gợi cảm hơn theo thời gian"
+                    />
+                    <p>
+                      Cụ thể, trong lần lên sóng mới nhất, không hiểu vì lý do
+                      gì mà cô nàng lại bất ngờ nghĩ tới việc thử một bộ đồ bơi
+                      khá gợi cảm. Vấn đề là không hiểu có sự nhầm lẫn từ đâu,
+                      mà dường như kích thước bộ đồ bơi lại có phần chật chội,
+                      không quá thoải mái, để rồi dẫn tới việc dây quai của Sam
+                      còn bất ngờ bị tụt ngay trên sóng, khiến cô nàng hoảng hồn
+                      dùng tay che đậy để tránh đi sự hớ hênh.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-2-16226043266491888177528.gif"
+                      alt="Streamer"
+                      note="Khoảnh khắc đầy gợi cảm trên sóng của cô nàng YouTuber"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-3-16226043271871578363010.gif"
+                      alt="Streamer"
+                      note="Mặc dù suýt gặp sự cố hớ hênh nhưng Sam vẫn tỏ ra khá bình thản"
+                    />
+                    <ContentImage
+                      src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-4-1622604327247885087532.gif"
+                      alt="Streamer"
+                      note="Cô nàng còn không ngần ngại chia sẻ rằng bộ bikini bị chật vì vòng một và vòng ba của cô nàng đều quá to"
+                    />
+                    <p>
+                      Tất nhiên, vì chưa có sự cố hớ hênh đáng tiếc nào xảy ra
+                      nên cô nàng YouTuber cũng chẳng phải nhận án phạt quá
+                      nghiêm khắc. Nhưng đổi lại, Sam cũng đã nhận phải không ít
+                      những chỉ trích từ phía fan hâm mộ - những người cho rằng
+                      cô nàng càng ngày càng chiêu trò để nhận lấy sự chú ý.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/203336854389633024/2021/6/2/photo-5-16226043273021274672683.gif"
+                      alt="Streamer"
+                      note=""
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

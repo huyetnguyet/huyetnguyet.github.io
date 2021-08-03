@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -104,76 +108,81 @@ export default function page_20210607103429() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Nói đến TapTap thì chắc chắn <strong>game</strong> thủ Việt
-                    sẽ không còn cảm thấy xa lạ. Đây là cổng game trực tuyến nổi
-                    tiếng và rất thịnh hành tại thị trường Trung Quốc và thậm
-                    chí cả cộng đồng quốc tế. Taptap được biết đến như một nơi
-                    mà game thủ có thể theo dõi những thông tin về các sản phẩm
-                    game mới nhất cũng như được tiếp cận, tải về sớm các bom
-                    tấn. Ví dụ như Đấu Trường Chân Lý Mobile và cả Liên Minh:
-                    Tốc Chiến.
-                  </p>
-                  <p>
-                    Mới đây, một tựa <strong>game</strong> Fanmade của Việt Nam
-                    đã xuất sắc đứng Top 1 trên bảng xếp hạng game phổ biến của
-                    cổng game nổi tiếng này. Và tựa game đó chính là Hàng Rong
-                    Mobile, trò chơi được chính bàn tay của một nhóm phát triển
-                    tại Việt Nam thực hiện dựa trên ý tưởng của Hàng Rong Online
-                    ngày trước.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/6/7/photo-1-1623048377886367284082.jpg"
-                    alt="Hang Rong Mobile, Hang Rong Online, Hang Rong, Vng, Dau Truong Chan Ly Mobile, Dtcl Mobile, Game, Tin Tuc Game, "
-                    note=""
-                  />
-                  <p>
-                    Tưởng rằng dự án này đã phải tạm dừng vô thời hạn do liên
-                    quan đến vấn đề kinh phí song bất ngờ là Hàng Rong Mobile đã
-                    xuất sắc trở lại, thậm chí còn khởi động lại phiên bản trên
-                    nền tảng iOS. Đó cũng chính là lý do mà tại sao Hàng Rong
-                    Mobile lại bất ngờ nhận được sự quan tâm rất lớn của cộng
-                    đồng <strong>game</strong> thủ Việt và phần nào giải thích
-                    được nguyên nhân sản phẩm này vượt qua những tên tuổi như
-                    Đấu Trường Chân Lý Mobile, Crossfire Mobile (tại Trung
-                    Quốc)… trên bảng xếp hạng game nổi tiếng của Trung Quốc.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/7/photo-1-1623048388223398432994.png"
-                    alt="Hang Rong Mobile, Hang Rong Online, Hang Rong, Vng, Dau Truong Chan Ly Mobile, Dtcl Mobile, Game, Tin Tuc Game, "
-                    note=""
-                  />
-                  <p>
-                    Từ giai đoạn cuối năm 2020, Hàng Rong Mobile là một trong
-                    những tựa <strong>game</strong> được người chơi Việt mong
-                    đợi. Tuy không phải được phát triển và phát hành bởi bất kỳ
-                    một ông lớn nào mà đơn giản chỉ có một đội ngũ nhỏ vì yêu
-                    mến Hàng Rong Online ngày nào mà muốn tái sinh lại tựa game
-                    này.
-                  </p>
-                  <p>
-                    Việc không thể có mặt trên các kho tải chính thức tại Việt
-                    Nam lý giải vì sao Hàng Rong Mobile lại nhận được sự quan
-                    tâm trên cổng <strong>game</strong> TapTap. Tuy nhiên thì
-                    đây cũng là một tín hiệu tích cực cho thấy Hàng Rong Mobile
-                    vẫn đang đi đúng hướng và cơ hội trải nghiệm cho game thủ
-                    vẫn còn rộng mở trong tương lai.
-                  </p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Nói đến TapTap thì chắc chắn <strong>game</strong> thủ
+                      Việt sẽ không còn cảm thấy xa lạ. Đây là cổng game trực
+                      tuyến nổi tiếng và rất thịnh hành tại thị trường Trung
+                      Quốc và thậm chí cả cộng đồng quốc tế. Taptap được biết
+                      đến như một nơi mà game thủ có thể theo dõi những thông
+                      tin về các sản phẩm game mới nhất cũng như được tiếp cận,
+                      tải về sớm các bom tấn. Ví dụ như Đấu Trường Chân Lý
+                      Mobile và cả Liên Minh: Tốc Chiến.
+                    </p>
+                    <p>
+                      Mới đây, một tựa <strong>game</strong> Fanmade của Việt
+                      Nam đã xuất sắc đứng Top 1 trên bảng xếp hạng game phổ
+                      biến của cổng game nổi tiếng này. Và tựa game đó chính là
+                      Hàng Rong Mobile, trò chơi được chính bàn tay của một nhóm
+                      phát triển tại Việt Nam thực hiện dựa trên ý tưởng của
+                      Hàng Rong Online ngày trước.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/6/7/photo-1-1623048377886367284082.jpg"
+                      alt="Hang Rong Mobile, Hang Rong Online, Hang Rong, Vng, Dau Truong Chan Ly Mobile, Dtcl Mobile, Game, Tin Tuc Game, "
+                      note=""
+                    />
+                    <p>
+                      Tưởng rằng dự án này đã phải tạm dừng vô thời hạn do liên
+                      quan đến vấn đề kinh phí song bất ngờ là Hàng Rong Mobile
+                      đã xuất sắc trở lại, thậm chí còn khởi động lại phiên bản
+                      trên nền tảng iOS. Đó cũng chính là lý do mà tại sao Hàng
+                      Rong Mobile lại bất ngờ nhận được sự quan tâm rất lớn của
+                      cộng đồng <strong>game</strong> thủ Việt và phần nào giải
+                      thích được nguyên nhân sản phẩm này vượt qua những tên
+                      tuổi như Đấu Trường Chân Lý Mobile, Crossfire Mobile (tại
+                      Trung Quốc)… trên bảng xếp hạng game nổi tiếng của Trung
+                      Quốc.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/7/photo-1-1623048388223398432994.png"
+                      alt="Hang Rong Mobile, Hang Rong Online, Hang Rong, Vng, Dau Truong Chan Ly Mobile, Dtcl Mobile, Game, Tin Tuc Game, "
+                      note=""
+                    />
+                    <p>
+                      Từ giai đoạn cuối năm 2020, Hàng Rong Mobile là một trong
+                      những tựa <strong>game</strong> được người chơi Việt mong
+                      đợi. Tuy không phải được phát triển và phát hành bởi bất
+                      kỳ một ông lớn nào mà đơn giản chỉ có một đội ngũ nhỏ vì
+                      yêu mến Hàng Rong Online ngày nào mà muốn tái sinh lại tựa
+                      game này.
+                    </p>
+                    <p>
+                      Việc không thể có mặt trên các kho tải chính thức tại Việt
+                      Nam lý giải vì sao Hàng Rong Mobile lại nhận được sự quan
+                      tâm trên cổng <strong>game</strong> TapTap. Tuy nhiên thì
+                      đây cũng là một tín hiệu tích cực cho thấy Hàng Rong
+                      Mobile vẫn đang đi đúng hướng và cơ hội trải nghiệm cho
+                      game thủ vẫn còn rộng mở trong tương lai.
+                    </p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

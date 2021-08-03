@@ -22,7 +22,9 @@ export default function TopSection() {
       <div className="search">
         <button
           className="searchButton"
-          onClick={(event) => (window.location.href = querySearch)}
+          onClick={(event) =>
+            (window.location.href = querySearch.replaceAll(" ", "-"))
+          }
         >
           Search
         </button>

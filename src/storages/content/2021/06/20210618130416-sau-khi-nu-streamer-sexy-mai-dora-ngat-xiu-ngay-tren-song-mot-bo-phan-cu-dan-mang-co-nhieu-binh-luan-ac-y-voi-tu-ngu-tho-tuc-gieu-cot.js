@@ -99,96 +99,97 @@ export default function page_20210618130416() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Thông tin nữ streamer Mai Dora ngất xỉu ngay giữa lúc đang
+                      livestream nhận được sự quan tâm lớn của cộng đồng mạng.
+                      Hầu hết mọi người đều đang bày tỏ sự lo lắng đến tình hình
+                      sức khỏe của cô nàng, cũng như cầu chúc cho Mai Dora sớm
+                      bình phục sau sự cố đáng tiếc này.
+                    </p>
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210618130416--10-653020.jpg")
+                          .default
+                      }
+                      alt="1, "
+                      note="Nữ streamer Mai Dora đang nhận được sự quan tâm lớn của cộng đồng mạng"
+                    />{" "}
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210618130416--11-473397.jpg")
+                          .default
+                      }
+                      alt="2, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210618130416--12-531303.jpg")
+                          .default
+                      }
+                      alt="3, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210618130416--13-565503.jpg")
+                          .default
+                      }
+                      alt="4, "
+                      note=""
+                    />
+                    <ContentImage
+                      src={
+                        require("storages/images/content/2021/20210618130416--14-203729.jpg")
+                          .default
+                      }
+                      alt="5, "
+                      note=""
+                    />
+                    <p>
+                      Tuy nhiên, một bộ phận cư dân mạng lại không nhận ra được
+                      độ nghiêm trọng của vấn đề này. Họ vẫn vô tư đùa giỡn,
+                      cười cợt trước một tình huống chẳng mấy vui vẻ:
+                    </p>
+                    <p>"Ngực nặng thế kia ngã là đúng rồi,"</p>
+                    <p>"Không sao, ngực to là được."</p>
+                    <p>"Chắc bộ bánh bao nặng quá nên mới ngã."</p>
+                    <p>"Giả nai thế nhở, chắc trốn live thôi."</p>
+                    <RelationNewsInPage category={category} />
+                    <p></p>
+                    <p>Mai Dora bất ngờ xỉu trong lúc livestream</p>
+                    <p>
+                      Việc Mai Dora ngất xỉu trên sóng stream là điều có thật.
+                      Theo thông tin xác nhận, hiện tại, nữ streamer đã tỉnh lại
+                      và nhận được sự chăm sóc từ người thân và gia đình.
+                    </p>
+                    <p>
+                      Tuy nhiên hành vi giễu cợt, bông đùa trước tình huống có
+                      thể liên quan tới mạng sống của người khác là điều rất
+                      đáng lên án. Đồng thời nó cũng cho chúng ta thấy một bộ
+                      phận cư dân mạng có lối hành xử rất kém văn minh trên mạng
+                      xã hội.
+                    </p>
+                    <p>Ảnh: Tổng hợp</p>
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Thông tin nữ streamer Mai Dora ngất xỉu ngay giữa lúc đang
-                    livestream nhận được sự quan tâm lớn của cộng đồng mạng. Hầu
-                    hết mọi người đều đang bày tỏ sự lo lắng đến tình hình sức
-                    khỏe của cô nàng, cũng như cầu chúc cho Mai Dora sớm bình
-                    phục sau sự cố đáng tiếc này.
-                  </p>
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210618130416--10-653020.jpg")
-                        .default
-                    }
-                    alt="1, "
-                    note="Nữ streamer Mai Dora đang nhận được sự quan tâm lớn của cộng đồng mạng"
-                  />{" "}
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210618130416--11-473397.jpg")
-                        .default
-                    }
-                    alt="2, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210618130416--12-531303.jpg")
-                        .default
-                    }
-                    alt="3, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210618130416--13-565503.jpg")
-                        .default
-                    }
-                    alt="4, "
-                    note=""
-                  />
-                  <ContentImage
-                    src={
-                      require("storages/images/content/2021/20210618130416--14-203729.jpg")
-                        .default
-                    }
-                    alt="5, "
-                    note=""
-                  />
-                  <p>
-                    Tuy nhiên, một bộ phận cư dân mạng lại không nhận ra được độ
-                    nghiêm trọng của vấn đề này. Họ vẫn vô tư đùa giỡn, cười cợt
-                    trước một tình huống chẳng mấy vui vẻ:
-                  </p>
-                  <p>"Ngực nặng thế kia ngã là đúng rồi,"</p>
-                  <p>"Không sao, ngực to là được."</p>
-                  <p>"Chắc bộ bánh bao nặng quá nên mới ngã."</p>
-                  <p>"Giả nai thế nhở, chắc trốn live thôi."</p>
-                  <RelationNewsInPage category={category} />
-                  <p></p>
-                  <p>Mai Dora bất ngờ xỉu trong lúc livestream</p>
-                  <p>
-                    Việc Mai Dora ngất xỉu trên sóng stream là điều có thật.
-                    Theo thông tin xác nhận, hiện tại, nữ streamer đã tỉnh lại
-                    và nhận được sự chăm sóc từ người thân và gia đình.
-                  </p>
-                  <p>
-                    Tuy nhiên hành vi giễu cợt, bông đùa trước tình huống có thể
-                    liên quan tới mạng sống của người khác là điều rất đáng lên
-                    án. Đồng thời nó cũng cho chúng ta thấy một bộ phận cư dân
-                    mạng có lối hành xử rất kém văn minh trên mạng xã hội.
-                  </p>
-                  <p>Ảnh: Tổng hợp</p>
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

@@ -99,89 +99,90 @@ export default function page_20210729161737() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Thông minh, xinh đẹp, kỹ năng chơi game đỉnh,{" "}
+                      <strong>Ngân Sát Thủ</strong> là một trong những{" "}
+                      <strong>streamer</strong> nữ chiếm được nhiều tình cảm của
+                      fan.{" "}
+                    </p>
+                    <p>
+                      Vốn theo đuổi hình tượng dễ thương, thường xuyên mặc áo
+                      phông rộng rãi nên mỗi khi nữ <strong>streamer</strong>{" "}
+                      này bạo dạn mặc trang phục bó sát, khoe đường cong, "cố
+                      tình hớ hênh" đều khiến người hâm mộ phải trầm trồ.
+                    </p>
+                    <p>
+                      Điểm lại những khoảnh khắc thả dáng trong trang phục ngắn
+                      để lộ vòng một và vòng ba nở nang, cực “mướt” gây “bão
+                      mạng” của cô nàng, fan liên tiếp dành những lời khen cho
+                      nhan sắc xinh đẹp và quyến rũ. Đây là thành quả của chuỗi
+                      ngày luyện tập thể dục thể thao, yoga chăm chỉ của Ngân.{" "}
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/16/photo-1-1626427972906307816831.jpg"
+                      alt="1, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
+                      note="Dòng chú thích khoe khéo số đo vòng 3."
+                    />
+                    <p>
+                      Nếu như thường xuyên theo dõi cuộc sống của cô nàng, người
+                      hâm mộ sẽ biết, trong thời gian ở nhà thực hiện giãn cách,
+                      bên cạnh việc livestream đều đặn thì hoạt động thể chất
+                      như tập thể dục, tập yoga được cô nàng ưu tiên luyện tập
+                      để duy trì một thân hình thon gọn, quyến rũ.
+                    </p>
+                    <RelationNewsInPage category={category} />
+                    <p>
+                      Nhìn những bức hình gợi cảm này, fan không khỏi "nóng
+                      mặt".
+                    </p>
+                    <p>
+                      Việc âm thầm hoàn thiện bản thân này của nữ{" "}
+                      <strong>streamer</strong> là minh chứng cho thấy{" "}
+                      <strong>Ngân Sát Thủ</strong> là cô gái độc lập, mạnh mẽ
+                      và yêu bản thân. Những bức ảnh Ngân Sát Thủ tự tin khoe
+                      hình thể "hút hồn" trên mạng xã hội vẫn luôn là chủ đề
+                      "nóng" thường nhận được lượt tương tác cực cao từ 2 triệu
+                      người theo dõi.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-16264268804161922126421.jpg"
+                      alt="2, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-16264268825451371146272.jpg"
+                      alt="3, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-1626426883519608299646.jpg"
+                      alt="4, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-162642688301798277459.jpg"
+                      alt="5, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Thông minh, xinh đẹp, kỹ năng chơi game đỉnh,{" "}
-                    <strong>Ngân Sát Thủ</strong> là một trong những{" "}
-                    <strong>streamer</strong> nữ chiếm được nhiều tình cảm của
-                    fan.{" "}
-                  </p>
-                  <p>
-                    Vốn theo đuổi hình tượng dễ thương, thường xuyên mặc áo
-                    phông rộng rãi nên mỗi khi nữ <strong>streamer</strong> này
-                    bạo dạn mặc trang phục bó sát, khoe đường cong, "cố tình hớ
-                    hênh" đều khiến người hâm mộ phải trầm trồ.
-                  </p>
-                  <p>
-                    Điểm lại những khoảnh khắc thả dáng trong trang phục ngắn để
-                    lộ vòng một và vòng ba nở nang, cực “mướt” gây “bão mạng”
-                    của cô nàng, fan liên tiếp dành những lời khen cho nhan sắc
-                    xinh đẹp và quyến rũ. Đây là thành quả của chuỗi ngày luyện
-                    tập thể dục thể thao, yoga chăm chỉ của Ngân.{" "}
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/16/photo-1-1626427972906307816831.jpg"
-                    alt="1, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
-                    note="Dòng chú thích khoe khéo số đo vòng 3."
-                  />
-                  <p>
-                    Nếu như thường xuyên theo dõi cuộc sống của cô nàng, người
-                    hâm mộ sẽ biết, trong thời gian ở nhà thực hiện giãn cách,
-                    bên cạnh việc livestream đều đặn thì hoạt động thể chất như
-                    tập thể dục, tập yoga được cô nàng ưu tiên luyện tập để duy
-                    trì một thân hình thon gọn, quyến rũ.
-                  </p>
-                  <RelationNewsInPage category={category} />
-                  <p>
-                    Nhìn những bức hình gợi cảm này, fan không khỏi "nóng mặt".
-                  </p>
-                  <p>
-                    Việc âm thầm hoàn thiện bản thân này của nữ{" "}
-                    <strong>streamer</strong> là minh chứng cho thấy{" "}
-                    <strong>Ngân Sát Thủ</strong> là cô gái độc lập, mạnh mẽ và
-                    yêu bản thân. Những bức ảnh Ngân Sát Thủ tự tin khoe hình
-                    thể "hút hồn" trên mạng xã hội vẫn luôn là chủ đề "nóng"
-                    thường nhận được lượt tương tác cực cao từ 2 triệu người
-                    theo dõi.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-16264268804161922126421.jpg"
-                    alt="2, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-16264268825451371146272.jpg"
-                    alt="3, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-1626426883519608299646.jpg"
-                    alt="4, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/16/-162642688301798277459.jpg"
-                    alt="5, STREAMER,NGÂN SÁT THỦ,VÒNG 3,NÓNG BỎNG,"
-                    note=""
-                  />
-                </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

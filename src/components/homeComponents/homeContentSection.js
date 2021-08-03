@@ -75,14 +75,11 @@ export default function HomeContentSection(props) {
   return (
     <div className="homeContent">
       <div className="containerContent">
-        <div className="desktop">
-          <AdsHorizontal />
-        </div>
-
         <div className="content">
           <MainContent data={dataContent}></MainContent>
           <Pagenavi01 />
         </div>
+        <AdsHorizontal />
       </div>
     </div>
   );

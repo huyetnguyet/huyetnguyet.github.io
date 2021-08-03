@@ -99,118 +99,120 @@ export default function page_20210729161332() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
                 <RelationNews category={category} />
-                <div className="desktop">
+                <div className="contentBody">
+                  <div className="contentBodyLeft">
+                    <p>
+                      Mới đây, thông tin về sự kiện toàn cầu “Free Fighter” - cơ
+                      hội để người chơi <strong>Free Fire</strong> có thể mang
+                      vào trong trận đấu những bộ trang phục độc đáo của hai
+                      nhân vật game được yêu thích: Ryu và{" "}
+                      <strong>Chun-li</strong>. Bên cạnh đó, sự kiện sẽ có thêm
+                      một loạt những nội dung độc quyền trong game, giao diện
+                      đặc biệt, skin vật phẩm mới,...
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/373-3737940street-fighter-v-street-fighter-game-chun-li-16255024378632038847535.png"
+                      alt="1, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Trong đó, ấn tượng nhất là bộ sưu tập bao gồm trang phục
+                      biểu tượng của <strong>Chun-Li</strong>, gồm có chiếc
+                      qipao xanh dương, vòng tay gai, cùng với skin bom keo mang
+                      hình tượng nữ võ sĩ.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/tai-xuong-16255024379281571638415.jpeg"
+                      alt="2, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Phấn khích trước dự án này cũng như tham gia vào hoạt động
+                      chào mừng sự kiện này, hai cái tên đình đám làng game cũng
+                      như mạng xã hội là <strong>Chi Củ Cải</strong> và Lê Bống
+                      đã tiết lộ những hình ảnh đầu tiên khi tham gia cosplay
+                      nhân vật này.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/20774198429662484803622107430060936405892991n-16255025212351475423649.jpeg"
+                      alt="3, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/2094080332966248400362218129438174972965325n-16255025212401070762264.jpeg"
+                      alt="4, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Vũ Ngọc Kim Chi nổi lên từ đầu năm 2019 với vai trò là
+                      streamer của tựa game Liên Minh Huyền Thoại được Dũng CT
+                      động viên và giúp đỡ. Đến nay, sau hai năm nỗ lực, cô nàng
+                      đã chứng minh được khả năng của mình cũng như có được vị
+                      trí nhất định. Đặc biệt, Chi được người hâm mộ cho là bóng
+                      hồng sexy nhất làng game.
+                    </p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625502592899564130080.jpg"
+                      alt="5, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255026104631166869500.jpg"
+                      alt="6, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <p>
+                      Không chỉ phát huy được “nội tại” ở lĩnh vực streamer,{" "}
+                      <strong>hot girl</strong> sinh năm 1999 này còn là mẫu
+                      ảnh, KOL có tiếng. Với phong cách sexy của mình, “bóng
+                      hồng” đến từ Hải Phòng này nhiều lần “đốt mắt” anh em game
+                      thủ, và cosplay <strong>Chun-li</strong> cũng không ngoại
+                      lệ.
+                    </p>
+                    <RelationNewsInPage category={category} />
+
+                    <p>
+                      Trước đó, nhiều phiên bản cosplay <strong>Chun-Li</strong>{" "}
+                      đã khiến cộng đồng mạng phải tranh cãi:
+                    </p>
+
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255027440271029618874.jpg"
+                      alt="7, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255027636631649527432.jpg"
+                      alt="8, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16255028162851056202691.jpg"
+                      alt="9, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16255028246921224650663.jpg"
+                      alt="10, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
+                      note=""
+                    />
+                  </div>
                   <AdsHorizontal />
                 </div>
-                <div className="contentBody">
-                  <p>
-                    Mới đây, thông tin về sự kiện toàn cầu “Free Fighter” - cơ
-                    hội để người chơi <strong>Free Fire</strong> có thể mang vào
-                    trong trận đấu những bộ trang phục độc đáo của hai nhân vật
-                    game được yêu thích: Ryu và <strong>Chun-li</strong>. Bên
-                    cạnh đó, sự kiện sẽ có thêm một loạt những nội dung độc
-                    quyền trong game, giao diện đặc biệt, skin vật phẩm mới,...
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/373-3737940street-fighter-v-street-fighter-game-chun-li-16255024378632038847535.png"
-                    alt="1, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Trong đó, ấn tượng nhất là bộ sưu tập bao gồm trang phục
-                    biểu tượng của <strong>Chun-Li</strong>, gồm có chiếc qipao
-                    xanh dương, vòng tay gai, cùng với skin bom keo mang hình
-                    tượng nữ võ sĩ.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/tai-xuong-16255024379281571638415.jpeg"
-                    alt="2, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Phấn khích trước dự án này cũng như tham gia vào hoạt động
-                    chào mừng sự kiện này, hai cái tên đình đám làng game cũng
-                    như mạng xã hội là <strong>Chi Củ Cải</strong> và Lê Bống đã
-                    tiết lộ những hình ảnh đầu tiên khi tham gia cosplay nhân
-                    vật này.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/20774198429662484803622107430060936405892991n-16255025212351475423649.jpeg"
-                    alt="3, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/660/133514250583805952/2021/7/5/2094080332966248400362218129438174972965325n-16255025212401070762264.jpeg"
-                    alt="4, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Vũ Ngọc Kim Chi nổi lên từ đầu năm 2019 với vai trò là
-                    streamer của tựa game Liên Minh Huyền Thoại được Dũng CT
-                    động viên và giúp đỡ. Đến nay, sau hai năm nỗ lực, cô nàng
-                    đã chứng minh được khả năng của mình cũng như có được vị trí
-                    nhất định. Đặc biệt, Chi được người hâm mộ cho là bóng hồng
-                    sexy nhất làng game.
-                  </p>
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-1625502592899564130080.jpg"
-                    alt="5, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255026104631166869500.jpg"
-                    alt="6, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <p>
-                    Không chỉ phát huy được “nội tại” ở lĩnh vực streamer,{" "}
-                    <strong>hot girl</strong> sinh năm 1999 này còn là mẫu ảnh,
-                    KOL có tiếng. Với phong cách sexy của mình, “bóng hồng” đến
-                    từ Hải Phòng này nhiều lần “đốt mắt” anh em game thủ, và
-                    cosplay <strong>Chun-li</strong> cũng không ngoại lệ.
-                  </p>
-                  <RelationNewsInPage category={category} />
 
-                  <p>
-                    Trước đó, nhiều phiên bản cosplay <strong>Chun-Li</strong>{" "}
-                    đã khiến cộng đồng mạng phải tranh cãi:
-                  </p>
+                <RandomFeature />
 
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255027440271029618874.jpg"
-                    alt="7, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/7/5/photo-1-16255027636631649527432.jpg"
-                    alt="8, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16255028162851056202691.jpg"
-                    alt="9, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/133514250583805952/2021/7/5/photo-1-16255028246921224650663.jpg"
-                    alt="10, HOT GIRL,FREE FIRE,CHUN-LI,CHI CỦ CẢI,LÊN BỐNG,"
-                    note=""
-                  />
-                </div>
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

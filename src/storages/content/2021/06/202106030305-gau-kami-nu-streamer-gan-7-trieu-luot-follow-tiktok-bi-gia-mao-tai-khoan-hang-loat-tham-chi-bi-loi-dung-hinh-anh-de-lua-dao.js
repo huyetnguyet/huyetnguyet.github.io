@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -101,69 +105,73 @@ export default function page_202106030305() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Là cái tên đang cực hot thời gian qua cùng vô số những video
-                    chơi bida triệu view,{" "}
-                    <div className="highlight">Gấm Kami</div> đã trở thành
-                    streamer có lượng người theo dõi khủng nhất TikTok khi cán
-                    mốc 6,9 triệu người theo dõi. Tuy nhiên cũng chính sự nổi
-                    tiếng nhanh chóng này khiến cô nàng bị giả mạo tài khoản
-                    TikTok. Hàng loạt kênh YouTube sử dụng tên và hình ảnh của
-                    nữ streamer này và thu về hàng chục, hàng trăm nghìn
-                    followers và cả triệu view.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622619285555307338790.jpg"
-                    alt="Gấu Kami"
-                    note="Ngoại trừ tài khoản TikTok có gần 7 triệu người theo dõi thì nhiều kênh giả mạo cũng thu hút lượt người đăng ký rất khủng"
-                  />
-                  <p>
-                    Nhưng đáng nói nhất chính là việc các tài khoản TikTok mạo
-                    danh Gấm Kami không chỉ dùng để câu like, câu view mà thậm
-                    chí còn bán phần mềm gian lận (hack) và có dấu hiệu lừa đảo
-                    game thủ.
-                  </p>
-                  <p>
-                    Theo đó, kẻ mạo danh ghép hình ảnh nữ streamer này vào các
-                    video mà chủ yếu là 2 tựa game có lượng fan đông đảo là Free
-                    Fire và Liên Quân Mobile để lừa những game thủ nhẹ dạ cả
-                    tin. Kèm theo đó là những lời mời gọi vô cùng hấp dẫn: "Shop
-                    đang khuyến mại 20k trúng 40.000 Kim Cương", "Vào quân đoàn
-                    Gấm nha, Gấm sẽ cấp nhân vật miễn phí"...
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/-1622619015963229977353.jpg"
-                    alt="Gấu Kami"
-                    note="Hình ảnh Gấm Kami livestream được ghép vào các clip"
-                  />
-                  <p>
-                    Được biết, là một fan cuồng của bida nên Gấm Kami thời gian
-                    qua chỉ làm những nội dung liên quan đến trò chơi giải trí
-                    này cũng như các video đời sống hằng ngày. Ngay cả những
-                    phiên livestream của cô nàng cũng chơi một số tựa game bida
-                    online và Gấm Kami không hề chơi các tựa game này cũng như
-                    kêu gọi game thủ vào các shop online.
-                  </p>
-                  <ContentImage
-                    src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622620397947621513281.jpg"
-                    alt="Gấu Kami"
-                    note="Cô nàng streamer Gấm Kami là một cơ thủ cực trình độ đấy nhé!"
-                  />
+                  <div className="contentBodyLeft">
+                    <p>
+                      Là cái tên đang cực hot thời gian qua cùng vô số những
+                      video chơi bida triệu view,{" "}
+                      <div className="highlight">Gấm Kami</div> đã trở thành
+                      streamer có lượng người theo dõi khủng nhất TikTok khi cán
+                      mốc 6,9 triệu người theo dõi. Tuy nhiên cũng chính sự nổi
+                      tiếng nhanh chóng này khiến cô nàng bị giả mạo tài khoản
+                      TikTok. Hàng loạt kênh YouTube sử dụng tên và hình ảnh của
+                      nữ streamer này và thu về hàng chục, hàng trăm nghìn
+                      followers và cả triệu view.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622619285555307338790.jpg"
+                      alt="Gấu Kami"
+                      note="Ngoại trừ tài khoản TikTok có gần 7 triệu người theo dõi thì nhiều kênh giả mạo cũng thu hút lượt người đăng ký rất khủng"
+                    />
+                    <p>
+                      Nhưng đáng nói nhất chính là việc các tài khoản TikTok mạo
+                      danh Gấm Kami không chỉ dùng để câu like, câu view mà thậm
+                      chí còn bán phần mềm gian lận (hack) và có dấu hiệu lừa
+                      đảo game thủ.
+                    </p>
+                    <p>
+                      Theo đó, kẻ mạo danh ghép hình ảnh nữ streamer này vào các
+                      video mà chủ yếu là 2 tựa game có lượng fan đông đảo là
+                      Free Fire và Liên Quân Mobile để lừa những game thủ nhẹ dạ
+                      cả tin. Kèm theo đó là những lời mời gọi vô cùng hấp dẫn:
+                      "Shop đang khuyến mại 20k trúng 40.000 Kim Cương", "Vào
+                      quân đoàn Gấm nha, Gấm sẽ cấp nhân vật miễn phí"...
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/-1622619015963229977353.jpg"
+                      alt="Gấu Kami"
+                      note="Hình ảnh Gấm Kami livestream được ghép vào các clip"
+                    />
+                    <p>
+                      Được biết, là một fan cuồng của bida nên Gấm Kami thời
+                      gian qua chỉ làm những nội dung liên quan đến trò chơi
+                      giải trí này cũng như các video đời sống hằng ngày. Ngay
+                      cả những phiên livestream của cô nàng cũng chơi một số tựa
+                      game bida online và Gấm Kami không hề chơi các tựa game
+                      này cũng như kêu gọi game thủ vào các shop online.
+                    </p>
+                    <ContentImage
+                      src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/6/2/photo-1-1622620397947621513281.jpg"
+                      alt="Gấu Kami"
+                      note="Cô nàng streamer Gấm Kami là một cơ thủ cực trình độ đấy nhé!"
+                    />
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

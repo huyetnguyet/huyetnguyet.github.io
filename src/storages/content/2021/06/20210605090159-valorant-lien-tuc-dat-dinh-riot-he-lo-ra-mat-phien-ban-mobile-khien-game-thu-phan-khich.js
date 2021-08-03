@@ -1,7 +1,11 @@
 import React from "react";
 import "components/page.scss";
 import { AdsHorizontal, AdsVertical } from "components/adsMethods";
-import { RandomFeature } from "components/methods";
+import {
+  RandomFeature,
+  RelationNews,
+  RelationNewsInPage,
+} from "components/methods";
 
 import { Content, ContentImage, FacebookShareButton } from "components/content";
 
@@ -115,75 +119,80 @@ export default function page_20210605090159() {
           <FacebookShareButton link={facebookLinkShare} />
 
           <div class="containerContent">
-            <AdsHorizontal />
+            <AdsVertical />
             <div className="content">
               <div className="contentContainer">
                 <p className="description">{description}</p>
+                <RelationNews category={category} />
                 <div className="contentBody">
-                  <p>
-                    Tính tới nay thì tựa game FPS Valorant pha trộn giữa bắn
-                    súng và chiến thuật đã ra mắt người chơi trên toàn thế giới
-                    được 1 năm rồi. Và để chúc mừng sinh nhật cho đứa con tròn 1
-                    tuổi của mình, Riot đã thông báo rằng số lượng người chơi
-                    trung bình 1 tháng giờ đây đã tăng lên con số 14 triệu người
-                    chơi cùng lúc - một con số khiến nhiều đối thủ phải ngưỡng
-                    mộ. Cùng với đó, họ cũng chuẩn bị mở rộng phạm vi tiếp cận
-                    game thủ bằng cách đưa Valorant lên điện thoại.
-                  </p>
+                  <div className="contentBodyLeft">
+                    <p>
+                      Tính tới nay thì tựa game FPS Valorant pha trộn giữa bắn
+                      súng và chiến thuật đã ra mắt người chơi trên toàn thế
+                      giới được 1 năm rồi. Và để chúc mừng sinh nhật cho đứa con
+                      tròn 1 tuổi của mình, Riot đã thông báo rằng số lượng
+                      người chơi trung bình 1 tháng giờ đây đã tăng lên con số
+                      14 triệu người chơi cùng lúc - một con số khiến nhiều đối
+                      thủ phải ngưỡng mộ. Cùng với đó, họ cũng chuẩn bị mở rộng
+                      phạm vi tiếp cận game thủ bằng cách đưa Valorant lên điện
+                      thoại.
+                    </p>
 
-                  <ContentImage
-                    src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-162279923339857968698.jpg"
-                    alt="Valorant, Riot, Tin Tuc Game, Cong Dong Mang, Valorant Mobile, "
-                    note=""
-                  />
-                  <p>
-                    Ngoài thông tin về việc tựa game này sẽ mở rộng trên nền
-                    tảng mobile ra, Riot không cung cấp thông tin gì thêm. Điều
-                    đó cũng có nghĩa là chúng ta chưa thể biết ngày ra mắt,
-                    phiên bản mobile sẽ có những thay đổi gì so với phiên bản PC
-                    hoặc là liệu Riot có bê nguyên xi từ phiên bản PC xuống
-                    mobile hay không?{" "}
-                  </p>
-                  <p>
-                    Tuy nhiên, đối với những game thủ mobile không có điều kiện
-                    mua PC mà vẫn muốn được trải nghiệm Valorant thì đây quả
-                    thật là một tin đáng mừng.
-                  </p>
-                  <p>
-                    Bên cạnh đó, nhân ngày sinh nhật của Valorant, Riot cũng tổ
-                    chức một sự kiện kéo dài 1 tháng với nhiều tính năng và
-                    chương trình hay ho dành cho game thủ. Bao gồm người chơi sẽ
-                    được nhận các thẻ "player card" và các thẻ sự kiện miễn phí
-                    trong suốt tháng 6.
-                  </p>
-                  <p>Tóm tắt:</p>
-                  <p>
-                    - Để chúc mừng sinh nhật Valorant tròn 1 tuổi, Riot đã thông
-                    báo lượng người chơi trung bình 1 tháng đã tăng lên con số
-                    14 triệu.{" "}
-                  </p>
-                  <p>
-                    - Đồng thời, Riot cũng tiết lộ họ sắp đưa Valorant lên điện
-                    thoại.
-                  </p>
-                  <p>- Tuy nhiên, Riot không cung cấp thông tin gì thêm.</p>
-                  <p>
-                    - Riot còn tổ chức một sự kiện kéo dài 1 tháng với nhiều
-                    tính năng và chương trình hay ho dành cho game thủ Chương
-                    trình bao gồm các thẻ "player card" và các thẻ sự kiện miễn
-                    phí trong suốt tháng 6.
-                  </p>
-                  <p>Nguồn pcgamesn biên dịch GVN360</p>
+                    <ContentImage
+                      src="https://gamek.mediacdn.vn/thumb_w/640/133514250583805952/2021/6/4/photo-1-162279923339857968698.jpg"
+                      alt="Valorant, Riot, Tin Tuc Game, Cong Dong Mang, Valorant Mobile, "
+                      note=""
+                    />
+                    <p>
+                      Ngoài thông tin về việc tựa game này sẽ mở rộng trên nền
+                      tảng mobile ra, Riot không cung cấp thông tin gì thêm.
+                      Điều đó cũng có nghĩa là chúng ta chưa thể biết ngày ra
+                      mắt, phiên bản mobile sẽ có những thay đổi gì so với phiên
+                      bản PC hoặc là liệu Riot có bê nguyên xi từ phiên bản PC
+                      xuống mobile hay không?{" "}
+                    </p>
+                    <p>
+                      Tuy nhiên, đối với những game thủ mobile không có điều
+                      kiện mua PC mà vẫn muốn được trải nghiệm Valorant thì đây
+                      quả thật là một tin đáng mừng.
+                    </p>
+                    <p>
+                      Bên cạnh đó, nhân ngày sinh nhật của Valorant, Riot cũng
+                      tổ chức một sự kiện kéo dài 1 tháng với nhiều tính năng và
+                      chương trình hay ho dành cho game thủ. Bao gồm người chơi
+                      sẽ được nhận các thẻ "player card" và các thẻ sự kiện miễn
+                      phí trong suốt tháng 6.
+                    </p>
+                    <p>Tóm tắt:</p>
+                    <p>
+                      - Để chúc mừng sinh nhật Valorant tròn 1 tuổi, Riot đã
+                      thông báo lượng người chơi trung bình 1 tháng đã tăng lên
+                      con số 14 triệu.{" "}
+                    </p>
+                    <p>
+                      - Đồng thời, Riot cũng tiết lộ họ sắp đưa Valorant lên
+                      điện thoại.
+                    </p>
+                    <p>- Tuy nhiên, Riot không cung cấp thông tin gì thêm.</p>
+                    <p>
+                      - Riot còn tổ chức một sự kiện kéo dài 1 tháng với nhiều
+                      tính năng và chương trình hay ho dành cho game thủ Chương
+                      trình bao gồm các thẻ "player card" và các thẻ sự kiện
+                      miễn phí trong suốt tháng 6.
+                    </p>
+                    <p>Nguồn pcgamesn biên dịch GVN360</p>
+                  </div>
+                  <AdsHorizontal />
                 </div>
+
+                <RandomFeature />
+
+                <div className="source">Source: {source}</div>
+
+                <FacebookShareButton link={facebookLinkShare} />
+
+                <div className="tags">Tags: {updatedTags}</div>
               </div>
-
-              <RandomFeature />
-
-              <div className="source">Source: {source}</div>
-
-              <FacebookShareButton link={facebookLinkShare} />
-
-              <div className="tags">Tags: {updatedTags}</div>
             </div>
           </div>
         </div>

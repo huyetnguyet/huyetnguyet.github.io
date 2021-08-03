@@ -7,7 +7,11 @@ import TopSection from "./homeComponents/topSection";
 import Navigation from "./navigation";
 import Footer from "./footer";
 
-import { AdsHorizontal, AdsVertical } from "./adsMethods";
+import {
+  AdsHorizontal,
+  AdsVertical,
+  AdsVerticalHomeContent,
+} from "./adsMethods";
 
 import { data } from "storages/database/data";
 import { data_games } from "storages/database/data_games";
@@ -116,7 +120,9 @@ function Tab(props) {
           <div className="containerLayout">
             <div className="content">
               <div>
-                {endData ? (
+                {props.message ? (
+                  <h1>{props.message}</h1>
+                ) : endData ? (
                   <TabContainers
                     database={categoryCollection}
                     category={categoryPage}
@@ -132,12 +138,9 @@ function Tab(props) {
                     </button>
                   </div>
                 )}
-                <AdsVertical />
               </div>
             </div>
-            <div className="desktop">
-              <AdsHorizontal />
-            </div>
+            <AdsHorizontal />
           </div>
         </div>
         <div className="containerMain">
@@ -153,16 +156,6 @@ function ContentItem(props) {
   var description = props.description;
   const max_title_length = 60;
   const max_description_length = 80;
-  if (title.length < max_title_length) {
-    while (title.length <= max_title_length) {
-      title += " . ";
-    }
-  }
-  if (description.length < max_title_length) {
-    while (description.length <= max_title_length) {
-      description += " . ";
-    }
-  }
 
   return (
     <div className="card">
@@ -171,9 +164,9 @@ function ContentItem(props) {
       </a>
       <div className="cardText">
         <a href={props.link}>
-          <h4>{title.substring(0, max_title_length)} . . .</h4>
+          <h4>{title.substring(0, max_title_length)} ...</h4>
         </a>
-        <p>{description.substring(0, max_description_length)} . . .</p>
+        <p>{description.substring(0, max_description_length)} ...</p>
       </div>
       <a href={props.link} className="cardBtn">
         read more
@@ -190,7 +183,28 @@ const TabContainers = React.memo((props) => {
   return (
     <>
       {categoryCollection.map((obj, i) => {
-        if (i % 3 === 0) {
+        if (i % 3 === 0 && i % 9 === 0 && i !== 0) {
+          return (
+            <>
+              <div className="tabContainer" key={i}>
+                {categoryCollection.map((obj, j) => {
+                  if (j === i || j === i + 1 || j === i + 2) {
+                    return (
+                      <ContentItem
+                        key={j}
+                        title={obj.title}
+                        description={obj.description}
+                        src={obj.src}
+                        link={obj.link}
+                      />
+                    );
+                  }
+                })}
+              </div>
+              <AdsVerticalHomeContent />
+            </>
+          );
+        } else if (i % 3 === 0) {
           return (
             <div className="tabContainer" key={i}>
               {categoryCollection.map((obj, j) => {
@@ -229,8 +243,34 @@ export function Search() {
       newData.push(obj);
     }
   });
-
+  console.log(querySearch);
   console.log(newData);
 
-  return <Tab title="Search" categoryPage="search" data={newData}></Tab>;
+  if (newData.length === 0) {
+    const message = "No result found";
+    newData = [
+      {
+        title: "",
+        description: "",
+        src: "",
+        alt: "",
+        category: "",
+        time: "",
+        date: "",
+        timestamp: "",
+        link: "",
+        component: "",
+      },
+    ];
+    return (
+      <Tab
+        title="Search"
+        categoryPage="search"
+        data={newData}
+        message={message}
+      ></Tab>
+    );
+  } else {
+    return <Tab title="Search" categoryPage="search" data={newData}></Tab>;
+  }
 }
