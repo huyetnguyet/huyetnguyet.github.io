@@ -259,7 +259,7 @@ body {
 }
 
 .adsHorizontal {
-  background-color: $color-red;
+  //background-color: $color-red;
   margin: 0;
   padding: 0;
 
@@ -267,14 +267,16 @@ body {
   z-index: 999;
   width: 310px;
   @media (max-width: 1000px) {
-    display: block;
+    display: none;
     position: relative;
     width: 100%;
+
+    z-index: 0;
   }
 }
 
 .adsVertical {
-  background-color: $color-orange;
+  //background-color: $color-orange;
 
   display: block;
   position: relative;
@@ -287,7 +289,7 @@ body {
 }
 
 .adsVerticalHome {
-  background-color: $color-yellow;
+  //background-color: $color-yellow;
 
   float: left;
   width: 700px;
@@ -303,7 +305,7 @@ body {
 }
 
 .adsFeaturedSection {
-  background-color: $color-green;
+  //background-color: $color-green;
   width: 100%;
   display: block;
   position: relative;
