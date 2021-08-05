@@ -6,8 +6,8 @@ import { PageContent } from "components/content";
 
 import * as data from "storages/database";
 
-const total_pages = "8";
-const last_page = "/page8";
+const total_pages = "10";
+const last_page = "/page10";
 
 export function Pages() {
   return (
@@ -19,10 +19,14 @@ export function Pages() {
       <Route exact path="/page6" component={Page06} />
       <Route exact path="/page7" component={Page07} />
       <Route exact path="/page8" component={Page08} />
-      <Route exact path="/page9" component={Page08} />
-      <Route exact path="/page10" component={Page08} />
+      <Route exact path="/page9" component={Page09} />
+      <Route exact path="/page10" component={Page10} />
     </Switch>
   );
+}
+
+export function Page10() {
+  return <AutoPageNavi database={data.dataContent10} currentPage={10} />;
 }
 export function Page09() {
   return <AutoPageNavi database={data.dataContent09} currentPage={9} />;

@@ -10,6 +10,46 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/ngam-lai-visual-5-nang-tay-thi-dep-nhat-my-nhan-thap-nien-80-90-dep-man-nhan-co-nguoi-u40-van-cua-sung-cuc-ngot-khi-vao-vai-thieu-nu-15" component={pages.page_20210804190016}/>
+
+<Route exact path="/top-6-nhan-loai-manh-nhat-trong-attack-on-titan-mikasa-ackerman-the-ma-chi-dung-hang-3" component={pages.page_20210804190000}/>
+
+<Route exact path="/huong-dan-reset-modem-de-song-wi-fi-manh-hon-on-dinh-hon" component={pages.page_20210804185950}/>
+
+<Route exact path="/one-punch-man-chi-voi-5-chieu-thuc-binh-thuong-nay-ma-thanh-phong-saitama-tro-nen-vo-doi" component={pages.page_20210804185942}/>
+
+<Route exact path="/tu-hulk-xanh-hulk-do-hulk-xam-thi-gio-day-chung-ta-co-ca-blue-hulk" component={pages.page_20210804185933}/>
+
+<Route exact path="/my-nu-18-ke-chuyen-nghe-bat-mi-den-nam-19-tuoi-moi-biet-chuyen-nguoi-lon-la-gi" component={pages.page_20210804185918}/>
+
+<Route exact path="/tai-sao-khi-dot-tinh-tinh-va-chuot-tui-hau-nhu-khong-can-phai-tap-luyen-suc-manh-ma-co-bap-cua-chung-van-cuc-ky-phat-trien" component={pages.page_20210804185909}/>
+
+<Route exact path="/pokemon-cau-chuyen-dau-long-ma-khong-phai-ai-cung-biet-ve-qua-khu-cua-jessie-hot-girl-team-rocket" component={pages.page_20210804185900}/>
+
+<Route exact path="/dragon-ball-super-tai-sao-whis-va-cac-thien-than-khac-khong-bao-gio-truc-tiep-chien-dau" component={pages.page_20210804185848}/>
+
+<Route exact path="/lac-manh-toi-muc-rung-90-doi-go-bong-dao-tren-song-vi-duoc-donate-khung-nu-streamer-bi-cam-kenh-ngay-sau-do" component={pages.page_20210804185820}/>
+
+<Route exact path="/ngam-nhan-sac-nong-bong-cua-cac-my-nhan-18-trong-ngay-khoe-nguc" component={pages.page_20210804185749}/>
+
+<Route exact path="/doi-tien-chuoc-ea-khong-tra-rao-ban-chang-ai-them-mua-hacker-dang-long-phat-mien-phi-ma-nguon-fifa-21-len-mang" component={pages.page_20210804185739}/>
+
+<Route exact path="/vcs-tu-ngay-ra-o-rieng-tro-thanh-khu-vuc-lon-gat-hai-duoc-gi-ngoai-hai-chu-thut-lui" component={pages.page_20210804185730}/>
+
+<Route exact path="/nhung-phan-hau-ban-do-den-muc-lam-hong-ca-danh-tieng-game-truoc" component={pages.page_20210804185722}/>
+
+<Route exact path="/tong-hop-5-cach-de-giup-pc-cua-ban-do-on-vao-dem-khuya" component={pages.page_20210804185714}/>
+
+<Route exact path="/vu-an-dao-mo-chan-dong-xac-chet-co-nhat-trung-quoc-bi-nem-xuong-muong-hung-thu-bai-lo-vi-buc-thu-nac-danh" component={pages.page_20210804185659}/>
+
+<Route exact path="/cac-phi-tan-tuan-tang-cung-hoang-de-chan-khi-duoc-phat-hien-chan-luon-o-tu-the-mo-rong-truoc-khi-chet-da-xay-ra-chuyen-gi" component={pages.page_20210804185649}/>
+
+<Route exact path="/tuyen-tap-be-boi-dao-nhai-cua-vu-chinh-che-bai-nhu-y-truyen-nhung-cuop-han-canh-quay-cho-vao-phim-minh" component={pages.page_20210804185635}/>
+
+<Route exact path="/lam-to-tren-giuong-ca-ngay-ma-khong-biet-7-cach-nang-mood-phong-ngu-thi-kho-ma-thu-gian" component={pages.page_20210804185624}/>
+
+<Route exact path="/goi-y-thuc-pham-can-thiet-de-phat-trien-co-bap-cho-nguoi-tap-the-hinh" component={pages.page_20210804185614}/>
+
       <Route
         exact
         path="/top-7-manga-moi-nhat-cua-shonen-jump-duoc-doc-gia-danh-gia-cao-cai-ten-nao-cung-banh-cuon-ca"
