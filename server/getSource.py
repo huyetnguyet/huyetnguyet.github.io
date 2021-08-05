@@ -389,7 +389,7 @@ class GetSource:
                 self.content_p += "</p>\n"
 
             if(temp_count == int(round(len(self.ps)/2.0))):
-                self.content_p += '<RelationNewsInPage category={category} />'
+                self.content_p += '<RelationNewsInPage category={category} />\n'
             temp_count += 1
             # FIX
 
