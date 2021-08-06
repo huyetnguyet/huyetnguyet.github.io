@@ -10,6 +10,26 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/tiet-lo-soc-messi-bi-barcelona-lat-keo-vao-phut-chot-cay-dang-roi-nou-camp-trong-noi-dau" component={pages.page_20210805231056}/>
+
+<Route exact path="/ariana-grande-gay-soc-nhe-vi-vong-1-bong-dung-nay-no-ai-ngo-gio-bi-chinh-fandom-lat-tay" component={pages.page_20210805231045}/>
+
+<Route exact path="/10-bo-phim-khien-dien-vien-chinh-nhuc-nha-xau-ho-ca-doi-kate-winslet-muon-non-mua-vi-titanic-ngoi-sao-khac-con-khoc-suot-1-tieng-vi-bi-ep-dong" component={pages.page_20210805231036}/>
+
+<Route exact path="/1-hanh-dong-nho-cua-jennie-blackpink-tai-fansign-hot-tro-lai-khien-knet-phai-thot-len-thi-ra-con-nguoi-that-la-day" component={pages.page_20210805231026}/>
+
+<Route exact path="/nhung-nang-cong-chua-dep-kinh-diem-nhat-cbiz-angela-baby-duong-mich-dep-nghet-tho-van-bi-nhiet-ba-kinh-diem-de-bep" component={pages.page_20210805231011}/>
+
+<Route exact path="/quynh-nga-dang-anh-khoe-hoa-qua-nhung-spotlight-lai-don-ca-vao-toa-thien-nhien-sau-lop-vay-ngu" component={pages.page_20210805230945}/>
+
+<Route exact path="/chay-rung-ky-luc-hoanh-hanh-o-california-phan-lon-thi-tran-greenville-chi-con-la-dong-tro-tan" component={pages.page_20210805230936}/>
+
+<Route exact path="/chieu-nay-ly-do-messi-roi-barca-se-chinh-thuc-duoc-lam-sang-to" component={pages.page_20210805230925}/>
+
+<Route exact path="/toan-bo-su-nghiep-vi-dai-cua-messi-tai-barcelona-qua-anh" component={pages.page_20210805230916}/>
+
+<Route exact path="/tuyen-bo-chia-tay-messi-chi-la-cai-co-barcelona-san-sang-cho-vu-lat-keo-gay-soc" component={pages.page_20210805230908}/>
+
 <Route exact path="/lan-song-game-nft-no-ro-thoi-cua-nguoi-choi-he-cay-cuoc-o-viet-nam-da-toi-nhung-lieu-luc-nay-game-co-con-de-vui" component={pages.page_20210805084922}/>
 
 <Route exact path="/camazotz-batman-phien-ban-doc-ac-trong-than-thoai-mesoamerica" component={pages.page_20210805084910}/>

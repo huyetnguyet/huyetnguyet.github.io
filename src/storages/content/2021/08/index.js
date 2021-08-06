@@ -84,3 +84,13 @@ export { default as page_20210805084826 } from "./20210805084826-chang-can-dep-n
 export { default as page_20210805084847 } from "./20210805084847-qua-xinh-dep-va-goi-cam-hot-girl-2k2-bat-ngo-bi-hoi-day-te-nhi-ve-chuyen-tam-sinh-ly-dap-tra-thang-thung-khien-cdm-ngo-ngang.js";
 export { default as page_20210805084910 } from "./20210805084910-camazotz-batman-phien-ban-doc-ac-trong-than-thoai-mesoamerica.js";
 export { default as page_20210805084922 } from "./20210805084922-lan-song-game-nft-no-ro-thoi-cua-nguoi-choi-he-cay-cuoc-o-viet-nam-da-toi-nhung-lieu-luc-nay-game-co-con-de-vui.js";
+export { default as page_20210805230908 } from "./20210805230908-tuyen-bo-chia-tay-messi-chi-la-cai-co-barcelona-san-sang-cho-vu-lat-keo-gay-soc.js";
+export { default as page_20210805230916 } from "./20210805230916-toan-bo-su-nghiep-vi-dai-cua-messi-tai-barcelona-qua-anh.js";
+export { default as page_20210805230925 } from "./20210805230925-chieu-nay-ly-do-messi-roi-barca-se-chinh-thuc-duoc-lam-sang-to.js";
+export { default as page_20210805230936 } from "./20210805230936-chay-rung-ky-luc-hoanh-hanh-o-california-phan-lon-thi-tran-greenville-chi-con-la-dong-tro-tan.js";
+export { default as page_20210805230945 } from "./20210805230945-quynh-nga-dang-anh-khoe-hoa-qua-nhung-spotlight-lai-don-ca-vao-toa-thien-nhien-sau-lop-vay-ngu.js";
+export { default as page_20210805231011 } from "./20210805231011-nhung-nang-cong-chua-dep-kinh-diem-nhat-cbiz-angela-baby-duong-mich-dep-nghet-tho-van-bi-nhiet-ba-kinh-diem-de-bep.js";
+export { default as page_20210805231026 } from "./20210805231026-1-hanh-dong-nho-cua-jennie-blackpink-tai-fansign-hot-tro-lai-khien-knet-phai-thot-len-thi-ra-con-nguoi-that-la-day.js";
+export { default as page_20210805231036 } from "./20210805231036-10-bo-phim-khien-dien-vien-chinh-nhuc-nha-xau-ho-ca-doi-kate-winslet-muon-non-mua-vi-titanic-ngoi-sao-khac-con-khoc-suot-1-tieng-vi-bi-ep-dong.js";
+export { default as page_20210805231045 } from "./20210805231045-ariana-grande-gay-soc-nhe-vi-vong-1-bong-dung-nay-no-ai-ngo-gio-bi-chinh-fandom-lat-tay.js";
+export { default as page_20210805231056 } from "./20210805231056-tiet-lo-soc-messi-bi-barcelona-lat-keo-vao-phut-chot-cay-dang-roi-nou-camp-trong-noi-dau.js";
