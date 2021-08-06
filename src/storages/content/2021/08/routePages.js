@@ -10,6 +10,36 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/thich-pk-nhung-lai-len-an-viec-dap-tien-choi-game-va-nhung-nghich-ly-day-thuong-dang-ton-tai-bay-lau-nay-cua-cac-game-thu-viet" component={pages.page_20210806093912}/>
+
+<Route exact path="/thu-ngay-tua-game-business-tour-tua-game-monopoly-hot-nhat-tuan-qua-duoc-do-mixi-va-dong-bon-yeu-thich" component={pages.page_20210806093904}/>
+
+<Route exact path="/top-4-tran-dau-tay-khong-man-nhan-nhat-trong-the-gioi-anime-hap-dan-con-hon-ca-dragon-ball" component={pages.page_20210806093855}/>
+
+<Route exact path="/4-nhan-vat-bi-fan-one-piece-nghi-ngo-la-hau-due-cua-rocks-d-xebec" component={pages.page_20210806093846}/>
+
+<Route exact path="/8-game-co-cot-truyen-sinh-ra-de-lua-game-thu-p1" component={pages.page_20210806093837}/>
+
+<Route exact path="/nu-youtuber-nong-bong-voi-vang-phan-tran-khi-clip-massage-vong-1-bi-danh-cap-ghep-vao-quang-cao-ban" component={pages.page_20210806093759}/>
+
+<Route exact path="/dragon-ball-super-nhung-su-that-dang-kinh-ngac-ve-trang-thai-super-saiyan-god-ma-khong-phai-ai-cung-biet" component={pages.page_20210806093748}/>
+
+<Route exact path="/nhung-kho-khan-ma-nhan-vat-chinh-trong-isekai-anime-thuong-gap-phai-p1" component={pages.page_20210806093740}/>
+
+<Route exact path="/thuc-hien-lai-trao-luu-tuong-nhu-da-loi-thoi-nang-hot-girl-khien-fan-chay-mau-mui-vi-than-hinh-qua-goi-cam" component={pages.page_20210806093723}/>
+
+<Route exact path="/neu-keo-ve-late-game-lieu-broly-co-the-danh-bai-jiren-neu-2-nguoi-dung-do-trong-dragon-ball-super" component={pages.page_20210806093715}/>
+
+<Route exact path="/loat-game-duoc-danh-gia-cao-vi-fame-to-roi-khong-dat-toi-ky-vong" component={pages.page_20210806093707}/>
+
+<Route exact path="/6-cach-don-gian-de-kiem-tra-va-khac-phuc-chuot-khong-day-bi-do" component={pages.page_20210806093650}/>
+
+<Route exact path="/muon-mau-my-nhan-du-dam-tang-tren-man-anh-xu-trung-cuc-tinh-y-lo-cuc-diem-ca-cuoi-khoc-gia-tran-ma-xinh-tot-cung" component={pages.page_20210806093635}/>
+
+<Route exact path="/hanh-trinh-thay-doi-body-cua-bong-hong-lai-somi-fan-lo-lang-vi-vong-eo-sieu-thuc-lo-ca-xuong-suon" component={pages.page_20210806093626}/>
+
+<Route exact path="/do-tap-bong-dung-tro-nen-den-toi-nho-cach-mix-hoac-loi-tao-dang-kho-hieu-cua-nhung-nhan-vat-nay" component={pages.page_20210806093614}/>
+
 <Route exact path="/tiet-lo-soc-messi-bi-barcelona-lat-keo-vao-phut-chot-cay-dang-roi-nou-camp-trong-noi-dau" component={pages.page_20210805231056}/>
 
 <Route exact path="/ariana-grande-gay-soc-nhe-vi-vong-1-bong-dung-nay-no-ai-ngo-gio-bi-chinh-fandom-lat-tay" component={pages.page_20210805231045}/>
