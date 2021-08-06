@@ -14,6 +14,8 @@ import {
   Search,
 } from "components/tabs";
 
+import Career from "storages/career.js";
+
 import { Pages } from "components/pages";
 
 import Pages2021 from "storages/content/2021/routePages";
@@ -31,6 +33,7 @@ export default function routePages() {
       <Route exact path="/stars" component={Stars} />
       <Route exact path="/tech" component={Tech} />
       <Route exact path="/travel" component={Travel} />
+      <Route exact path="/career" component={Career} />
       <Pages />
       <Pages2021 />
     </Switch>
