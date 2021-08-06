@@ -109,3 +109,7 @@ export { default as page_20210806093846 } from "./20210806093846-4-nhan-vat-bi-f
 export { default as page_20210806093855 } from "./20210806093855-top-4-tran-dau-tay-khong-man-nhan-nhat-trong-the-gioi-anime-hap-dan-con-hon-ca-dragon-ball.js";
 export { default as page_20210806093904 } from "./20210806093904-thu-ngay-tua-game-business-tour-tua-game-monopoly-hot-nhat-tuan-qua-duoc-do-mixi-va-dong-bon-yeu-thich.js";
 export { default as page_20210806093912 } from "./20210806093912-thich-pk-nhung-lai-len-an-viec-dap-tien-choi-game-va-nhung-nghich-ly-day-thuong-dang-ton-tai-bay-lau-nay-cua-cac-game-thu-viet.js";
+export { default as page_20210806162406 } from "./20210806162406-mua-can-ho-vinhomes-ocean-park-chu-nha-dap-them-350-trieu-thiet-ke-theo-style-indochine-lam-noi-nghi-duong.js";
+export { default as page_20210806162421 } from "./20210806162421-toxic-hack-khong-dung-tieng-anh-va-nhung-ly-do-khien-game-thu-viet-thuong-xuyen-phai-chiu-nhung-dieu-tieng-tai-cac-tua-game-global.js";
+export { default as page_20210806162430 } from "./20210806162430-neu-cu-lam-dung-haki-lieu-nhung-tran-chien-trong-anime-one-piece-co-di-theo-vet-xe-do-cua-dragon-ball-hay-khong.js";
+export { default as page_20210806162439 } from "./20210806162439-nhung-tro-choi-tim-lai-duoc-thanh-cong-nho-game-thu-mach-nuoc.js";
