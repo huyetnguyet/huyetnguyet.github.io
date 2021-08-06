@@ -224,6 +224,21 @@ class GetSource:
         element_ps = element_body.find_elements_by_tag_name('p')
         element_imgs = element_body.find_elements_by_tag_name("img")
 
+        element_videos = None
+        try:
+            element_videos = element_body.find_elements_by_tag_name("video")
+        except:
+            None
+
+        temp_hs = ['h2', 'h3', 'h4', 'h5']
+        for h in temp_hs:
+            try:
+                temp_elements = element_body.find_elements_by_tag_name(h)
+                for temp in temp_elements:
+                    element_ps.insert(0, temp)
+            except:
+                None
+
         element_imgs_alt = element_body.find_elements_by_class_name(
             "PhotoCMS_Caption")
         self.images_alt = []
@@ -262,6 +277,19 @@ class GetSource:
                     self.images.append(img_link)
             except:
                 continue
+
+        if(element_videos != None):
+            for video in element_videos:
+                try:
+                    temp = str(video.get_attribute("src"))
+                    if(len(temp) > 10):
+                        video_link = str(video.get_attribute("src"))
+                    temp_list = video_link.split(".")
+                    if(temp_list[len(temp_list)-2] == 'gif'):
+                        self.images.append(video_link[:len(video_link)-4])
+                except:
+                    continue
+
         for element in element_tags:
             try:
                 self.tags.append(element.text)

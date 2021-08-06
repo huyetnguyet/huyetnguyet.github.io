@@ -10,6 +10,14 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/nhung-tro-choi-tim-lai-duoc-thanh-cong-nho-game-thu-mach-nuoc" component={pages.page_20210806162439}/>
+
+<Route exact path="/neu-cu-lam-dung-haki-lieu-nhung-tran-chien-trong-anime-one-piece-co-di-theo-vet-xe-do-cua-dragon-ball-hay-khong" component={pages.page_20210806162430}/>
+
+<Route exact path="/toxic-hack-khong-dung-tieng-anh-va-nhung-ly-do-khien-game-thu-viet-thuong-xuyen-phai-chiu-nhung-dieu-tieng-tai-cac-tua-game-global" component={pages.page_20210806162421}/>
+
+<Route exact path="/mua-can-ho-vinhomes-ocean-park-chu-nha-dap-them-350-trieu-thiet-ke-theo-style-indochine-lam-noi-nghi-duong" component={pages.page_20210806162406}/>
+
 <Route exact path="/thich-pk-nhung-lai-len-an-viec-dap-tien-choi-game-va-nhung-nghich-ly-day-thuong-dang-ton-tai-bay-lau-nay-cua-cac-game-thu-viet" component={pages.page_20210806093912}/>
 
 <Route exact path="/thu-ngay-tua-game-business-tour-tua-game-monopoly-hot-nhat-tuan-qua-duoc-do-mixi-va-dong-bon-yeu-thich" component={pages.page_20210806093904}/>
