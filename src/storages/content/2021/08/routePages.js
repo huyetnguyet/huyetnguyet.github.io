@@ -456,6 +456,12 @@ export default function Pages202108() {
 
       <Route
         exact
+        path="/khi-tam-hon-nang-triu-cua-nu-than-sac-dep-trong-record-of-ragnarok-tro-thanh-vua-muoi-che-anh-tam-nao-nhin-cung-suong-nhuc-mat"
+        component={pages.page_20210803111324}
+      />
+
+      <Route
+        exact
         path="/bat-ngo-len-song-hit-dat-tap-the-duc-roi-keo-quan-khoe-vong-eo-thon-gon-nu-streamer-goi-cam-nhan-vo-so-chi-trich"
         component={pages.page_20210803111311}
       />
@@ -524,12 +530,6 @@ export default function Pages202108() {
         exact
         path="/7-dia-diem-noi-tieng-nhat-trong-than-thoai-hy-lap-ma-ban-hoan-toan-co-the-dat-chan-den"
         component={pages.page_20210803111103}
-      />
-
-      <Route
-        exact
-        path="/record-of-ragnarok-quen-ca-tho-voi-loat-cosplay-nu-than-sac-dep-aphrodite-voi-tam-hon-nang-triu"
-        component={pages.page_20210803111040}
       />
 
       <Route
