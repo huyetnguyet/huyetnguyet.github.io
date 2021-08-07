@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { BrowserRouter as Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "components/home";
 import {
@@ -12,6 +12,7 @@ import {
   Tech,
   Travel,
   Search,
+  NotFound,
 } from "components/tabs";
 
 import Career from "storages/career.js";
@@ -24,6 +25,9 @@ export default function routePages() {
   return (
     <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/index.html">
+        <Redirect to="/" />
+      </Route>
       <Route exact path="/search:querySearch" component={Search} />
       <Route exact path="/games" component={Games} />
       <Route exact path="/guide" component={Guide} />
@@ -36,6 +40,8 @@ export default function routePages() {
       <Route exact path="/career" component={Career} />
       <Pages />
       <Pages2021 />
+
+      <Route component={NotFound} />
     </Switch>
   );
 }

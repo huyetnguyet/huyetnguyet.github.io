@@ -234,7 +234,7 @@ class GetSource:
         for h in temp_hs:
             try:
                 temp_elements = element_body.find_elements_by_tag_name(h)
-                for temp in temp_elements:
+                for temp in temp_elements.reverse():
                     element_ps.insert(0, temp)
             except:
                 None

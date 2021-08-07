@@ -220,7 +220,6 @@ export default function page_20210806093614() {
                       <strong>Lệ Quyên</strong> lại thích chọn ngôn ngữ cơ thể
                       độc đáo tới vậy
                     </p>
-                    <p></p>
                     <ContentImage
                       src="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/8/6/do-tap-2-1593400214-724-width650height812-1628229745591578638833.jpeg"
                       alt="12, quỳnh nga,Mai Phương Thuý,đồ tập gym,lệ quyên,sao xấu,sao mặc xấu,thảm hoạ thời trang,sao đỏ thời trang,"

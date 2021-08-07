@@ -10,6 +10,42 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/thanh-nu-truot-bang-nhat-ban-cosplay-diep-tru-trong-kimetsu-no-yaiba" component={pages.page_20210807154638}/>
+
+<Route exact path="/sau-khi-bat-che-do-than-thanh-moi-vegeta-chinh-thuc-danh-bai-goku-tro-thanh-nhan-vat-duoc-yeu-thich-nhat-dragon-ball-super" component={pages.page_20210807154628}/>
+
+<Route exact path="/nhung-nghich-ly-nguoc-doi-bi-hieu-sai-mot-cach-day-ngang-trai-ve-game-trong-avengers-va-mot-loat-bo-phim-khac-p1" component={pages.page_20210807154619}/>
+
+<Route exact path="/tren-tay-msi-spatium-m480-ssd-cao-cap-danh-cho-game-thu-dich-thuc" component={pages.page_20210807154609}/>
+
+<Route exact path="/8-game-co-cot-truyen-sinh-ra-de-lua-game-thu-p2" component={pages.page_20210807154600}/>
+
+<Route exact path="/nhung-kho-khan-ma-nhan-vat-chinh-trong-isekai-anime-thuong-gap-phai-p2" component={pages.page_20210807154549}/>
+
+<Route exact path="/xep-hang-cac-bo-phim-thuoc-fast-and-furious-saga-van-chua-cai-ten-nao-vuot-qua-duoc-phan-7-huyen-thoai" component={pages.page_20210807154540}/>
+
+<Route exact path="/dung-an-mi-tom-trung-xuc-xich-nua-day-la-cach-de-lam-mi-goi-tro-nen-dinh-duong-hon" component={pages.page_20210807154530}/>
+
+<Route exact path="/quan-duy-nhat-tap-de-len-song-day-nau-an-nu-youtuber-khien-fan-do-mat-khi-hao-phong-khoe-doi-go-bong-dao-1m-sieu-goi-cam" component={pages.page_20210807154505}/>
+
+<Route exact path="/nhung-ban-mod-pha-game-nhat-ma-game-thu-skyrim-khong-nen-cai-dat" component={pages.page_20210807154455}/>
+
+<Route exact path="/dragon-ball-du-so-huu-suc-manh-khung-nhung-4-nhan-vat-nay-chua-tung-chien-thang-o-bat-ky-cuoc-chien-nao" component={pages.page_20210807154444}/>
+
+<Route exact path="/xu-huong-high-teen-sap-bung-no-roi-khoi-nguon-tu-huyen-thoai-clueless-ngay-xua-va-gio-co-blackpink-somi-lang-xe-nhiet-tinh" component={pages.page_20210807154429}/>
+
+<Route exact path="/ngoc-trinh-dang-clip-hau-truong-bo-anh-ho-den-gay-bao-ai-de-de-lo-body-tro-xuong-khac-han-anh-da-chinh-sua" component={pages.page_20210807154418}/>
+
+<Route exact path="/6-khoanh-khac-kinh-diem-nhat-cua-selena-gomez-tren-tham-do-chua-bao-gio-vuot-qua-gioi-han-du-ho-bao-nhung-diem-tinh-te-van-tron-100" component={pages.page_20210807154400}/>
+
+<Route exact path="/10-nu-idol-sinh-ra-la-de-nhuom-toc-vang-bach-kim-quanh-di-quan-lai-van-toan-cac-bau-vat-cua-3-ong-lon" component={pages.page_20210807154349}/>
+
+<Route exact path="/xa-anh-hd-chua-tung-cong-bo-cua-blackpink-choang-khi-zoom-can-mat-jennie-jisoo-o-ep-vong-1-de-bep-thanh-body-lisa-rose" component={pages.page_20210807154338}/>
+
+<Route exact path="/dung-tuong-con-tre-thi-khong-bi-benh-gut-tan-cong-hay-de-y-den-4-bieu-hien-bat-thuong-tren-co-the-de-kham-chua-kip-thoi" component={pages.page_20210807154327}/>
+
+<Route exact path="/kiem-30-ty-tien-donate-moi-nam-nu-streamer-top-1-khien-fan-bat-ngo-soc-nang-khi-cong-khai-mat-moc-chua-trang-diem" component={pages.page_20210807154308}/>
+
       <Route
         exact
         path="/nhung-tro-choi-tim-lai-duoc-thanh-cong-nho-game-thu-mach-nuoc"

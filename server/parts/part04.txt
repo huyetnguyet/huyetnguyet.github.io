@@ -37,4 +37,4 @@
                 <RelationNews category={category} />
                 <div className="contentBody">
                   <div className="contentBodyLeft">
-                  
+

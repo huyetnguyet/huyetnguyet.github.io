@@ -243,8 +243,6 @@ export function Search() {
       newData.push(obj);
     }
   });
-  console.log(querySearch);
-  console.log(newData);
 
   if (newData.length === 0) {
     const message = "No result found";
@@ -273,4 +271,31 @@ export function Search() {
   } else {
     return <Tab title="Search" categoryPage="search" data={newData}></Tab>;
   }
+}
+
+export function NotFound() {
+  const message = "No result found";
+  const newData = [
+    {
+      title: "",
+      description: "",
+      src: "",
+      alt: "",
+      category: "",
+      time: "",
+      date: "",
+      timestamp: "",
+      link: "",
+      component: "",
+    },
+  ];
+
+  return (
+    <Tab
+      title="NotFound"
+      categoryPage="NotFound"
+      data={newData}
+      message={message}
+    ></Tab>
+  );
 }
