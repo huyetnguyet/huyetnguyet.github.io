@@ -40,8 +40,6 @@ export default function routePages() {
       <Route exact path="/career" component={Career} />
       <Pages />
       <Pages2021 />
-
-      <Route component={NotFound} />
     </Switch>
   );
 }
