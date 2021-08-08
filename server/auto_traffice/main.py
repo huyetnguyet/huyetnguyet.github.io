@@ -70,11 +70,13 @@ class AutoTraffic:
                         print("!!! ERROR: " + str(e), 'red')
                         sys.exit()
         self.driver.set_window_position(0, 0)
-        self.driver.set_window_size(1100, 800)
+        #self.driver.set_window_size(1100, 800)
 
     def Main(self):
         self.OpenBrowser()
-        self.GoogleSearch()
+        # self.GoogleSearch()
+
+        self.driver.get('https://www.huyetnguyet.com/')
         self.HuyetNguyet()
 
     def GoogleSearch(self):
@@ -127,51 +129,6 @@ class AutoTraffic:
                     cprint("Can't find result", 'red')
 
     def HuyetNguyet(self):
-        # features content
-        try:
-            WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.ID, "featuredText"))
-            )
-            feature_texts = self.driver.find_elements_by_class_name(
-                'featuredText')
-        finally:
-            cprint("Loadding...", 'red')
-
-        cprint("working on feature", 'green')
-        for feature in feature_texts:
-            time.sleep(time_sleep)
-            try:
-                WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located(
-                        (By.ID, "featuredText"))
-                )
-
-                feature.find_element_by_tag_name('a').click()
-            finally:
-                cprint("Loadding...", 'red')
-            time.sleep(time_sleep*2)
-            self.driver.find_element_by_id('navHome').click()
-            time.sleep(time_sleep)
-
-        cprint("working on content", 'green')
-        itemContents = self.driver.find_elements_by_class_name("itemContent")
-        count = 1
-        for item in itemContents:
-            try:
-                WebDriverWait(self.driver, 10).until(
-                    EC.presence_of_element_located(
-                        (By.ID, "itemContent"))
-                )
-                item.find_element_by_tag_name('a').click()
-            finally:
-                cprint("Loadding...", 'red')
-            time.sleep(time_sleep*2)
-            self.driver.find_element_by_id('navHome').click()
-            time.sleep(time_sleep)
-            if(count > no_pages):
-                break
-            count += 1
-
         cprint("working on tabs", 'green')
         tabs = ['navGames', 'navGuide', 'navImages', 'navLife',
                 'navNews', 'navStars', 'navTech', 'navTravel']
@@ -181,6 +138,58 @@ class AutoTraffic:
                 time.sleep(time_sleep)
             except Exception as e:
                 print(tab, 'red')
+
+        # features content
+        try:
+            WebDriverWait(self.driver, 10).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "featuredText"))
+            )
+            feature_texts = self.driver.find_elements_by_class_name(
+                'featuredText')
+        finally:
+            cprint("featuredText Loadding...", 'red')
+
+        cprint("working on feature", 'green')
+        print(feature_texts)
+        for feature in feature_texts:
+            time.sleep(time_sleep)
+            while True:
+                try:
+                    '''
+                    element = WebDriverWait(feature, 30).until(
+                        EC.element_to_be_clickable((By.ID, 'featuredText')))
+                    element.location_once_scrolled_into_view
+                    element.click()
+                    '''
+                    feature.find_element_by_id('featuredText').click()
+                    break
+                except Exception as e:
+                    print(e)
+                    cprint("test Loadding...", 'red')
+                    time.sleep(time_sleep)
+                    continue
+            time.sleep(time_sleep*2)
+            self.driver.find_element_by_id('navHome').click()
+            time.sleep(time_sleep)
+
+        cprint("working on content", 'green')
+        itemContents = self.driver.find_elements_by_class_name("itemContent")
+        count = 1
+        for item in itemContents:
+            while True:
+                try:
+                    item.find_element_by_id('itemContent').click()
+                    break
+                except Exception:
+                    cprint("itemContent Loadding...", 'red')
+                    time.sleep(time_sleep)
+                    continue
+            time.sleep(time_sleep*2)
+            self.driver.find_element_by_id('navHome').click()
+            time.sleep(time_sleep)
+            if(count > no_pages):
+                break
+            count += 1
 
 
 if __name__ == "__main__":

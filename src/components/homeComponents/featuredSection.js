@@ -9,8 +9,8 @@ function ContentItem(props) {
       <a href={props.link}>
         <img src={props.src} alt="images" className="img_inner" />
       </a>
-      <div className="featuredText" id="featuredText">
-        <a href={props.link}>
+      <div className="featuredText">
+        <a href={props.link} id="featuredText">
           <h4>{props.title.substring(0, 45)}...</h4>
         </a>
         <p>{props.description.substring(0, 60)}...</p>
