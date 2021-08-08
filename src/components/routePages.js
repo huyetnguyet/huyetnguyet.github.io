@@ -12,7 +12,6 @@ import {
   Tech,
   Travel,
   Search,
-  NotFound,
 } from "components/tabs";
 
 import Career from "storages/career.js";

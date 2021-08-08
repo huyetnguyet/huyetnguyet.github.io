@@ -130,3 +130,10 @@ export { default as page_20210807154609 } from "./20210807154609-tren-tay-msi-sp
 export { default as page_20210807154619 } from "./20210807154619-nhung-nghich-ly-nguoc-doi-bi-hieu-sai-mot-cach-day-ngang-trai-ve-game-trong-avengers-va-mot-loat-bo-phim-khac-p1.js";
 export { default as page_20210807154628 } from "./20210807154628-sau-khi-bat-che-do-than-thanh-moi-vegeta-chinh-thuc-danh-bai-goku-tro-thanh-nhan-vat-duoc-yeu-thich-nhat-dragon-ball-super.js";
 export { default as page_20210807154638 } from "./20210807154638-thanh-nu-truot-bang-nhat-ban-cosplay-diep-tru-trong-kimetsu-no-yaiba.js";
+export { default as page_20210808110150 } from "./20210808110150-top-5-anime-cuc-hap-dan-khi-co-nhung-co-nang-nong-bong-va-hot-nhat-mua-he-2021.js";
+export { default as page_20210808110202 } from "./20210808110202-top-5-game-open-world-co-do-hoa-dinh-cua-chop-theo-binh-chon-cua-game-thu.js";
+export { default as page_20210808110211 } from "./20210808110211-review-my-time-at-portia-phien-ban-di-dong-khi-ca-the-gioi-nam-trong-tam-tay-ban.js";
+export { default as page_20210808110217 } from "./20210808110217-to-mo-phim-18-la-dien-that-hay-gia-nang-hot-girl-tu-bo-cuoc-song-dai-hoc-tu-dan-than-vao-nganh-de-kiem-tra.js";
+export { default as page_20210808110234 } from "./20210808110234-dragon-ball-hoi-sinh-ca-vu-tru-nhung-goku-va-vegeta-lai-chua-tung-uoc-chung-toc-saiyan-quay-tro-lai-ly-do-vi-dau.js";
+export { default as page_20210808110243 } from "./20210808110243-nhung-nghich-ly-nguoc-doi-bi-hieu-sai-mot-cach-day-ngang-trai-ve-game-trong-avengers-va-mot-loat-bo-phim-khac-p2.js";
+export { default as page_20210808110255 } from "./20210808110255-lang-game-viet-bay-lau-nay-van-dam-chan-tai-cho-chang-the-phat-trien-nguyen-nhan-vi-dau.js";

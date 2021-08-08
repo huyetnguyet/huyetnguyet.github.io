@@ -10,6 +10,20 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/lang-game-viet-bay-lau-nay-van-dam-chan-tai-cho-chang-the-phat-trien-nguyen-nhan-vi-dau" component={pages.page_20210808110255}/>
+
+<Route exact path="/nhung-nghich-ly-nguoc-doi-bi-hieu-sai-mot-cach-day-ngang-trai-ve-game-trong-avengers-va-mot-loat-bo-phim-khac-p2" component={pages.page_20210808110243}/>
+
+<Route exact path="/dragon-ball-hoi-sinh-ca-vu-tru-nhung-goku-va-vegeta-lai-chua-tung-uoc-chung-toc-saiyan-quay-tro-lai-ly-do-vi-dau" component={pages.page_20210808110234}/>
+
+<Route exact path="/to-mo-phim-18-la-dien-that-hay-gia-nang-hot-girl-tu-bo-cuoc-song-dai-hoc-tu-dan-than-vao-nganh-de-kiem-tra" component={pages.page_20210808110217}/>
+
+<Route exact path="/review-my-time-at-portia-phien-ban-di-dong-khi-ca-the-gioi-nam-trong-tam-tay-ban" component={pages.page_20210808110211}/>
+
+<Route exact path="/top-5-game-open-world-co-do-hoa-dinh-cua-chop-theo-binh-chon-cua-game-thu" component={pages.page_20210808110202}/>
+
+<Route exact path="/top-5-anime-cuc-hap-dan-khi-co-nhung-co-nang-nong-bong-va-hot-nhat-mua-he-2021" component={pages.page_20210808110150}/>
+
 <Route exact path="/thanh-nu-truot-bang-nhat-ban-cosplay-diep-tru-trong-kimetsu-no-yaiba" component={pages.page_20210807154638}/>
 
 <Route exact path="/sau-khi-bat-che-do-than-thanh-moi-vegeta-chinh-thuc-danh-bai-goku-tro-thanh-nhan-vat-duoc-yeu-thich-nhat-dragon-ball-super" component={pages.page_20210807154628}/>
