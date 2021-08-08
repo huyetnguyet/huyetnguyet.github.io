@@ -12,7 +12,7 @@ function ContentItem(props) {
       <a href={props.link}>
         <img src={props.src} alt={props.alt} className="img_inner"></img>
       </a>
-      <div className="itemContent">
+      <div className="itemContent" id="itemContent">
         <a href={props.link}>
           <h3 className="desktop">{props.title.substring(0, 70)}...</h3>
           <h3 className="mobile">{props.title.substring(0, 40)}...</h3>
