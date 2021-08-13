@@ -264,7 +264,7 @@ body {
   padding: 0;
 
   display: block;
-  z-index: 999;
+  z-index: 10;
   width: 310px;
   @media (max-width: 1000px) {
     display: none;
