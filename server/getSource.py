@@ -701,6 +701,11 @@ def checkData():
 
 
 if __name__ == "__main__":
-    gs = GetSource()
-    gs.main()
-    checkData()
+    while True:
+        check = input("1. Get page source\n2. Reload")
+        if(check == 1):
+            gs = GetSource()
+            gs.main()
+            checkData()
+        elif(check == 2):
+            checkData()

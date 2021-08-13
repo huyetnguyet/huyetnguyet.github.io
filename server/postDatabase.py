@@ -138,7 +138,7 @@ def getDataFromGoogleSheet():
     fw_tech.write("]\n")
     fw_travel.write("]\n")
 
-    cprint("[*] Wrote database to database.js", 'green')
+    cprint("[*] Wrote database to database.js\n", 'green')
     fw.close()
     fw_data.close()
     fw_games.close()
@@ -153,7 +153,7 @@ def getDataFromGoogleSheet():
 def writeDataToGoogleSheet():
     data = load_json("database/data_json.json")
     sb_post(data)
-    cprint("[*] Updated to Google Sheet", 'green')
+    cprint("[*] Updated to Google Sheet\n", 'green')
 
 
 if __name__ == '__main__':
