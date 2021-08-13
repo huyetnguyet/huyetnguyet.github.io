@@ -231,13 +231,17 @@ class GetSource:
             None
 
         temp_hs = ['h2', 'h3', 'h4', 'h5']
+        count = 0
         for h in temp_hs:
             try:
                 temp_elements = element_body.find_elements_by_tag_name(h)
-                for temp in temp_elements.reverse():
-                    element_ps.insert(0, temp)
-            except:
-                None
+                if(len(temp_elements) > 0):
+                    for temp in temp_elements:
+                        element_ps.insert(count, temp)
+                        count += 1
+            except Exception as e:
+                print(e)
+                continue
 
         element_imgs_alt = element_body.find_elements_by_class_name(
             "PhotoCMS_Caption")

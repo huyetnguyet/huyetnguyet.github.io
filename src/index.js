@@ -14,10 +14,12 @@ ReactDOM.render(
       <App />
     </HashRouter>
   </React.StrictMode>,*/
+  /*
 
+    */
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <HttpsRedirect>
-      <App />{" "}
+      <App />
     </HttpsRedirect>
   </BrowserRouter>,
 

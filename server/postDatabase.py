@@ -6,6 +6,7 @@ from datetime import datetime
 import sys
 import requests
 import keys
+from termcolor import colored, cprint
 
 # api_key = input("sheet.best api-key: ")
 api_key = keys.api_key_sheet_best
@@ -27,11 +28,11 @@ def sb_delete_row(numberOfRow):
 
 
 def getDataFromGoogleSheet():
-    print("[*] Getting database from google sheet")
+    cprint("[*] Getting database from google sheet", 'green')
     response = sg_get()
     data = response.json()
     data = sorted(data, key=lambda d: d["zcomponent"], reverse=True)
-    print("Database: " + str(len(data)))
+    cprint("Database: " + str(len(data)), 'yellow')
 
     fw = open('../src/storages/database.js', 'w', encoding="utf-8")
     fw_data = open('../src/storages/database/data.js',
@@ -73,7 +74,7 @@ def getDataFromGoogleSheet():
                 if(end == False):
                     fw.write("]\n")
                     end = True
-                print("dataFeatured")
+                cprint("dataFeatured", 'yellow')
                 fw.write("export const dataFeatured=[")
                 start = True
                 end = False
@@ -90,14 +91,14 @@ def getDataFromGoogleSheet():
                     end = True
                 if(countdata < 10):
                     if(countdata == 1):
-                        print("dataContent")
+                        cprint("dataContent", 'yellow')
                         fw.write("export const dataContent=[")
                     else:
-                        print("dataContent0" + str(countdata))
+                        cprint("dataContent0" + str(countdata), 'yellow')
                         fw.write("export const dataContent0" +
                                  str(countdata)+"=[")
                 else:
-                    print("dataContent" + str(countdata))
+                    cprint("dataContent" + str(countdata), 'yellow')
                     fw.write("export const dataContent"+str(countdata)+"=[")
                 start = True
                 end = False
@@ -137,7 +138,7 @@ def getDataFromGoogleSheet():
     fw_tech.write("]\n")
     fw_travel.write("]\n")
 
-    print("[*] Wrote database to database.js")
+    cprint("[*] Wrote database to database.js", 'green')
     fw.close()
     fw_data.close()
     fw_games.close()
@@ -152,7 +153,7 @@ def getDataFromGoogleSheet():
 def writeDataToGoogleSheet():
     data = load_json("database/data_json.json")
     sb_post(data)
-    print("[*] Updated to Google Sheet")
+    cprint("[*] Updated to Google Sheet", 'green')
 
 
 if __name__ == '__main__':

@@ -1,7 +1,7 @@
 {
   "name": "huyetnguyet",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://huyetnguyet.com/",
   "main": "index.js",
   "private": true,
   "engines": {
@@ -28,18 +28,21 @@
     "react-share": "^4.4.0",
     "reactjs-media": "^1.5.1",
     "redux": "^4.1.0",
+    "source-map-explorer": "^2.5.2",
     "tabletop": "^1.6.2",
     "video-react": "^0.14.1",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "webpack-bundle-analyzer": "^4.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "startwindows": "set PORT=4450 && react-scripts start",
+    "startwindows": "set HTTPS=true && set PORT=4450 && react-scripts start",
     "startlinux": "PORT=4450 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

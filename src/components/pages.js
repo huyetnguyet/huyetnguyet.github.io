@@ -6,8 +6,8 @@ import { PageContent } from "components/content";
 
 import * as data from "storages/database";
 
-const total_pages = "11";
-const last_page = "/page11";
+const total_pages = "13";
+const last_page = "/page13";
 
 export function Pages() {
   return (
@@ -22,12 +22,19 @@ export function Pages() {
       <Route exact path="/page9" component={Page09} />
       <Route exact path="/page10" component={Page10} />
       <Route exact path="/page11" component={Page11} />
+      <Route exact path="/page12" component={Page12} />
+      <Route exact path="/page13" component={Page12} />
     </Switch>
   );
 }
-
+export function Page13() {
+  return <AutoPageNavi database={data.dataContent13} currentPage={13} />;
+}
+export function Page12() {
+  return <AutoPageNavi database={data.dataContent12} currentPage={12} />;
+}
 export function Page11() {
-  return <AutoPageNavi database={data.dataContent10} currentPage={11} />;
+  return <AutoPageNavi database={data.dataContent11} currentPage={11} />;
 }
 export function Page10() {
   return <AutoPageNavi database={data.dataContent10} currentPage={10} />;
@@ -61,7 +68,7 @@ export function Page03() {
       <MainContent data={data.dataContent03}></MainContent>
       <div className="pagenavi">
         <div>
-          <div className="pagenaviBox pageTotal mobile_sm">
+          <div className="pagenaviBox pageTotal  mobile mobile_sm">
             PAGE 3 OF {total_pages}
           </div>
         </div>
@@ -100,7 +107,7 @@ export function Page02() {
       <MainContent data={data.dataContent02}></MainContent>
       <div className="pagenavi">
         <div>
-          <div className="pagenaviBox pageTotal mobile_sm">
+          <div className="pagenaviBox pageTotal  mobile mobile_sm">
             PAGE 2 OF {total_pages}
           </div>
         </div>
@@ -138,7 +145,7 @@ export function Pagenavi01() {
     <>
       <div className="pagenavi">
         <div>
-          <div className="pagenaviBox pageTotal mobile_sm">
+          <div className="pagenaviBox pageTotal mobile mobile_sm">
             PAGE 1 OF {total_pages}
           </div>
           <div className="pagenaviBox pageCurrent"> 1 </div>

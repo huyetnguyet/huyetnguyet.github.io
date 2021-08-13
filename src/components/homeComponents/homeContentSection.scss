@@ -83,11 +83,14 @@
         position: relative;
       }
       h3 {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
         font-family: $fontFamilyTitle;
-        @media only screen and (max-width: $iPhon5_width) {
+        @media (min-width: $iPhon5_width) and (max-width: 1000px) {
           font-size: 16px;
+        }
+        @media only screen and (max-width: $iPhon5_width) {
+          font-size: 14px;
         }
       }
       p {
@@ -97,6 +100,7 @@
         margin-top: 10px;
         @media only screen and (max-width: $iPhon5_width) {
           margin-top: 0;
+          font-size: 11px;
         }
       }
       .timestamp {

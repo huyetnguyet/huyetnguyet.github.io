@@ -33,6 +33,7 @@ function FeaturedContainer() {
                 <AdsFeaturdSection />
               </div>
               <ContentItem
+                key={i}
                 title={obj.title}
                 description={obj.description}
                 src={obj.src}
