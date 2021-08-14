@@ -4,7 +4,7 @@
   "description": "Kênh Game với thông tin mới nhất, đánh giá các Game hay đang chơi, công nghệ Game trong nước và thế giới cực nhanh, cùng thư viên trò chơi đầy đủ nhất",
   "icons": [
     {
-      "src": "logo.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
