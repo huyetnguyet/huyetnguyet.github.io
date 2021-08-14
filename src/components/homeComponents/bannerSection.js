@@ -16,9 +16,9 @@ export default function BannereSection() {
   return (
     <div className="bannerSection">
       <Banner
-        link="/loat-phot-noi-dai-cua-jack-thai-do-sao-hang-a-nghi-van-noi-xau-son-tung-viruss-nhung-scandal-co-con-rieng-moi-gay-soc-toan-tap"
-        title='Loạt "phốt" nối dài của Jack: Thái độ sao hạng A, nghi vấn nói xấu Sơn Tùng - ViruSs nhưng scandal có con riêng mới gây sốc toàn tập'
-        image="https://kenh14cdn.com/thumb_w/620/203336854389633024/2021/8/8/ngang-16283990842111177526433.png"
+        link="/tao-hinh-di-vuc-cua-sao-trung-banh-tieu-nhiem-van-dinh-cua-chop-trieu-le-dinh-mat-diem-vi-long-may-nhiet-ba-bi-soan-ngoi-boi-2-dong-huong"
+        title='Tạo hình dị vực của sao Trung: Bành Tiểu Nhiễm vẫn "đỉnh của chóp", Triệu Lệ Dĩnh mất điểm vì lông mày, Nhiệt Ba bị soán ngôi bởi 2 đồng hương'
+        image="https://kenh14cdn.com/thumb_w/660/203336854389633024/2021/8/12/52426857529098130918556505237438482874368n-1628758242733244696967.jpg"
       ></Banner>
       <Banner
         link="/toan-canh-24-gio-bung-no-be-boi-chan-dong-cua-jack-thien-an-va-2-co-gai-to-cao-lien-hoan-chieu-thuc-tan-gai-va-cuoc-goi-doi-chat-gay-soc"

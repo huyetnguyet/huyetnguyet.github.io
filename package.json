@@ -42,7 +42,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "predeploy": "react-scripts build",
+    "predeploy": "npm cache clean --force && react-scripts build ",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

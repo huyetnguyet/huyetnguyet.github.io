@@ -48,7 +48,6 @@ export function MainContent(props) {
                 time={obj.time}
                 link={obj.link}
               />
-              <AdsVerticalHomeContent />
             </div>
           );
         } else {

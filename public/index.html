@@ -20,10 +20,13 @@
     <!-- clear cache-->
 
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/bloodmoon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Games News" />
+    <meta
+      name="description"
+      content="Kênh Game với thông tin mới nhất, đánh giá các Game hay đang chơi, công nghệ Game trong nước và thế giới cực nhanh, cùng thư viên trò chơi đầy đủ nhất"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -34,25 +37,11 @@
       body {
         background-color: black;
       }
-
-      .loader,
-      .loader:before,
-      .loader:after {
-        border-radius: 50%;
-        width: 2.5em;
-        height: 2.5em;
-        -webkit-animation-fill-mode: both;
-        animation-fill-mode: both;
-        -webkit-animation: load7 1.8s infinite ease-in-out;
-        animation: load7 1.8s infinite ease-in-out;
-      }
       .loader {
+        height: 0px;
         position: absolute;
         position: -webkit-sticky;
         position: sticky;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         left: 50%;
         top: 50%;
         z-index: 99;
@@ -66,6 +55,19 @@
         -webkit-animation-delay: -0.16s;
         animation-delay: -0.16s;
       }
+
+      .loader,
+      .loader:before,
+      .loader:after {
+        border-radius: 50%;
+        width: 2.5em;
+        height: 2.5em;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation: load7 1.8s infinite ease-in-out;
+        animation: load7 1.8s infinite ease-in-out;
+      }
+
       .loader:before,
       .loader:after {
         content: "";
@@ -162,9 +164,9 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div class="loader" id="loader"></div>
-
     <div id="root"></div>
+
+    <div class="loader" id="loader"></div>
 
     <script
       async

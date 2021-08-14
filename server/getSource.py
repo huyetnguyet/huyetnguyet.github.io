@@ -501,11 +501,11 @@ class GetSource:
                     formatType = formatType[len(formatType)-10:]
 
                 while True:
-                    filename = path_storage_images+self.imagename+"-" + \
-                        str(count)+"-"+formatType
+                    filename = str(path_storage_images)+str(self.imagename)+"-" + \
+                        str(count)+"-"+str(formatType)
                     if not os.path.exists(filename):
-                        filename_import = path_storage_images_import+self.imagename+"-" + \
-                            str(count)+"-"+formatType
+                        filename_import = str(path_storage_images_import)+(self.imagename)+"-" + \
+                            str(count)+"-"+str(formatType)
                         break
                     else:
                         count += 1
@@ -524,6 +524,7 @@ class GetSource:
                     with open(filename, 'wb') as f:
                         f.write(req.content)
                     cprint("Download Completed !!!", 'green')
+                    continue
                     # self.images[i] = filename_import
                 count += 1
         except Exception as e:
@@ -669,10 +670,13 @@ def checkData():
         count = 1
         fw.write("export const dataFeatured=[")
         for obj in data:
-            temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
-                obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
-                "',component: '"+obj['zcomponent'] + \
-                "',filepath: '"+obj['filepath'] + "'},"
+            obj['title'] = obj['title'].replace('"', '\\"')
+            obj['description'] = obj['description'].replace('"', '\\"')
+            obj['alt'] = obj['alt'].replace('"', '\\"')
+            temp = "{title: \""+obj['title']+"\",\ndescription: \""+obj['description']+"\",\nsrc: '"+obj['src']+"',\nalt: \""+obj['alt']+"\",\ncategory: '" + \
+                obj['category']+"',\ntime: '"+obj['time']+"',\ndate: '"+obj['date']+"',\ntimestamp: '"+obj['timestamp']+"',\nlink: '"+obj['link'] + \
+                "',\ncomponent: '"+obj['zcomponent'] + \
+                "',\nfilepath: '"+obj['filepath'] + "'},\n"
             fw.write(temp)
             if(count == 3):
                 break
@@ -683,10 +687,13 @@ def checkData():
         fw.write("export const dataContent=[")
         for obj in data:
             if(count > 3):
-                temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
-                    obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
-                    "',component: '"+obj['zcomponent'] + \
-                    "',filepath: '"+obj['filepath'] + "'},"
+                obj['title'] = obj['title'].replace('"', '\\"')
+                obj['description'] = obj['description'].replace('"', '\\"')
+                obj['alt'] = obj['alt'].replace('"', '\\"')
+                temp = "{title: \""+obj['title']+"\",\ndescription: \""+obj['description']+"\",\nsrc: '"+obj['src']+"',\nalt: \""+obj['alt']+"\",\ncategory: '" + \
+                    obj['category']+"',\ntime: '"+obj['time']+"',\ndate: '"+obj['date']+"',\ntimestamp: '"+obj['timestamp']+"',\nlink: '"+obj['link'] + \
+                    "',\ncomponent: '"+obj['zcomponent'] + \
+                    "',\nfilepath: '"+obj['filepath'] + "'},\n"
                 fw.write(temp)
             count += 1
         fw.write("]\n")
@@ -702,7 +709,7 @@ def checkData():
 
 if __name__ == "__main__":
     while True:
-        check = input("1. Get page source\n2. Reload")
+        check = int(input("1. Get page source\n2. Reload\nChoose: "))
         if(check == 1):
             gs = GetSource()
             gs.main()

@@ -66,9 +66,14 @@ def getDataFromGoogleSheet():
     start = False
     end = True
     for obj in data:
-        temp = "{title: '"+obj['title']+"',description: '"+obj['description']+"',src: '"+obj['src']+"',alt: '"+obj['alt']+"',category: '" + \
-            obj['category']+"',time: '"+obj['time']+"',date: '"+obj['date']+"',timestamp: '"+obj['timestamp']+"',link: '"+obj['link'] + \
-            "',component: '"+obj['zcomponent'] + "'},"
+        obj['title'] = obj['title'].replace('"', '\\"')
+        obj['description'] = obj['description'].replace('"', '\\"')
+        obj['alt'] = obj['alt'].replace('"', '\\"')
+
+        temp = "{title: \""+obj['title']+"\",\ndescription: \""+obj['description']+"\",\nsrc: '"+obj['src']+"',\nalt: \""+obj['alt']+"\",\ncategory: '" + \
+            obj['category']+"',\ntime: '"+obj['time']+"',\ndate: '"+obj['date']+"',\ntimestamp: '"+obj['timestamp']+"',\nlink: '"+obj['link'] + \
+            "',\ncomponent: '"+obj['zcomponent'] + "'},\n"
+
         if(count < 3):
             if start == False:
                 if(end == False):
