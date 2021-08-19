@@ -10,27 +10,485 @@ export default function Pages202108() {
     <Switch>
       <></>
 
-<Route exact path="/nhung-khung-canh-quen-thuoc-cua-game-thu-viet-thoi-con-chua-co-internet-nhin-la-thay-ca-bau-troi-ky-niem-p2" component={pages.page_20210814114051}/>
+      <Route
+        exact
+        path="/bo-suu-tap-hinh-anh-giup-ban-tiep-thu-duoc-nhung-kien-thuc-ky-quai-cha-ai-biet"
+        component={pages.page_20210819130439}
+      />
 
-<Route exact path="/neu-me-the-loai-hanh-dong-thi-day-la-10-manga-chien-dau-hap-dan-nhat-dinh-nen-xem" component={pages.page_20210814114042}/>
+      <Route
+        exact
+        path="/4-dac-diem-thuong-co-o-nhung-co-nang-rat-de-thu-thai-ngay-trong-lan-tha-dau-tien-xem-thu-ban-co-thuoc-nhom-nay-hay-khong"
+        component={pages.page_20210819130430}
+      />
 
-<Route exact path="/thoa-suc-chien-game-tai-nha-voi-bo-ba-laptop-gaming-acer" component={pages.page_20210814114035}/>
+      <Route
+        exact
+        path="/dragon-ball-super-4-su-that-ve-ban-nga-toi-thuong-suc-manh-moi-vegeta-dat-duoc-khi-danh-nhau-voi-granolah"
+        component={pages.page_20210819130419}
+      />
 
-<Route exact path="/nhan-sac-thang-hang-cua-my-nhan-bi-ghet-vi-dong-canh-nong-phan-cam-trong-tan-hoan-chau-cach-cach" component={pages.page_20210814114021}/>
+      <Route
+        exact
+        path="/dragon-ball-super-deu-nang-cao-suc-manh-fusion-dance-va-bong-tai-potara-dau-la-phep-hop-the-manh-hon"
+        component={pages.page_20210819130409}
+      />
 
-<Route exact path="/cua-ai-de-thanh-nguoi-mau-cua-victorias-secret-so-do-3-vong-sieu-thuc-gay-tranh-cai-che-do-an-kieng-nhu-ac-mong" component={pages.page_20210814114010}/>
+      <Route
+        exact
+        path="/dragon-ball-super-75-tiet-lo-ten-hinh-dang-moi-cua-vegeta-duong-nhu-la-de-ca-khia-ultra-instinct-cua-goku"
+        component={pages.page_20210819130400}
+      />
 
-<Route exact path="/cai-tao-can-ho-67m2-voi-chi-phi-230-trieu-thiet-ke-toan-duong-cong-mem-mai-khu-bep-ban-an-noi-lien-cuc-hay-ho" component={pages.page_20210814113959}/>
+      <Route
+        exact
+        path="/tha-rong-coi-bung-ca-cuc-ao-khi-len-song-nu-streamer-xinh-dep-bat-ngo-lam-hanh-dong-day-nhay-cam-kho-tin"
+        component={pages.page_20210819130329}
+      />
 
-<Route exact path="/blackpink-dai-nao-su-kien-pubg-tu-sang-chanh-hoa-banh-beo-xinh-xiu-nhung-sao-ca-4-lo-cang-chan-chang-dep-nhu-mo-the-nay" component={pages.page_20210813224013}/>
+      <Route
+        exact
+        path="/co-so-khoa-hoc-dang-sau-suicide-squad-sao-bien-so-huu-toan-skill-dinh-the-nay-bao-sao-phan-dien-starro-lai-ba-dao-den-the"
+        component={pages.page_20210819130320}
+      />
 
-<Route exact path="/tao-hinh-di-vuc-cua-sao-trung-banh-tieu-nhiem-van-dinh-cua-chop-trieu-le-dinh-mat-diem-vi-long-may-nhiet-ba-bi-soan-ngoi-boi-2-dong-huong" component={pages.page_20210813223953}/>
+      <Route
+        exact
+        path="/nhung-nhan-vat-ban-mau-noi-tieng-trong-anime-manga-cang-bam-dap-cang-de-win"
+        component={pages.page_20210819130311}
+      />
 
-<Route exact path="/su-that-rung-ron-ve-100-dua-tre-nam-trong-lang-mo-cua-tu-hi-thai-hau-he-lo-toi-ac-gay-phan-no" component={pages.page_20210813223932}/>
+      <Route
+        exact
+        path="/duoc-nhan-vien-mcdonalds-cuu-mang-thuo-ngheo-doi-cristiano-ronaldo-tim-lai-va-tra-on-ho-khi-da-thanh-cong"
+        component={pages.page_20210819130303}
+      />
 
-<Route exact path="/len-lut-di-dong-phim-18-nang-hot-girl-hoang-hon-khi-bi-sep-va-dong-nghiep-phat-hien-va-cai-ket-day-bat-ngo-sau-do" component={pages.page_20210813223818}/>
+      <Route
+        exact
+        path="/nu-mc-viet-tung-bi-chi-trich-du-doi-vi-mac-bikini-dan-chuong-trinh"
+        component={pages.page_20210819130241}
+      />
 
-<Route exact path="/nguoi-thoi-sao-thanh-hamelin-cau-chuyen-rung-ron-ve-vu-mat-tich-cua-130-dua-tre" component={pages.page_20210813223802}/>
+      <Route
+        exact
+        path="/a-hau-huyen-my-chinh-thuc-tro-thanh-btv-truyen-hinh-sau-7-nam-dang-quang-visual-len-song-chua-chi-da-thay-me-lam-roi"
+        component={pages.page_20210819130228}
+      />
+
+      <Route
+        exact
+        path="/kim-jong-kook-song-ji-hyo-tinh-be-binh-the-nay-co-choi-day-day-thi-fan-cu-tich-cuc-cheo-thuyen"
+        component={pages.page_20210819130213}
+      />
+
+      <Route
+        exact
+        path="/nhung-du-an-game-blockchain-dang-chu-y-cua-nguoi-viet"
+        component={pages.page_20210819130158}
+      />
+
+      <Route
+        exact
+        path="/ran-san-moi-va-nhung-tua-game-mobile-doi-dau-tai-viet-nam-gioi-tre-ngay-nay-muon-cung-chang-tim-lai-duoc-ban-goc"
+        component={pages.page_20210819130142}
+      />
+
+      <Route
+        exact
+        path="/top-10-tua-game-indie-hay-nhat-nua-dau-nam-2021"
+        component={pages.page_20210819130135}
+      />
+
+      <Route
+        exact
+        path="/7-phan-dien-cua-vu-tru-dien-anh-marvel-hoa-ra-lai-la-anh-hung-trong-cac-bo-phim-khac"
+        component={pages.page_20210819130127}
+      />
+
+      <Route
+        exact
+        path="/mai-shiranui-va-nhung-man-cosplay-khien-nam-game-thu-rao-ruc"
+        component={pages.page_20210819130028}
+      />
+
+      <Route
+        exact
+        path="/cong-dong-game-thu-phat-sot-truoc-tifa-toc-ngan-vo-cung-quyen-ru"
+        component={pages.page_20210819130020}
+      />
+
+      <Route
+        exact
+        path="/cach-build-toi-uu-cua-yoimiya-nhan-vat-gay-tranh-cai-trong-cong-dong-genshin-impact"
+        component={pages.page_20210819130010}
+      />
+
+      <Route
+        exact
+        path="/5-tua-anime-hanh-dong-khong-the-bo-lo-trong-nua-dau-nam-2021"
+        component={pages.page_20210819130002}
+      />
+
+      <Route
+        exact
+        path="/top-10-tua-game-ban-sung-goc-nhin-thu-nhat-gan-lien-voi-game-thu-viet-the-he-8x-9x-p2"
+        component={pages.page_20210819125951}
+      />
+
+      <Route
+        exact
+        path="/10-game-do-hoa-dep-xuat-sac-phong-canh-thien-nhien-sieu-hung-vi-p2"
+        component={pages.page_20210819125943}
+      />
+
+      <Route
+        exact
+        path="/nhung-tua-game-choi-don-dai-dang-dac-nhung-ai-cung-muon-dai-nua"
+        component={pages.page_20210819125932}
+      />
+
+      <Route
+        exact
+        path="/5-canh-ecchi-trong-anime-nong-bong-nhat-nua-dau-2021-so-2-khien-cac-fan-thot-tim-vi-qua-tao-bao"
+        component={pages.page_20210819125920}
+      />
+
+      <Route
+        exact
+        path="/kham-pha-5-bi-mat-cuc-di-cua-ban-yeu-inuyasha-ngay-ca-fan-cung-chua-chac-da-biet-het"
+        component={pages.page_20210819125910}
+      />
+
+      <Route
+        exact
+        path="/so-sanh-net-ve-giua-manga-va-anime-co-ban-gai-lai-them-ban-gai-ban-goc-da-dinh-len-hoat-hinh-lai-cang-tuyet-hon"
+        component={pages.page_20210819125901}
+      />
+
+      <Route
+        exact
+        path="/dragon-ball-super-ly-do-thuc-su-khien-grand-zeno-lai-yeu-men-goku-den-nhu-vay"
+        component={pages.page_20210819125852}
+      />
+
+      <Route
+        exact
+        path="/sau-11-nam-song-ji-hyo-cuoi-cung-da-chinh-thuc-len-tieng-ve-chuyen-tinh-cam-voi-kim-jong-kook"
+        component={pages.page_20210819125841}
+      />
+
+      <Route
+        exact
+        path="/co-luc-na-trat-gay-bao-weibo-voi-man-mua-thay-trang-phuc-trong-1-giay-mat-kinh-diem-nhu-tranh-khi-chat-tien-tu-me-hon"
+        component={pages.page_20210819125832}
+      />
+
+      <Route
+        exact
+        path="/song-ji-hyo-phu-nhan-loveline-voi-kim-jong-kook-netizen-phan-ung-xin-loi-chi-em-la-mot-thuyen-vien-co-chap"
+        component={pages.page_20210819125816}
+      />
+
+      <Route
+        exact
+        path="/chi-1-phut-chinh-nieng-rang-ma-tao-ra-khoanh-khac-de-doi-phai-cong-nhan-joy-red-velvet-thoi-mama-2017-dung-la-cuc-pham"
+        component={pages.page_20210819125757}
+      />
+
+      <Route
+        exact
+        path="/keo-hinh-trong-contra-va-nhung-thu-thuat-khien-tinh-ban-anh-em-trong-gioi-game-thu-de-sut-me-nhat-moi-thoi-dai"
+        component={pages.page_20210819125720}
+      />
+
+      <Route
+        exact
+        path="/mac-vay-ngan-nhung-lai-hon-nhien-ra-dung-canh-quat-nu-streamer-xinh-dep-bat-can-lo-hang-kho-do"
+        component={pages.page_20210819125657}
+      />
+
+      <Route
+        exact
+        path="/jennie-va-3-lan-tai-hien-lai-nhung-nhan-vat-kinh-dien-co-do-lai-body-boc-lua-cua-angelina-jolie-khi-hoa-than-thanh-lara-croft-huyen-thoai"
+        component={pages.page_20210819125646}
+      />
+
+      <Route
+        exact
+        path="/xoai-non-khoe-anh-makeup-deo-lens-ngay-khai-giang-visual-the-nay-bao-sao-ong-xa-do-guc"
+        component={pages.page_20210819125632}
+      />
+
+      <Route
+        exact
+        path="/hinh-mau-cha-me-truc-thang-tuong-tot-nhung-thuc-chat-dang-huy-hoai-tuong-lai-va-cuoc-song-cua-con-cai-minh"
+        component={pages.page_20210819125622}
+      />
+
+      <Route
+        exact
+        path="/giai-ngo-18-4-thoi-diem-khong-nen-lam-chuyen-ay-vi-rat-de-gay-ton-hai-toi-suc-khoe-nhat-la-doi-voi-phai-nu"
+        component={pages.page_20210819125614}
+      />
+
+      <Route
+        exact
+        path="/top-10-tua-game-ban-sung-goc-nhin-thu-nhat-gan-lien-voi-game-thu-viet-the-he-8x-9x"
+        component={pages.page_20210819125603}
+      />
+
+      <Route
+        exact
+        path="/nhung-dieu-khong-phai-ai-cung-biet-ve-chien-binh-valkyrie-trong-than-thoai-bac-au"
+        component={pages.page_20210819125554}
+      />
+
+      <Route
+        exact
+        path="/10-game-do-hoa-dep-xuat-sac-phong-canh-thien-nhien-sieu-hung-vi-p1"
+        component={pages.page_20210819125544}
+      />
+
+      <Route
+        exact
+        path="/top-5-anh-hoi-manh-nhat-the-gioi-anime-chua-ai-vuot-qua-duoc-thanh-phong-saitama"
+        component={pages.page_20210819125535}
+      />
+
+      <Route
+        exact
+        path="/rat-hay-dang-anh-boc-lua-nhung-co-1-chuyen-phi-phuong-anh-mai-van-khong-chiu-thua-nhan"
+        component={pages.page_20210819125524}
+      />
+
+      <Route
+        exact
+        path="/game-thu-the-he-8-9x-cang-gia-cang-luoi-choi-la-do-game-ngay-xua-qua-chat-hay-thoi-gian-da-bao-mon-tat-ca"
+        component={pages.page_20210819125507}
+      />
+
+      <Route
+        exact
+        path="/review-free-guy-phim-co-chu-de-tro-choi-dien-tu-hay-nhat-tu-truoc-den-nay"
+        component={pages.page_20210819125458}
+      />
+
+      <Route
+        exact
+        path="/mac-bikini-xuong-pho-choi-dien-tu-xeng-nu-streamer-tung-bi-fan-boy-lop-6-quay-roi-nhan-vo-so-chi-trich"
+        component={pages.page_20210819125435}
+      />
+
+      <Route
+        exact
+        path="/vua-tro-lai-sau-khi-nhap-vien-nu-streamer-xinh-dep-nhun-nhay-qua-da-nga-ngoi-toi-muc-vo-tinh-ho-henh-tren-song"
+        component={pages.page_20210819125404}
+      />
+
+      <Route
+        exact
+        path="/naruto-nhung-thong-tin-va-su-kien-quan-trong-trong-3-cuoc-dai-chien-the-gioi-ninja-dau-tien"
+        component={pages.page_20210819125355}
+      />
+
+      <Route
+        exact
+        path="/nhung-pokemon-ma-ai-cung-biet-du-khong-phai-la-fan-cua-thuong-hieu-nay"
+        component={pages.page_20210819125347}
+      />
+
+      <Route
+        exact
+        path="/bi-che-vong-mot-chay-xe-nu-sinh-2k-chup-can-canh-khuon-nguc-hon-1-met-dap-tra-anti-fan"
+        component={pages.page_20210819125255}
+      />
+
+      <Route
+        exact
+        path="/record-of-ragnarok-thon-thuc-ngam-nu-than-sac-dep-aphrodite-phien-ban-nguoi-viet-tam-hon-dau-thua-gi-ban-goc"
+        component={pages.page_20210819125221}
+      />
+
+      <Route
+        exact
+        path="/top-10-con-rong-ba-dao-nhat-trong-the-gioi-game-p2"
+        component={pages.page_20210819125213}
+      />
+
+      <Route
+        exact
+        path="/dung-noi-nobita-ngheo-nua-nghe-gia-can-nha-gia-dinh-nobi-o-ma-hu-hon-luon"
+        component={pages.page_20210819125153}
+      />
+
+      <Route
+        exact
+        path="/5-dieu-thuyen-cua-man-anh-hoa-ngu-luu-diec-phi-khong-co-cua-voi-huyen-thoai-nam-xua-nguoi-thu-5-dien-do-nhung-makeup-dep-dien-dao"
+        component={pages.page_20210819125141}
+      />
+
+      <Route
+        exact
+        path="/top-10-con-rong-ba-dao-nhat-trong-the-gioi-game"
+        component={pages.page_20210815160733}
+      />
+
+      <Route
+        exact
+        path="/nhung-tua-game-tuong-la-ket-thuc-co-hau-nhung-hoa-ra-toan-lua"
+        component={pages.page_20210815160724}
+      />
+
+      <Route
+        exact
+        path="/bay-gio-cha-ai-gui-tiet-kiem-nua-the-ho-lam-gi-de-tien-de-ra-tien"
+        component={pages.page_20210815160712}
+      />
+
+      <Route
+        exact
+        path="/nguoi-gan-kem-thuong-co-3-bieu-hien-dac-trung-khi-di-ngu-mong-rang-ban-khong-xuat-hien-bat-ky-cai-nao"
+        component={pages.page_20210815160656}
+      />
+
+      <Route
+        exact
+        path="/hot-nhat-weibo-toi-nay-duong-mich-hack-tuoi-than-sau-voi-visual-nhu-gai-18-the-nay-thi-dan-em-chay-dai-cung-chang-duoi-kip"
+        component={pages.page_20210815160646}
+      />
+
+      <Route
+        exact
+        path="/cung-nhin-lai-lan-song-choi-game-nft-o-viet-nam-co-de-an-nhu-thien-ha-don-thoi"
+        component={pages.page_20210815160628}
+      />
+
+      <Route
+        exact
+        path="/5-nam-chi-choi-1-tuong-girl-1-champ-hoang-yen-chibi-dap-tan-loi-don-ac-y-khi-khoe-100-co-the-cuc-ky-sexy"
+        component={pages.page_20210815160619}
+      />
+
+      <Route
+        exact
+        path="/one-piece-day-la-8-sieu-nang-luc-khong-den-tu-trai-ac-quy-co-toi-3-thanh-vien-mu-rom-so-huu-ky-thuat-dac-biet"
+        component={pages.page_20210815160609}
+      />
+
+      <Route
+        exact
+        path="/top-5-nu-giao-vien-quyen-ru-trong-the-gioi-anime-xem-phim-ma-chi-uoc-duoc-co-giao-day-hoc"
+        component={pages.page_20210815160558}
+      />
+
+      <Route
+        exact
+        path="/hon-300000-thong-tin-sinh-vien-viet-nam-bi-hacker-rao-ban"
+        component={pages.page_20210815160549}
+      />
+
+      <Route
+        exact
+        path="/nhan-sac-xinh-dep-cua-thien-than-truot-bang-da-cosplay-trung-tru-tai-sac-ven-toan-cang-ngam-cang-me"
+        component={pages.page_20210815160540}
+      />
+
+      <Route
+        exact
+        path="/top-10-pokemon-he-doc-noi-bat-qua-cac-the-he-gengar-van-duoc-chu-y-nhat"
+        component={pages.page_20210815160531}
+      />
+
+      <Route
+        exact
+        path="/top-4-van-de-gay-tranh-cai-nhieu-nhat-trong-one-piece-noi-ton-vinh-nhung-thanh-cao-phim-va-nhung-lan-gay-war-khong-ngot"
+        component={pages.page_20210815160521}
+      />
+
+      <Route
+        exact
+        path="/nhung-tro-choi-khien-ban-chet-nhieu-hon-song-nhung-cuon-thoi-roi"
+        component={pages.page_20210815160510}
+      />
+
+      <Route
+        exact
+        path="/suri-cruise-khoe-chan-dai-mien-man-tren-pho-nhung-phai-om-nguc-khu-khu-vi-so-lo-phan-nhay-cam"
+        component={pages.page_20210815160455}
+      />
+
+      <Route
+        exact
+        path="/thuong-300-trieu-cho-anti-fan-neu-nhu-chap-nhan-lo-mat-va-xinh-hon-minh-nu-streamer-sieu-vong-mot-bi-chi-trich-vi-choi-troi"
+        component={pages.page_20210815160425}
+      />
+
+      <Route
+        exact
+        path="/nhung-khung-canh-quen-thuoc-cua-game-thu-viet-thoi-con-chua-co-internet-nhin-la-thay-ca-bau-troi-ky-niem-p2"
+        component={pages.page_20210814114051}
+      />
+
+      <Route
+        exact
+        path="/neu-me-the-loai-hanh-dong-thi-day-la-10-manga-chien-dau-hap-dan-nhat-dinh-nen-xem"
+        component={pages.page_20210814114042}
+      />
+
+      <Route
+        exact
+        path="/thoa-suc-chien-game-tai-nha-voi-bo-ba-laptop-gaming-acer"
+        component={pages.page_20210814114035}
+      />
+
+      <Route
+        exact
+        path="/nhan-sac-thang-hang-cua-my-nhan-bi-ghet-vi-dong-canh-nong-phan-cam-trong-tan-hoan-chau-cach-cach"
+        component={pages.page_20210814114021}
+      />
+
+      <Route
+        exact
+        path="/cua-ai-de-thanh-nguoi-mau-cua-victorias-secret-so-do-3-vong-sieu-thuc-gay-tranh-cai-che-do-an-kieng-nhu-ac-mong"
+        component={pages.page_20210814114010}
+      />
+
+      <Route
+        exact
+        path="/cai-tao-can-ho-67m2-voi-chi-phi-230-trieu-thiet-ke-toan-duong-cong-mem-mai-khu-bep-ban-an-noi-lien-cuc-hay-ho"
+        component={pages.page_20210814113959}
+      />
+
+      <Route
+        exact
+        path="/blackpink-dai-nao-su-kien-pubg-tu-sang-chanh-hoa-banh-beo-xinh-xiu-nhung-sao-ca-4-lo-cang-chan-chang-dep-nhu-mo-the-nay"
+        component={pages.page_20210813224013}
+      />
+
+      <Route
+        exact
+        path="/tao-hinh-di-vuc-cua-sao-trung-banh-tieu-nhiem-van-dinh-cua-chop-trieu-le-dinh-mat-diem-vi-long-may-nhiet-ba-bi-soan-ngoi-boi-2-dong-huong"
+        component={pages.page_20210813223953}
+      />
+
+      <Route
+        exact
+        path="/su-that-rung-ron-ve-100-dua-tre-nam-trong-lang-mo-cua-tu-hi-thai-hau-he-lo-toi-ac-gay-phan-no"
+        component={pages.page_20210813223932}
+      />
+
+      <Route
+        exact
+        path="/len-lut-di-dong-phim-18-nang-hot-girl-hoang-hon-khi-bi-sep-va-dong-nghiep-phat-hien-va-cai-ket-day-bat-ngo-sau-do"
+        component={pages.page_20210813223818}
+      />
+
+      <Route
+        exact
+        path="/nguoi-thoi-sao-thanh-hamelin-cau-chuyen-rung-ron-ve-vu-mat-tich-cua-130-dua-tre"
+        component={pages.page_20210813223802}
+      />
 
       <Route
         exact

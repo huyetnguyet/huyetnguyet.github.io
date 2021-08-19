@@ -716,3 +716,5 @@ if __name__ == "__main__":
             checkData()
         elif(check == 2):
             checkData()
+
+obj['title'] = obj['title'].replace('"', '\\"')
