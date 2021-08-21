@@ -10,6 +10,44 @@ export default function Pages202108() {
     <Switch>
       <></>
 
+<Route exact path="/mu-tit-chuyen-mon-nhung-lai-la-nu-than-nuc-tieng-cong-dong-game-viet-top-gai-xinh-so-huu-bi-thuat-gi" component={pages.page_20210821110715}/>
+
+<Route exact path="/bxh-10-isekai-anime-te-nhat-thap-ky-ban-da-lo-xem-bao-nhieu-bo-trong-so-nay-p2" component={pages.page_20210821110706}/>
+
+<Route exact path="/co-tinh-cui-thap-khoe-vong-mot-nhu-chuc-nhay-ra-truoc-camera-nu-streamer-xinh-dep-tang-ca-nghin-follow-chi-sau-mot-khoanh-khac" component={pages.page_20210821110637}/>
+
+<Route exact path="/dragon-ball-super-vuot-qua-ultra-instinct-ultra-ego-cua-vegeta-duoc-vi-von-giong-voi-mot-loai-suc-manh-nghin-nam-co-mot" component={pages.page_20210821110625}/>
+
+<Route exact path="/99-ngoi-mo-cua-my-nhan-trong-lang-tan-thuy-hoang-he-lo-su-that-kinh-hoang-ve-tuc-tuan-tang-nguoi-song" component={pages.page_20210821110607}/>
+
+<Route exact path="/loat-nu-hon-cuop-do-an-tren-man-anh-hoa-ngu-dan-tinh-khong-me-chi-thay-mat-ve-sinh" component={pages.page_20210821110554}/>
+
+<Route exact path="/top-4-mau-laptop-gia-re-tot-nhat-danh-cho-sinh-vien-mua-tuu-truong" component={pages.page_20210821110541}/>
+
+<Route exact path="/idol-han-cung-tung-khon-don-vi-loat-quan-vay-hu-hong-nguoi-lo-vong-3-nguoi-bi-gan-voi-cai-danh-thoi-trang-dong-bim" component={pages.page_20210820092333}/>
+
+<Route exact path="/ai-con-nho-huyen-thoai-haikyuu-diem-lai-15-nhan-vat-duoc-nguoi-ham-mo-vo-cung-yeu-thich-nao" component={pages.page_20210820092321}/>
+
+<Route exact path="/record-of-ragnarok-lai-them-mot-bo-anh-cosplay-nu-than-sac-dep-aphrodite-khong-bao-gio-khien-anh-em-that-vong" component={pages.page_20210820092307}/>
+
+<Route exact path="/hoi-my-nhan-tu-tu-van-dep-nao-long-tren-phim-trung-tieu-phong-qua-kinh-dien-nang-so-4-co-sao-an-chui-suot-bao-nam" component={pages.page_20210820092256}/>
+
+<Route exact path="/khoe-dang-tha-rong-ma-nguoi-xem-khong-tin-nu-streamer-xinh-dep-bat-ngo-lam-ngay-hanh-dong-nhay-cam-de-chung-minh" component={pages.page_20210820092245}/>
+
+<Route exact path="/6-sai-lech-so-voi-nguyen-tac-cua-harry-potter-cu-twist-ngoan-muc-lai-bi-cat-bo-moi-tinh-cua-harry-von-di-nong-tham-hon-nhieu" component={pages.page_20210820092237}/>
+
+<Route exact path="/bat-ngo-dut-quai-ao-khi-dang-len-song-nu-streamer-xinh-dep-hoang-so-voi-va-che-day-canh-xuan" component={pages.page_20210820092159}/>
+
+<Route exact path="/biet-rang-khong-tot-the-nhung-tai-sao-nhieu-game-thu-viet-van-cu-dam-dau-vao-server-lau-the-gioi-ngam-cua-lang-game-viet" component={pages.page_20210820092150}/>
+
+<Route exact path="/bxh-10-isekai-anime-te-nhat-thap-ky-ban-da-lo-xem-bao-nhieu-bo-trong-so-nay-p1" component={pages.page_20210820092140}/>
+
+<Route exact path="/6-bo-anime-co-cai-ket-gay-hoang-mang-nhat-tu-truoc-den-nay" component={pages.page_20210820092128}/>
+
+<Route exact path="/18-mon-do-choi-quen-thuoc-ma-the-he-8x-9x-khap-the-gioi-deu-biet-ke-ca-viet-nam-luon" component={pages.page_20210820092118}/>
+
+<Route exact path="/one-punch-man-ngoai-cu-dam-mot-phat-chet-luon-day-la-10-kha-nang-cuc-manh-cua-saitama-ma-khong-phai-ai-cung-biet-p1" component={pages.page_20210820092108}/>
+
       <Route
         exact
         path="/bo-suu-tap-hinh-anh-giup-ban-tiep-thu-duoc-nhung-kien-thuc-ky-quai-cha-ai-biet"

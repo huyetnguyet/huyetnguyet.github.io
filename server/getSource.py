@@ -385,8 +385,8 @@ class GetSource:
                     try:
                         if self.check_download == 'n':
                             self.content_p += "<ContentImage src='" + \
-                                temp_images[i] + "' alt='"+str(img_count)+", "+self.alt + \
-                                "' note='"+self.images_alt[i]+"'/>\n"
+                                temp_images[i] + "' alt=\""+str(img_count)+", "+self.alt + \
+                                "\" note='"+self.images_alt[i]+"'/>\n"
                         else:
                             '''
                             self.content_p += "<ContentImage src={require('" + \
@@ -394,8 +394,8 @@ class GetSource:
                                 "' note='"+self.images_alt[i]+"'/>\n"
                             '''
                             self.content_p += "<ContentImage src='" + \
-                                temp_images[i] + "' alt='"+str(img_count)+", "+self.alt + \
-                                "' note='"+self.images_alt[i]+"'/>\n"
+                                temp_images[i] + "' alt=\""+str(img_count)+", "+self.alt + \
+                                "\" note='"+self.images_alt[i]+"'/>\n"
                         img_count += 1
                         temp_images[i] = ""
 
@@ -430,13 +430,13 @@ class GetSource:
             if(len(img) > 5):
                 if self.check_download == 'n':
                     self.content_images += "<ContentImage src='" + \
-                        img + "' alt='"+str(img_count) + \
-                        ", "+self.alt+"' note=''/>\n"
+                        img + "' alt=\""+str(img_count) + \
+                        ", "+self.alt+"\" note=''/>\n"
                 else:
                     #self.content_images += "<ContentImage src={require('" + img + "').default} alt='" + str(img_count)+", "+self.alt+"' note=''/>\n"
                     self.content_images += "<ContentImage src='" + \
-                        img + "' alt='"+str(img_count) + \
-                        ", "+self.alt+"' note=''/>\n"
+                        img + "' alt=\""+str(img_count) + \
+                        ", "+self.alt+"\" note=''/>\n"
 
                 img_count += 1
 
