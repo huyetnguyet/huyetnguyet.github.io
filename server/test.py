@@ -2,8 +2,18 @@ import os
 import sys
 import glob
 
-files = glob.glob('../src/storages/content/2021/07/*')
-count_down = 0
-for temp_file in files:
-    count_down += 1
-    print(str(count_down)+'/'+str(len(files))+' '+temp_file)
+fr = open("./links.txt", "r")
+
+temp_list = []
+for line in fr:
+    if(line not in temp_list):
+        temp_list.append(line)
+    else:
+        print(line)
+fr.close()
+
+fw = open("./test.txt", 'w')
+
+for line in temp_list:
+    fw.write(line)
+fw.close()

@@ -14,8 +14,8 @@ function ContentItem(props) {
       </a>
       <div className="itemContent">
         <a href={props.link} id="itemContent">
-          <h3 className="desktop">{props.title}</h3>
-          <h3 className="mobile">{props.title}</h3>
+          <h3 className="desktop">{props.title.substring(0, 100)}...</h3>
+          <h3 className="mobile">{props.title.substring(0, 50)}...</h3>
         </a>
         <div className="timestamp">
           <h5>{props.category}</h5>
