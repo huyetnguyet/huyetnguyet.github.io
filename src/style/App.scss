@@ -1,4 +1,4 @@
-@import "./_global";
+@import "style/_global";
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 .App {
@@ -66,7 +66,7 @@ body {
 .containerLayout {
   display: flex;
   position: relative;
-  background: url(./asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  background: url(../assets/images/cont_bg.png) 0 0 repeat-x #fff;
   width: 100%;
   box-shadow: 0 5px 5px #000;
   padding-bottom: 30px;
@@ -137,7 +137,7 @@ body {
         text-transform: uppercase;
         color: #fff;
         font: bold 12px/21px "Orbitron", sans-serif;
-        background: url(asserts/images/btn_bg.png) 0 0 repeat-x #930706;
+        background: url(../assets/images/btn_bg.png) 0 0 repeat-x #930706;
         border-bottom: 1px solid #c40a0a;
         border-radius: 5px 5px 0 0;
         padding: 4px 4px;

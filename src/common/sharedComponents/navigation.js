@@ -1,5 +1,5 @@
-import React, { useEffect } from "react";
-import "components/navigation.css";
+import { useEffect } from "react";
+import "style/navigation.css";
 import { Navbar, Nav } from "react-bootstrap";
 
 function checkTab(tab) {

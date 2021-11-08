@@ -1,5 +1,4 @@
 /* eslint-disable array-callback-return */
-import React from "react";
 import { AdsVertical } from "components/adsMethods";
 import { dataContent, dataContent02 } from "storages/database";
 

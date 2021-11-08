@@ -1,7 +1,7 @@
-import React from "react";
-import "./featuredSection.scss";
+import "style/featuredSection.scss";
 import { AdsFeaturdSection } from "components/adsMethods";
-import { dataFeatured } from "storages/database";
+import { useSelector } from "react-redux";
+import { selectDatabase } from "features/database/databaseSlice";
 
 function ContentItem(props) {
   return (
@@ -23,9 +23,10 @@ function ContentItem(props) {
 }
 
 function FeaturedContainer() {
+  const database = useSelector(selectDatabase);
   return (
     <>
-      {dataFeatured.map((obj, i) => {
+      {database.slice(0, 3).map((obj, i) => {
         if (i === 2) {
           return (
             <>

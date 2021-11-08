@@ -1,10 +1,7 @@
-import React from "react";
-
-import "./homeContentSection.scss";
+import "style/homeContentSection.scss";
 import { AdsHorizontal, AdsVerticalHomeContent } from "components/adsMethods";
-import { Pagenavi01 } from "components/pages";
-
-import { dataContent } from "storages/database";
+import { useSelector } from "react-redux";
+import { selectDatabase } from "features/database/databaseSlice";
 
 function ContentItem(props) {
   return (
@@ -34,7 +31,7 @@ export function MainContent(props) {
   return (
     <>
       <AdsVerticalHomeContent />
-      {props.data.map((obj, i) => {
+      {props.data.slice(3).map((obj, i) => {
         if ((i + 1) % 5 === 0) {
           return (
             <div key={i}>
@@ -70,13 +67,13 @@ export function MainContent(props) {
   );
 }
 
-export default function HomeContentSection(props) {
+export default function HomeContentSection() {
+  const database = useSelector(selectDatabase);
   return (
     <div className="homeContent">
       <div className="containerContent">
         <div className="content">
-          <MainContent data={dataContent}></MainContent>
-          <Pagenavi01 />
+          <MainContent data={database}></MainContent>
         </div>
         <AdsHorizontal />
       </div>

@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import "./topSection.css";
+import { useState, useEffect } from "react";
+import "style/topSection.css";
 
-import logo from "../../asserts/images/logo.png";
+import logo from "assets/images/logo.png";
 
 export default function TopSection() {
   const [querySearch, setQuerySearch] = useState("");

@@ -1,4 +1,4 @@
-@import "../_global.scss";
+@import "style/_global.scss";
 
 @import url("https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap");
 
@@ -8,7 +8,7 @@ $fontSizeDefault: 17px;
   font-family: Tahoma, Verdana, Segoe, sans-serif;
   display: block;
   position: relative;
-  background: url(../asserts/images/cont_bg.png) 0 0 repeat-x #fff;
+  background: url(assets/images/cont_bg.png) 0 0 repeat-x #fff;
   width: 100%;
   box-shadow: 0 5px 5px #000;
   padding-bottom: 30px;

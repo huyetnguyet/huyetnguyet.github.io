@@ -1,4 +1,4 @@
-@import "../../_global.scss";
+@import "style/_global.scss";
 
 .bannerSection {
   display: flex;
@@ -30,7 +30,7 @@
       display: block;
       position: absolute;
       content: "";
-      background: url(../../asserts/images/banner_shadow.png) 0 0 repeat-x;
+      background: url(../assets/images/banner_shadow.png) 0 0 repeat-x;
       height: 118px;
       left: 0;
       right: 0;

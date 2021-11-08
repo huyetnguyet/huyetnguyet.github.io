@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Switch, Route } from "react-router-dom";
 
 import { MainContent } from "components/homeComponents/homeContentSection";

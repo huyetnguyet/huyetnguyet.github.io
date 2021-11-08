@@ -44,7 +44,7 @@
 
 .slideshowDots .active {
   border: 2px solid #a21514;
-  background: url(../../asserts/images/menu_hover.png) center bottom no-repeat;
+  background: url(assets/images/menu_hover.png) center bottom no-repeat;
   background-color: #222123;
 }
 

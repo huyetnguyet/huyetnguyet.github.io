@@ -1,9 +1,7 @@
-import React from "react";
-
-import TopSection from "components/homeComponents/topSection";
+import TopSection from "common/sharedComponents/topSection";
 import HomeContentSection from "components/homeComponents/homeContentSection";
-import Navigation from "components/navigation";
-import Footer from "components/footer";
+import Navigation from "common/sharedComponents/navigation";
+import Footer from "common/sharedComponents/footer";
 
 import { AdsHorizontal } from "components/adsMethods";
 

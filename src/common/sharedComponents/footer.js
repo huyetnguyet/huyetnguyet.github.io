@@ -1,6 +1,6 @@
 /* eslint-disable array-callback-return */
 import React from "react";
-import "./footer.scss";
+import "style/footer.scss";
 
 import { dataContent } from "storages/database";
 

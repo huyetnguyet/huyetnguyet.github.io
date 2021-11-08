@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { useParams } from "react-router-dom";
 
-import TopSection from "./homeComponents/topSection";
-import Navigation from "./navigation";
-import Footer from "./footer";
+import TopSection from "common/sharedComponents/topSection";
+import Navigation from "common/sharedComponents/navigation";
+import Footer from "common/sharedComponents/footer";
 
 import {
   AdsHorizontal,

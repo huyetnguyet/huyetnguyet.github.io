@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Switch, Route, Redirect } from "react-router-dom";
 
 import Home from "components/home";
@@ -14,11 +13,7 @@ import {
   Search,
 } from "components/tabs";
 
-import Career from "storages/career.js";
-
-import { Pages } from "components/pages";
-
-import Pages2021 from "storages/content/2021/routePages";
+import View from "common/sharedComponents/view";
 
 export default function routePages() {
   return (
@@ -28,6 +23,7 @@ export default function routePages() {
         <Redirect to="/" />
       </Route>
       <Route exact path="/search:querySearch" component={Search} />
+
       <Route exact path="/games" component={Games} />
       <Route exact path="/guide" component={Guide} />
       <Route exact path="/images" component={Images} />
@@ -36,9 +32,7 @@ export default function routePages() {
       <Route exact path="/stars" component={Stars} />
       <Route exact path="/tech" component={Tech} />
       <Route exact path="/travel" component={Travel} />
-      <Route exact path="/career" component={Career} />
-      <Pages />
-      <Pages2021 />
+      <Route path="/:view" component={View} />
     </Switch>
   );
 }

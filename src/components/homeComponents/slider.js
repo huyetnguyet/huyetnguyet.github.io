@@ -1,4 +1,3 @@
-import React from "react";
 import { Carousel } from "react-bootstrap";
 import "components/homeComponents/slider.css";
 import Photo01 from "asserts/homeSlider/slider01.jpg";

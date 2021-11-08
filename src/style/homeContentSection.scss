@@ -1,9 +1,9 @@
-@import "../../_global.scss";
+@import "style/_global.scss";
 
 .homeContent {
   display: flex;
   position: relative;
-  background: url("../../asserts/images/cont_bg.png") 0 0 repeat-x #fff;
+  background: url(../assets/images/cont_bg.png) 0 0 repeat-x #fff;
   box-shadow: 0 5px 5px #000;
   width: 100%;
   padding-bottom: 30px;

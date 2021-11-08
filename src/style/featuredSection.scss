@@ -1,9 +1,9 @@
-@import "../../_global.scss";
+@import "style/_global.scss";
 
 .featuredSection {
   display: flex;
   position: relative;
-  background: url("../../asserts/images/cont_bg.png") 0 0 repeat-x #fff;
+  background: url(../assets/images/cont_bg.png) 0 0 repeat-x #fff;
   box-shadow: 0 5px 5px #000;
   width: 100%;
   padding-bottom: 30px;
@@ -93,8 +93,7 @@
           position: relative;
           text-transform: uppercase;
           color: #fff;
-          background: url("../../asserts/images/btn_bg.png") 0 0 repeat-x
-            $origin_red;
+          background: url(../assets/images/btn_bg.png) 0 0 repeat-x $origin_red;
           border-bottom: 1px solid $origin_red;
           font: bold 12px/21px "Orbitron", sans-serif;
           padding: 4px 12px;

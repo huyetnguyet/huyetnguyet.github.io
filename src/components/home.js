@@ -1,10 +1,7 @@
-import React from "react";
+import TopSection from "common/sharedComponents/topSection";
+import Navigation from "common/sharedComponents/navigation";
+import Footer from "common/sharedComponents/footer";
 
-import TopSection from "components/homeComponents/topSection";
-import Navigation from "components/navigation";
-import Footer from "components/footer";
-
-import Slider from "components/homeComponents/slider";
 import BannerSection from "components/homeComponents/bannerSection";
 import FeaturedSection from "components/homeComponents/featuredSection";
 import HomeContentSection from "components/homeComponents/homeContentSection";
@@ -28,9 +25,6 @@ export default function Home() {
       <div id="bodylayout">
         <div className={container}>
           <div className="linespace"></div>
-          <Slider></Slider>
-        </div>
-        <div className={container}>
           <BannerSection></BannerSection>
         </div>
         <div className={container}>

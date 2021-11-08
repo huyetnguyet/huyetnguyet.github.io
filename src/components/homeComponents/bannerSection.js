@@ -1,5 +1,4 @@
-import React from "react";
-import "./bannerSection.scss";
+import "style/bannerSection.scss";
 
 function Banner(props) {
   return (
